@@ -10098,5 +10098,2339 @@
     "is_open": true,
     "lat": 23.0108798,
     "lng": 120.1945137
+  },
+  "fp-cm77/gai-ban-ban-mian": {
+    "cached_at": "2026-04-13T14:12:48",
+    "found": true,
+    "place_id": "ChIJj9UJtrurQjQRSvkXdnrzyeI",
+    "rating": 4.3,
+    "review_count": 13024,
+    "price_level": null,
+    "address": "110台灣臺北市信義區松高路12號",
+    "photo": "AU_ZVEHELvB1pLLWLRv7J46ki0twPNsm9OaIHrPm2-e8WLBtgPcImgvqjWn6qHFsxrQhd_kKLdC3sD8BBasbRb_EzPPfshyIGFh5Z8CRejOZ3PASNn75R8dPnZo6tQZXa9Igqv5b0oY4PYjkY8Hf65arwFXXI69J549B3clQy9g0iMHRmcg9zuzwMoHTnUZRvSkizbqq5SLz_OOxZvkByXFjGmdO-IyA68NetJn_bMlP9KlL0fBDd8HApAwYztFun67pQVmn9sUYn4-L8CaRpx_SROQIlg-zY4ai9EBx5DUTIvF3i21w3U76XQkLRQhvfaB6j0yLsxSJfavUtrASTB_ICl7_bpJuvfU3ukoXFHbfX3J04Wv6FBpaWrqeENpsnd0blRspOs9rFSbMIwyxOrvTps_GdliFPJsMGbntn5v5dF5QQJs",
+    "summary": "",
+    "dishes": [],
+    "highlights": [],
+    "is_open": true,
+    "lat": 25.0382241,
+    "lng": 121.5667909
+  },
+  "fp-am9i/sui-he-xin-zhi-mian-sheng-jian-bao": {
+    "cached_at": "2026-04-13T14:12:49",
+    "found": true,
+    "place_id": "ChIJrzHAmcY9aTQRNKlcgCMH8_o",
+    "rating": 4,
+    "review_count": 959,
+    "price_level": null,
+    "address": "403台灣臺中市西區精誠三街1號",
+    "photo": "AU_ZVEG1xTIjCaBpufQtRtsC8ISWX4kjc-uyeUtUL2tULVpO8jj_-1xCkQSWzCuMmYv8XpjsdMbA4680vAZ33fWeqS_lkS01DRaswddDIDZ7zsM_occQk31YVMjU8fyytKov8ZxyfKcaDudNY2FQw95fegOlE8zUkI-V1eb7wozSPbzUKCIHQt3g51iE0IP12VRU9ltKVqAz0OZfFGKGqzlzphON2jtMfFPs6ExbIOZsm2K6aa4JSuwx5-_-iv-Fr-i4ervVc8kxCzV6JnTcHcZPMhWoEE_bK81i9S9lbiz4sdXPc846rBo2hm5DE-xvgit4lZ4h5ywexx4m-R0aARluZMAk5WycsoJfwCzxW3J5wRrGGNiwZ5dEoqchNfRH-8dSoasRJ5pGhNFXJpbnQI9YV6kmBKrElHWyX81G6HW4wbd3FSzMwCqEUyR6r9RRz3No",
+    "summary": "",
+    "dishes": [
+      "遺珠，皮蛋麵還",
+      "有點老，調味",
+      "酸菜魚飯，同桌友"
+    ],
+    "highlights": [
+      "👍 不錯"
+    ],
+    "is_open": true,
+    "lat": 24.1570959,
+    "lng": 120.6572069
+  },
+  "fp-st4f/zhuang-ba-zha-ji-lu-rou-fan-tai-zhong-zhong-zong-dian": {
+    "cached_at": "2026-04-13T14:12:51",
+    "found": true,
+    "place_id": "ChIJ6bLBNe09aTQRpczzzUdNUY8",
+    "rating": 4.6,
+    "review_count": 470,
+    "price_level": null,
+    "address": "404台灣臺中市北區太平路31巷1號",
+    "photo": "AU_ZVEH-cIVcZ4wx6D98QEbnR6E28iOQhYG8uNkNfcIV9VHlLwA7ZMMkfFFHU-S1vgeVXVysBU7ng1oeZmBbfrBIEUpftP_YoC-S7TIKshAO7Kzdfckn_Qxgs-k_IG15UaSGtcjk6OqWNDzcLOAeed36tb7uas336LCJ2SjmWsFzlne2RpuYe_wHY2aJSzAym5A_ORlglDADvP8Eygcv4zz-xmtf002zOfSqWn97mWCiG_xbG7dHZDYNIwaNyHqnzV9QiKkSPMRGRR5jZ3Cxv5-xf-kcaSwgMN6LoiJycl-JkXT_8kKsjgqgJt-Hr-wG_icbBIerafTygsTBO1HwXbhYO5868SB9d3L7hxB53ap9TJ0MBHMaiENdYqsI6eoon8BjMuDnC_3ddVTox-Rk3uYFBwwV1FvcWlv96g3uKSrKNlxi-mJrbPMqUJ6iZLVgIg",
+    "summary": "",
+    "dishes": [
+      "肉好多"
+    ],
+    "highlights": [
+      "👍 好吃"
+    ],
+    "is_open": true,
+    "lat": 24.1475062,
+    "lng": 120.6850343
+  },
+  "fp-y148/hong-jia-huo-ji-rou-fan-tai-zhong-tian-jin-dian": {
+    "cached_at": "2026-04-13T14:12:52",
+    "found": true,
+    "place_id": "ChIJd586UBgXaTQR8KbzSdfhWvo",
+    "rating": 3.4,
+    "review_count": 242,
+    "price_level": 1,
+    "address": "404台灣臺中市北區天津路二段157號",
+    "photo": "AU_ZVEHIQUtW-olovxO0SxhT0YfKm5S6jMd1B1vOAQ-lutHodSBBlNyCCnQsSWwbF79XtZyB7PiK8JnbW5Y3kE7wVmt4V0iDT8ksEPERMYQ5una6QB991IE32xA5ZGme5LCEnYAPRBt2Tjn4UCJheZcmHZuXypd-jc09vE70q6ijU-DGEbILAIyxyf5OoRDMY8Qriod-83SG3EjzM8ROTaE67vNtgbuJY6Dti9EbJkIZOfYCEne_U7AtlSIrO-MjQ_V8SNwndy9fUjlUgUTBn1BCYuN7vqctZUUmCJKMHAzTzZf5rxodcqG6gg5tvOwG5pRQ5smHUCeAKGYiGsv0ABhJIi1KTu4NHzQ9J8vUffHhbGaBu-ms_u0kvaelMIGKYqOELuYoZOoQkj2D2FyTEsPL2q9gpmcZztQBW2DIVa94VtI",
+    "summary": "",
+    "dishes": [
+      "炒蛋，都非常美味",
+      "雞肉飯等餐點，口"
+    ],
+    "highlights": [
+      "👍 好吃",
+      "👍 新鮮",
+      "👍 美味"
+    ],
+    "is_open": true,
+    "lat": 24.1699915,
+    "lng": 120.6781002
+  },
+  "fp-md81/nuan-ri-warmth-dayzao-wu-can": {
+    "cached_at": "2026-04-13T14:12:53",
+    "found": true,
+    "place_id": "ChIJMYkc3nUXaTQRmzrw4OfKEIc",
+    "rating": 4.9,
+    "review_count": 1139,
+    "price_level": null,
+    "address": "406台灣臺中市北屯區旅順路二段284號1樓",
+    "photo": "AU_ZVEFZYyvQIYiSEAVeQs2lumjw3Mz9TawA6IePHL1v9zrW93ymc0z7NYAbCG85KSV4RYkhQiDi6pa_fpaxK_4R4Xb3_Gx_t5e26-Wal9Oe8qQXVvVyVfPCPdbgP3EvE-OpSXVuaC-BnbQry16wh27kg5tgSBS_j3etACOjSopCqIAnZ3ibylVjDADJ3utudGq6UTvOkiOKWeC3QZfkOMTonRZFVTrN3buGORT6k7VCXUyezpkntaySu-Oaw6YvUz9OQC3k8ZAWBEW3MzN-5tZ3-KqZQEoxjvkHm0y1W_SbxxN-LA",
+    "summary": "",
+    "dishes": [
+      "親切"
+    ],
+    "highlights": [
+      "👍 好吃",
+      "👍 美味"
+    ],
+    "is_open": true,
+    "lat": 24.1734991,
+    "lng": 120.6932546
+  },
+  "fp-yjpd/jin-han-shi-zhong-gang-dian": {
+    "cached_at": "2026-04-13T14:12:54",
+    "found": true,
+    "place_id": "ChIJhfRC2_g9aTQRrrt7ej4B5jw",
+    "rating": 4.8,
+    "review_count": 6993,
+    "price_level": null,
+    "address": "407台灣臺中市西屯區臺灣大道二段998號",
+    "photo": "AU_ZVEFywIj-QtwKXxPlYdIkg57qSFmnPrpe9BEqVFUOefItkyUW7z4waY8NzkdrsklHu1BioxK1QQCZ7t0QXDV1tsmYBtzHTd31QOqnjtujTc-e2mzM0VhU-2QYpvg_BDwvTeExqm3lelynfKQ-tv9GKTrP9oaVZjKSvA-nroc3dERZjVrUX8ogkoj9z2Rpb89EzRiw2X1Bs5OzvOK1w3DFfv7OcywanSnxRe6V5mL8l3vUcZ4IccGT1N7PZ_mHJKNtjUagryxaH4i5BmTtxX9rObKpdrG7k7L3jLP21jq0VPvONg",
+    "summary": "",
+    "dishes": [],
+    "highlights": [
+      "👍 好吃",
+      "👍 美味"
+    ],
+    "is_open": true,
+    "lat": 24.1626076,
+    "lng": 120.6502954
+  },
+  "fp-tewx/art-lynn-wu-ji-zhi-fan-nan-tun-li-ming-dian": {
+    "cached_at": "2026-04-13T14:12:56",
+    "found": true,
+    "place_id": "ChIJQXdXCUc9aTQRzswdiYI01Zg",
+    "rating": 1,
+    "review_count": 2,
+    "price_level": null,
+    "address": "408台灣臺中市南屯區黎明路二段296號",
+    "photo": "AU_ZVEHaFRtDgjKuLnzwDKVoHIL4qhFI-ZYLow46SxowXIjjosxNMwGVjwBoEKWwTAAcEOYpmzgRgOb3zol5BUlfvsPeoy65499NnupQq_8Ege1VH517VV3K516RlFLMjIPlvuN4t3GmXbHqgBmZBMSHMgGjTfyJa1ZozHyqyVXc1M028gzlbC8SBx6MrQtzjGCjRYLgXcsjpdfSp5ykvN9eduL7puF5Ns353NpHujbuxgVTAfl-w2fG_QjRlYvZsPU4BPs6ho3An4Y51yOh-r5F7qq5WZ40j4eCE4-s0ioSGEqzPhVwwn00J9ECdq0H0Ex2zti1z3BJGwNrD01aS3xU2yZoClQVzILpO_DgeZbyDo_PVOiRW_sKiPPAeGbhoPIe-p6VA7d-tn2KDE2ir-xGzVaYKR7otKwYFdfDEB8WNxKgSVWgZIPKrFfR39AaLh31",
+    "summary": "",
+    "dishes": [],
+    "highlights": [],
+    "is_open": null,
+    "lat": 24.1489499,
+    "lng": 120.6358767
+  },
+  "fp-lx7q/jing-xiao-pan-jing-fan-zhuan-mai-tai-zhong-nan-qu-dian": {
+    "cached_at": "2026-04-13T14:12:57",
+    "found": true,
+    "place_id": "ChIJnTE1HQA9aTQRBRTP2o5s3Jw",
+    "rating": 4.9,
+    "review_count": 653,
+    "price_level": null,
+    "address": "402台灣臺中市南區南門路39號",
+    "photo": "AU_ZVEEOmoeoVQMRCZuy8d1HpukWQQzrlcJtG-r4AumOQqEtLtevMVbZIIYmomsNV2iy4o0U3_fuoj9yUvG4dgpnQGm6z1OUYaN4ehpxpXEugt5V4sqEZN-SYd8FAoi1cy2hqrDTthtIrPVtV6jB4nvpSGUp6-2wncAEip_bzphpD5l58ngJ9SEGL0Wxdohf3me3KpmR_1WxqNFCD7kZhASFnAPsQlCnMEAHnnqbzfdXDrPTYipgDd_owQHlMmfzp3VdZIZstIicn8psDaxpOonBXvJXhOQC77ekIAppV3m4jQ0I7A",
+    "summary": "",
+    "dishes": [
+      "次 大大推薦非常",
+      "非常好吃 今天兩",
+      "有空調、廁所。 "
+    ],
+    "highlights": [
+      "👍 好吃",
+      "👍 推薦",
+      "👍 份量足"
+    ],
+    "is_open": true,
+    "lat": 24.1222409,
+    "lng": 120.68174
+  },
+  "fp-l1vo/xu-jin-xujinnai-cha-zhuan-men-dian": {
+    "cached_at": "2026-04-13T14:12:58",
+    "found": true,
+    "place_id": "ChIJTaiQagA9aTQRdNb0Lo9CySQ",
+    "rating": 4.3,
+    "review_count": 82,
+    "price_level": null,
+    "address": "400台灣臺中市中區中華路二段39號",
+    "photo": "AU_ZVEE5NonwK3mndJTKECmLImR4x2hjSLzuNtLRYAAP2SaesinECY0NpbC30yVOh3H7ngv01iDB50y92zv61jEzN6dDlw7NT03sFSta5etiPsyVmICBidXoji5rWGvgxjH90HQXD3hwMh-D53euxaEEOBItMs4-dBMlY-qf46NVWZpTIxjEyhgZAYbaAFlTMzGj8ds41FmZqOcLDIETPbPbNbd_3CUlUAdqVqZqiN57QnBN5lIwFOPLr70GRSjijcql2yyguQwsv5Av_uToTdeIHCNok61rCERLVtSNXXh_uRIEvg",
+    "summary": "",
+    "dishes": [
+      "有來附近都會特"
+    ],
+    "highlights": [
+      "👍 好吃",
+      "👍 推薦",
+      "👍 值得"
+    ],
+    "is_open": true,
+    "lat": 24.1475208,
+    "lng": 120.6790169
+  },
+  "fp-uh0g/shuan-wu-ma-hui-zhong-dian": {
+    "cached_at": "2026-04-13T14:12:59",
+    "found": true,
+    "place_id": "ChIJ9y5xq5I9aTQRpTBeralkV88",
+    "rating": 4.9,
+    "review_count": 15199,
+    "price_level": 3,
+    "address": "407台灣臺中市西屯區惠中路一段117號",
+    "photo": "AU_ZVEG_UkCd7ohKSkp-Yuo90rHF613J7rLVad-RNzobidQrg15RWXr51Qk27Qqt2k1YHC3zJC_5DOLg7vj74K2rwBja2GqoF8090042aqSIhNxwtvmqwRye_VtSrsUOCZNXAPCux3oKm-2NfRbdjHUuyqNSGTK1J8Khkx3n7nMxNG0NZMM25ogeIDEaUDntvQ5Zt-YJ2CSkm2R3fzoRlbkiduZTHny8Ld3A3xjLsgW0WvUI8vRBh2KnjMsdI5a7rTaKtkr1X6yNexSundQiDpDCntzAN02JcFGlWWyfK7usJ4V1Z_1sOHXelyG3191ycFqRjvr040c5-kvi0RZNzOg1DHK2R2p864hOdi9K-unk9IUOIb7VOLoIJkCVO6mVjRzCXnkTwgsa9sUJKmJ0-AUJ3mRsFVt0vU_gvGIiZicbw2KlhORroDwvrkdaI_vqzXoo",
+    "summary": "",
+    "dishes": [],
+    "highlights": [
+      "👍 不錯"
+    ],
+    "is_open": true,
+    "lat": 24.1592452,
+    "lng": 120.6433877
+  },
+  "fp-v8u4/lin-jiu-niang-shui-jiao": {
+    "cached_at": "2026-04-13T14:13:00",
+    "found": true,
+    "place_id": "ChIJSQynDWcjaTQR_n4lWxaTza0",
+    "rating": 4.5,
+    "review_count": 99,
+    "price_level": null,
+    "address": "411台灣臺中市太平區新平路二段五號",
+    "photo": "AU_ZVEGRWD2ekBKLE1tMlhytwBxIBK6w9nEZaSwc_M6onJ_Nz6M3gdXaLG6MDNYE40VsSPih_N69rSX1joF4yTbT9e0CSPc81eMZrLOl2C4_ukT8IA8e0PQbcFLAzFTeBBbG2jc1SI4FLdaaGYYX0RWooW7Qxph3DstvypytifpBQo_pClLjHRMf01gSS0TCo7wwXkfmcNHBogGZBIBurMOJF2HGfkJO4DYPD_vYTqv8joSGvZVea9Ri45Saglv8nyaKsxOHg4FdJgStE5mn_hfeiQgU6Mvn0NZQHDat4DvtDnhe_w",
+    "summary": "",
+    "dishes": [
+      "水餃和豆腐湯，湯",
+      "推 水餃，魯肉飯"
+    ],
+    "highlights": [
+      "👍 好吃",
+      "👍 讚",
+      "👍 不錯"
+    ],
+    "is_open": true,
+    "lat": 24.1362819,
+    "lng": 120.715413
+  },
+  "fp-kybv/zan-men-xiao-shi-hou-yi-da-li-mian": {
+    "cached_at": "2026-04-13T14:13:01",
+    "found": true,
+    "place_id": "ChIJQf2z-vsZaTQReB9qcVFPl8o",
+    "rating": 4.4,
+    "review_count": 5359,
+    "price_level": 2,
+    "address": "406台灣臺中市北屯區祥順一街45號",
+    "photo": "AU_ZVEH0NltyCMuf07d-XHeGpCq_6sBvO1cPzA0LnebILy4bLjBj0MNBRw4508IORtDj5_4s0cYYecTgPb45AMXRGE2cxH-yECCeYamZiqscrkB88Yzd9oe6eZ1JVuluzytI_eL3BU3ZY8Fe48FuqzA0Ra4fjLG9D8WEf44XZCeaKxHQ9unRpVJQ2bqw1BYdgDMPpnpkrh08KD8UttmHog2GUSXdFXYUH4PdJl3JtqBc73_kaOdhGE4yrRBYABtkw3vZNnxd3CBkpiojHgTsfCUJwC8TLDNAVsIf-1tmlrRH4tYDgA",
+    "summary": "裝潢充滿童趣的親子餐廳，明亮的樓中樓格局設有遊戲室，供應家常料理。",
+    "dishes": [],
+    "highlights": [
+      "👎 貴",
+      "👎 難吃"
+    ],
+    "is_open": true,
+    "lat": 24.161953,
+    "lng": 120.7312427
+  },
+  "fp-c4fr/wen-zhi-sen-shu-shi-gan-guo-zhuan-mai-dian": {
+    "cached_at": "2026-04-13T14:13:02",
+    "found": true,
+    "place_id": "ChIJqcDhtywZaTQRsmwgFqXvvEA",
+    "rating": 4.9,
+    "review_count": 1149,
+    "price_level": 2,
+    "address": "406台灣臺中市北屯區東山路一段381之34號",
+    "photo": "AU_ZVEFR33V3VEogCW7DCoBmo7l8rXrEObOZ4SlmGL2nLVE0ly8503nvLwRytBG79Mh1DSv9K6wif62FIBcHyZOy_xmFg8kdkeTpBa4EB1Wl_krnCpWW8deePwV7M0iLWAXMbh2eA-3vXeauKDbg4Lrv1R4LB3sQsdbspxB45vq2tg0oQvjoNzVbg2R8_jO3mlWoSJYjTTdO5PgwCg20nrtKU7fLjaCaOhJP6W6TYxi1tj6fuOkEl2b7Jbfjq4JL-OrAmpR-S5Czu6Q3r5OuLxESHG8qUryZbvgGTbmpxjbXNpPzQA",
+    "summary": "",
+    "dishes": [
+      " 第一次來嘗試",
+      "一定會回來吃！ "
+    ],
+    "highlights": [
+      "👍 好吃",
+      "👍 美味",
+      "👍 讚"
+    ],
+    "is_open": true,
+    "lat": 24.1670144,
+    "lng": 120.7430201
+  },
+  "fp-i506/ha-luo-luo-si-fen": {
+    "cached_at": "2026-04-13T14:13:04",
+    "found": true,
+    "place_id": "ChIJdWk3iYerQjQRF1p1og3XSZA",
+    "rating": 4.3,
+    "review_count": 1798,
+    "price_level": 2,
+    "address": "105台灣臺北市松山區慶城街1號B1",
+    "photo": "AU_ZVEHhETNroZU28kMpPhd-w1Xbp9xgL5lVgRVVmAXK2sKF448v8e9hXqnSxfMcF9Ow3UdFnboPC-pmg298ima8HeFAzJdt__OfzYk9cUh_S6YyqM108N2s3lqblTdaoNiviHPCrmHV5UTNSG4C3GFtxhV5Ag1gHbEUOI7PgjRadI4S1LSz6Vj9c0YW5qdbbY1gj9qJDIVZzCG6a_XUr3j9SCX8m8F_ST--tXdDrMgoL3H66rTDy_hIr-hXYM_feyWilTptR85MOdwD3oj1Gd4BlYKCK6dmDX-__Lxf7WVDm36MJg",
+    "summary": "",
+    "dishes": [
+      "壘球大獅子頭螺螄",
+      "試一下 脆脆皮～",
+      "豆皮泡湯吸湯頭",
+      "湯頭、螺絲粉都"
+    ],
+    "highlights": [
+      "👍 好吃",
+      "👍 不錯"
+    ],
+    "is_open": true,
+    "lat": 25.0528006,
+    "lng": 121.544604
+  },
+  "fp-wq2g/ruan-dan-jiang-dan-bao-fan-zhuan-men-zhi-zuo-suo-tai-zhong-xue-shi-dian": {
+    "cached_at": "2026-04-13T14:13:05",
+    "found": true,
+    "place_id": "ChIJpQ6HaRk9aTQRP4Bcaem84Ss",
+    "rating": 4.7,
+    "review_count": 334,
+    "price_level": null,
+    "address": "404台灣臺中市北區梅亭街245號",
+    "photo": "AU_ZVEGLHgDFwfmPBZUpTka5zssDxTwBQP_rmobZXJ0DIKwNZJOQmAEBq66OQ81hdiP6wAQ52BoH5jAQfggA2EYvLJ987N76fHeuuWfL1O9jFXonoVlZgvZMwasNJCkoRAhsrLjvODPPMQc9LzF6lMeaK2lirSrAnr7fJgxaJpaAy-VFHuHzxYRIbvlYr0KF72veDatVg1KmfV1g2YgdZxKfXoGAr0DD5UPRJk3VtJTNMA9VjyDBLEX0CmK6HEcpVGri4hTTH_vUMlEpSPU6GtYzhcv0JTQfEOZkwqho3cxw-7qYGnrNluR1soXx7MMiOUXPjO6OMe8AO4poLdILt8soYjWHI40ZEmATj5N9vgve0zjQyZ-GHkJLbDoyLLHhXkLuwHKoliI-lR6dpY_tJioMTqvfemr2y0X2C-UV_awL9IoA45aYqTNDKZ01FxZyvT2X",
+    "summary": "",
+    "dishes": [
+      "黑松露白醬，醬汁",
+      "失望了  餐點還"
+    ],
+    "highlights": [
+      "👍 美味",
+      "👍 值得",
+      "👍 不錯",
+      "👎 失望"
+    ],
+    "is_open": true,
+    "lat": 24.1602721,
+    "lng": 120.6813964
+  },
+  "fp-qx9b/xiao-chun-ri-he-ji-tui-pai-jing-fan-zhuan-mai": {
+    "cached_at": "2026-04-13T14:13:06",
+    "found": true,
+    "place_id": "ChIJIbK9zls9aTQRb7EKe6WBFng",
+    "rating": 4.3,
+    "review_count": 1443,
+    "price_level": 1,
+    "address": "404台灣臺中市北區進化路346號",
+    "photo": "AU_ZVEHWuD29pfnfqWO67sC4PwwhK3SQLqOScfdHdscUO_n-IQ1KiK791JK9wb10DKQxZpTlDvMZYVLK3CkIKc0VGdIwhGcjRsMFyqm6sRl2haoo_XGzL9j2bQqVqhBCX_A_fije-P5YGeio6tNt5GY-sqtb0TgvhdG14sNRoxxrCVI27GdrUrWRBDRkXH7MEc0UNJDIdK2n0pXdNVVFD_EUHbV4HFPM0vVNT0Kvs057GJADXL0iVgxRT17rNAQ1bQR9h4Bx1STyBSdhDJ0NTh4u0quTIMRTPzCoestIOIBG0jGfO0E8h0Yo-FNyU7U9-F_7AFAA8B9-4TTr6yGeIv7qLlM1FCVjjK9O5xn3iMkPsoWoEW7HS57_X2Bj2w5vbAn-EiND8N87WlddZLn2DIr_rWia3Zc245Fp1QyPOa9HLxDcRA",
+    "summary": "氣氛悠閒的餐廳，專賣日式美食，包括壽司、生魚片、丼飯和鰻魚料理。",
+    "dishes": [
+      "個寂寞  餐點",
+      "環境"
+    ],
+    "highlights": [
+      "👍 好吃",
+      "👍 不錯"
+    ],
+    "is_open": false,
+    "lat": 24.1539994,
+    "lng": 120.6945667
+  },
+  "fp-boec/wu-ma-shao-rou-zhong-you-dian": {
+    "cached_at": "2026-04-13T14:13:07",
+    "found": true,
+    "place_id": "ChIJVeWRJR09aTQRsiyC2se04wY",
+    "rating": 4.9,
+    "review_count": 38678,
+    "price_level": 3,
+    "address": "404台灣臺中市北區育才北路69號",
+    "photo": "AU_ZVEG_JmLoW9Cerid4rWHyIQ5h1_4YZO0ulx1NSnLYwHtShycopd2gNVqBCsgIqAVvsesl9zFfMK0Xj58h7FTEl2xsCPUOdo2CRswtDlu8ETw0tTI96w3Cfsu2EfMRi0EFzsbfTjYhwuQVOMqv8q21PiJTOO6QnkvacshaK9UeZSfCUsZ1T2fs38aoZc8EbBa4PS813rCNPjP4Jk_VBxLa7d-i0b54jC6ScvtlztHQRzoITw_f7h-6ZmSwk9zJQns2yuWXq2FMLHYEk5xT3F8ui7yYR4vL8ppxR2u4ydrdtG3b3Q",
+    "summary": "",
+    "dishes": [
+      "服務細心與用心",
+      "餐點"
+    ],
+    "highlights": [
+      "👍 好吃",
+      "👍 讚"
+    ],
+    "is_open": true,
+    "lat": 24.153147,
+    "lng": 120.6840342
+  },
+  "fp-bpy3/poke-gobo-qi-zou-zou-xia-wei-yi-sheng-yu-fan-tai-zhong-zhao-fu-dian": {
+    "cached_at": "2026-04-13T14:13:08",
+    "found": true,
+    "place_id": "ChIJSZG57eQ9aTQRTS79P9WAP8o",
+    "rating": 4.6,
+    "review_count": 144,
+    "price_level": null,
+    "address": "407台灣臺中市西屯區朝富路146號",
+    "photo": "AU_ZVEHV9MB2OkB7UmCr0ec3ZuOg8FOwplWqe7ZLK0IJa04QGezP04Tbw1FDaY3o-FmqeSiQ6fBgGp4xc1gm5VlM7Jvf5c7yTNaU_vd3iaxhqpBhCIjmFsgZRH2oeAsjhdQxYBqlxc42OvdMBgkb9KV1igwaXnbTJU-lD7Ima33I_inyxRYw1wAaF5yE2X2ZHyLuCAQgHC2QOzSXkJ-Ag4hrDlmPAXNYv6kW7wxa1GoNdF6Ye7CVqPBQpXtiWkxdIkWN3UMwRHi9qnKYF5dM2AEB7fj0CSkSFlj-fVhRxHIyHGRsbQUjBspYOtY-eQfY2XyLRZl2Wbv7i9wZXtbGh84hkFSyW2CrG0lpFg-E-HgveXTULXpsG7MbYCvWmOwXIpH5iTxG6fWo2jX52VKxAXJT3OkhDvmguNFmkTcwyALryfrlWENfcUATeby03AWiWQOL",
+    "summary": "",
+    "dishes": [
+      " 體驗一下，是否",
+      "  體驗一下"
+    ],
+    "highlights": [
+      "👍 好吃",
+      "👍 推薦",
+      "👍 讚"
+    ],
+    "is_open": true,
+    "lat": 24.1650427,
+    "lng": 120.6363171
+  },
+  "fp-ldef/zhi-nan-ka-li": {
+    "cached_at": "2026-04-13T14:13:09",
+    "found": true,
+    "place_id": "ChIJS-bOfgCrQjQRova5OTD7bZw",
+    "rating": 5,
+    "review_count": 1,
+    "price_level": null,
+    "address": "105台灣臺北市松山區民生東路四段97巷1弄25號",
+    "photo": "AU_ZVEEx7zY3ogPqbBGffsKwMhWW9xEBzy8jnAzUgAqvTdOqQI7VXmJ-fIwREZo_-KO4CH_E9z9AKgJoQJMHx2gHRXhbMI25abcoZVFFssC8f-_S5T6rbgEgt1Xsw2HOhR3Szjiwchj0YKAAadYKxBsZH2scLIGpwWRc9EEcrjbonNJmx6M6ZVa8D3r0YcOm2QCUM_gNL9ERWQYy78F9dXI9bitGxT3ZKIQ14FzikaRFEAk0JxsRx_jlq-XTzEK8RGOfzUU32NjoqgtSKYRQchvjiyOMvpbHUSoOdYgTYI4-Xe3RHOMkQqmSXshM4h52E5OYY1OMCWpWde6b906wbi_zub3bwmGEWT3HYGp0yX7FJivIBnmfjqV7qU_jMGKRIgGk0g4qZm93R--cQ6Rbvp5mRBfQrxzryk3x6MDJi9-q9ALk5_uXQML_7tjG_6nC7EyF",
+    "summary": "",
+    "dishes": [],
+    "highlights": [],
+    "is_open": null,
+    "lat": 25.0583007,
+    "lng": 121.5514229
+  },
+  "fp-bjqu/long-he-zhi-mian-suo-bei-tun-chang-ping-dian": {
+    "cached_at": "2026-04-13T14:13:10",
+    "found": true,
+    "place_id": "ChIJD1gMTNkXaTQRaDjiZBH-Jdk",
+    "rating": 4.9,
+    "review_count": 1934,
+    "price_level": null,
+    "address": "406台灣臺中市北屯區昌平路一段382號",
+    "photo": "AU_ZVEFdzbAx_sbhWxBrpCsIm9QAi9OIfmjJcMhPP0CjS8xIL9cgdLWg1j047qUuZZo7bE8xiRzc1HDq512XSwdUqW-Q6iGockXGmMEMmp5ajjnYNA78baua48hJHDZBMe3YCjVBjzE4uzAZX87hxrQdJ-LIFaWAyW_d2ss8AEMHJKvV7t7I3sc-TlFRC9d3yRomtPPv-cCU8WJVr5RVvo2wKXxG6_nS0VS-2Q5p2z-QO3qHcRt78EURTM9j9Dv64YZ0dm4a9qLRovwh8tZMGoe9b9mbsTL5gCGWTsDP7exUVcGGqw",
+    "summary": "",
+    "dishes": [
+      "吃好幾次了，非常",
+      "份量可以吃飽 超"
+    ],
+    "highlights": [
+      "👍 好吃",
+      "👍 便宜"
+    ],
+    "is_open": true,
+    "lat": 24.175026,
+    "lng": 120.6906376
+  },
+  "fp-rxmv/shan-bei-feng-jia-fu-xing-dian": {
+    "cached_at": "2026-04-13T14:13:11",
+    "found": true,
+    "place_id": "ChIJs6PxqH0XaTQRf73veLxPUIE",
+    "rating": 4.5,
+    "review_count": 236,
+    "price_level": null,
+    "address": "407台灣臺中市西屯區逢福里福星路641號",
+    "photo": "AU_ZVEEiUQeCVK9FD0jhfcPrsppJ1dK9cSLl1T9KFAowqnWLrio6-3iGcSGYbSi_OaA0N4IXtJqo_gudj3k1RM_9H0kNND638dKIb9pXxqMcapoON8-FsgQgPPVg8X8w811LvcRgwDUY7OQeaZFghXeZmQHcDRZDkA38P5bt4eFujbL9C-N9or-ax3wfdVbmrB_adkyVZOoP0EbcOwyPWMUNYrdiTsUjvSF1zEp-_edQSFzluaoH9_HCWG7yE9efxQoZb5NxnUFonfwIaCvI1IFinWNHAkeiJyo3dlNMqje6A35rEw",
+    "summary": "",
+    "dishes": [],
+    "highlights": [
+      "👍 讚"
+    ],
+    "is_open": true,
+    "lat": 24.1745413,
+    "lng": 120.6476555
+  },
+  "fp-rktm/li-jia-jiao-ku-fan-chao-mian": {
+    "cached_at": "2026-04-13T14:13:12",
+    "found": true,
+    "place_id": "ChIJqbDnMdU9aTQRZQ4CQWgKqSw",
+    "rating": 4.7,
+    "review_count": 467,
+    "price_level": null,
+    "address": "402台灣臺中市南區工學路98-1號",
+    "photo": "AU_ZVEEtyLxhGnZYwnCND07UGAE6Q-J2nZ1aMOxzdyQJ4qLNwXBphQoVCEzAhN_bd4LE9_wJ2FfSPBbDpwGDUG6oiTD8HmRLeT44bo2LMUBghijd1IBgoTY08lEddT6IBkSB2L7CTeOfrvaq3AVjaB_g5l-AEKuXLLMTE3WE3dfmXh9oysw8i1H75OhnFzwU44rDmSAC2a0pzBAK6mThasUAHsCqqxR_UK8pPKTPlLXEbvyE8UyyceJo0OEzzgYPJS0d_OnOYIj6E7UrDGgU5QODJPfeEVag1Z23CFnvEBp0NetH7w",
+    "summary": "",
+    "dishes": [],
+    "highlights": [
+      "👍 好吃",
+      "👍 讚",
+      "👍 值得"
+    ],
+    "is_open": true,
+    "lat": 24.1169941,
+    "lng": 120.6620697
+  },
+  "fp-r3hl/tai-bei-jiang-ma-la-chou-dou-fu-tai-zhong-tai-ping-dian": {
+    "cached_at": "2026-04-13T14:13:13",
+    "found": true,
+    "place_id": "ChIJPTyeHlA9aTQR1AC5SnYu0ag",
+    "rating": 3.5,
+    "review_count": 292,
+    "price_level": 1,
+    "address": "411台灣臺中市太平區中山路四段151號",
+    "photo": "AU_ZVEGtvsif4oGgiSQz1X-IOwY5TZOgtuWAcMYxZ_yVnz55U-0k46deAbhxPwVIdcmgGVsH4eYnu-R-gb84bswakQelxq0CMd5lsbXbtsSRgFiyWIYUo_AWScag8QHbIdeMQMlEQgX3wmtobGPIOm0vkFJVRnWWDGkwc3QQ_agIzzFwNTMcteb9aRzPpWwKbuOrp2KSiMPwgQQ-tg7ixqsJOOAO3G6iBy-U2gVdMSJtX95X2nTxs-BhHlUh9bSmxI6MqS5gyrnajJe8gnA8Yid2OfOPjbZozhg6xtG6LhOGYYJ9XVaQmQ0XSznq8DQV27pKqQ-H1AvzIiIwX3s7mBLOQ4fUNppr1BFVYoBfAUZhZE9dYyQzHAHnMImJNvyxkx5ioZbcHtrEP2my72upv7_3nO7ZiRC7EN8PbAbEI4ZipjE_9g",
+    "summary": "",
+    "dishes": [
+      "foodpand"
+    ],
+    "highlights": [
+      "👎 失望",
+      "👎 難吃"
+    ],
+    "is_open": true,
+    "lat": 24.1479961,
+    "lng": 120.702837
+  },
+  "fp-feip/shi-mai-hong-bei": {
+    "cached_at": "2026-04-13T14:13:14",
+    "found": true,
+    "place_id": "ChIJ36j4phAZaTQR1Z4s__tK2Tw",
+    "rating": 4.8,
+    "review_count": 130,
+    "price_level": null,
+    "address": "406台灣臺中市北屯區軍功路一段385-1號",
+    "photo": "AU_ZVEFSq4IEUwYk_3R4F_V9cndG6Syzfa7eFZHyZ4jg8YXHk4k5oO46EJw61sf-6y3S3_4Lk4uK9P-t471DGX2ASrqpfLnOeI5IvzIjflAxCSIbMJ7C88pws-0EeKBiEAAcX1pT4vJaEYITrTANTc63iZBhybrEPl6ZWmlN6BXmQOOuhiaJXb-7Pn_IcHTXfofWtZafT72W4awYQmklER-dbQaU2rIbiVTbEU_t3tacyspxSsPq-Hc8bH6uF7vD2zMVaotFrmzE0KP1GnJh0xstxl0s8j9rFVSBNPSEsdaZAYckBg",
+    "summary": "",
+    "dishes": [
+      "麵包",
+      "冷冷的…  新鮮"
+    ],
+    "highlights": [
+      "👍 好吃",
+      "👍 新鮮",
+      "👍 不錯"
+    ],
+    "is_open": true,
+    "lat": 24.1695847,
+    "lng": 120.7183552
+  },
+  "fp-psfj/tai-zhong-long-shao-kao": {
+    "cached_at": "2026-04-13T14:13:16",
+    "found": true,
+    "place_id": "ChIJwQmPc2o9aTQR47DVSU7NII4",
+    "rating": 4.4,
+    "review_count": 5,
+    "price_level": null,
+    "address": "401台灣臺中市東區富榮街88號",
+    "photo": "AU_ZVEEAPUpaA6Dm4Ayc1kP0A4IjCNT1bf9KKL0Dk1T7b8LPxkosaltDqHPXYQDV06VnvsZr27BCxj1QExlxh8KawpxKoUVxwmaKtQVgVm3qhH6X9nAFgBvYmMzRnOgmwZ2dlOetBsZvCpzfMI6OVUhGMay1kt3O8tAtkIpi3jy5wvQjctq93PlBxL6z90evZLn8vZBPdxL0OKWuESM2tYBBt7AKuNEuhjlGsfWTCOVABq-DQUdsJW5uPdFPcSsVNxhhzy4T6_5q47DoFbzlB-eAoZlG-3S9WiyxQ1fBCb2N9bGSqQ",
+    "summary": "",
+    "dishes": [
+      "到爆炸 評價消費"
+    ],
+    "highlights": [
+      "👍 好吃",
+      "👍 新鮮",
+      "👍 美味",
+      "👍 不錯"
+    ],
+    "is_open": null,
+    "lat": 24.1458691,
+    "lng": 120.6880404
+  },
+  "fp-uzuf/jin-bo-shou-zhi-jing-cheng-dian": {
+    "cached_at": "2026-04-13T14:13:17",
+    "found": true,
+    "place_id": "ChIJJdTm-5o9aTQRxiNXLOnPNTQ",
+    "rating": 4.3,
+    "review_count": 966,
+    "price_level": null,
+    "address": "403台灣臺中市西區精誠五街14號",
+    "photo": "AU_ZVEFDT6zRtEX5Of_0bphGr-R_WZ8rPr9ssJG0SoMZ3Xa9X4GBpLT1cuzXuRmHcJLT9gzrjRfVXkPslAlNcGVOzqmRgET_17oQQXZRq-xr3HOllK6bw1jmxXI_Sm5JcEy-P0OXhfZAWSMC9SacCwv8h4pyWywcanrfFI4iImyfO4h2mg09I7NMixpDpTfveoFbHQhIp8kLJqGOrWwdbSD1fX-2FNzpY5PlPHcWMnUKuyXaISE0-iOfqa3m7Nb60ScFNBR4waSeAQM75ST0Fs_EhMFF5NrxGnCxoowPptUDbH9YXA",
+    "summary": "",
+    "dishes": [
+      "生。  店員服務"
+    ],
+    "highlights": [
+      "👍 推薦",
+      "👍 不錯"
+    ],
+    "is_open": true,
+    "lat": 24.1555208,
+    "lng": 120.6569615
+  },
+  "fp-oh7p/hua-ma-ma-gu-zao-wei-rou-zao-fan-chao-mian-guan": {
+    "cached_at": "2026-04-13T14:13:18",
+    "found": true,
+    "place_id": "ChIJLyleWQCrQjQROLcnNgBHhcw",
+    "rating": 4.4,
+    "review_count": 135,
+    "price_level": null,
+    "address": "110台灣台北市信义区松仁路99號B1",
+    "photo": "AU_ZVEEdTRLgMaaWMcKVWk3UGJjniiS8Vlqo22wKDTky_uWf3NKb5Oho4mP_mxq-iRUfpnHsLKLrsJ3VaO99WhXl4NKIksoOvb5rZ6bjliLpl_3JF2FYuN33tAW19fx8NZbIB7SAC3N6qXBb0LZ3a-KR7Q3h3Bsa26h8OEZqBk8jXzfoLRrm7p_DProszUUHUdplhxsS0dNEuJQiJ8MumeIvB0kOzKS1Rr80YTE40w55M1ji25TKs_Bek7HpUHQVWeoRYc493jeIovO1vWPJqef_6rw8p694FwfKFall_IPJ7j_qz29vK3fe7WTiI7rSkann4U-if17GG1xOjjrDyCUoXXLL-7-qL9Hs3EAn_U2HwdI8PiZZc-Hb7cUQCgmiRF1ZPy1sZnlurKLGxEeVv-johfBRuiv6Kee0m03pYewySneeHOCFIo3CLXQSP1q239Eg",
+    "summary": "",
+    "dishes": [
+      " 餐點",
+      "六人套餐（含烤鴨"
+    ],
+    "highlights": [
+      "👍 好吃",
+      "👍 推薦",
+      "👍 不錯"
+    ],
+    "is_open": true,
+    "lat": 25.0361184,
+    "lng": 121.5693179
+  },
+  "fp-ghu5/lu-shang-yin-fu-he-shi-can-yin": {
+    "cached_at": "2026-04-13T14:13:19",
+    "found": true,
+    "place_id": "ChIJUYXEfCc9aTQRnSX2IB4G-2w",
+    "rating": 4.9,
+    "review_count": 77,
+    "price_level": null,
+    "address": "407台灣臺中市西屯區西屯路二段87號",
+    "photo": "AU_ZVEEKIHRZfGaK7Arv3FIj_IXgqlXHa1lPIwl9FXIp-1Ht61Pb9wZlNSAxM5Mgo_Px7qKEGVKhL6rdYeUUGOKgHFpEZQhneoCKHoEfqEBTG09ndl1UbmnTkk2LT2nwW7xBc-oajdW3rXGBkAQ4ELmH2pcyRuz71biJb6zKOl_0HZKeu-of5ZUwL9KU05mkBTAVH48VJuGBmSPpkTc96wRUostz0KG1KhMdRf6pgc8i7WPFVwRJe1GwLCRbE74IADM23JlWPEI3ZB4XyWbS6GrGxcWslioKoBPJ0N80OEEflzaRRg",
+    "summary": "",
+    "dishes": [
+      "銷布簾？！ 鴨翅",
+      " 鴨翅，雞爪非常",
+      "腿雞爪每樣都超級",
+      "好喝不苦 冷滷超"
+    ],
+    "highlights": [
+      "👍 好吃",
+      "👍 推薦"
+    ],
+    "is_open": true,
+    "lat": 24.1650401,
+    "lng": 120.6570244
+  },
+  "fp-nld1/su-shan-jing-dian-san-ming-zhi": {
+    "cached_at": "2026-04-13T14:13:20",
+    "found": true,
+    "place_id": "ChIJm127OgCpQjQRYW4kkQ7Sl_8",
+    "rating": 5,
+    "review_count": 23,
+    "price_level": null,
+    "address": "234台灣新北市永和區竹林路66巷11號",
+    "photo": "AU_ZVEHbc7fclxbKq_kKwcqlXV9zfoWahZrtg3dra3LnRKqmTmm7vjd-P3jnPq3z-A3HsC_6ZyNGJ1egdR_RaWMSclN2Z7YnzNAPi3UjKvc9rYRbKK2F7dPqHXJWnxt6N42YaoZp2n5VqS7ncRRDah7iY9r-3UXlgXH0yIjoQzOzfo9A93iyMNRZqKuXT1q4bDJq5bQxYR9jx3UQCTln_2_3NxRtTGUCwE7iX9Bfh30Oo99PXewqFSiipgdKQ4pJP6gNhjnA9ybCaIb4nWZutvmkFfK6TsR4YQgAUgHnxnnNOcCCCQ",
+    "summary": "",
+    "dishes": [
+      "什麼韌性不過嚼勁",
+      "購買巧克力柑橘更",
+      "個起司三重奏 超",
+      "尤其是加熱之後更",
+      "特色：口感味道都",
+      "味已經讓人意外"
+    ],
+    "highlights": [
+      "👍 好吃",
+      "👍 推薦",
+      "👍 美味",
+      "👍 不錯"
+    ],
+    "is_open": false,
+    "lat": 25.0131376,
+    "lng": 121.5178785
+  },
+  "fp-hjns/meher-cafe-mi-he-ka-pei": {
+    "cached_at": "2026-04-13T14:13:22",
+    "found": true,
+    "place_id": "ChIJ2y8E-0s9aTQR2d0GPCTgsLQ",
+    "rating": 4.9,
+    "review_count": 1003,
+    "price_level": 2,
+    "address": "401台灣臺中市東區三賢街113號",
+    "photo": "AU_ZVEHhDSbAl5wIwibsFonz0F2ZuL__njWM9j8CQ7YYAmylNMl9LVcMg_Xv9GhUdqt-5JVXJQJr7zX2V7O5L_yugqHD_zjQSXGkSJcZqOZkkAvrjFQKXMupPt7r2kRnRNErvEy0bl4MIxaNIWY_5UynLT5SRuGikPhlWDEYrW1TEiHLXfTkDG6CUNA5kcHQOq7K4_bU5pIkPCNej5eVT21o6u1Tcwv400Dm8PG4sBtClkw9DMxwQHcEkIqhYaEQxABZ6tkz6kuywl9MTWFxlyp1rFC39aD48M-JTQdNm5v0sWQibg",
+    "summary": "",
+    "dishes": [],
+    "highlights": [
+      "👍 新鮮"
+    ],
+    "is_open": true,
+    "lat": 24.1406702,
+    "lng": 120.7065658
+  },
+  "fp-prjc/ri-ri-dou-hua-suo": {
+    "cached_at": "2026-04-13T14:13:23",
+    "found": true,
+    "place_id": "ChIJKYYkBcQXaTQRrBT2ATsnmmM",
+    "rating": 4.8,
+    "review_count": 111,
+    "price_level": null,
+    "address": "406台灣臺中市北屯區豐樂路8-21號",
+    "photo": "AU_ZVEFNfGDwb_Vqn0uQzqi4g-eRF-fJ4o8-nH-aTZ_HNi2p3SOJdLi5DP-aLWEvqaT7XynEO7FGpNrtU7dEeCg9WpmrHkNoBeio_94zS0B4iOa7ZXOLplflnNUk-OBDBGz2AKTdkdo_95YzDnhN04Ki03TYnRPSI61D6k1t7B4FCzeXnofW7qtx8SCiQT6h6QqxH7JaBD4EFs6kypzIapTedWR7RXQZa2R0A7VsNis8YAJBie4Ky7X36mXDaWp4KIBJksynllARv7p21O7XFs2TpYVWGJh61bv_dgCvvoiIcQcTJTpxBWpLsSM9nmoKwL8m1Up2VyBOPPSp8Mx3DHoSjDb2q1lXAj59A8Y9SO6uGh-vwSrYH2EKokwRimGdJ4CaFp5ZPIP1yRa6Mg5h3D-tIMKd7mLrBgRZodq_nsQCpLPu9iYuwWrbqUgm0_wvW3Cf",
+    "summary": "",
+    "dishes": [
+      "料可以選自己愛",
+      "店！黑糖豆腐超級"
+    ],
+    "highlights": [
+      "👍 好吃",
+      "👍 便宜",
+      "👍 讚"
+    ],
+    "is_open": true,
+    "lat": 24.1935097,
+    "lng": 120.6839768
+  },
+  "fp-y23o/zhao-xiu-jun-zhao-wu-can-shi": {
+    "cached_at": "2026-04-13T14:13:24",
+    "found": true,
+    "place_id": "ChIJeVm5KAAZaTQR7FV_7ongh70",
+    "rating": 4.9,
+    "review_count": 994,
+    "price_level": null,
+    "address": "406台灣臺中市北屯區太順二街119號",
+    "photo": "AU_ZVEFYpuoFwesmC_rUhcV5H7tIFTGimn6mixdhiEdGI3gRGyoYPleShfslmWjP9PCB-n70h4A77rbepBw0HE_mx0iZOkeKJRKaIPHWYmIHReObJ02XEzW81dphAg3h8frrnqPWh-MAv9CnspNf8YsRMhlsKN5r8Z439pcBvQEXRhktFwMxAEPvecOowzCXlVO6Q5ZAVoGBBXlvlOik6hzh7-nGoZQYf8DaHeYtTcrM79kHbzTx32uXPfhk_I6lfPo9e6Wsey8oqLIAj8Jhw7koRhs-QWd3taYCOpeWdwvTGhd_BA",
+    "summary": "",
+    "dishes": [
+      "👍👍👍 早餐 最"
+    ],
+    "highlights": [
+      "👍 好吃",
+      "👍 美味"
+    ],
+    "is_open": true,
+    "lat": 24.1601665,
+    "lng": 120.7219111
+  },
+  "fp-b2ip/chi-cha-xiao-pu-tai-zhong-jian-xing-dian": {
+    "cached_at": "2026-04-13T14:13:25",
+    "found": true,
+    "place_id": "ChIJ__6A0F89aTQRLrXxhjUPyhQ",
+    "rating": 4.2,
+    "review_count": 158,
+    "price_level": 1,
+    "address": "404台灣臺中市北區健行路538號",
+    "photo": "AU_ZVEF0hvENZMUrbsOugLc-EA5THj0VJ5YTTts65ImNq8Ao0IgK2bdNL5a58Sp-a__sYI8Os44RCA4FIV1OGGpRNEU5gdWmtUSC1YzkVshw14rq7w01nVW14BfHf0Qytsmf5bQ2c8SEDu6sF5als-E_09ZgNMz7M1sv6BycdeNPeg7SrjhZklXFXDL1_QoJwMdEwmBvhxki9Kz_Ye711s2gUYSe243SLv0xeA74peOGEXGqN57vyPurMxFGRwOTJPLAr9JoAXV9EH6fK8X7jlF9DH5Q1GBGUl_IxivZ7iYU8wBjC2bQcBEQHZVUU46DxBAJZbF3ODPzUHxqnOaKfvTtEp0FysmSzlb6xd76TPAYZTEhwrsC4LQtZIetCEIK8ZWwDfEGUtTQrH7HQWsSsWWDQ59ZrY9pNkjk2Qy_tdYi1N6l3TUhdfEd1JgRniemOGFc",
+    "summary": "",
+    "dishes": [
+      "真的超讚👍！ "
+    ],
+    "highlights": [
+      "👍 推薦",
+      "👍 讚",
+      "👍 不錯"
+    ],
+    "is_open": true,
+    "lat": 24.1593188,
+    "lng": 120.6786144
+  },
+  "fp-prwp/na-nian-na-bei-han-kou-dian": {
+    "cached_at": "2026-04-13T14:13:26",
+    "found": true,
+    "place_id": "ChIJS_a6vNQXaTQRRhIvbg4vO9w",
+    "rating": 4.9,
+    "review_count": 114,
+    "price_level": null,
+    "address": "404台灣臺中市北區漢口路三段89號",
+    "photo": "AU_ZVEFITkcEpBdEewRhvv3yUDXn5i5yiorM32a458_Cei4LWb7TbiAXpVDIrXU2pKWFKqiSqnT5GovHN9jqJD4FUN8ZBgjOJJWWprpLWK6GlZ2_UHu5myLXylbhB3g_JFm5OrqNm14DfI2uweKiaXq4V3oMuH3NpJuglyCkzBwdgvbVzoMRTSxkcl-sQQl1omncBe4-euoMQZcc4RQYV7Nj4Ez-37iaOnTpEyvwTkhebQ8HiEq9dVVIkF_qO0ZSJ0OEFukToIPuX7RpEtag2EifGrmc7YVqwtscjl924_-1Y-15kg",
+    "summary": "",
+    "dishes": [
+      " 今天點了烏龍",
+      "烏龍鮮奶茶，茶味"
+    ],
+    "highlights": [
+      "👍 推薦",
+      "👍 美味",
+      "👍 值得",
+      "👎 貴"
+    ],
+    "is_open": true,
+    "lat": 24.1670012,
+    "lng": 120.6688034
+  },
+  "fp-xrkd/qiao-deng-zhuan-ye-xian-guo-zhi-tai-zhong-min-quan-dian": {
+    "cached_at": "2026-04-13T14:13:27",
+    "found": true,
+    "place_id": "ChIJzarASCw9aTQREUepyDRX2J4",
+    "rating": 4.9,
+    "review_count": 153,
+    "price_level": null,
+    "address": "403001台灣台中市西区民权路213巷1號一樓",
+    "photo": "AU_ZVEGrH6xYKg7TxPiblNUXI-6kKHXVmIi0A7mjbiVM1rv7vcFN52h7BeSw2qZqob6oFnVZwA2wxuzlVvcBxUrBQSZQjuvPY11gTo-pNkCZLI3WOwGvM0M0-P-bB-idpzndXlDkYuQAwr0RDFNwQGshCYpXB9ygzlNf4ug1W8pP0LHYihjPnaV4FBWSZ32lhHvOEZs7xGSnkMqleBDl5_O7_bPF_4EC2rBlVZWUm6pvuurY9V8JocEcEIuUMJLoe3nZAeTjQPisgF_4lmJ3H8swpXn3MKpoAOA509qjJOPmWubYYw",
+    "summary": "",
+    "dishes": [],
+    "highlights": [
+      "👍 新鮮",
+      "👍 讚",
+      "👍 值得"
+    ],
+    "is_open": true,
+    "lat": 24.1472346,
+    "lng": 120.6696113
+  },
+  "fp-x8x7/lindayshou-zuo-cha-yin-zhuan-mai": {
+    "cached_at": "2026-04-13T14:13:28",
+    "found": true,
+    "place_id": "ChIJpWTYRxgXaTQRfdbpa7GwsS8",
+    "rating": 4.9,
+    "review_count": 65,
+    "price_level": null,
+    "address": "406台灣臺中市北屯區瀋陽路一段125號",
+    "photo": "AU_ZVEG83OJe-1QfTjSEz_5hYWvkyLwMu4ngVf5veRV081E_sTFNCMDwGBWgGgAuBFMvx6w3drSz2eryL2rGyXAzueOS1n43YykESOlY8JGDIhEWDlVvuRb3nxKAU-qC2pBhcsnIAT_Y4Vn95t4onuQEd8YNcbZwj6_298QzFHfOirEqYdRCVakkIBTOL6fFau1UVpRf4lYqA2R27Ad9mEe7kZ80UBLeIkhzaHSEP3GHDk9IYYXSjGce0-5E5SZcLD6AUwsPfH8OUmusMZxMbpIRmORAQx6IYRpl7WCFGF1pZx414GdJzdqh3S-CzFTBL_svyQeJejy2RZUqjzu_estXRMJ4gnr4cvWdAdqr3yk7RhqMwBweLREExwrrKmcvaM6lh3iVqu1hFt4a7tw4yzwFvoJ2P8lTL9FzJzyCRIVZM79ehGctG-swmuaitT86DA",
+    "summary": "",
+    "dishes": [
+      "黑糖珍珠鮮奶茶"
+    ],
+    "highlights": [
+      "👍 不錯"
+    ],
+    "is_open": true,
+    "lat": 24.1741963,
+    "lng": 120.6792867
+  },
+  "fp-xtgf/san-yue-chun": {
+    "cached_at": "2026-04-13T14:13:30",
+    "found": true,
+    "place_id": "ChIJbwMqJEwXaTQR2bAiUA033-8",
+    "rating": 5,
+    "review_count": 55,
+    "price_level": null,
+    "address": "406台灣臺中市北屯區北平路三段75-11號",
+    "photo": "AU_ZVEGANDYwplAkIwS88XvVRnskG_wcxuKcvRNqW1CxsL8pty5tbjjDF33wz9cxWYgCn1LjULLvx7UTzXWtilY7zqoktUZDyW7hKamtmYTr_x-gKmRcxyG64P6L-pnSJfyHKG9tnR7D8HfHWMYG6QTsz4MVp2zYQNHlwLSIUpH8jrnTXZmqoOv2arzdGiS31tfwpnbvoeEFJbTlitt6CUWdTf1v51SJTZU0LTtGDFn93o3bUbrRauyIVCJfDrGoaEdSjU5hVDGOXUgJR_f4_HdP4H6gNj-amFLsR81rJ56F5Su4oQ",
+    "summary": "",
+    "dishes": [
+      "🫶希望好的店家都"
+    ],
+    "highlights": [
+      "👍 推薦",
+      "👍 值得"
+    ],
+    "is_open": true,
+    "lat": 24.1711933,
+    "lng": 120.6819273
+  },
+  "fp-l66w/cha-hun-soul-tea": {
+    "cached_at": "2026-04-13T14:13:31",
+    "found": true,
+    "place_id": "ChIJ_4wneAA9aTQR4pY0__ifi84",
+    "rating": 4.2,
+    "review_count": 67,
+    "price_level": null,
+    "address": "403台灣臺中市西區五權路15-1號",
+    "photo": "AU_ZVEHMpOa2ZJnEDoulXrR59Lw8mAx9WZ4WT-GKUBht8R3s_c-wFQfT7-kNawjqOB0g8RLSQDUpLxxepIwfAhxH8ZYDI1nSX0_Ucfh0clF7BU3tZPN1i4anDThSHq9_JNZYQe-9nJoorn9M7wpkSdGbdsrpbdT5vvZts8eAFHESBWlm1_vifWJPFRqqm00z_69jRBbFOTKOaMaTfJn4weTrzBVttBlQbOEycdSBj5WaWXLJJm6t1C5NLkTUmcZVikXOlU1G9KRnqq0hP06FXYJObwJhZLrtJUYNpac_H99qaT21Z_5G8Vo2ydlBh-ebb0MDzXdChEZwhbPlvpOY-Mwpe8idA-45B8ctBy1kMocB9Zr31qb93sreClcx1S0KOXW6O121gB3kjl3DnrUAyo9_UchDydMBSkbtHzJdNJjuDChs0MA",
+    "summary": "",
+    "dishes": [
+      "桂花凍也不",
+      "品質跟味道一定"
+    ],
+    "highlights": [
+      "👍 好吃",
+      "👍 推薦",
+      "👍 便宜",
+      "👍 讚"
+    ],
+    "is_open": true,
+    "lat": 24.1438402,
+    "lng": 120.6692217
+  },
+  "fp-d4wz/lao-lai-hong-cha-tai-zhong-di-er-shi-chang-dian": {
+    "cached_at": "2026-04-13T14:13:32",
+    "found": true,
+    "place_id": "ChIJn6lg0hI9aTQR96k14vG1Kic",
+    "rating": 3.6,
+    "review_count": 1542,
+    "price_level": 1,
+    "address": "400台灣臺中市中區三民路二段第二市場7180",
+    "photo": "AU_ZVEGv5PW54F7muWkyFlqhQehpcXYcz1qcejAU3Tmjpxda5_eBlNDQWQIZs--1nf-fiZ9-cl98Vhxg06Tch6bDF9xmfLADTzI3761JVCPmlM5FvYObuXcaVDj9VeANS2G6Ea7SFBwaxXGI_j1GSbb9OmsZSW5w7QfBXC00SifEt5Ag-D1_e0_pYN0woDm7wUObocOhoLt7tfrPIp8nhsjVTzElJwFMZUdQxxtuvuei36NsKSz8-mBfjbwIAnE3heUvyvrF0iT7cp2DEXNa86Dsv7IAdsWyqSU_MT__P8PSYgeorFYrOaO4JEtlv20YmgTM2D5Tmq4C97XAgnnazzMy-qrk_SVNU7IPksBbw_S9qXjiL8Js4S8WDt3PGlOt-NdXowSlhImkNBal3Hrh81KoimejFQ_qpBgSxIqgFeGB3Qv2DQ",
+    "summary": "",
+    "dishes": [],
+    "highlights": [
+      "👍 值得"
+    ],
+    "is_open": true,
+    "lat": 24.1421165,
+    "lng": 120.6790239
+  },
+  "fp-gqd3/da-men-pai-bing-yin-pu": {
+    "cached_at": "2026-04-13T14:13:33",
+    "found": true,
+    "place_id": "ChIJU8w4QkI9aTQRE3xvAiU4KFc",
+    "rating": 5,
+    "review_count": 36,
+    "price_level": null,
+    "address": "403台灣臺中市西區博館路123號",
+    "photo": "AU_ZVEHxc6IFkGh35zcgeShC49mjrb4hCaEvf-eg5mGsyq4Zo2sucrLfUMMHoijSylcKRmffPpZsl6kOswOoBXTpOvuSYF41PkpkysigA4F9aVLpNpkTag4P0layn08u301ZDdpkSN5jZWG8ref-Id_J4FmerMy0n_PkGi-d10C3D9I2SIDFBqR1JSR-9nyLlrqngnmauSanqHATdrk2Sz2ovQi9RaYNEHZvNAM-fAPC1n5rixLoxp4-sokmXuHJk137HRzSdYbwR8HKVAG6iNMhzLZigyXAJWJzJ0RMJ14IsZcDJg",
+    "summary": "",
+    "dishes": [
+      "烏龍奶茶（45",
+      "店員推薦的烏龍奶"
+    ],
+    "highlights": [
+      "👍 好吃",
+      "👍 推薦",
+      "👍 便宜",
+      "👍 讚",
+      "👎 失望"
+    ],
+    "is_open": true,
+    "lat": 24.1569284,
+    "lng": 120.6646256
+  },
+  "fp-wg8x/ortea": {
+    "cached_at": "2026-04-13T14:13:34",
+    "found": true,
+    "place_id": "ChIJXcTxmx20hkcRdLFH7A-EWqk",
+    "rating": 4.6,
+    "review_count": 12,
+    "price_level": null,
+    "address": "Via dei Chiosi, 21, 20873 Cavenago di Brianza MB, 義大利",
+    "photo": "AU_ZVEFnjNHHvWXsZgf6xj_FdmZAh_tOTQ4W8_FJkdw32mYwgwF2_tdHpViG-92SYzZd5pdKLfoDv5NrfwWLD2mo34YUlQWz_LWmqyNzj06prhPk7JSkrxOmgWvM4NA_B4tgtgCpHbMdfHDUAh4yhHkmcl6dQklZVtipvaQ0vyuWj_iczuqfxV4ropI7hEc_EB5lNcPMTCT3UlEb7Dlu4gvQ7LyDJ1VeGzf3HJmu87-qqrWBIkd297QyjRFN-WTGk0mMN2Lc7rAG-UR8DCV1B2qakEUsXDb2AlghI43O16q_43sPsw",
+    "summary": "",
+    "dishes": [],
+    "highlights": [],
+    "is_open": false,
+    "lat": 45.57931929999999,
+    "lng": 9.410022999999999
+  },
+  "fp-fuy4/ji-ye-ye-ku-cha": {
+    "cached_at": "2026-04-13T14:13:35",
+    "found": true,
+    "place_id": "ChIJtSXHJ4OrQjQR5j2AYLItRkU",
+    "rating": 4.6,
+    "review_count": 964,
+    "price_level": 2,
+    "address": "110台灣台北市信义区信義路五段150巷22弄55號",
+    "photo": "AU_ZVEGFhHClNxaS84-rGtwmmnJT8s1MIP1LVxUBSkBgB1N68I46e4L6KjRkYvFofH4T44IEdZnWGETPlWXyeioPDtFkJUbFRlanPvkFBwChj3NFbNkoEs76r3_nTTpCgUCOxqucnDrqz4_9A7ZX5b9mLWoT06wGuKv8e39-H6AbyhDD-cBIosT5m_7o6TbSvygvJuhkIwhHG-wmTO_sWCxGiaxWOKQgbR7QbyAgK40nBKNkKHIqn6NkKNYjYVBDsji239-sc7n4xICkwr7z3wGrWUF3WHiYs_hDY8cXIYSiHENR64MDwuMVAk_9xut48JwO1Ms8IK2NJeNAIFOahCBI7EigMOWcq0GixzkaL1OQMyV84S4rmkSzhWnwifTTMgSk4myGP9yWsvGV_HH33sm_iTsq69_Ccg5ECCHS1JJKy8t4NoyF",
+    "summary": "",
+    "dishes": [
+      " 象山步道旁有"
+    ],
+    "highlights": [
+      "👍 推薦",
+      "👍 超棒",
+      "👍 不錯"
+    ],
+    "is_open": true,
+    "lat": 25.0273234,
+    "lng": 121.5703862
+  },
+  "fp-nmx8/qing-xu-zhi-cha-tai-zhong-li-ming-dian": {
+    "cached_at": "2026-04-13T14:13:36",
+    "found": true,
+    "place_id": "ChIJtVFtAgA9aTQRhZg2FMoqNVg",
+    "rating": 4.8,
+    "review_count": 94,
+    "price_level": null,
+    "address": "408台灣臺中市南屯區黎明路二段299號",
+    "photo": "AU_ZVEGRP127amqC5dENixVNGja8Rb9mG-OttZnukwL1hnDsNNVGQbjTz9D3FZIF9xwYwcxS2srT803N_uFOVElKN-cmuU0a_Atjvk9EEwjuuy2PVVQhrrLUFJWcoMiemm1m3VhOL_XCCTompDfCFAva_TmsYDfBD_ga-Ppc5TfdYQU0togYud_XObpPBmkF19hill2-drXopCDlkCN-sTo0JezDRmdXGa1JsR-rwinjDlJVV6y8rUgOvdlMDhaPp8NQFcYpN9vxLzlMmgbWoBtePRCjr6cFoW8ReDyuNQlka2mQ3dQyOfXBVd5Eb1QYQwmypRi0WDMrs8vL1Mq4Hmlt5AmshvKbLbKsW-yTHjW2nnpmEKAo_CSv0lhVMwo7_bgxY-cwKhRRcj_z_WBds1kFT8ZE7XGP5HtjSRY7aZ7mKLIibaqjQhyDcPgCF5oImg",
+    "summary": "",
+    "dishes": [],
+    "highlights": [],
+    "is_open": true,
+    "lat": 24.1490518,
+    "lng": 120.635516
+  },
+  "fp-tggo/yi-qu-each": {
+    "cached_at": "2026-04-13T14:13:37",
+    "found": true,
+    "place_id": "ChIJh29117g9aTQRZWsgX8a6-s4",
+    "rating": 5,
+    "review_count": 4,
+    "price_level": null,
+    "address": "402台灣臺中市南區國光路250號圓廳學生餐廳內",
+    "photo": "AU_ZVEGAkX56c8u68g45S9aj9kj5ZsxUYPbLoyTdJWGXkKaix2T7mP9Hu4RYcm2UWvFipO3nNHxuDOuFSiXEuW3spfynkb2Y11H3iTj1BGEqk1ygY8bhpEeQpgMYUFiZpTY7iuG2YbsHAa4pwIRN1lSt-vZeASsTxazwPqhfude0yACXsF-iO_6RR-2FnLV4c7GQz2t0x7eC9-Wdp-CC0sulHEDXcUGNCtO7Sgxh4qxDOj5hKjpoxBOczYeL66kn1YBtJ3ua3Lf9ChmsFPZ75oA1OlNlNDYrE1NWz_0xnQQ-kRlFKrk8IvFqIQGGZS2QHp_SnWDEfRq15jZ2JznXmj1VEYvb-w03cT6IQo0wdQyXnW0iFmb-ePxDBN18wD86sZqyVDjvyhF01Kfca3PyOZSFYT2lDjN6FXJtTrrCu3dce1ZLWIUjsdFQAFwHPn55Jg",
+    "summary": "",
+    "dishes": [],
+    "highlights": [
+      "👍 好吃"
+    ],
+    "is_open": true,
+    "lat": 24.1233132,
+    "lng": 120.6769796
+  },
+  "fp-i72y/you-chai-mei-chai-shui-guo-xing": {
+    "cached_at": "2026-04-13T14:13:39",
+    "found": true,
+    "place_id": "ChIJQXZ4aIYXaTQRrUl442aIEFw",
+    "rating": 3.6,
+    "review_count": 126,
+    "price_level": null,
+    "address": "404台灣臺中市北區漢口路四段88號",
+    "photo": "AU_ZVEGYmg-gqF9kOd9V0wCQZCA8WG3vfiOJQPQYskTpTpXTbUpLiZR-mRTKZPiIZe4uWaUEqUJDfwf4T9LfZHpBdx1QBJZ-AJ-lP3qNGoDjt7pZz1BBGYuMj_B54KpKMlhmnNFWwpn11Mo2AEYAS0fXxfdG4O2Vd9jrrVg0Qk3C0oQaF19FZgBMtYjaYzlDzmFJkgN_qWQqy_GvMV4xjqtMXc00gffp_adM-7triyPiMYAW2-JxIzjvQWzZdsGdB9Gq2v2ELC7NVaHzx9Ekw2Gw8ZfpjZlF9FRPQ-KUAUZr1nGuk3_exKLGZK48HZmf7LqInvP0DzDwWjXUtVVDSDBitZcORevHPGaiyw4PHdgpEpMjRXjErSinmmh9pQJjFCm0574n8D5MFndaWsXQutNjwDD1vdIYaOuK41-HK__-QGeXHmc",
+    "summary": "",
+    "dishes": [
+      "  服務人員親切"
+    ],
+    "highlights": [
+      "👍 推薦",
+      "👍 新鮮",
+      "👎 不新鮮"
+    ],
+    "is_open": true,
+    "lat": 24.1669296,
+    "lng": 120.6770824
+  },
+  "fp-wlsw/mo-mo-chong-wu-zhuan-men-dian": {
+    "cached_at": "2026-04-13T14:13:40",
+    "found": true,
+    "place_id": "ChIJJWZdQv09aTQRL435YtyBFmI",
+    "rating": 4.9,
+    "review_count": 58,
+    "price_level": null,
+    "address": "403台灣臺中市西區日進街81號",
+    "photo": "AU_ZVEHGeFfBKRf81jI73_rYfCqY6YJclWjW3ikb1Rp4GVzsg9_sSk9LAWQRwMDXTUT_Pt1vWIi1iJEF_d4EtxBc76uvB3TckN5j-IoTBevTvtT4_-MwW_Mzoqev8u_oatCcN7LOM6ZRNSV4SypwNMIOoonmot1hWDOFsVQITwQOTbf6vqq7zfmGjsuuELyEhhmOEbMyYlM-c-qH9lUZqv_D3OsozhxfDlWYP6s6zaD725WUkX5F7rUV4ppSimfBMeTFtv3fFWPI2wUmM_4GdLRGwa7kDUqSdy66pv6rSOJIAPdVug",
+    "summary": "",
+    "dishes": [],
+    "highlights": [],
+    "is_open": true,
+    "lat": 24.1514985,
+    "lng": 120.6730931
+  },
+  "fp-hqxe/fingas-fine-food": {
+    "cached_at": "2026-04-13T14:13:41",
+    "found": true,
+    "place_id": "ChIJTUxfr5s9aTQRIf9ncslkK1w",
+    "rating": 4.5,
+    "review_count": 696,
+    "price_level": 2,
+    "address": "407台灣臺中市西屯區長安路一段162號",
+    "photo": "AU_ZVEHQ7FS2Aahubb9AZEeRUGV6QOd4iZ5Kmhrtixh-BgYi9VRwVfTYc2qlbtay_7WpGBqAv7iy0yp7_cp7lR-KUHYgtafSXd3BfmwV2cy0ANKap76xcW-tXkLJXf8AeKD41jIUdQ7XYCYl3wRI-LB8lQPZRtzITLiwq2MDBZitiJ2pqQEDznm01czEQuqLInYlWk2kWSHnOitlEh7kSBGu-aqv8xdXkCnm2YnbjP_zwumn0aQXEaUk3zrwv7Vcn2hDo_6ms_vGlKB5CkaxvSwwWACC004mkdH89WEBq7PCgsnu1g",
+    "summary": "",
+    "dishes": [
+      "樣的風味！ 美味",
+      "帶朋友去吃，服務",
+      "更好 羊肉口袋餅",
+      "東西看起來也蠻"
+    ],
+    "highlights": [
+      "👍 好吃",
+      "👍 推薦",
+      "👍 美味",
+      "👍 不錯",
+      "👎 貴"
+    ],
+    "is_open": true,
+    "lat": 24.1720202,
+    "lng": 120.6599083
+  },
+  "fp-rfic/zhen-xing-wen-ju": {
+    "cached_at": "2026-04-13T14:13:42",
+    "found": true,
+    "place_id": "ChIJSeciLIc9aTQRubtz3estLUU",
+    "rating": 4.4,
+    "review_count": 253,
+    "price_level": null,
+    "address": "407台灣西屯區成都路12號",
+    "photo": "AU_ZVEFou7dxOIHX3R0XFpeafif7gUoKE39HzbUicXr-E3LGcZUErN6ljv1NZoa2FBEjo2UH_2JZmeHq4QRA3tROcvTvxQDdt15ksqPV1eREcP8tabWfQ-wSB9-UnEzWtcpSiawPGljnCVvkb2sjMcNrWLiQK4HioH52mIoKO1dBE4QDe5P_9DTbD2lMlPi1UDCP2Hp9_mS_pFU89qbRfDocxjvlaJPk9d9WE_hJwavgjNtQ0dHVly4J0XDXeoWM_FclmCJ8EvQ3iDnxkptWSCIMWV6LdEbjDGgrT1DvbZkGznFLjYbvdd0eGyiSTwY9HdQfnw893YY7qq8BndgYm0vktap0HatsvWN_8wUb05hWPxgKwHi6jesZttDhg6Mo7_i5AL4yFNs2BiruMAWGPIr4OVHN0Amv04VR52z-XSdO4rtpU--2",
+    "summary": "",
+    "dishes": [],
+    "highlights": [
+      "👍 推薦"
+    ],
+    "is_open": true,
+    "lat": 24.1656083,
+    "lng": 120.6599804
+  },
+  "fp-doeb/quan-lian-fu-li-zhong-xin-tai-zhong-ming-xin-dian-doeb": {
+    "cached_at": "2026-04-13T14:13:43",
+    "found": true,
+    "place_id": "ChIJw9hvfbSrQjQR0WBZzG6wtI8",
+    "rating": 4.2,
+    "review_count": 1073,
+    "price_level": null,
+    "address": "11050台灣臺北市信義區莊敬路325巷58號1樓",
+    "photo": "AU_ZVEH7Z46WM5F6el4XOd4Bfi3DLX8gtWk_BQ3nKwjyoUZPkXl5IJMUrkSdiC4IggCAFEfV2yXHLyF4m3M6AW_L_wIVN82W_7v3ySn_abdnAEmfdSQolnSs2Hk5zfUyQvoE0oFdw0_OSw48-zXm0nZ4AcXJKC-BB64YSMyNISh-g2Z-fH-9pgrAs_tZFsOgo66lh8sSjo02zK8cNYLl16U-WImO80KKeuuxrwR-Y5mG7TXhqyVSXzPNDoAcL3Pf8ZRo6iLxkI3RVUWhsEsMuzV91rKAVsktvFujOxm0o6VGqABdxaOqWucH3CkSaMue3ZhjMyNIGK4AJOnRFTor8srw0p8_80LMufjSNHQHEoW58FB7knTRM8C7kIaxD8XpEM5LfrmCmVz_hXaq_WQaCnEg8ltqfykdSutEw60yQUeTT12fvw",
+    "summary": "",
+    "dishes": [],
+    "highlights": [],
+    "is_open": true,
+    "lat": 25.0288984,
+    "lng": 121.564835
+  },
+  "fp-uh80/tong-chao-shang-tai-zhong-chao-xue-dian": {
+    "cached_at": "2026-04-13T14:13:44",
+    "found": true,
+    "place_id": "ChIJhbB-9r2rQjQRZuUg_7jpqDI",
+    "rating": 3,
+    "review_count": 295,
+    "price_level": null,
+    "address": "110台灣臺北市信義區東興路65號2樓",
+    "photo": "AU_ZVEHq-ax9QKYdIYAZWhKbg7tRshCT1wclmyRvS-6iC1wJkRRGfokAdjhP6fmCdRqmLlKaAvahmVHBNz6gGdZuLrNgYqbWhg327iK8ejR7-WysasMLSpdCX1BaGXzhHFlidepBzszMsWMqsafHdwl29yeLs7uFJMLXjqJSzGTa8QLR73hKMnEhywH2ALvZaVWkcmaLSAz1_YZlW98QYdlqoxIUzvHxotLtz48nSTNJQorqoQorrCq4fnks4hvr9k_CEmJYmTunc9xCJiMdlsJ1Ex9l5skdlK4PFhDu4UOrrAMcU7ostf-LWtWCseqmVNtS00SrD3-9SSjcQfqET7Milj5uJPl-ZmcWA5uIrkZhh9Cl11ybgxJ7z-pskD4TAt4t1wiKV2xX8ZqSFKPYD1FDdB-2ZSehkolAsXRagZ6x1JOhmJQop3BIkCDCjSF_Aay5",
+    "summary": "",
+    "dishes": [],
+    "highlights": [
+      "👎 慢"
+    ],
+    "is_open": true,
+    "lat": 25.0469756,
+    "lng": 121.566706
+  },
+  "fp-rr21/kang-shi-mei-jin-hua-dian": {
+    "cached_at": "2026-04-13T14:13:45",
+    "found": true,
+    "place_id": "ChIJsTAnIrOrQjQRpnHKf4i9NPA",
+    "rating": 3.7,
+    "review_count": 53,
+    "price_level": null,
+    "address": "110台灣臺北市信義區莊敬路466-1號466-2472號",
+    "photo": "AU_ZVEEavuXZ6ycujAiHshYxb0WDC32Ks-IJ8paeGRbSt_4zOeR7ntXaEJAJL_tZGjPAwn3lQ9plhAFJ84PV7nBvKcHI6PjfGIsQEx29zOwKIueGFhR2fdpfOFR27PnjOBulgbMzEe9lXgZtmVGZNSXUjzhuZh59cP6EOrS9j9CMDvcMY9NXk-iRYRtUNQGbTsCjxoU6T23fTVv_pUCiMUasaHDOi-xQcvWb1dNsgM6ypiIRv6BOtXnTqmMQ_dVITGeAnn_zca7EBQTMx2sC-f55gir15MGmOUIR5IiKoVSo7ByH0aB2IFHv3A_mZiWQ1VfBkJ5aGMhM3JsUuzjgVjy7-NEfp2OyQ9JAkFb8o32_B7l-pCvpKKgMgY590KWiPF4LPpHv7luou5Wqm0SR8IrqzZM1-odm-yD8gJEus5cJmKp2xiA",
+    "summary": "",
+    "dishes": [],
+    "highlights": [],
+    "is_open": true,
+    "lat": 25.026595,
+    "lng": 121.5680641
+  },
+  "fp-iw7t/you-quan-yao-ju-jian-kang-ren-sheng-tai-zhong-han-kou-er-dian": {
+    "cached_at": "2026-04-13T14:13:47",
+    "found": true,
+    "place_id": "ChIJ4SkjrparQjQRKcgsggPqDaA",
+    "rating": 3.7,
+    "review_count": 42,
+    "price_level": null,
+    "address": "105台灣臺北市松山區南京東路五段291巷7號",
+    "photo": "AU_ZVEHt1muDfvBJC2Ted0aP8TI3gRwEt8AgqAv11APEeHz3bCs4oakI8j4d1zAqKj7002tLcY4ulbI0FZek2NpzQc5oCcx_h_nW74f2bBVtrTHIHCEieKOlhC-_K9mguiyjNKoxBrf48Hz4OwokdIWSNrLGRc0BaqEoKxUy7nC0tYGmRgeupMnv9gJXTgA91sAobj7iWCubOu5ECl6tt9zZ0r90KbgoXJUM5hMI8U8IrYOHtvAxv64009ONEIgV65b8mf1iySe6mz_CnkwODVU5fPrJGFbylCBupnEj3Ps0MkjYO3P2Hc0sgrfl1W0piPgv83QCDPSro18jX8Ih0vvFQYGiZwU1rHKj5RWfGoWdwgS4vIIwsu36SawNPAVbCPP1VhcvSKTRji2Wo5f88paTMgI7GtLun_7pV_kgjLd37qCo1Q",
+    "summary": "",
+    "dishes": [],
+    "highlights": [],
+    "is_open": true,
+    "lat": 25.0520418,
+    "lng": 121.5662419
+  },
+  "fp-l6qc/quan-jia-bian-li-shang-dian-tai-zhong-han-kou-dian": {
+    "cached_at": "2026-04-13T14:13:48",
+    "found": true,
+    "place_id": "ChIJu5bnYJerQjQRYDIC_I78NG4",
+    "rating": 2.8,
+    "review_count": 108,
+    "price_level": null,
+    "address": "110台灣臺北市信義區市府路45號",
+    "photo": "AU_ZVEH_sPEPmm9OzvcKLY1SBGGjTCbASGdN-FQ7D3W-UwhDCuSDL7kz0-yJmFnxXLvkdINUEImlLH-o9r6u--Sj2_GiMpImA00nBwxMUfOQjSm-4ySfZTuFAD8nDW3y8Km3yuUayarmJ6E08ytP4GCBYVufDToXhF7OVLk9JV5QN_Z4yf4EJDSEAIDGAmVt7lt2Vtd_Lsc6Pp7J1-CyrGUTQGY8QzlECYz9PcxKv4plesbM2OEzPHJaAPN5fMNycm-BbgKyzE9NC0I7R9mu2NjQui7AClpsHSbDyjgHABv7ZTFAw7iyG91W0QFlZVVwsgjEi-NZ-3SR_6UF_naJ2OLsjR88ssJ8X9Pvklid3FvrfEYp-pY4IyAi95hrbBu9h-ILSCyKKhGJ_ik6TiT2itGDXKmj2FLak7-GJiLpNvyVTvSa_185",
+    "summary": "",
+    "dishes": [],
+    "highlights": [
+      "👍 值得",
+      "👍 快速"
+    ],
+    "is_open": true,
+    "lat": 25.034472,
+    "lng": 121.5646176
+  },
+  "fp-n0uz/feng-kang-chao-shi-tian-jin-dian": {
+    "cached_at": "2026-04-13T14:13:49",
+    "found": true,
+    "place_id": "ChIJPxBaKEU8aTQR5Mxn55FldY8",
+    "rating": 4.2,
+    "review_count": 1041,
+    "price_level": null,
+    "address": "402台灣臺中市南區復興路一段170號",
+    "photo": "AU_ZVEEhqIjafXRhPcFiYiuInyvGDi8iKvRtR7n7GWRUlfEBX4RumiY30gNYNBjaiOUZCXbY-OkGjjWojUnScUg0uW_LILazMealvlTqos5iie11Hi2Cm2x7IpkOUW83BHO9zW6IP7Js8ge5PBtl7PUgvPjiM_CQg-d5KpWa2aI8OTNHlCAFHQX_vQOUoY7kqFLQQ5fp55X0Y5_INJULlcXFg5LBixwweGfSLFNf40vUEv_Jlca2LboKCjAUpgIYwSRn-z06plBS-nrZfYrx22pZV2TK_jHNz9ClxhmdbJIr8yC7k8cQlSp79RrhkL1qiTvAqr1Whf1GVxm-Z1cMlt69UuwNOLMd8pADIYZ4QvmdIk4PB-bjnMSibdpwdpNgRK_uK31UGoObu6ejzWWGa_xixwnC4Z4P_BKXWn3iOu8Q0jvNyg",
+    "summary": "",
+    "dishes": [
+      "南區好楓康， "
+    ],
+    "highlights": [
+      "👍 好吃",
+      "👍 推薦",
+      "👍 便宜",
+      "👍 讚"
+    ],
+    "is_open": true,
+    "lat": 24.1132017,
+    "lng": 120.6534332
+  },
+  "fp-m5o5/ding-ding-yao-ju-zhong-qing-dian": {
+    "cached_at": "2026-04-13T14:13:50",
+    "found": true,
+    "place_id": "ChIJL7zsXkYXaTQRDWd0cZ2-Umg",
+    "rating": 5,
+    "review_count": 312,
+    "price_level": null,
+    "address": "406台灣臺中市北屯區敦富一街133號1樓",
+    "photo": "AU_ZVEEb52u1D51wg9d92mmqfItolIR9mMnY6-8W150DJA63Ys99RCkWFIQbM9S_nGn0F3t2aMzmrhdLOq3jIDxtaF7mu3P1aMQRaBPoMs4kGh5qA9j35W_JLw363Crok8fk8GAQ3n2Q9wPwuC1Lsgm23vPr-Emjt2MnL6XgKPTJ5_mUe-eKEYat2115zKX_SZc-ywcePImZtgSzQy8zysrXmdAOPei7jgVdBvkjg7ad5IMquJlSf5jZ8tOx4oQbQJq0C-HJ5ZNM3m-Vb-scIiIbxE3KKQM-g6Tpyk0rvn22LTjLIw",
+    "summary": "",
+    "dishes": [],
+    "highlights": [
+      "👍 不錯"
+    ],
+    "is_open": true,
+    "lat": 24.1837471,
+    "lng": 120.7069733
+  },
+  "fp-e2u3/sheng-de-ke-si-tai-zhong-chong-de-dian": {
+    "cached_at": "2026-04-13T14:13:51",
+    "found": true,
+    "place_id": "ChIJ_e7IRMirQjQRZ2f9iRMg4EA",
+    "rating": 4.5,
+    "review_count": 50,
+    "price_level": null,
+    "address": "106台灣臺北市大安區光復南路412號",
+    "photo": "AU_ZVEHIeHJVWDP-6c1Layxyv_OYA9A4ozbe61fLn2OkpGx2X--gyBnIgdTH26usQmqkw8nAC4qZ5Q_HTMdN0hlAmUUd2AQLOGckwUNEO8CZx8G7bWWG0mJhWYdLQcSI5ByWRyKM_KXwLqxt6O_vxlQPE-CwU2P1a3emPyHVRWnfwYkFUWtQSXxL33BjRHkf9rvsMEdpKkh2cNZmDjXImhcy9nPvqWusCqPwUT6GboIa43WG0RRYxKFhoykYGOzrfRAN2W3n6lupxJyOzpZRWZLHRWx2sjiJ-6fiFWPwaTeZ0VJCnabVnEqNXJ5sWTSirEDqsDVapwkf1hBBBzbn47cHbmeIhkxv37VdsJ9q4qq_Mb0yziunDQPn8yhuLTV_xC-pB1ykHwa2sZlmui56Ld8UjN-S6cv8rz9ljEM-1E5qb7M",
+    "summary": "",
+    "dishes": [],
+    "highlights": [],
+    "is_open": true,
+    "lat": 25.0366459,
+    "lng": 121.5573304
+  },
+  "fp-imot/can-kun-3c-xin-wen-xin-dian": {
+    "cached_at": "2026-04-13T14:13:53",
+    "found": true,
+    "place_id": "ChIJ_9rwvsWrQjQRihaqXWfM6Wo",
+    "rating": 4.4,
+    "review_count": 861,
+    "price_level": null,
+    "address": "106台灣臺北市大安區忠孝東路四段212號B1樓",
+    "photo": "AU_ZVEH-O44ef6EOd-h5hMsbHS-y8k90G2iEf0VAjxMM3qhwZo7SD7uP83N9fXgDdn5BBIbMLe8XbhEJ3NmikSPqymLviXouqbtgkSsqcjIr_jYNvuar364NmpjE3hSoNMWN0FG45-9zjio1dmHfVOuqva7RgrkPiLS28FN0ec61VX1se5zH9JDpj6t-J2fGC1xDvq1eA8jSmdoklEc3fXHOWZ-XLy0l4s3CXmpWadFC7HBLMu502luvLKUBRXwJjaIHStkk5Gd5BDdPse87-Kyi5bE87sIe5QmvOCT6Mq19_7XFlglPJpZQEO6PLn0Cyk9Uf_Q98gjXa82o60Zo_EQMGkBiS_gtuHLSDjdS6fbd4AvdYKlU22DaMCOkJjX49gPugGEXZcO76y14da5Yry0rJFkhNLj_iz9LedzhJ3CbDHjs9g",
+    "summary": "",
+    "dishes": [
+      "買冰箱還有補助"
+    ],
+    "highlights": [
+      "👍 不錯",
+      "👎 失望"
+    ],
+    "is_open": true,
+    "lat": 25.0411143,
+    "lng": 121.5528113
+  },
+  "fp-q363/mei-lian-she-tai-zhong-shan-xi-dian": {
+    "cached_at": "2026-04-13T14:13:54",
+    "found": true,
+    "place_id": "ChIJi1_zoLOrQjQRuLJOcBWdxS4",
+    "rating": 3.5,
+    "review_count": 74,
+    "price_level": null,
+    "address": "110台灣臺北市信義區莊敬路423巷8弄4號",
+    "photo": "AU_ZVEGUxvFwffR9OMpgE4w8Hvhs73UCGvWECfNmeSIcRo9n3-2hb0YLMN7fUUxK3VcadAuq2XrXEpZ2HWEVzBCsDeSp-EqqsQ3Gpi7CUaA3ZaX2nrG__M4KDPhJ70obnT2MZwgNpeY3brjZhX66g523mTPyaZvTZBots34vf3qBrtjFMAg3cURpOBt7SjMJ0y4s7BSkcR6kA50h-IH76oXPN-LmaKeGNTnBsN3s6td85T2LO8d1cz0EFa-csLznShUR65pBWISgfXiUqP01ifQB88_FXPOBYsB4C_QIpEOz9DwqQnaaM077bhVMqyaAoDFPwZUK3agcYSG2xGMkhEout-HRo0t3sSkjMSlNXLyhK4gNVNxwtiG_cZvDyf0Na5WOUygmmcCdLksxwFk7ld1az0Edl720Nr-yLtSgKWaSb_TaQyui",
+    "summary": "",
+    "dishes": [],
+    "highlights": [
+      "👎 失望"
+    ],
+    "is_open": true,
+    "lat": 25.0284697,
+    "lng": 121.567179
+  },
+  "fp-i8n6/watsonsqu-chen-shi-xi-tun-dian-s0269": {
+    "cached_at": "2026-04-13T14:13:56",
+    "found": true,
+    "place_id": "ChIJE8I2usWrQjQR7I-RASLmR60",
+    "rating": 3.4,
+    "review_count": 242,
+    "price_level": null,
+    "address": "106台灣臺北市大安區忠孝東路四段209號",
+    "photo": "AU_ZVEFZxMm9TU5Nean1ED9yC-Ln6cWCF9jEiiQ7uX9_JHjTKHVwZUQRMRKegu-wKQsjzyiMIYZmf3Id49wUuhR0lyJGXNf8xSP1E9BPJyA2jooB3oCpU_XMur-TODgoiyYLiH_XyE_l50Fu63LiltCARN5nhq8gWDPdyMY9Qh4WFbwYY9Qa2HUxkY7aP0VEZL-MQiZl3iBsMyBv903Jtu0ryrTBs291HN2Ai_YZS-fW5wxBzvFwnuXLhrVxl7bHD7spM6EroL9DN4wwzMBqAxcGm9yjnZgTGSnV8slEqoI-y6PsDQ",
+    "summary": "",
+    "dishes": [],
+    "highlights": [
+      "👎 貴"
+    ],
+    "is_open": true,
+    "lat": 25.0417081,
+    "lng": 121.5519743
+  },
+  "fp-b1tn/mai-dang-lao-s408-tai-zhong-xin-da-ya-dian": {
+    "cached_at": "2026-04-13T14:13:57",
+    "found": true,
+    "place_id": "ChIJwRWaWdEXaTQRRgEZRFais2o",
+    "rating": 3.9,
+    "review_count": 3101,
+    "price_level": 1,
+    "address": "404台灣臺中市北區中清路一段786號",
+    "photo": "AU_ZVEHws8nVc1YT1AMI6lHxuf65ca7gpAdhgJ0zCc4DHg8I0oZ6t9Oyjtdfw5L9Ouc6-ZzdieT03R14gmLhZdXay9RouAHQcFzn0VIAaasJ8qS_pELXaP7VR_cErse3Igk83uMZrmPhccoto_01jARtrAS_tr1odzYM_H4g3M-OzYeKvtWcFl8WXnrE5VNEPYHJnX5hrsW6ESJ4u_cjwyYTUsTK68X_ipOttwQJtDTK8y3pw78-WFOtGdwFm2T_0pREKorp8tkKkL0g2CfCLR5uAA0O0v644AkbOp1W_3kxCfiAv0fEZ5R3SN-FsIU0VdVEpVO2VTD2U8VsVyghc1V5AUjA64yRbiMszSQ-xm5Z_YA8kHaA1nw4ZtgDpvArRuLdMBJob1G_TQuorHdm6TAoa9pfG6dJ9rwB4RLWgJl7uoE",
+    "summary": "老字號的經典連鎖速食店，以漢堡和薯條聞名。",
+    "dishes": [
+      "紅茶），紙巾在送"
+    ],
+    "highlights": [
+      "👍 美味"
+    ],
+    "is_open": true,
+    "lat": 24.1708553,
+    "lng": 120.6723394
+  },
+  "fp-a5ba/xiao-cha-zhai-tai-zhong-bei-qu-yong-xing-dian": {
+    "cached_at": "2026-04-13T14:13:58",
+    "found": true,
+    "place_id": "ChIJmVkaJvU9aTQRbBd0TVna6J4",
+    "rating": 4.5,
+    "review_count": 213,
+    "price_level": null,
+    "address": "404台灣臺中市北區永興街82號",
+    "photo": "AU_ZVEG9hB8gejfFC-tl6xF8m5UguiPtVrYPgijcrt5UjqscGjlNZm4gY8ODMzVRUa9v9Vj7MktMPKs43uTka4PjeE7hWmuoqccTVPFWmHhKToc9kmXAbZuWma8qzzqx6L7-mOFE40G_dfM7JyDQbr1t5bc_7Q_1uPfvD0pDcKVCkoJxAzheUEcb4hbX-4asc6agR-mkfzyag4bSSAfkx0sxOBLeQ6KBYBpg0FhvdUsqm0EzuZuo0HsDqb2K7whzgaeaOnti1qTdJa6doan2MOPRdIDCRpPDjVqOZb2wieb6HUo4iedcHANqyLArM4CVEs7NMJ2pt53_0tUXFQVvIZ8PdJVSzzOj5e0f8cX1ktp-TMKxvzeSkLH5Qpt_7FsgTvRPdO-OOYWlBp7aS6OyA-EPtgRgDLSV_grHDHgDNJeg9j8",
+    "summary": "",
+    "dishes": [],
+    "highlights": [
+      "👎 貴"
+    ],
+    "is_open": true,
+    "lat": 24.160811,
+    "lng": 120.682403
+  },
+  "fp-vsx1/zheng-zhong-pai-gu-fan-tai-zhong-xue-shi-dian": {
+    "cached_at": "2026-04-13T14:13:59",
+    "found": true,
+    "place_id": "ChIJk2tjsmM9aTQRSYeU6k9hSBg",
+    "rating": 3.6,
+    "review_count": 1971,
+    "price_level": 1,
+    "address": "404台灣臺中市北區學士路210號",
+    "photo": "AU_ZVEGWQsCvkWUbGVkm3UdA5MI__oRDcAe6hWDdXmAngDofXuRo9LVVnqQo2IPto7jufF90gsSgn2lLIQ1U1wPllmbmSkVze00OcqYidTbbbIUwe_Uhdwcth4eEk3cHTUxRN4fK8IDfeB2WlWqJohkx1o5R2TPjidjM5HSGWnfCr6N5ruwdydCaNlvPweiuSQe8iH--OEtglJbCvGv1R_cxur0tyzehF30AtB030Uu9WStTK6RLIUk3moJ0ZlzeECeXG_cRVHEFv87dISQT65TlJWl6jb_PYtRuZ7r4vyM-jpIt5hfpA6KPx-Coyi_ZXRTS7qFDHhQbF0JLqAxQvMz3EHfraM8s9Ff6dxOVvfmImp-U8UJqEM57rsgj6yE7-F40piMbE6bhZyi0tF6uA2e6zM_B6dJO5042L3eW7Wv7HeICsw",
+    "summary": "",
+    "dishes": [
+      "六樣菜了，還在敲",
+      "大比目魚飯，擔心",
+      "乾又鹹又硬，有時"
+    ],
+    "highlights": [
+      "👍 好吃",
+      "👎 難吃"
+    ],
+    "is_open": true,
+    "lat": 24.1602788,
+    "lng": 120.6811037
+  },
+  "fp-vhvd/da-ming-ben-wei-zhi-cha-tang-yong-xing-jin-hua-dian": {
+    "cached_at": "2026-04-13T14:14:00",
+    "found": true,
+    "place_id": "ChIJH6w-C8wXaTQRSjFawd_L0K4",
+    "rating": 3.9,
+    "review_count": 209,
+    "price_level": null,
+    "address": "404台灣臺中市北區進化北路304之1號1樓",
+    "photo": "AU_ZVEEt3gf8ll7J7LQNwNSWiWWxXTkX0gvpc22mR_g5_laU-WrXnMlwu9mEzE1BZqcIUO3T2QZMGP_zgn1EtnEWTBl04-NOTiOJkCUouh4NfgRBzFNSMwy2U1yirb9pel8o20D00cyUL6gmCdyM-LP87iOSzB5e1AkO46rVQomK3WeHNG_yvHLE2y70JUAwboNpHaR6GdKZzmTVTuV1PqSmZpQsmN-cPWs3j2LB057aksFbqmuPACPfIDtnLVvyrbuVH3pjlAOfpPt6dVnWmWsrxI9YSHAALUNTTvftb__AkAG0iV4vdyBsV2w8Ts4rd99KzrCdsgfs7Qp2bOcpciqTm7B9YITPLo7uOgx-tAYDD_jM89-xcmNXrbrUoDsDYRhkK__Myti25jdgU4enqq0DAV9eQzOGO59MkycbvR8Hl0gMsJX0",
+    "summary": "",
+    "dishes": [],
+    "highlights": [],
+    "is_open": true,
+    "lat": 24.1633221,
+    "lng": 120.6824359
+  },
+  "fp-kbpk/ug-tai-zhong-bei-ping-dian": {
+    "cached_at": "2026-04-13T14:14:01",
+    "found": true,
+    "place_id": "ChIJv-9qV3sXaTQRZs3PdRvz-eo",
+    "rating": 4.3,
+    "review_count": 251,
+    "price_level": null,
+    "address": "406台灣臺中市北屯區北平路三段107號",
+    "photo": "AU_ZVEFrsYEFBxsqGB93oiHKv-m7cVeHc7fxolhV7WajtiDXm-eInVdUl2md84mYDO1a7Ey3cY5A5Oybl6M8565tdGbQsDhNWUkSxxNmzdM1wYLudfGpQlRQIe19GDPglnicAI0NFVqP00od2eW3sBo1pLoet_aqmZdHwSpTZvnuBLY2oXlAjC7mo-Z7-5GNdu4GQZjRiPgE2me2rEUqmLZcHTyvL7xl5DovcKJAAYy10D3wxum26_5_xSPTZCrTM_-oi1s35dCj7j_cpabEAsCyOyCBMbQhKB-HNE76IjS6XL5nSg",
+    "summary": "",
+    "dishes": [],
+    "highlights": [],
+    "is_open": true,
+    "lat": 24.1711662,
+    "lng": 120.682734
+  },
+  "fp-y5ry/pizza-hutbi-sheng-ke-tai-zhong-zhong-qing-wai-song-dian": {
+    "cached_at": "2026-04-13T14:14:02",
+    "found": true,
+    "place_id": "ChIJI_r_jHw9aTQRJrqVPMeMwp0",
+    "rating": 4.7,
+    "review_count": 1856,
+    "price_level": 2,
+    "address": "40460台灣臺中市北區中清路一段326號",
+    "photo": "AU_ZVEEpwhIxNnJ3SPb0R5cCLvNXmoqa4anaFWlxjAWx_3ozCN_f8joGSCqtsFRkZy_7eu-P2_m615cyg2uiHBHxPWFjmSy6cCfH3EwaqyyD_tPklQJR1sIk6_kWP83YR4rpx2-5uzddPrPH1KCyDNwW--SCaHBvEDjUHMLrj0NbAl13C4bEqKSdJg5jCSMJvjavb5hntSwpHOo9LRJZyRwCBPaZpb2HG_QrRnpuXF7fAG092V7FTKJUvIGZ6ql-nHcMhpYF2po4v2GKW2ViBjbTIWwozHUQ755G4WFDoOn1EF5YmXckCAUkla2GV8gYjCjWdB3_P06JY4rl7NivA-ezXB9mSR74DTjHtyRrBSR9ZfGUDJwV1vhyp3L4t73QU4v8frAwIzQERMWQlbSlfsjBAhF8mjX4D4ayouRaJHS5W5mJTg",
+    "summary": "熱門的連鎖餐廳，以披薩、雞翅、義大利麵、小菜和甜點聞名，並提供外送、外帶和內用服務。",
+    "dishes": [],
+    "highlights": [
+      "👍 好吃",
+      "👍 讚",
+      "👍 不錯",
+      "👍 快速"
+    ],
+    "is_open": true,
+    "lat": 24.1606165,
+    "lng": 120.6755274
+  },
+  "fp-b0ok/50lan-tai-zhong-bei-ping-dian": {
+    "cached_at": "2026-04-13T14:14:03",
+    "found": true,
+    "place_id": "ChIJ6c9AndAXaTQRXKxWRvAh23c",
+    "rating": 3.8,
+    "review_count": 407,
+    "price_level": 1,
+    "address": "404台灣臺中市北區北平路二段168號",
+    "photo": "AU_ZVEFJznDedp5z29L7fNvDzCuoxTf2t-0uRbktLc7aeak09yn-Tf9ta-xFR6_cWmc1NbreyR4pYqT3U7HFpX8pwArp-ovdIfTzxLX49WzYeBRLxvSlrXA2lnTEGaC9tWGPU9iFsETlnyc60gmZr3PSuqW4X1k_m_Lk-T7BnsYk3VE-u52hCjZye1bTLU4U9OWW_xvwhjr07IOAs5ky1-bK1btBYjp4IRrSG9Y1n6WKk2mzTOWo5ReUFyItGjQPYgrVzxd37-VAdLaOLyUQBlCj7PUdWhdnI2SnlsoVsSyDUPhEqn1Atqiz0yObMPCWZuP6jLTeNLdL0t9McUYpnjVHELnZR8Iotkk7q3D7sgZz920L_ivkn2eGZFmu9svUKIJTqQnW3MDEBfSjxsbOfHc4RKxxER87rSBI4kn2rXoTrRswNg",
+    "summary": "",
+    "dishes": [],
+    "highlights": [],
+    "is_open": true,
+    "lat": 24.1712565,
+    "lng": 120.6774925
+  },
+  "fp-xgkf/burger-king-han-bao-wang-tai-zhong-zhong-qing-dian": {
+    "cached_at": "2026-04-13T14:14:04",
+    "found": true,
+    "place_id": "ChIJrYQFAc4XaTQRzBUiTpoE0cw",
+    "rating": 4.5,
+    "review_count": 874,
+    "price_level": 2,
+    "address": "404台灣臺中市北區中清路一段631號",
+    "photo": "AU_ZVEHhCUHFkczhIfIxLIVzqsCATx0NFqQBYFYvO20dnhR-lMdK6F7-jjcv9DtW4q8dW5c0ROQS8S0A9cMKIZELowB9flBhWqfU04wLsY3_1vnwEveCfKgt4c1zmlslXia9nZmKbbR5G_LWqvGEKN8_pE65MYdmHz6R352yrpmWXXMLDLfhDoj6YWiAURQ1LTRuPC22WLCtcfErwoaQWfiSzagQJSco7vZP-xfiymR73iwq9wlYLOPPI2R9ajy56N6aIhChKaHD28A6SRDWASV1aZ78AyAgpxlyZtZr6PE3pxPwHB2-JNaVhJmCtUXgzDXOxEj5poMLCV2x1Dm7jIXv2kauZhpAuU04bxMA4u_3J9xJgTunBhohB_jQXz2eVQRuj3YlfPLRPHegJcu_kUkav3S3MXIJlVL7xgAeEH0thhykIlFo",
+    "summary": "",
+    "dishes": [
+      "以買 第一次買 "
+    ],
+    "highlights": [
+      "👍 好吃",
+      "👍 讚"
+    ],
+    "is_open": true,
+    "lat": 24.170476,
+    "lng": 120.6719223
+  },
+  "fp-f1j1/ke-bu-ke-shou-cheng-hong-cha-tai-zhong-jian-xing-dian": {
+    "cached_at": "2026-04-13T14:14:06",
+    "found": true,
+    "place_id": "ChIJhaaeLP89aTQRTsidp0odmJM",
+    "rating": 4,
+    "review_count": 132,
+    "price_level": null,
+    "address": "404030台灣臺中市北區健行路606號",
+    "photo": "AU_ZVEFD-5y0miVAaETUHKR4XfGTFrdJW4kqA0yfpKC02n-Jk6YjrzNQ88zu1j7jN5cB_Jurqe7lRWTzlE55q4ob0Plyi2waIfXky_k6bXF0aGKWizT1Wcn-xgySCudRQxFY3CfAmDEECTEK5j7TKFzbOXr8eP_oB5yvNTxkLp5R66KpyyC9yMb-j00f8-yGct76GP_sC221Bm_8WouJpozIPU4E6PMV_pqTTlS1id-aq9mrHjuvtTJCDrs9OHPJhbESIwJDTaaAYJaNp03HeaN0oRtkwkbrNM202t52UkD0RrZN7w",
+    "summary": "",
+    "dishes": [],
+    "highlights": [],
+    "is_open": true,
+    "lat": 24.1593002,
+    "lng": 120.6767232
+  },
+  "fp-yv0o/de-zheng-oolong-tea-project-tai-zhong-xue-shi-ji-hua": {
+    "cached_at": "2026-04-13T14:14:07",
+    "found": true,
+    "place_id": "ChIJ9ViOdfM9aTQRPTK63EzOaOw",
+    "rating": 4.2,
+    "review_count": 379,
+    "price_level": null,
+    "address": "404台灣臺中市北區梅亭街262號",
+    "photo": "AU_ZVEHtC9kFN_AblsfP5grDwXD9hyVwbJNjSTotRPChCbYwbzj1G8x3QwuZJWbilnx7lml_Ivz-ChLYcsG7fxyYo8Korf5S20BqzkwFqtX--dRYUeXSnVXiNK8EKEP2nWypmZGvg68rJURUOZcMpk7DxZgztoXbZsp0gc84A-dZ9OBxdADbGgTkmjfltHmIkdG3P3gRlbgxxl9tTvIzaBZmVMtwT8m6Nt1sEseUrzUjSlwKGYXg5GseoEtZVTgchpyH70TY9AymoUVRsjBwYLV4jeT7WwcuD7RgfH3JXJrKPeez5A",
+    "summary": "",
+    "dishes": [
+      "服務、飲料品質都",
+      "下 邦妮服務真",
+      "好幾次 服務、飲"
+    ],
+    "highlights": [
+      "👍 讚",
+      "👍 值得",
+      "👍 不錯"
+    ],
+    "is_open": true,
+    "lat": 24.1603907,
+    "lng": 120.6811626
+  },
+  "fp-b0hb/san-ma-chou-chou-guo-tai-zhong-han-kou-dian": {
+    "cached_at": "2026-04-13T14:14:08",
+    "found": true,
+    "place_id": "ChIJu72mFNkXaTQR_tthKqwfLTU",
+    "rating": 3.7,
+    "review_count": 978,
+    "price_level": 1,
+    "address": "404台灣臺中市北區漢口路四段333號",
+    "photo": "AU_ZVEFHehFTGB8adiTr4EUCJhC9oEV2gt5I5eygL8FiNcr3rFdLMG66mDSG3zeK3Vis7HQ013hfliSe0MDYWmdtJh6Ur6jUF13WPZ461oscC4YO8GIIYA5P5omsncePLdsOePQ6sDajA7cmg6XUeJU4Xnu2OLTePIfu-7MWyskGQqu35R_i4OU1HdJUf7GM3cJ5jMb3YlfUdhCgzcU2yPsvA7VocQpfykggFgQcawr8X_VL7HcI0jQGQ5FgeMBWkLXl6ws_mpK9XUnAGhr8n6bocLUDaP3WDNylHgDWro_wxfTV93rtHOtq6izPewX9UAZwziGvV67tcY_cR3vDSiKVEKkWM3W22v3CeZHBPQl-BhghwF1pfoVx2B_t_kP5JIcGRRYYUqpXvBpJzVAReeU1MQA2S_ovwzWj7dbttO-G1yJaF5I",
+    "summary": "",
+    "dishes": [
+      "外送裡面的臭豆腐"
+    ],
+    "highlights": [],
+    "is_open": true,
+    "lat": 24.1671756,
+    "lng": 120.681587
+  },
+  "fp-zspp/sukijia-sukiya-tai-zhong-chong-de-dian": {
+    "cached_at": "2026-04-13T14:14:09",
+    "found": true,
+    "place_id": "ChIJxZzaNQAXaTQRXCPSEidTPKw",
+    "rating": 2.7,
+    "review_count": 183,
+    "price_level": null,
+    "address": "406台灣臺中市北屯區崇德路二段59號",
+    "photo": "AU_ZVEEC7JY2hbyeBvdU3H9t6D7_4V0YsuQb3I4x8CUMWmeZ-wRyUNnxR-qm_6M0E7L9gRADSloZMDEPUZnY4kCDbFhQlYUJY-IW15fRJydWRiLAtEUsOW0EyewJiY5Mxyn7eHJcXdVbfagA4cWdV7GDiRaZ5ypSyjWD8yaHC86IArnjEsQxD4ASbP6TNp-nWMF0QW3UwLb7ev8nhvQs60NFyj4xvTYsMQiAK_uFoc0cGI2Q5nF3nNUyvhbrjj-hOGT4vDcJqP1cv1FFjewXE78umfyj3kBzoV2D23_SpPCKx-EWfwAGtxFv2c3mcWqDywZzH4-rYJIkM4cL3_a487mNKOXsvCz_Qkz3ZcsUZMyqYQcrMw_gBGO6RCktJrLzmG5lnh3Q_YXX61iQcqzj08UdBXKzFjHgP5VRxo3uihmHUVlX0g",
+    "summary": "",
+    "dishes": [],
+    "highlights": [],
+    "is_open": true,
+    "lat": 24.1705017,
+    "lng": 120.6851482
+  },
+  "fp-bspx/lao-lai-cha-zhan-tai-zhong-xue-shi-dian": {
+    "cached_at": "2026-04-13T14:14:10",
+    "found": true,
+    "place_id": "ChIJBWxgAxA9aTQRDge7r2V-0pE",
+    "rating": 3.9,
+    "review_count": 98,
+    "price_level": 1,
+    "address": "404台灣臺中市北區學士路156號",
+    "photo": "AU_ZVEEzEFZSxs90edUh_NKvSUIpqbDFM5VMnMtnh1qd82TaR4oBF-CjdAmIx9GzHTkZiy7YvyC4htB4CKzhKZtpXcK4oLZisAoc0MthHXBONiO_2Yxqh83a1FF3srcvGQVBbdc3fFThXTmoEqPqRD-jv3CvgF_iYg4GmFMZATbbvAKODoyfEO-Fgsv4we0A7iEmectiZNyNA39K_AxsXxqMfKD74OrScvxLnQINQnK07hYISXUyxgfD_WDHmySJl0ogaCcZ7EKeyyzTmHDnUd5NUnrGw5dygNKgvJnwCXybwhAjUQ",
+    "summary": "",
+    "dishes": [],
+    "highlights": [],
+    "is_open": true,
+    "lat": 24.15873,
+    "lng": 120.681165
+  },
+  "fp-vy2r/lai-wan-da-chang-mian-xian-tai-zhong-jian-xing-dian": {
+    "cached_at": "2026-04-13T14:14:12",
+    "found": true,
+    "place_id": "ChIJC2eaXt89aTQRN4OAn9i2gvo",
+    "rating": 4,
+    "review_count": 205,
+    "price_level": 1,
+    "address": "404台灣臺中市北區健行路572號",
+    "photo": "AU_ZVEHOJRoWi5EhdjLO93uKUhPU7PPgq77M1Mk6Pty3mRwYWXBKCfVsvGnRyq5l53A-4GWzusKYLX2Z2kL6RTqYun7A4EwzYgyGsceOUtqtM9Vgxfv6Rj64waeWdNisqCnOHl70kMtclr02qbDE_7Mr053ifPMJgA-MzJSQjolJ-gemgN5PMpSUUwrEDQjZXDOEEQZOhoebwIWH7StX35KJLy_Yg8AkPIQvn38wOAF5784l497MrfbxvteWRnhWwLyLyy0ca6Mfzt3NDnUg1dKQaqovyvAze56gplYCsMABvFHGFA",
+    "summary": "",
+    "dishes": [],
+    "highlights": [
+      "👍 好吃",
+      "👍 不錯"
+    ],
+    "is_open": true,
+    "lat": 24.1593228,
+    "lng": 120.6779024
+  },
+  "fp-mu3p/wan-mian-pasta-tai-zhong-bei-ping-dian": {
+    "cached_at": "2026-04-13T14:14:13",
+    "found": true,
+    "place_id": "ChIJI8nQU8cXaTQRIv25oD4u-gw",
+    "rating": 4.2,
+    "review_count": 515,
+    "price_level": 1,
+    "address": "404台灣臺中市北區北平路二段131號",
+    "photo": "AU_ZVEGDHrXXgoxdiWjC3vWX-pJ0CiKH7ahYd6-mrHoGiZFl6WYcxHeE_afI8i6pdPhXTAZ4Ctn8VWVf1DZx9SZMJcY4ZWIqSD3-xfDIE0KcMq9BKKpCb2-w2qzQbR5-Ikp166hIY44uvX4BhXqtEtLVkhZm0oJPTEDwxHX_AsH4nTxbYetZpx6k4qz9WGhAo1aJl40DA04xBGOdRpB--K1C6ZZw4YZDme_gnyGrfVb4YPt3jbBJQ3GmlNvCRrhhUB4AlCUkVjvvjjIWiMGWUV_ba8j7Dq1RjIxKJC1LyEYxBiVieh_aQrPVMMfwNQ_4c3x-Cu5BBhcq8uz4PWkuuFtlS2keBDfgvuUFhYV5pw7Ugew4JYtz3Wb-NICA38L5ZqZjUYiHb20euXGUCLaKi3mxIvXsYMq1k1JPcppsPTd1YK8BGz2L",
+    "summary": "",
+    "dishes": [
+      "失望，每個品項都",
+      "義大利麵，不會說"
+    ],
+    "highlights": [
+      "👍 好吃",
+      "👍 美味",
+      "👍 讚",
+      "👍 不錯",
+      "👎 失望"
+    ],
+    "is_open": true,
+    "lat": 24.1714663,
+    "lng": 120.6774151
+  },
+  "fp-wrrn/shao-la-jiao-fu-zhong-qing-dian": {
+    "cached_at": "2026-04-13T14:14:14",
+    "found": true,
+    "place_id": "ChIJCV8YdAAXaTQR5OZWhmt9324",
+    "rating": 4.6,
+    "review_count": 565,
+    "price_level": null,
+    "address": "406台灣臺中市北屯區中清路二段120號",
+    "photo": "AU_ZVEGDoFs7_oHnzQ6BlXwCwWLKL48h0evip4hh07Zokspq6zTGH_sqG8Ht9JnGofgK8ens99kLLn4vwDPwte7hFVPeLtPR0qCme7vxAmajwa2nndajFNVxWtySncnjBNGZFOn8_KWuS7wkGJHdmrhGaOY_jD6vmU3r2Rl9kdWGLPRqNRNF7-IRLcVqvidYilLGMttRXFXpNaY8zfehFczEwtc-gWMG9WU5v7fMlBpNs_7-54U9BrfRD5ibz2i7Xdwzi_yDZbN0pThRIHpaYfA7R64-35bMkAmO73PIPNDAzpbvWQ",
+    "summary": "",
+    "dishes": [
+      " 叉燒正常發揮 ",
+      "務好多了！ 烤鴨",
+      "姨口氣、服務、還",
+      "不是因為燒臘教父",
+      "硬，今天的烤鴨不"
+    ],
+    "highlights": [
+      "👍 好吃",
+      "👍 推薦",
+      "👍 服務好",
+      "👍 CP值高",
+      "👍 便宜"
+    ],
+    "is_open": true,
+    "lat": 24.1759227,
+    "lng": 120.6706404
+  },
+  "fp-duyl/qing-xin-fu-quan-bei-qu-han-chong-dian": {
+    "cached_at": "2026-04-13T14:14:15",
+    "found": true,
+    "place_id": "ChIJDSjcJUIXaTQRTKTwjAf2Leo",
+    "rating": 4.6,
+    "review_count": 79,
+    "price_level": 1,
+    "address": "404台灣臺中市北區漢口路四段238號一樓",
+    "photo": "AU_ZVEFbc734v-j2ZC5Vw1pEMvZg7YvNKsSaHxCirbNFwWSG5cPxOgyq77hMBWsAvFrt0R_5ogqvEX0FUKoWAwojl3CHTH1Fy_nNVzkF0GuuTIAHIDeG4iBkKVuY7CNmAdOPvEJ2lcNYr9XeOExyKqfqEnc9Rw5JQIy0BkgcC2SGosUDnvZSGOKBEKa5cFF5Wn--mco-XM0ZAv0-EB6yPWW1HIsVmic1Ypm6-T3VmoRte55EfbaDhi1HbLiRR54DAzgvEF0_c97j9XCn--LtWapivHuoGWUJUUfFZAhMCCGakSpAQw",
+    "summary": "",
+    "dishes": [],
+    "highlights": [],
+    "is_open": true,
+    "lat": 24.1668699,
+    "lng": 120.681331
+  },
+  "fp-bwpa/cai-wan-colorbowl-poke-tai-zhong-bei-ping-dian": {
+    "cached_at": "2026-04-13T14:14:16",
+    "found": true,
+    "place_id": "ChIJRR7_Mx0XaTQRMWrWkSTr_9Y",
+    "rating": 4.8,
+    "review_count": 1256,
+    "price_level": null,
+    "address": "406台灣臺中市北屯區北平路三段78號1樓",
+    "photo": "AU_ZVEGPmxGF7msPCRxBovtDjER1w8UbOw21jw3IRQNcQFBzfkvDFb6N6vc2_6Nqieq1YkVqCdoA1Q7krQ1V3Ohv5rlxabZAc2NOER36tvnvyBxHGGPon4ONpvcZ8QsY5CE1C0aDXgQLgdzDMwrOZuX7291JIrQUP-4m3Cl55PH0xiOsadQD5I_GECV-oTRQQS3cuzwBxM1jcLW7KgKZ4TTQvH4xrf_bw6MDIp1HwDrH65O2zNdVzihC3IzLE0r5ikMJOamNNXkTKjRa6WCKFoekIt4P_x56NE12HXYfHWPGR4muW2L5AckiNr0UJM8esMbVNujqv2fJVfrE8lbs7lbqbMbJu7AfizXWoxE2AIs2hgsUjs5-YsxwvnabKJuDv5JQDsWoW3Y6XPWQTDBuPY4Vg0rc17WmhFAKHyPiXcy1qOG-Gg",
+    "summary": "",
+    "dishes": [
+      "飽的健康餐！  "
+    ],
+    "highlights": [
+      "👍 好吃",
+      "👍 新鮮"
+    ],
+    "is_open": true,
+    "lat": 24.1709263,
+    "lng": 120.6820369
+  },
+  "fp-b1wi/starbucks-xing-ba-ke-zhong-qing-tai-yuan-men-shi": {
+    "cached_at": "2026-04-13T14:14:17",
+    "found": true,
+    "place_id": "ChIJoVtLUNEXaTQRyxwLqHwLJg8",
+    "rating": 4.1,
+    "review_count": 1704,
+    "price_level": 2,
+    "address": "404台灣臺中市北區中清路一段510號",
+    "photo": "AU_ZVEFEHLUc_JzDzsIMQ3Qb0fCeSQYFLZ2x28EbTop13IgBa8243HOJeevlzUZuTeTnI33LQx-oHffNosowtm7Ixda_ESTg8vqRqxZYZS-B3ussB53yUCzayw133UWeVUBOQcIkf066e-J3kZF4w98MFSj__0z8kmh4CJJ9xrBzJclTU7KfU6OXhjcEoQiaElX_UUL5gBz4Iy1Mygg8Rirk88CWNlgqxCZO3jiR5xRVVwFgXvH8OyBHXndPe0joIHxamK6IF7r-9Zo_93Wf7wkPJf_M8EZCn9sQu6quQCqd4iMPVkwJPD5fIjdzAmu4TkXcFMbkSSsWPNXAC-3qTSaFmCSPd5t3ezPDHqNRF653q7YkYqjGD2weT2zguWC_yWu8fsrbxonG3mT0oFaXhEkoqb9pqlNd_AmLoXWegLwpEFbMOtVU",
+    "summary": "Welcoming coffeehouse with handcrafted coffee, espresso & tea, plus breakfast, lunch & pastries.",
+    "dishes": [
+      " 環境清優 好"
+    ],
+    "highlights": [
+      "👍 推薦",
+      "👍 值得"
+    ],
+    "is_open": true,
+    "lat": 24.1652407,
+    "lng": 120.6740567
+  },
+  "fp-mfkj/dan-bai-he-zi-jian-kang-di-qia-can-he-tai-zhong-bei-ping-dian": {
+    "cached_at": "2026-04-13T14:14:19",
+    "found": true,
+    "place_id": "ChIJCQU4EwAXaTQRS9i2f3LZsvo",
+    "rating": 4.4,
+    "review_count": 158,
+    "price_level": null,
+    "address": "406台灣臺中市北屯區北平路三段124號",
+    "photo": "AU_ZVEHYY0OHr9dIsCrRb89ulBrqPrSstGoGYcCOInKMr0_3fawDIwCmJimmjlLX4AwpfPljEEHvemVMs-1vC2hKR0MB-qmL2kHDYyJA8YmIzz7HrmC-Y19JA7tUfh6d8SXn_dEc5NImeUriZR32WBQfcQUIM-qMugOLw0VfRJ5ZnPdAbp9kbhjjf0VavUcWfpvL4ozPGfF_wekx6vE1-T7tKT5SpOtFV4q5ul4EpuJchZ3D2BZHrWGTaVzSc4rADehnqTr3eQjN-j8WBxJVxyMawJ9Sq9bAufeEO5Bw2ZfV4JMhwQ",
+    "summary": "",
+    "dishes": [
+      "小豆腐",
+      "給別人。 減鹽味",
+      " 減鹽味噌鱸魚"
+    ],
+    "highlights": [
+      "👍 好吃",
+      "👍 推薦",
+      "👎 失望"
+    ],
+    "is_open": true,
+    "lat": 24.1709022,
+    "lng": 120.6830741
+  },
+  "fp-orl8/mu-xia-bei-qu-han-kou-dian": {
+    "cached_at": "2026-04-13T14:14:20",
+    "found": true,
+    "place_id": "ChIJ_3JQWD0XaTQRpV_9tagvaIw",
+    "rating": 4.6,
+    "review_count": 180,
+    "price_level": null,
+    "address": "404台灣臺中市北區漢口路三段188號",
+    "photo": "AU_ZVEHxmZsmxO7EoOZKXDgjAQ3k167fjWugk0U6PsfLhQ5geu_l6zxBlGmcWtRrhlPQhQdw3liTS6lk3pxwQSTucZn0Gher4JIyaY7VVVa21PpQjmMgrysNqcVwgm6QCgiZuV0JxxPJhrPAjfkWv3nd3NHiiR9ySoMlZaHMLiqSA70SADAQGID_R6LfqSOYHrlmvapWu-V4swCHMq5Peny8p15GjgAVBvwt0T03zXMOpiiFGKIHf4yRKFWbQcDu0rJrwroV4LoAO1GZTbGVb-WKB1dJGvXEbBh7nYWgzbksL23Zrw",
+    "summary": "",
+    "dishes": [],
+    "highlights": [
+      "👍 值得"
+    ],
+    "is_open": true,
+    "lat": 24.16678,
+    "lng": 120.6724472
+  },
+  "fp-qn16/shi-er-guo-zhong-ming-da-quan-lian-dian": {
+    "cached_at": "2026-04-13T14:14:21",
+    "found": true,
+    "place_id": "ChIJQ7nnDN49aTQRqiGLlRe_0iY",
+    "rating": 4,
+    "review_count": 104,
+    "price_level": null,
+    "address": "404台灣臺中市北區忠明路499號",
+    "photo": "AU_ZVEHG3JrAzTFGMuJnlXgd8WvKcT3TdFIMJeaMmIGkhz6HEP9qPBeBK8iHORTKz74INnBgXIjQ5J8Sm54YutRNt86lanoTILS5R8dcJNT-K5z4xIBHxyTgUdGUAR4wSYao46545LkHMns1nKmaW1OoMrRbs4FbxHNX3zAMBY8C4O8gm3s2OmjfjZ0ZQPGG-11K_vSHkRjxNXHqKhyo1nhObp00D1rMbOUseUZVB3igSw8Zx-s9lhbEaQ48oc2C6nnbJJ2ZJvsgpQLVV1O6LJ81jpKDzgC9B1fDDKvjeokaC60fWT3z1eP2_DIVd5ql8Xgxy9vQgRlHS9uXmYn5qvTghumDL4z9fwUS4oGNoeMtZKZObaGEEG-7yKokbW-ZZXKto97EmsfYbGeojgvJQ_e1RY7EJPdKPVXKHOY8p6XbRvK7Q5ktrcqSjt_hVtvgbTEu",
+    "summary": "",
+    "dishes": [
+      "內明亮舒適，餐點"
+    ],
+    "highlights": [
+      "👍 好吃"
+    ],
+    "is_open": true,
+    "lat": 24.1633337,
+    "lng": 120.6719347
+  },
+  "fp-y1bm/subway-jian-xing-xue-shi-dian": {
+    "cached_at": "2026-04-13T14:14:22",
+    "found": true,
+    "place_id": "ChIJvcXbxmM9aTQRUqG2lmfksJE",
+    "rating": 3.8,
+    "review_count": 652,
+    "price_level": 2,
+    "address": "404台灣臺中市北區健行路406號",
+    "photo": "AU_ZVEE1kVH1zn7iXaTHnZtrn-Jaogw5WxidmLfSDjUOyUjONqmA9hegVCLsDBR61DOMPotuYWpXrN9lRGuDQACKnjUvDIDc1BmE4iUnc4bsVyERRhn8j-duBH0SUlEtOtddJGgFKDR_vB5XBKX9-oN4CVwWtEOQOkDAwbFfQuDb380wH69X4U_aLtG1kVKEiUbufQUqw0owhrEMDMJdVA3l2CfMqYRb_tA0K2O918vyv75FcoHlOhVGB2ucpj-V_KpmBABWDbM3pwVWESOb4oZ32F6hwktQ4Dp4ZjZFvNbwJVmThw",
+    "summary": "臨櫃點餐式的休閒連鎖餐廳，可自行搭配三明治與沙拉，並提供健康飲食選擇。",
+    "dishes": [
+      "做餐 食物新鮮又"
+    ],
+    "highlights": [
+      "👍 好吃",
+      "👍 新鮮",
+      "👎 貴"
+    ],
+    "is_open": true,
+    "lat": 24.1592041,
+    "lng": 120.6820481
+  },
+  "fp-p0p6/hou-dao-zhuan-ye-e-rou-fan": {
+    "cached_at": "2026-04-13T14:14:23",
+    "found": true,
+    "place_id": "ChIJJW6Ox7U9aTQR-aDcWRyjhBc",
+    "rating": 4.7,
+    "review_count": 172,
+    "price_level": null,
+    "address": "404台灣臺中市北區柳川東路四段116號",
+    "photo": "AU_ZVEHnK782VVYz0jp512twHWDginSM9P5uKbm9hCHvnO5Cf_5e6mg_M1iCVyo70aCUyANeccfNOjl-wC1je9cmysYTUjIDqS1YygqAQaDGIm262vxe7_087cBjXvZFLfxYlpUMWDg8j7T3yeTkzmHrJWvBCRgWm_78mxVD8RhvReLTe37MHQOH_MCfyPazlG2__eunVUgMKPbeL7e975RiZ6b00SUkCALHt1z7TZnsPjUbo5gS56coWWHnnWtnsrxUpCS6stDIHD1HZN4V1UFwQl4CspDu8PTIwsPE5zYt2yauzA",
+    "summary": "",
+    "dishes": [
+      "👍🏻",
+      "吃的啊～ 鵝腿飯",
+      "0分 鵝魯飯超級"
+    ],
+    "highlights": [
+      "👍 好吃",
+      "👍 必點",
+      "👎 難吃"
+    ],
+    "is_open": true,
+    "lat": 24.1551441,
+    "lng": 120.6815181
+  },
+  "fp-i3xh/home28ka-li-tai-zhong-bei-ping-dian": {
+    "cached_at": "2026-04-13T14:14:24",
+    "found": true,
+    "place_id": "ChIJKzzbmO8XaTQRHpsliokcZEo",
+    "rating": 4.4,
+    "review_count": 708,
+    "price_level": 2,
+    "address": "406台灣臺中市北屯區北平路三段79號",
+    "photo": "AU_ZVEGKcZcnNtML1_hu5N22nRkNY8fe8lT5cFXo_PFg_DJD1YJuaRhe8tehIedrUxvH77eD7L4UsHhvxcmgDEiVyg_a5wn0Y_jKBTd9Is9glbQhP11KZse8TGDCzYyZcHpEkhpH0aqTOpnx_aai0YzKoaMor-I8DC-4IB9DMNQYy5xhU8KFP0NMArVcN1yMu1gMUeMRDvvJDyP112M1Qr1fwFGmaNO8LYNEUpGpO2oUqARlMx8fpYOZOH3_mI5E2Y2KZVLTCG4wmZeJosThbLKBCuhsbWLSBA7X4iu-k1-Pf382WA",
+    "summary": "",
+    "dishes": [
+      "雞肉咖喱小辣，還",
+      "外帶，內用"
+    ],
+    "highlights": [
+      "👍 好吃",
+      "👍 不錯"
+    ],
+    "is_open": true,
+    "lat": 24.1711733,
+    "lng": 120.682091
+  },
+  "fp-w5dx/de-ji-yun-tun-mian-guan-tai-zhong-dian-m": {
+    "cached_at": "2026-04-13T14:14:25",
+    "found": true,
+    "place_id": "ChIJ9Xm3CiYzDxQRerhlNNz0ICU",
+    "rating": 3.7,
+    "review_count": 518,
+    "price_level": 2,
+    "address": "403台灣臺中市西區博館路143號",
+    "photo": "AU_ZVEHXazUQReBX8ziP50QqOXCiME0iOh_ObPHiyCfLO-7JxPp6Wqui5A-MwTsAN4QQsxhPLkiIcT8OV1-78Y4l3T7VH4mEYRjyN0_LbpJGsqP5GMd8mR4yy2L2oBfImlV8SbWPQgkxzEw-WHeKGYHnrd3mb8VCmIib5s_uP8aVsnn6hx94ssW0S9sUi2wWht3F-vHV_NAdAwkcVQ0accbBSdoB4YVMUwOxnKsYTQ_gajv5iRz2G0MjTZ6yqGxFq7EGeEI0CgbiER0BK1t3Dq-DdamoFfysSO6fqdYTH_8CPZpZ-mjdWd5EsN7iP3T-VJ6BNFWlcMP08bvcIjOEvVaRdfUx2ePzDya2aTyEY114yYbevl3dSB3NPe1njzxI0Ha1sufaMpY4fhaoII40zdbqaJkVwE1Vhe1XdKUyzgGih0cwgQ",
+    "summary": "",
+    "dishes": [
+      " 可以點飯 非常",
+      "每次都覺得也太",
+      "吞雲拉麵 想吃",
+      " 非常好吃，乾麵",
+      "蜜汁叉燒撈蛋麵"
+    ],
+    "highlights": [
+      "👍 好吃",
+      "👍 讚"
+    ],
+    "is_open": false,
+    "lat": 24.1570471,
+    "lng": 120.6642041
+  },
+  "fp-w4uc/chi-lin-yan-xun-xian-shui-ji": {
+    "cached_at": "2026-04-13T14:14:26",
+    "found": true,
+    "place_id": "ChIJXa8LWqkXaTQRKgUypia0V8M",
+    "rating": 4.7,
+    "review_count": 191,
+    "price_level": null,
+    "address": "407台灣台中市西屯区文华路135-1號文華路127巷內 冰火湯圓旁",
+    "photo": "AU_ZVEFzdhn5rzMQg2ulJulbJulMd2PCTfYL8U0iOfDXXhgsxZL5Z3XsEeuCmfPllkRVQeVJODeCGgeWW-Dzs07W9sjvx2aJR-zcjho8XcCPUF01JrVaUv71w6IPKoBaL0ok9e-71A0580EdxwO_pAeqTAMENQBUxD6izeAEO7WPy3Y5yVweu-tTkryQzDt-s3kqnK6QX9JzRAMkOC8OMK9fBap6XRf5UsmJOgIaO6z8Zx9SpZVcdKte0dZ8dbKVRl9KpALW4FHD133Tt-HXHL99unZDq0RiiVBf07PMcwEui_3TYA",
+    "summary": "",
+    "dishes": [
+      "超好食，超讚 超",
+      "鹽水雞  "
+    ],
+    "highlights": [
+      "👍 好吃",
+      "👍 讚"
+    ],
+    "is_open": false,
+    "lat": 24.18046,
+    "lng": 120.6460813
+  },
+  "fp-w9ee/lan-ren-yi-guo-liao-li": {
+    "cached_at": "2026-04-13T14:14:27",
+    "found": true,
+    "place_id": "ChIJVdcHlsmpQjQRNzhCR2lg4a8",
+    "rating": 4.8,
+    "review_count": 1208,
+    "price_level": null,
+    "address": "104台灣臺北市中山區長安東路一段19號2樓",
+    "photo": "AU_ZVEFgjHVGz0jVKGhVRKMVBy5mn_bM34JqJ2PQ_hfn-DMocFGBIUdJaPGDKQ-pDVgYK0vLxn52JjBwlu-JgLnoe8nq_rB4Mb9KMbXtgMMRUfsSyuEq8IJAg0DAAmfPeKtHWeYL2I5ty53ZfUncE6Ncxow-mHglvszscSjm25PoFRGyxLbSPGNxv6iH35uYyPNpOnAsu_7nYHdRScLtJx9yZfIbVRvm1U4gpLTazhzWL_Oe09fjEm9Yz15jFPtoYDADK45ReC4jAyVFnrFyX2nOMg-MPlNhtlPN3q_2e7a0FbFHrg",
+    "summary": "",
+    "dishes": [
+      "韌韌的 沾咖喱",
+      "費 員工人態度還",
+      "芒果酸奶昔和咖哩"
+    ],
+    "highlights": [
+      "👍 好吃",
+      "👍 推薦",
+      "👍 美味",
+      "👍 不錯",
+      "👍 快速"
+    ],
+    "is_open": false,
+    "lat": 25.0497328,
+    "lng": 121.5231167
+  },
+  "fp-a6bi": {
+    "cached_at": "2026-04-13T14:14:29",
+    "found": true,
+    "place_id": "ChIJI4gJYsurQjQRi2mcgps7j4E",
+    "rating": 4.4,
+    "review_count": 2203,
+    "price_level": null,
+    "address": "106台灣臺北市大安區通化街62號",
+    "photo": "AU_ZVEGGMS3XWIv_tWm0qYjsjKafleyxYPcNzYWZ8S_vfE-1BApVNGDZwZCQpNTXPZsetylmVK01i_uFJfJjNoPDm45qxEAPOZ4KC4-1uK1ossid8lBm6o0ult1bHQFih7fUizOqAx0LE2MlVV73X858qgt6hT2iXLTay8RW5z3aMRNtuIPE77lw2H5MN6ptVjiqDC0fnrqeoNQAuItQCjVIFsVkvfkQ7LIwj10p3VH_4YThLCiKRWsh2sapxHO8jsZemtvjY5wsU4vH6MN78ALL6HxunvlRC1fAL1N4LP74d2p8bcbJmP0gOVr0OvvdM3CgB6Jnhf5Dg3l_y958TU0Yso6ycguni8OtVGCKhcADG4dky-47QhVI0T6DGetkbEQSNl7XsR04L8KAF5roCexVl2JNly_AKWXwTRX-MgRqju8Ocw",
+    "summary": "",
+    "dishes": [
+      "份量少，沒有特別",
+      " 服務用心 食物",
+      "   滷肉飯-"
+    ],
+    "highlights": [
+      "👍 好吃",
+      "👎 份量少",
+      "👎 貴"
+    ],
+    "is_open": true,
+    "lat": 25.030525,
+    "lng": 121.5541248
+  },
+  "fp-f9ss": {
+    "cached_at": "2026-04-13T14:14:30",
+    "found": true,
+    "place_id": "ChIJDw3oEJ2pQjQRdDHV1cDJmkM",
+    "rating": 3.8,
+    "review_count": 8982,
+    "price_level": 2,
+    "address": "106台灣臺北市大安區杭州南路二段19號",
+    "photo": "AU_ZVEF6FUPWHK_LuG4QGWqNn_BTs566m_F-19otubE_mzheHezfFmGQH69BxkfXOZv_6V_3uXtZXit9uz4mrNEMaCOaCyaSKclA0fzFmxHa5w23cdOnAlLilK2m1FedgNT49NOs2cQnY0QqbNukbjBe7xib5CHumqa-_ftukTY9ij9HTTM9oNJ8gNB4UGA9qqupFpoZ0jmbGG-QJhjOIxDKyqOMLWuOsKU_Z3oHfCZBoHpN11SYKnRIKbUPRAz3lQy2_oln3ovovk6dd52_Dfy_ZQNoqY-2R9AeZ6QGhEdXl8fBu34Qj_lBEXrXddNzTm5mh0l2Qk_x7GOJOTrFNOMGKKPGzMwIc-nGz3CRlbpGnd2Dr4yqPa2Lc4j1chQt6lFOzvbjwlHHMhFR3jyOtIn1s9g2SkwqC2zFdmKFoZ4EESitm-clSwRgaDRObCOuxEle",
+    "summary": "主打餃子、湯品和麵食等豐盛美食的休閒餐廳。",
+    "dishes": [
+      "裡的小籠包真的超"
+    ],
+    "highlights": [
+      "👍 好吃",
+      "👍 新鮮",
+      "👍 美味",
+      "👍 回訪",
+      "👎 難吃"
+    ],
+    "is_open": true,
+    "lat": 25.0340691,
+    "lng": 121.523723
+  },
+  "fp-f8ph": {
+    "cached_at": "2026-04-13T14:14:31",
+    "found": true,
+    "place_id": "ChIJu98loqipQjQRF3IXpB6aGI8",
+    "rating": 4.8,
+    "review_count": 24483,
+    "price_level": 2,
+    "address": "100台灣臺北市中正區濟南路一段7號1樓",
+    "photo": "AU_ZVEFdjSqIEvUOaOg3Gx6SU0HXv8syEZlHc5-PJ4kSxiw7uCjZ24hdybG9LGA3FFBt3GOAUrbYJk-brylczCNstbLm3hUDx1nX4C9K6my8U5287eeDaSaNXjSFVfCuGVUNKYNgF9OkIqZiSbsQ1KNSKYxThUMi3u5Yoo-kZBEn6MyMm0Mirnlo-aGj7fQ90dxlzvWlHc5HiXLidi90drKjrzqbeIs_JEueHqM8G_ijtlyiN4TRGjQoTfguFrh-Z7yv9qxzP2mn_GT0PARKo9BUDhtyS3Q8bIe6LA6nv0HlGsWtzg",
+    "summary": "",
+    "dishes": [
+      "準之上 沒得嫌 "
+    ],
+    "highlights": [
+      "👍 好吃",
+      "👍 推薦",
+      "👍 美味",
+      "👎 失望"
+    ],
+    "is_open": false,
+    "lat": 25.0427329,
+    "lng": 121.5219127
+  },
+  "fp-e9bi": {
+    "cached_at": "2026-04-13T14:14:32",
+    "found": true,
+    "place_id": "ChIJrevViQOpQjQR_KRia7_dV3w",
+    "rating": 4.2,
+    "review_count": 538,
+    "price_level": 1,
+    "address": "241台灣新北市三重區自強路一段61號",
+    "photo": "AU_ZVEEYEnEsP670LdLlawWth8LzHkZLwuLjvaz99tiOLLgxRCyBmU5ZU2savB0sCJas3QjWO9_yQzK4RjG3n3_AJ8Kt9kGg5d2fQ1Wjxdt7fZ9eAU8lx36xGpzfY36og0BfTmCsDBkNBnf_okKNvRyhJsSl7jniABrokQWtVK4GseFknDr4xGFzMTjf8OXWsksuN8NHYmUNncJJA92P-Uk19rpPHXor_sYswZCZHg4fsFrQrTjl7gehcFqiKLxn7fjgEHIIAazArhlYDNuoUrJNhnYdHlEPm6ryqCDIXL_blNGImKkdGktP1zLdx8yIOiwTMC7lt0WTsIr9_9la9nIBOWl5hA7jYupg-cufKKwIS3hcy3tpP8JUwQwNDrBp5uNOD8lEDAIIUQcdG2IjrvZ4ZEOnoShUgnFHehYdFAT99OuphXq0nvYmwS5WUSZ4aw",
+    "summary": "",
+    "dishes": [
+      "吃飽沒問題，排骨",
+      "當🍱搭配排骨酥湯"
+    ],
+    "highlights": [
+      "👍 好吃",
+      "👍 份量足"
+    ],
+    "is_open": true,
+    "lat": 25.0673522,
+    "lng": 121.4977178
+  },
+  "fp-a7xw": {
+    "cached_at": "2026-04-13T14:14:33",
+    "found": true,
+    "place_id": "ChIJZ7PQlzepQjQRtPU483oLxBA",
+    "rating": 3.4,
+    "review_count": 92,
+    "price_level": null,
+    "address": "247台灣新北市芦洲区信義路300號",
+    "photo": "AU_ZVEHvqSl2TQ71n0HdlU_1vJCi7mJNjeNbb76k5C7ldIgt5Y3X-HXZOG3qsJcvDW4cd_rOvs0DVu_CAO3PfRPtjzf5DVdutC0ytGK72yU0Afmr31VblFHgeS9OlYnXFsAeiAI8-S5bgBDee3T85NWni_rwiEttZpp6lJtfYvlRK0EW8RA7bp4x68FdHoeoQshLNcNRFwPdmIo3nXV9XQvHdOI_6HguwTB--z59ZbBmcTTAHcYXX3V-_5YdTWAc3EyjB7k5Nv9H0wFIA5JtDL8ImUe1HuJv5IhUWdKy3MwytPBnYl7JsHkhwhq3v2cI4-Kecue-heBqy1Y9MRQTl466Dq5B9ty89JWfTjWx5TT23AFIPxdo1kPRLyOmuvJ2q78NuVYimzgmgFBA4ZSDIW1akAFAvJhtWtx7Y95XBLMDOaGV21wa",
+    "summary": "",
+    "dishes": [
+      "傻眼貓咪，餐點不"
+    ],
+    "highlights": [
+      "👍 好吃"
+    ],
+    "is_open": true,
+    "lat": 25.087696,
+    "lng": 121.4775779
+  },
+  "fp-b7mi": {
+    "cached_at": "2026-04-13T14:14:34",
+    "found": true,
+    "place_id": "ChIJMfkFPN-pQjQRlZAdZR6-GiU",
+    "rating": 4.2,
+    "review_count": 1739,
+    "price_level": 1,
+    "address": "235台灣新北市中和區宜安路142號",
+    "photo": "AU_ZVEHXAyIfVkqygiv2cZV4u4GSFoRwgSDKDI7EDvymfaUJtust8GD09gDbTyBNdkbf0mFHj47dRTfYe1Ix-u9TwmyvOafN0WUTKqYZIeBP6M88V9vxZwUO05skAzu3MYuDfdZJzAXSZsbFKVJNkoCU8ETNI-U1KqOxez4ago2YuvTmtolHv-BY_qZ2Zu_GOWQXFGnrvqIQFJsqsgGFNG8gEekvFOt0RvVspW5uKMMmYwUqOnTKm_N64U99jKkpsD8El4DrlBgfzA3aYdV1Whg6UpNgnfPTCwhIpR88LJ-ds2mDmbrH0s2vPIsXMlMqAGJ6Hyq8GUomc3_8Tj0A2AT0gfYUsyhpd5ec79y7rVIkSw-RtXTR2Lw4fAYsKa2vmR94nBUKuKAxLSujGgMiqmS5ychuzIMK_Q-boqDxcIR9Kw-ZcQ",
+    "summary": "",
+    "dishes": [
+      "好嗎?  蚵仔煎",
+      "煎好吃，如肉飯"
+    ],
+    "highlights": [
+      "👍 好吃",
+      "👍 讚",
+      "👍 不錯"
+    ],
+    "is_open": true,
+    "lat": 24.9985296,
+    "lng": 121.5096248
+  },
+  "fp-z1bz": {
+    "cached_at": "2026-04-13T14:14:35",
+    "found": true,
+    "place_id": "ChIJcWUPVompQjQRuzEtjc4QoOs",
+    "rating": 4,
+    "review_count": 6265,
+    "price_level": 1,
+    "address": "106台灣臺北市大安區新生南路三段58之3號",
+    "photo": "AU_ZVEFxwmMGAHobsfi9FSKXUn3rOc1EaShuVsrY1SxpBWve8dnNZiJRJjHQOXsdKTRX7VztnbOQsyVyqH2uodlhf2HZBEACOoKmUZswmX_O9D7K06A4J7JRPk9DqQ9McdYupnEOf5pdd6dvuB5411vDw3xPSzP2l-40vUdYxmVazJCTgyG62BBhzC0C3DokB4jyvOP6qRTcHrfNjQGsEmm8QAvrmkGEzrpoqbbQVlU0x8KdcZOhyURXmpNA3lJChsNZZlYcU2Xa4L9SAiICdHdOX-1o9mVBYYEmm9eGlZFQQJhLJ17R3NRX01ExsRORqmO3ycaEF6fheQ45BYRROrOad7mGoKxCoGl8dCHcM_uXQ8K-QcjpHyQ2nnxhh9AEw9G0FCYTXds3dteqXoB6dChXnVO6xZ500CCJUtYUX9fqE5xKnzKzW-39zlUvM8UQtzGK",
+    "summary": "質樸的餐廳，供應熱炒和麵食等傳統菜餚。",
+    "dishes": [
+      "格實惠，味道也還",
+      "雙拼肉飯（炸豬肉"
+    ],
+    "highlights": [
+      "👍 推薦",
+      "👍 不錯"
+    ],
+    "is_open": true,
+    "lat": 25.0202791,
+    "lng": 121.5338184
+  },
+  "fp-f8ta": {
+    "cached_at": "2026-04-13T14:14:36",
+    "found": true,
+    "place_id": "ChIJ-bIJXaeQbjQRBlsPVLME9EY",
+    "rating": 4.3,
+    "review_count": 32067,
+    "price_level": 3,
+    "address": "400台灣臺中市中區中山路20號",
+    "photo": "AU_ZVEFZDY1cjvJJvrS11sfhpptDRwS7B-I_zxioEyu0UJvaI6MS-kZiNDjSy2uKtlzvJG04wGaWUcTqCbPQ-YVY0uQVg0bJcI5_dV1tzeWB09E5SUY5vpaT6FMZ0TRuqbpjhsrV-YJLolfl4ZrJ1HHi8oRx9Gmr1OMz7PtYuwyAYT5v3RKzEIzaWOJ7Au5VPyZ3g3v1fHb6m72EBHQnxHGXwphDv6oiSKjRFw0EdbmjbPmWFJU2QtBqi53EQvnJaTZo4NUNj8F60P1Y6hfuoKbK2vREIA_-MgY_JKPe9h8OVpLpodUr-5tWicfT3MQ_RmvSO3wWAxXZcHVbP5wAx8oj7DZAFAwCwuikgjx0babE91LVqY51kMbSfPDcLSF6o5ms9yPEC-FxIwKXedxKUpHpAkQYe4vTsaqMCveHxggtHHvDaeSB",
+    "summary": "位於典雅歷史建築內的高人氣冰淇淋店，提供各種特色風味的冰淇淋，並附設餐廳。",
+    "dishes": [],
+    "highlights": [
+      "👍 好吃"
+    ],
+    "is_open": true,
+    "lat": 24.1378278,
+    "lng": 120.6835552
+  },
+  "fp-d0wr": {
+    "cached_at": "2026-04-13T14:14:38",
+    "found": true,
+    "place_id": "ChIJ_dWYH3EEbjQRpdWgsC-qMEg",
+    "rating": 3.8,
+    "review_count": 2052,
+    "price_level": 1,
+    "address": "803台灣高雄市鹽埕區大仁路158號",
+    "photo": "AU_ZVEFibRs0BrehT5qM5NZnbBUyPLEFi2WRgKT9rClSZRjbPOEk6BXJGqr4oTcmHIvsCZ6mOUuCd5XnYU9rEJr61aRRBmkWYqJdi32paVYOtJFsN-AavgoeMs1sE2LcnwMaIRccS5eKCvVZ7EPQcW5skRXjJ_LMF9aFfvztvPR9NI9NPPYmOT4aQnm-Cpr5a6V9umuei6Ar-tkgrnwCWJzzkB0wi4GvmwIqNIOfVyT6f8RMzJQP3GclNO1FUHJ9x-PfFWjjpsUqAgr4_FxFugwhgoKFhZbL4TUdtEjNhFZtAaa3UA",
+    "summary": "機能完善的小巧店面，供應各式各樣的特色肉類料理，並提供外帶服務。",
+    "dishes": [
+      "吃 味道",
+      "覺得還是老店比較",
+      "滷味還"
+    ],
+    "highlights": [
+      "👍 好吃",
+      "👍 推薦",
+      "👍 新鮮",
+      "👍 不錯",
+      "👎 貴"
+    ],
+    "is_open": true,
+    "lat": 22.6264599,
+    "lng": 120.2828749
+  },
+  "fp-y1nj": {
+    "cached_at": "2026-04-13T14:14:39",
+    "found": true,
+    "place_id": "ChIJq-LYBX4EbjQRK6ezz0ZZTvA",
+    "rating": 3.9,
+    "review_count": 2367,
+    "price_level": 1,
+    "address": "801台灣高雄市前金區五福三路62號",
+    "photo": "AU_ZVEEcnQ1wSsX4JyCEKqfTtlbofkD784nH2xs9tfRbmrYDevOj8hoi2HfdQBIJ3nK7IqaaR-dDmSh7N6Z9NumFlWbD-PSUHS_mUe3foizk0XcI8VYGX5UsoeE4jpItfyjtXmbEcbudxjxTyAiiNit2hi1hnZWgQ7dLezdDk4b9CYaezyXbI4gJ0c3oN0mc4TJ40Ll0cZhqAE4CND7msU6bU6dxXiYDtgsAITVn94X7Y7FiSBjwiaHPrFscAeEWYj0b7Q7ua3fJaLnS7mZwVDnbl7Q8DIdsK3aKvfUpwH-Z0vMRbEyvBAyqlW-I8sXvSpmRev9S9cW0x6o9EF5AitJH0mKLLoeyruyHGVik5Us_hAGtpkF2zs2k523l29cTuQfk2mOAwwWFkFbk1tCJykNyVG33MBvP8O90FQvJMiLaSSH1ygZMWd3X3-8ZzMxH3nXH",
+    "summary": "",
+    "dishes": [
+      "整體而言鴨肉麵"
+    ],
+    "highlights": [
+      "👍 好吃",
+      "👍 快速"
+    ],
+    "is_open": false,
+    "lat": 22.6219487,
+    "lng": 120.2968098
+  },
+  "fp-a9qn": {
+    "cached_at": "2026-04-13T14:14:40",
+    "found": true,
+    "place_id": "ChIJybGrego9aTQRm1otnHtQhH4",
+    "rating": 4.4,
+    "review_count": 4057,
+    "price_level": 3,
+    "address": "403台灣臺中市西區梅川西路一段7號",
+    "photo": "AU_ZVEG988NLBDAQQCvP1nl3YXCxEpX6PR9S3x6R8xU_xFrZsvSE0sh6_W9lQ0cAazwYOCe1d67O-jBERLPif8KPZwRe8XQ8e2ecof_lAlAIutfGHhnOpHSNX0Eys3cVZzD2-RhsHUMOuVx6D7p0z83g3Y458vok6mdMcJ3ZKrcvjDN1kcp6f1lDjCwLqoRTzcJplJynMSQl_YlmQNFxZqoppOHVPfFHVy1SIju4T4v_1EFbcdRuijSmQVK5-ViR1XPCmTSpcrOtilNmWKJUwmZsCPF3sQsiydwCdgB9quRYf_6tyA",
+    "summary": "",
+    "dishes": [
+      "會常常來  餐點"
+    ],
+    "highlights": [
+      "👍 好吃"
+    ],
+    "is_open": true,
+    "lat": 24.1418132,
+    "lng": 120.6666438
+  },
+  "fp-f0df": {
+    "cached_at": "2026-04-13T14:14:41",
+    "found": true,
+    "place_id": "ChIJ0ajpYOo1aDQRFvj0fx5fkgI",
+    "rating": 4.1,
+    "review_count": 4006,
+    "price_level": 1,
+    "address": "300台灣新竹市東區武昌街64號",
+    "photo": "AU_ZVEHoHaHgsCVt5FPKKzghOXwKgEQKb_urDSZds6sJ6CdVigSj3R79wiwbRbGf0RHPtT0OOUq3vFeZX5Osu5BaGEY_32RtsNQptI7cERUgHwMGUR1DD44cHG1or6But1fTPGauEOEUKx2HMwsPJZqsMIQ5QmChReyLvd7rHD97ZAAqphFNjP403mL5nqdBXQgHDq8-CWNAHeLd1NIgXOzbesVh2XCxEY19ibFcXw5eOXALPHiCrGmsKYWUYPYTGUvUH7nyUMMP33o8NXO1SYir7tqxjUFoehgr3CiFnoiYTgVSpf1I86yZYWPQiwiEBogfxPv0ipwifmRtPTr3NBbrA3iXJmBMXyS0HXuceeXWtbIuWpio-K-KGmwr9fLYdvssOe5FuDgWakI3PK-SHSM3Qzr92bsymBheyH8_bDsmcadSBg",
+    "summary": "簡樸的餐廳，供應各種在地料理，包括湯品、麵食和肉類料理。",
+    "dishes": [
+      "碗二層肉飯，味道",
+      "以後不會再光顧",
+      "吃過豬排飯，味道",
+      "真材實料",
+      "骨仔肉飯也蠻",
+      " 麻將麵、滷蘿蔔"
+    ],
+    "highlights": [
+      "👍 好吃",
+      "👍 推薦",
+      "👍 不錯"
+    ],
+    "is_open": true,
+    "lat": 24.8021834,
+    "lng": 120.9678626
+  },
+  "fp-a2tk": {
+    "cached_at": "2026-04-13T14:14:42",
+    "found": true,
+    "place_id": "ChIJk_Ygk5Q2aDQRYozcbDUXOo4",
+    "rating": 3.9,
+    "review_count": 8130,
+    "price_level": 2,
+    "address": "302台灣新竹縣竹北市光明一路275號",
+    "photo": "AU_ZVEERxWW-soYDiArNmZhNSZZxgPsoRbm0PSn1ZnetU7mgv6IZsxStwDRS3eXgjWPIEyVqs3bpe86cgSLUgCTPVCqd04gJd-_k0HBb3tR7CidTEYJB79Ng2eqtJb9jGfaib6IdNmm6o7P2rFf2FXxuHTsWF0jY0jpHE3R8xzkCdSvt-2a_DbgaI9fASDOWRYvywfkP_SmV8gwYyMipMIdZlqVryPTNtUpnLlBVovM3GXEE0cjTPO-ciWFw5DNTC8M_k6Mu2xKMUCWImcKru-J1WUbed5qQpCR6S110j1LqhCf2Yw",
+    "summary": "繁忙明亮的餐館，供應店家自製水餃、亞洲風味麵食、飯類和配菜。",
+    "dishes": [],
+    "highlights": [],
+    "is_open": true,
+    "lat": 24.8314925,
+    "lng": 121.0105159
+  },
+  "fp-z0fr": {
+    "cached_at": "2026-04-13T14:14:43",
+    "found": true,
+    "place_id": "ChIJSV8GzrcxaDQRo5Yv9Ja_5DA",
+    "rating": 4.1,
+    "review_count": 74,
+    "price_level": null,
+    "address": "304台灣新竹縣新豐鄉新興路66-2號",
+    "photo": "AU_ZVEGNuR2TntpP1u3_Gz7iez5a_nrM4BP-VW3gmTgtN--fnzxV8VI2o5eDF2YOxXpvj_1TIMZ9haT3De2OCKa9rxHjYsdTgGWjDOHZtZqNaK6OSyJ0zMqNrhWAxYMidFsTtGilTcH6ibjW4V4TionefOR4T2rPlOeB0LTH9h8WZ2HZpF_o9Lic2umw4lEKLorF2K2iqj5SQCUGrULU8_o0JGttQjqFWmxTw95URob4b90-oPzPigoroUGsFqWvwBH8491jM7MCcEmbnyPRVIPdw4Omxeche2I9HrYDe2LBJK6Okw",
+    "summary": "",
+    "dishes": [
+      " 舊地址時比較",
+      "食物和飲料都相當",
+      "顏色也跟以前不一"
+    ],
+    "highlights": [
+      "👍 好吃",
+      "👍 不錯",
+      "👎 難吃"
+    ],
+    "is_open": false,
+    "lat": 24.8665969,
+    "lng": 120.9931662
+  },
+  "fp-z2yc": {
+    "cached_at": "2026-04-13T14:14:44",
+    "found": true,
+    "place_id": "ChIJv-uNOE8iaDQR917cYDpkdg8",
+    "rating": 4,
+    "review_count": 907,
+    "price_level": 1,
+    "address": "320台灣桃園市中壢區健行路86號",
+    "photo": "AU_ZVEHptT9bHoJURuDeDISWu8Q8ahA01jitjIgIDF8qW5CJI-xEOLJfDW1HVOV2tBxRjUDrUDT4MJd-x5D-sYBuxGVazZowDoABsqOz2OGS4PxC20L_Jc2av78vcURkV2R2tZ0Uz2GdtTyzJBoJohlHWIMe2sn0IE1jirqK3ZPNZaPRadg4VYqTtaYbhvQeJDsfZh5O39g8CBU6-hFUSxA-VkrvN-FkiRe6f0RTLm9IIJQd9O-ujx6irz34BJXPemr51OffynNk9F8JKSLXtKcJBXfkqRUtZ42-TnWyHS10kMSgm6ruB3sp7Enw-olpOXlqN-hgMszJt-aGcZyFMs0mEoXp6KYCvzm0q4v0luFNQ1R2eBG82Ga3w0sV8RVXp0Acehq5l22uSD5hwiSVDm25FpVLalnVsdYUxZI3wV1JJIMjI0jD",
+    "summary": "",
+    "dishes": [
+      "擺盤漂亮，非常",
+      "菜色除了油，還算"
+    ],
+    "highlights": [
+      "👍 好吃",
+      "👍 便宜",
+      "👎 貴"
+    ],
+    "is_open": true,
+    "lat": 24.9504382,
+    "lng": 121.2268354
+  },
+  "fp-a2vt": {
+    "cached_at": "2026-04-13T14:14:45",
+    "found": true,
+    "place_id": "ChIJY1mgfNgfaDQRDPHU4_wuliA",
+    "rating": 3.4,
+    "review_count": 295,
+    "price_level": 1,
+    "address": "338台灣桃園市蘆竹區新南路一段11號",
+    "photo": "AU_ZVEGScgJrWS2ZdnFaDtdb4G7ux4euQw21rRiyHjqeSEjwmWdJZEojxCLOWBgZ4l67W0xkQ-ArDk62i5AzjpCd9TM0m5gsw1Jxmjw9C8zBEm9u-RiYd37wRVYMRSxNOGirGyleLbdOSz22vZckjoKls0yxyHObamni4NVwOiD_s3RXpFsyR6KAM9Yq7ftQtl8nacDoI03IFaNZRxui9x1c72lER6xXBiawQhHFeukyAv13jHv9fdCYB7RN1Zbu3cy2xJmV3fhNCAzC29HXNppOp7Va2va3ZanaTUD5BjLF_OcpSLHmfNJjoyHphebymgBhkZs8IIW6ba7kQ9ojqQGHDRfprkTWBWATbV-Ma5R_WYAXUOf47YsQiUZDIElqIwOWS82MnFzw2knD1QbG-aKB-o33TTFzMTSoxUVEBA0ETwyGiv1g",
+    "summary": "",
+    "dishes": [],
+    "highlights": [],
+    "is_open": null,
+    "lat": 25.0464638,
+    "lng": 121.2943766
+  },
+  "fp-y5lk": {
+    "cached_at": "2026-04-13T14:14:46",
+    "found": true,
+    "place_id": "ChIJF0CMxKofaDQRYY6Gh4ZDUYs",
+    "rating": 3.7,
+    "review_count": 610,
+    "price_level": null,
+    "address": "330台灣桃園市桃園區北埔路46號",
+    "photo": "AU_ZVEHRyjS6SkgagEWsgF78kZ0WqPZwGHJD7lydiuH5QzvELmgei962dtUAHomTY5AOJtPDJdyES_iJ6LSmmG-fozw78TtZ6gzq-0Gc1PwQJXlcVoFb6PIsC7uvBEwuZ5f_0q9iVSh8z7MNGIAX7AF052wXDf6rKKbHSySAPnY35IVP4jyFwvbQlfVG6M7FxcYFLNhUPFJTstCk8pnSBCLihXf7IDnpHK8RF-1kuU4seZ5H9YlxoAkNYO7FFuNunrIU_Ya-10CCdiNZRFoGOWUUH4yjTf5asUyEmailN5Sr1QdCKbI2imZkKxDKRN1M3eNpONzVGyjlI8X7Q2LWpFATPIOLprbeRtTaTDUTFJLiV1Oi-3w_iTHVQvNcVv_XDYEIvEypXdAb1EVb6mB892QhMqHR396UJciDObP1A2fM4FQ",
+    "summary": "",
+    "dishes": [
+      "口味上"
+    ],
+    "highlights": [
+      "👍 不錯",
+      "👎 難吃"
+    ],
+    "is_open": true,
+    "lat": 25.0034055,
+    "lng": 121.3072657
+  },
+  "fp-z7et": {
+    "cached_at": "2026-04-13T14:14:47",
+    "found": true,
+    "place_id": "ChIJFcxJqjGUbjQR2y3GvCKIjNQ",
+    "rating": 4,
+    "review_count": 1632,
+    "price_level": 1,
+    "address": "600台灣嘉義市東區文化路",
+    "photo": "AU_ZVEF1Es7naus_oqh-5TCPAJ9ehckwBVE7UDjsYbRbVAkb5sdnCHfKDo60cpja-yia9NVzMOIF2gyhnHPuhiBWu6oJbpti7as6OHtJcmmYyzEHYlVMmWHaquBVWiw9nLuOoLrZXuSbJPhdQw3yiODOtDKRa1BLT8lBnLjoNc08revQd-0jcBPyVa1CgU9YOqDWXaAxEcDkGFKZZLLBPqv5vCtscHsNm8y425ae2J4Hsjaveca13GGFwOhnATmwPYdF2yzN4lNzhG7F7F2NxPxnqB6_fHhnb_a7F33QhPcPeTC3xaoUptIJXcQxazwUMDgddwIViqvgxEFNAX8pEdA4cvKUs78P0mZqmZiqgq5O9pNoWHPyWzxDX6ptjzNT_Eb9mbzxKpV5y4NWBJQfbCnVS2BvXbX6v3jGcpPJ9zzNIuU",
+    "summary": "",
+    "dishes": [
+      "便宜",
+      "而且味道淡 非常",
+      "青菜. 豆皮冬粉",
+      "雞肝、豆包都好"
+    ],
+    "highlights": [
+      "👍 好吃",
+      "👍 新鮮",
+      "👍 便宜"
+    ],
+    "is_open": false,
+    "lat": 23.4775612,
+    "lng": 120.4499231
+  },
+  "fp-y7bd": {
+    "cached_at": "2026-04-13T14:14:48",
+    "found": true,
+    "place_id": "ChIJ11dP0LKrQjQRz1YAD7_MCCY",
+    "rating": 3.7,
+    "review_count": 195,
+    "price_level": 1,
+    "address": "110台灣臺北市信義區松仁路245號",
+    "photo": "AU_ZVEGeAM32fq_ZgDBuRGXsOtV6Xwb0uyIKrK5FaeXpe_1S46Lg4sY3rGoOr2K1vhQlXtsnsW7tZoYd4R0lLMuCZbn_ByIcPkV_KM9GCvZRwYr93S-AIYz_q2T0YNm-cCTkAQsopOW9E3OESmSgRAJK8d9OqnfSGzZBbtSuFWwlDWzD8PJW312FodOX3YDhxchQDSOsJ_ASh-lme2aBL3wL_drARhe7uIqi5W8u7o46I6Y_UJCLAyrOGzavGjF-NZ_tRNwAtwJdzn6stOzMhcwGhe9ZiPVdxSA-c1cIJ635-HylyV5Bwz5weCiI_RUwbSCHvijYSrt5jklq58GSTkfqqACNIYL0r7A1CPn0E2Oowq3ZZ0I5uXYG24ct2JNSxNF1XTG9n4jR3QqF_wYBo8Lk8tjpgbvza8gZAAM5q3unmTCx9XU",
+    "summary": "",
+    "dishes": [
+      "改天想吃雞腿 ",
+      "份百元的蝦卷飯",
+      "不建議、不推。 "
+    ],
+    "highlights": [
+      "👍 好吃",
+      "👍 讚",
+      "👍 快速"
+    ],
+    "is_open": true,
+    "lat": 25.0258129,
+    "lng": 121.5689959
+  },
+  "fp-cj7wo": {
+    "cached_at": "2026-04-13T14:14:50",
+    "found": true,
+    "place_id": "ChIJo_aUpTGUbjQRYE-Jsns31gA",
+    "rating": 3.9,
+    "review_count": 2709,
+    "price_level": 1,
+    "address": "600台灣嘉義市西區文化路103號",
+    "photo": "AU_ZVEHEOJlGffcLI1nsETQnspKxHpowCPgUDYoJpjHDBnnR8z7w-dIAcvyNl0pLgB8OXx1-0JYSnVNxLX0wPt7Y07v9c00rt9WcysUaQZWiXTTl51O9ae0D06tG__IF6QYG3lzDEU4qnMOWdMmJaJoHaZtbENt3C0cKlKZJfb8WjRfm8aDn52KTvNk-_1fXHAVSLjVYm7c_k94y7Nnj3nHt5-aJDjcbNl0dWtkD7ZkFcxyvomE3H8VQBGTUigRgX916DuFll5OO_nWbj9leW4jTmJ9QhffWwPxWktA3KMhiL8cWxw",
+    "summary": "",
+    "dishes": [],
+    "highlights": [
+      "👍 讚"
+    ],
+    "is_open": false,
+    "lat": 23.4784225,
+    "lng": 120.4496866
+  },
+  "fp-z2iu/chao-ji-da-sheng-tie-ban-shao-jing-fan-tai-nan-kun-shan-dian": {
+    "cached_at": "2026-04-13T14:14:51",
+    "found": true,
+    "place_id": "ChIJhxsXecY9aTQR-DNOdpj7JcM",
+    "rating": 4.3,
+    "review_count": 761,
+    "price_level": 1,
+    "address": "408台灣臺中市南屯區黎明路二段17號",
+    "photo": "AU_ZVEFj6il2J0foEbGj5QJmdqSr4SmvQz9n64OuXr_leiDjsgnrn19DDCJj676WAA87lAyzT1mE4wmmYVRCnixJclfyArYz4L1kCogLOLaBfrGsCXLgw4ETZxwm9BYf9pBVCFRTwovII3UQykUVnwdgDMzNEkoYKYczPnbt9TXUUHkCVRUls3957zptKpTcJXsgMGmhrBHcsyqkesA0JtHM7hOun_rhRsiaKaNEExjWiY8F9iJQWoIwFHXE5ZHC5ygQQc5pjlMbn6uNIIkQvx_QOnOogbHH38qRiYzEMfI0Epeqk4lbTUSr60Wmys536E5DBUjhesamYaqFKWBrzKW8RSa1JC5T-JPGGl6z1A4H2nMyalpNhvtMGKsSdN4KSemx3QAoXMRMVbrQGfdYvIdXqrBuRP3OzYZ6MM8aKAhLdNCWnHY",
+    "summary": "",
+    "dishes": [
+      "以前吃過覺得味道",
+      "道不錯，主配菜都"
+    ],
+    "highlights": [
+      "👍 好吃",
+      "👍 不錯",
+      "👎 太鹹",
+      "👎 難吃"
+    ],
+    "is_open": true,
+    "lat": 24.1429876,
+    "lng": 120.6374964
+  },
+  "fp-b0rq/guo-sheng-zhan-jiang-ji-pai": {
+    "cached_at": "2026-04-13T14:14:52",
+    "found": true,
+    "place_id": "ChIJQxDJVr-faDQRBMR3ell7R4s",
+    "rating": 4.1,
+    "review_count": 1986,
+    "price_level": 1,
+    "address": "970台灣花蓮縣花蓮市林森路226號",
+    "photo": "AU_ZVEHHJJ_P94lpra3SOVc7dUYX8KNo1xQd2P06lCObyBFSC8SIo_vDnGt8RiOkA6C2yBiww1YiV-nPwD87tgTbxw5sK3oAlYiwxVYOIkEjgW-JnfQs_P_Z3Zb6YTr9Fb-731LNXJomAgRgstj1wJ1EGQfIcV7mGzENAtGyEWwFhlkYIStRcpj173exD3PeXXbxO9b22XuVYaenvXThNgVOAJFtnmAhKoXUa4OuurVt3adQ006gRXpA5ggF-bGRRRyU-VCKOb37Sfw4Am5EM1f_vSBPwRe2yDEWEb3d_0U7Vscs3Q",
+    "summary": "這間氣氛悠閒的餐廳採櫃台點餐服務，供應炸雞和傳統麵食。",
+    "dishes": [
+      "沾醬雞排",
+      "好吃歸",
+      "去了，以為會有多"
+    ],
+    "highlights": [
+      "👍 好吃",
+      "👍 推薦",
+      "👍 必點",
+      "👎 貴"
+    ],
+    "is_open": false,
+    "lat": 23.9812603,
+    "lng": 121.6053606
+  },
+  "fp-b3px/cheng-xiang-bian-shi-yuan-hua-lian-xiang-zhong-zheng-dian": {
+    "cached_at": "2026-04-13T14:14:53",
+    "found": true,
+    "place_id": "ChIJ0WUwsMCfaDQRUv6USZWMO2k",
+    "rating": 4.1,
+    "review_count": 4526,
+    "price_level": 1,
+    "address": "970台灣花蓮縣花蓮市中山路347-1號",
+    "photo": "AU_ZVEFxrTxNpcEd18-2WHlEN9cdxo5cUbCPUsLTMzzxVq0dA-Kc3hezjndjefUsjkn4Er0xB0xnNRo4wHkozg3S48c2QMrTUG9ZMu6FoQ4q0bZ_DqLXVhRhGSK21aNeZMsnr8KVzXCp5EjXUlRCIpmQzGO6QovjjHvHKTLjMOTJPEP8HBrLjjhLv6v1S-1QFBW_1MNPZkVKuDS_OA2lEi5n4jyo57NoTq5VfDCLJ1JdhO1xkGVi1zQQ0f2V2tG-QH0gCYSdSMhUJIqjIuf2rsATMq8TnXkTjgi80IwnnUX_bid6rg",
+    "summary": "寬敞簡約的餐廳，供應餃子、湯品和麵食。",
+    "dishes": [
+      "🥲🥲 ",
+      "內餡",
+      "公休的」 小菜還"
+    ],
+    "highlights": [
+      "👍 好吃",
+      "👍 服務好",
+      "👍 不錯"
+    ],
+    "is_open": true,
+    "lat": 23.9809978,
+    "lng": 121.6061425
+  },
+  "fp-e4ow/san-xiong-di-yu-li-mian": {
+    "cached_at": "2026-04-13T14:14:54",
+    "found": true,
+    "place_id": "ChIJWdqIaZSfaDQRdKThALGmHEM",
+    "rating": 3.5,
+    "review_count": 190,
+    "price_level": 1,
+    "address": "970台灣花蓮縣花蓮市中正路290號",
+    "photo": "AU_ZVEGagFeI8uCmXM9TX53RjGBNf0xMPIzRHXj8cXOsjmb8mncpacwBuozg9y94YyUv8T_82w6Ssi7v8DTc_uGzGBHpMFMUa9-ajvyKAvv4fsUgO2Ct0QyLUOyKGjSCz5s5rsxqPB_xT737NpZJpIQIJz1GTqZOoXbh8CTLxqlM73AigZWDp0zeAZ0LFajo74_GXxHN2UMo5XIWilpDDVx21cF3F05w1tDnIpfxykv1fsB_6TAI7QhfJ1QVrrHztIqLpNMHHKdJngJavNFi58D46A7qSVcn4otTCWQJWBcsIqtKz_F9hINggEqHkXZL7276nstWQ6dzosmh4Et4NKqQZeR8GA872rhKwAUuXjZCwO5p38hVI86Y0AgN-hZgAykNSxi1bZZYqbiOatp37cu_wo50LdpOQz_gQzwUEWeJXGUUP9Qu",
+    "summary": "",
+    "dishes": [
+      "第一次點外送",
+      "🥹 態度不好 不",
+      "便找的 結果超級"
+    ],
+    "highlights": [
+      "👍 好吃"
+    ],
+    "is_open": true,
+    "lat": 23.9732724,
+    "lng": 121.6015254
+  },
+  "fp-d5nj/xiao-bu-dian-mei-er-mei": {
+    "cached_at": "2026-04-13T14:14:55",
+    "found": true,
+    "place_id": "ChIJrfMve7-faDQRFmy3gJX0mq8",
+    "rating": 4.3,
+    "review_count": 329,
+    "price_level": 1,
+    "address": "970台灣花蓮縣花蓮市大同街15-1號",
+    "photo": "AU_ZVEHukAm2UuoygE2ku5EV_wRAx3btIB4ScIMD3EUR2KI8gfI2mK4Tl09HTs524l9b8Q8vM_T0qQA_919wp3ctUTiR3K5lulO3baa7mfoRIhpJL4MLKdqvryTh5KDWYyfKMTWwGKije4qxH7GlFleTzpkiXxEyAa9wQuj7Ki3FSG_3rlGgcDmh2khOhQTnGgtpkFC2UMi2NltoZ5JI3Q4H1DaqVFtLjgdjoIlHDHfglx66fc4arCeIVtzAuU_35ZuXYbYdA0UnDVGAWnRDYbZfOpYMCc9ns2bQAOzX05K01zzY5TkQeOuqmrVuK9L5w-DFpZDUXeTMfQD43w4yYDFfggAqaQ5Ss_hG7BkBdL_Cmr4wuF9x7ZbOAlZxh-8RqCOWCaCU_D41WOfJduSjNBgsdR9G9VFM9nnkzRz2jn3kxGWlEzRfUquReVO_mR_Hilsm",
+    "summary": "",
+    "dishes": [],
+    "highlights": [
+      "👍 好吃"
+    ],
+    "is_open": false,
+    "lat": 23.9798608,
+    "lng": 121.6049754
   }
 }

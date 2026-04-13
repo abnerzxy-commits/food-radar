@@ -108,14 +108,17 @@ def main():
         print("錯誤：找不到 GOOGLE_PLACES_API_KEY")
         sys.exit(1)
 
-    # 讀取 UberEats 資料
-    ue_path = DATA_DIR / 'ubereats.json'
-    if not ue_path.exists():
-        print("錯誤：找不到 ubereats.json，請先跑 scrape_ubereats.py")
-        sys.exit(1)
+    # 讀取所有平台的餐廳資料
+    restaurants = []
+    for fname in ['ubereats.json', 'foodpanda.json']:
+        fpath = DATA_DIR / fname
+        if fpath.exists():
+            data = json.loads(fpath.read_text())
+            restaurants.extend(data.get('restaurants', []))
 
-    ue_data = json.loads(ue_path.read_text())
-    restaurants = ue_data.get('restaurants', [])
+    if not restaurants:
+        print("錯誤：找不到任何餐廳資料")
+        sys.exit(1)
 
     # 讀取現有快取
     cache_path = DATA_DIR / 'enriched.json'
