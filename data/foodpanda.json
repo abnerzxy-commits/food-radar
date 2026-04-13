@@ -1,0 +1,1014 @@
+{
+  "scraped_at": "2026-04-13T14:04:25+08:00",
+  "total": 112,
+  "restaurants": [
+    {
+      "name": "贊助",
+      "slug": "fp-cm77/gai-ban-ban-mian",
+      "url": "https://www.foodpanda.com.tw/restaurant/cm77/gai-ban-ban-mian",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "一穗禾心製麵生煎包",
+      "slug": "fp-am9i/sui-he-xin-zhi-mian-sheng-jian-bao",
+      "url": "https://www.foodpanda.com.tw/restaurant/am9i/sui-he-xin-zhi-mian-sheng-jian-bao",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "莊爸炸雞魯肉飯 (台中一中總店)",
+      "slug": "fp-st4f/zhuang-ba-zha-ji-lu-rou-fan-tai-zhong-zhong-zong-dian",
+      "url": "https://www.foodpanda.com.tw/restaurant/st4f/zhuang-ba-zha-ji-lu-rou-fan-tai-zhong-zhong-zong-dian",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "宏佳火雞肉飯 (台中天津店)",
+      "slug": "fp-y148/hong-jia-huo-ji-rou-fan-tai-zhong-tian-jin-dian",
+      "url": "https://www.foodpanda.com.tw/restaurant/y148/hong-jia-huo-ji-rou-fan-tai-zhong-tian-jin-dian",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "暖日Warmth Day早午餐",
+      "slug": "fp-md81/nuan-ri-warmth-dayzao-wu-can",
+      "url": "https://www.foodpanda.com.tw/restaurant/md81/nuan-ri-warmth-dayzao-wu-can",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "金韓食 (中港店)",
+      "slug": "fp-yjpd/jin-han-shi-zhong-gang-dian",
+      "url": "https://www.foodpanda.com.tw/restaurant/yjpd/jin-han-shi-zhong-gang-dian",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "Art Lynn 無己之凡 (南屯黎明店)",
+      "slug": "fp-tewx/art-lynn-wu-ji-zhi-fan-nan-tun-li-ming-dian",
+      "url": "https://www.foodpanda.com.tw/restaurant/tewx/art-lynn-wu-ji-zhi-fan-nan-tun-li-ming-dian",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "丼小判丼飯專賣 (台中南區店)",
+      "slug": "fp-lx7q/jing-xiao-pan-jing-fan-zhuan-mai-tai-zhong-nan-qu-dian",
+      "url": "https://www.foodpanda.com.tw/restaurant/lx7q/jing-xiao-pan-jing-fan-zhuan-mai-tai-zhong-nan-qu-dian",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "煦今xujin奶茶專門店",
+      "slug": "fp-l1vo/xu-jin-xujinnai-cha-zhuan-men-dian",
+      "url": "https://www.foodpanda.com.tw/restaurant/l1vo/xu-jin-xujinnai-cha-zhuan-men-dian",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "涮屋馬 (惠中店)",
+      "slug": "fp-uh0g/shuan-wu-ma-hui-zhong-dian",
+      "url": "https://www.foodpanda.com.tw/restaurant/uh0g/shuan-wu-ma-hui-zhong-dian",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "林韭娘水餃",
+      "slug": "fp-v8u4/lin-jiu-niang-shui-jiao",
+      "url": "https://www.foodpanda.com.tw/restaurant/v8u4/lin-jiu-niang-shui-jiao",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "咱們小時候義大利麵",
+      "slug": "fp-kybv/zan-men-xiao-shi-hou-yi-da-li-mian",
+      "url": "https://www.foodpanda.com.tw/restaurant/kybv/zan-men-xiao-shi-hou-yi-da-li-mian",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "文之森蔬食乾鍋專賣店",
+      "slug": "fp-c4fr/wen-zhi-sen-shu-shi-gan-guo-zhuan-mai-dian",
+      "url": "https://www.foodpanda.com.tw/restaurant/c4fr/wen-zhi-sen-shu-shi-gan-guo-zhuan-mai-dian",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "哈螺螺螄粉",
+      "slug": "fp-i506/ha-luo-luo-si-fen",
+      "url": "https://www.foodpanda.com.tw/restaurant/i506/ha-luo-luo-si-fen",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "軟蛋醬 蛋包飯專門製作所 (台中學士店)",
+      "slug": "fp-wq2g/ruan-dan-jiang-dan-bao-fan-zhuan-men-zhi-zuo-suo-tai-zhong-xue-shi-dian",
+      "url": "https://www.foodpanda.com.tw/restaurant/wq2g/ruan-dan-jiang-dan-bao-fan-zhuan-men-zhi-zuo-suo-tai-zhong-xue-shi-dian",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "小春日和雞腿排丼飯專賣",
+      "slug": "fp-qx9b/xiao-chun-ri-he-ji-tui-pai-jing-fan-zhuan-mai",
+      "url": "https://www.foodpanda.com.tw/restaurant/qx9b/xiao-chun-ri-he-ji-tui-pai-jing-fan-zhuan-mai",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "屋馬燒肉 (中友店)",
+      "slug": "fp-boec/wu-ma-shao-rou-zhong-you-dian",
+      "url": "https://www.foodpanda.com.tw/restaurant/boec/wu-ma-shao-rou-zhong-you-dian",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "Poke Go波奇走走 夏威夷生魚飯 (台中朝富店)",
+      "slug": "fp-bpy3/poke-gobo-qi-zou-zou-xia-wei-yi-sheng-yu-fan-tai-zhong-zhao-fu-dian",
+      "url": "https://www.foodpanda.com.tw/restaurant/bpy3/poke-gobo-qi-zou-zou-xia-wei-yi-sheng-yu-fan-tai-zhong-zhao-fu-dian",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "職男咖喱",
+      "slug": "fp-ldef/zhi-nan-ka-li",
+      "url": "https://www.foodpanda.com.tw/restaurant/ldef/zhi-nan-ka-li",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "滝禾製麵所 (北屯昌平店)",
+      "slug": "fp-bjqu/long-he-zhi-mian-suo-bei-tun-chang-ping-dian",
+      "url": "https://www.foodpanda.com.tw/restaurant/bjqu/long-he-zhi-mian-suo-bei-tun-chang-ping-dian",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "山焙 (逢甲福星店)",
+      "slug": "fp-rxmv/shan-bei-feng-jia-fu-xing-dian",
+      "url": "https://www.foodpanda.com.tw/restaurant/rxmv/shan-bei-feng-jia-fu-xing-dian",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "李家腳庫飯-炒麵",
+      "slug": "fp-rktm/li-jia-jiao-ku-fan-chao-mian",
+      "url": "https://www.foodpanda.com.tw/restaurant/rktm/li-jia-jiao-ku-fan-chao-mian",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "台北江麻辣臭豆腐 (台中太平店)",
+      "slug": "fp-r3hl/tai-bei-jiang-ma-la-chou-dou-fu-tai-zhong-tai-ping-dian",
+      "url": "https://www.foodpanda.com.tw/restaurant/r3hl/tai-bei-jiang-ma-la-chou-dou-fu-tai-zhong-tai-ping-dian",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "拾麥烘焙",
+      "slug": "fp-feip/shi-mai-hong-bei",
+      "url": "https://www.foodpanda.com.tw/restaurant/feip/shi-mai-hong-bei",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "台中龍燒烤",
+      "slug": "fp-psfj/tai-zhong-long-shao-kao",
+      "url": "https://www.foodpanda.com.tw/restaurant/psfj/tai-zhong-long-shao-kao",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "金帛手製 (精誠店)",
+      "slug": "fp-uzuf/jin-bo-shou-zhi-jing-cheng-dian",
+      "url": "https://www.foodpanda.com.tw/restaurant/uzuf/jin-bo-shou-zhi-jing-cheng-dian",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "新餐廳",
+      "slug": "fp-oh7p/hua-ma-ma-gu-zao-wei-rou-zao-fan-chao-mian-guan",
+      "url": "https://www.foodpanda.com.tw/restaurant/oh7p/hua-ma-ma-gu-zao-wei-rou-zao-fan-chao-mian-guan",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "滷上飲複合式餐飲",
+      "slug": "fp-ghu5/lu-shang-yin-fu-he-shi-can-yin",
+      "url": "https://www.foodpanda.com.tw/restaurant/ghu5/lu-shang-yin-fu-he-shi-can-yin",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "蘇珊經典三明治",
+      "slug": "fp-nld1/su-shan-jing-dian-san-ming-zhi",
+      "url": "https://www.foodpanda.com.tw/restaurant/nld1/su-shan-jing-dian-san-ming-zhi",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "MEHER CAFE 米賀咖啡",
+      "slug": "fp-hjns/meher-cafe-mi-he-ka-pei",
+      "url": "https://www.foodpanda.com.tw/restaurant/hjns/meher-cafe-mi-he-ka-pei",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "日日豆花所",
+      "slug": "fp-prjc/ri-ri-dou-hua-suo",
+      "url": "https://www.foodpanda.com.tw/restaurant/prjc/ri-ri-dou-hua-suo",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "昭秀君朝午餐食",
+      "slug": "fp-y23o/zhao-xiu-jun-zhao-wu-can-shi",
+      "url": "https://www.foodpanda.com.tw/restaurant/y23o/zhao-xiu-jun-zhao-wu-can-shi",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "喫茶小舖 (台中健行店)",
+      "slug": "fp-b2ip/chi-cha-xiao-pu-tai-zhong-jian-xing-dian",
+      "url": "https://www.foodpanda.com.tw/restaurant/b2ip/chi-cha-xiao-pu-tai-zhong-jian-xing-dian",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "那年那杯 (漢口店)",
+      "slug": "fp-prwp/na-nian-na-bei-han-kou-dian",
+      "url": "https://www.foodpanda.com.tw/restaurant/prwp/na-nian-na-bei-han-kou-dian",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "喬登專業鮮果汁 (台中民權店)",
+      "slug": "fp-xrkd/qiao-deng-zhuan-ye-xian-guo-zhi-tai-zhong-min-quan-dian",
+      "url": "https://www.foodpanda.com.tw/restaurant/xrkd/qiao-deng-zhuan-ye-xian-guo-zhi-tai-zhong-min-quan-dian",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "LINDAY手作茶飲專賣",
+      "slug": "fp-x8x7/lindayshou-zuo-cha-yin-zhuan-mai",
+      "url": "https://www.foodpanda.com.tw/restaurant/x8x7/lindayshou-zuo-cha-yin-zhuan-mai",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "三月春",
+      "slug": "fp-xtgf/san-yue-chun",
+      "url": "https://www.foodpanda.com.tw/restaurant/xtgf/san-yue-chun",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "茶魂SOUL TEA",
+      "slug": "fp-l66w/cha-hun-soul-tea",
+      "url": "https://www.foodpanda.com.tw/restaurant/l66w/cha-hun-soul-tea",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "老賴紅茶 (台中第二市場店)",
+      "slug": "fp-d4wz/lao-lai-hong-cha-tai-zhong-di-er-shi-chang-dian",
+      "url": "https://www.foodpanda.com.tw/restaurant/d4wz/lao-lai-hong-cha-tai-zhong-di-er-shi-chang-dian",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "大門牌冰飲舖",
+      "slug": "fp-gqd3/da-men-pai-bing-yin-pu",
+      "url": "https://www.foodpanda.com.tw/restaurant/gqd3/da-men-pai-bing-yin-pu",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "ORTea",
+      "slug": "fp-wg8x/ortea",
+      "url": "https://www.foodpanda.com.tw/restaurant/wg8x/ortea",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "吉爺爺苦茶",
+      "slug": "fp-fuy4/ji-ye-ye-ku-cha",
+      "url": "https://www.foodpanda.com.tw/restaurant/fuy4/ji-ye-ye-ku-cha",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "青序智茶 (台中黎明店)",
+      "slug": "fp-nmx8/qing-xu-zhi-cha-tai-zhong-li-ming-dian",
+      "url": "https://www.foodpanda.com.tw/restaurant/nmx8/qing-xu-zhi-cha-tai-zhong-li-ming-dian",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "翊曲EACH",
+      "slug": "fp-tggo/yi-qu-each",
+      "url": "https://www.foodpanda.com.tw/restaurant/tggo/yi-qu-each",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "有差沒差水果行",
+      "slug": "fp-i72y/you-chai-mei-chai-shui-guo-xing",
+      "url": "https://www.foodpanda.com.tw/restaurant/i72y/you-chai-mei-chai-shui-guo-xing",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "摩摩寵物專門店",
+      "slug": "fp-wlsw/mo-mo-chong-wu-zhuan-men-dian",
+      "url": "https://www.foodpanda.com.tw/restaurant/wlsw/mo-mo-chong-wu-zhuan-men-dian",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "Finga's Fine Food",
+      "slug": "fp-hqxe/fingas-fine-food",
+      "url": "https://www.foodpanda.com.tw/restaurant/hqxe/fingas-fine-food",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "真興文具",
+      "slug": "fp-rfic/zhen-xing-wen-ju",
+      "url": "https://www.foodpanda.com.tw/restaurant/rfic/zhen-xing-wen-ju",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "PX Mart 全聯",
+      "slug": "fp-doeb/quan-lian-fu-li-zhong-xin-tai-zhong-ming-xin-dian-doeb",
+      "url": "https://www.foodpanda.com.tw/restaurant/doeb/quan-lian-fu-li-zhong-xin-tai-zhong-ming-xin-dian-doeb",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "7-Eleven 統一超商(Group1)",
+      "slug": "fp-uh80/tong-chao-shang-tai-zhong-chao-xue-dian",
+      "url": "https://www.foodpanda.com.tw/restaurant/uh80/tong-chao-shang-tai-zhong-chao-xue-dian",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "COSMED 康是美(Group2)",
+      "slug": "fp-rr21/kang-shi-mei-jin-hua-dian",
+      "url": "https://www.foodpanda.com.tw/restaurant/rr21/kang-shi-mei-jin-hua-dian",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "yourchance 佑全藥局-健康人生(Group1)",
+      "slug": "fp-iw7t/you-quan-yao-ju-jian-kang-ren-sheng-tai-zhong-han-kou-er-dian",
+      "url": "https://www.foodpanda.com.tw/restaurant/iw7t/you-quan-yao-ju-jian-kang-ren-sheng-tai-zhong-han-kou-er-dian",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "FamilyMart 全家便利商店(Group1)",
+      "slug": "fp-l6qc/quan-jia-bian-li-shang-dian-tai-zhong-han-kou-dian",
+      "url": "https://www.foodpanda.com.tw/restaurant/l6qc/quan-jia-bian-li-shang-dian-tai-zhong-han-kou-dian",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "Funcom 楓康超市(Group1)",
+      "slug": "fp-n0uz/feng-kang-chao-shi-tian-jin-dian",
+      "url": "https://www.foodpanda.com.tw/restaurant/n0uz/feng-kang-chao-shi-tian-jin-dian",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "Norbelbaby 丁丁藥局(Group1)",
+      "slug": "fp-m5o5/ding-ding-yao-ju-zhong-qing-dian",
+      "url": "https://www.foodpanda.com.tw/restaurant/m5o5/ding-ding-yao-ju-zhong-qing-dian",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "SANTACRUZ 聖德科斯",
+      "slug": "fp-e2u3/sheng-de-ke-si-tai-zhong-chong-de-dian",
+      "url": "https://www.foodpanda.com.tw/restaurant/e2u3/sheng-de-ke-si-tai-zhong-chong-de-dian",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "TK3C 燦坤3C",
+      "slug": "fp-imot/can-kun-3c-xin-wen-xin-dian",
+      "url": "https://www.foodpanda.com.tw/restaurant/imot/can-kun-3c-xin-wen-xin-dian",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "Simple Mart 美廉社(Group1)",
+      "slug": "fp-q363/mei-lian-she-tai-zhong-shan-xi-dian",
+      "url": "https://www.foodpanda.com.tw/restaurant/q363/mei-lian-she-tai-zhong-shan-xi-dian",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "Watsons TW 屈臣氏(Group1)",
+      "slug": "fp-i8n6/watsonsqu-chen-shi-xi-tun-dian-s0269",
+      "url": "https://www.foodpanda.com.tw/restaurant/i8n6/watsonsqu-chen-shi-xi-tun-dian-s0269",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "麥當勞 (S408 台中新大雅店)",
+      "slug": "fp-b1tn/mai-dang-lao-s408-tai-zhong-xin-da-ya-dian",
+      "url": "https://www.foodpanda.com.tw/restaurant/b1tn/mai-dang-lao-s408-tai-zhong-xin-da-ya-dian",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "小茶齋 (台中北區永興店)",
+      "slug": "fp-a5ba/xiao-cha-zhai-tai-zhong-bei-qu-yong-xing-dian",
+      "url": "https://www.foodpanda.com.tw/restaurant/a5ba/xiao-cha-zhai-tai-zhong-bei-qu-yong-xing-dian",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "正忠排骨飯 (台中學士店)",
+      "slug": "fp-vsx1/zheng-zhong-pai-gu-fan-tai-zhong-xue-shi-dian",
+      "url": "https://www.foodpanda.com.tw/restaurant/vsx1/zheng-zhong-pai-gu-fan-tai-zhong-xue-shi-dian",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "大茗本位製茶堂 (永興進化店)",
+      "slug": "fp-vhvd/da-ming-ben-wei-zhi-cha-tang-yong-xing-jin-hua-dian",
+      "url": "https://www.foodpanda.com.tw/restaurant/vhvd/da-ming-ben-wei-zhi-cha-tang-yong-xing-jin-hua-dian",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "UG (台中北平店)",
+      "slug": "fp-kbpk/ug-tai-zhong-bei-ping-dian",
+      "url": "https://www.foodpanda.com.tw/restaurant/kbpk/ug-tai-zhong-bei-ping-dian",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "Pizza Hut必勝客 (台中中清外送店)",
+      "slug": "fp-y5ry/pizza-hutbi-sheng-ke-tai-zhong-zhong-qing-wai-song-dian",
+      "url": "https://www.foodpanda.com.tw/restaurant/y5ry/pizza-hutbi-sheng-ke-tai-zhong-zhong-qing-wai-song-dian",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "50嵐 (台中北平店)",
+      "slug": "fp-b0ok/50lan-tai-zhong-bei-ping-dian",
+      "url": "https://www.foodpanda.com.tw/restaurant/b0ok/50lan-tai-zhong-bei-ping-dian",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "Burger King 漢堡王 (台中中清店)",
+      "slug": "fp-xgkf/burger-king-han-bao-wang-tai-zhong-zhong-qing-dian",
+      "url": "https://www.foodpanda.com.tw/restaurant/xgkf/burger-king-han-bao-wang-tai-zhong-zhong-qing-dian",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "可不可熟成紅茶 (台中健行店)",
+      "slug": "fp-f1j1/ke-bu-ke-shou-cheng-hong-cha-tai-zhong-jian-xing-dian",
+      "url": "https://www.foodpanda.com.tw/restaurant/f1j1/ke-bu-ke-shou-cheng-hong-cha-tai-zhong-jian-xing-dian",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "得正 OOLONG TEA PROJECT (台中學士計劃)",
+      "slug": "fp-yv0o/de-zheng-oolong-tea-project-tai-zhong-xue-shi-ji-hua",
+      "url": "https://www.foodpanda.com.tw/restaurant/yv0o/de-zheng-oolong-tea-project-tai-zhong-xue-shi-ji-hua",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "三媽臭臭鍋 (台中漢口店)",
+      "slug": "fp-b0hb/san-ma-chou-chou-guo-tai-zhong-han-kou-dian",
+      "url": "https://www.foodpanda.com.tw/restaurant/b0hb/san-ma-chou-chou-guo-tai-zhong-han-kou-dian",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "すき家 Sukiya (台中崇德店)",
+      "slug": "fp-zspp/sukijia-sukiya-tai-zhong-chong-de-dian",
+      "url": "https://www.foodpanda.com.tw/restaurant/zspp/sukijia-sukiya-tai-zhong-chong-de-dian",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "老賴茶棧 (台中學士店)",
+      "slug": "fp-bspx/lao-lai-cha-zhan-tai-zhong-xue-shi-dian",
+      "url": "https://www.foodpanda.com.tw/restaurant/bspx/lao-lai-cha-zhan-tai-zhong-xue-shi-dian",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "來一碗。大腸麵線 (台中健行店)",
+      "slug": "fp-vy2r/lai-wan-da-chang-mian-xian-tai-zhong-jian-xing-dian",
+      "url": "https://www.foodpanda.com.tw/restaurant/vy2r/lai-wan-da-chang-mian-xian-tai-zhong-jian-xing-dian",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "玩麵PASTA (台中北平店)",
+      "slug": "fp-mu3p/wan-mian-pasta-tai-zhong-bei-ping-dian",
+      "url": "https://www.foodpanda.com.tw/restaurant/mu3p/wan-mian-pasta-tai-zhong-bei-ping-dian",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "燒臘教父 (中清店)",
+      "slug": "fp-wrrn/shao-la-jiao-fu-zhong-qing-dian",
+      "url": "https://www.foodpanda.com.tw/restaurant/wrrn/shao-la-jiao-fu-zhong-qing-dian",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "清心福全 (北區漢崇店)",
+      "slug": "fp-duyl/qing-xin-fu-quan-bei-qu-han-chong-dian",
+      "url": "https://www.foodpanda.com.tw/restaurant/duyl/qing-xin-fu-quan-bei-qu-han-chong-dian",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "彩碗ColorBowl Poké (台中北平店)",
+      "slug": "fp-bwpa/cai-wan-colorbowl-poke-tai-zhong-bei-ping-dian",
+      "url": "https://www.foodpanda.com.tw/restaurant/bwpa/cai-wan-colorbowl-poke-tai-zhong-bei-ping-dian",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "STARBUCKS 星巴克 (中清太原門市)",
+      "slug": "fp-b1wi/starbucks-xing-ba-ke-zhong-qing-tai-yuan-men-shi",
+      "url": "https://www.foodpanda.com.tw/restaurant/b1wi/starbucks-xing-ba-ke-zhong-qing-tai-yuan-men-shi",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "蛋白盒子健康低卡餐盒 (台中北平店)",
+      "slug": "fp-mfkj/dan-bai-he-zi-jian-kang-di-qia-can-he-tai-zhong-bei-ping-dian",
+      "url": "https://www.foodpanda.com.tw/restaurant/mfkj/dan-bai-he-zi-jian-kang-di-qia-can-he-tai-zhong-bei-ping-dian",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "牧夏 (北區漢口店)",
+      "slug": "fp-orl8/mu-xia-bei-qu-han-kou-dian",
+      "url": "https://www.foodpanda.com.tw/restaurant/orl8/mu-xia-bei-qu-han-kou-dian",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "石二鍋 (忠明大全聯店)*",
+      "slug": "fp-qn16/shi-er-guo-zhong-ming-da-quan-lian-dian",
+      "url": "https://www.foodpanda.com.tw/restaurant/qn16/shi-er-guo-zhong-ming-da-quan-lian-dian",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "SUBWAY (健行學士店)",
+      "slug": "fp-y1bm/subway-jian-xing-xue-shi-dian",
+      "url": "https://www.foodpanda.com.tw/restaurant/y1bm/subway-jian-xing-xue-shi-dian",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "厚稻專業鵝肉飯",
+      "slug": "fp-p0p6/hou-dao-zhuan-ye-e-rou-fan",
+      "url": "https://www.foodpanda.com.tw/restaurant/p0p6/hou-dao-zhuan-ye-e-rou-fan",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "HOME28咖哩 (台中北平店)",
+      "slug": "fp-i3xh/home28ka-li-tai-zhong-bei-ping-dian",
+      "url": "https://www.foodpanda.com.tw/restaurant/i3xh/home28ka-li-tai-zhong-bei-ping-dian",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "德記雲吞麵館",
+      "slug": "fp-w5dx/de-ji-yun-tun-mian-guan-tai-zhong-dian-m",
+      "url": "https://www.foodpanda.com.tw/restaurant/w5dx/de-ji-yun-tun-mian-guan-tai-zhong-dian-m",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "赤林煙燻鹽水雞",
+      "slug": "fp-w4uc/chi-lin-yan-xun-xian-shui-ji",
+      "url": "https://www.foodpanda.com.tw/restaurant/w4uc/chi-lin-yan-xun-xian-shui-ji",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "攬人異國餐廳",
+      "slug": "fp-w9ee/lan-ren-yi-guo-liao-li",
+      "url": "https://www.foodpanda.com.tw/restaurant/w9ee/lan-ren-yi-guo-liao-li",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "十全藥膳排骨",
+      "slug": "fp-a6bi",
+      "url": "https://www.foodpanda.com.tw/restaurant/a6bi",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "杭州小籠湯包",
+      "slug": "fp-f9ss",
+      "url": "https://www.foodpanda.com.tw/restaurant/f9ss",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "雙月食品社",
+      "slug": "fp-f8ph",
+      "url": "https://www.foodpanda.com.tw/restaurant/f8ph",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "麗莉滷肉飯",
+      "slug": "fp-e9bi",
+      "url": "https://www.foodpanda.com.tw/restaurant/e9bi",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "陳先生麵線、臭豆腐、咖哩飯、甜不辣、牛肉麵",
+      "slug": "fp-a7xw",
+      "url": "https://www.foodpanda.com.tw/restaurant/a7xw",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "中和米粉湯",
+      "slug": "fp-b7mi",
+      "url": "https://www.foodpanda.com.tw/restaurant/b7mi",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "鳳城燒臘",
+      "slug": "fp-z1bz",
+      "url": "https://www.foodpanda.com.tw/restaurant/z1bz",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "宮原眼科冰淇淋",
+      "slug": "fp-f8ta",
+      "url": "https://www.foodpanda.com.tw/restaurant/f8ta",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "阿囉哈滷味",
+      "slug": "fp-d0wr",
+      "url": "https://www.foodpanda.com.tw/restaurant/d0wr",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "金城鴨肉",
+      "slug": "fp-y1nj",
+      "url": "https://www.foodpanda.com.tw/restaurant/y1nj",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "冒煙的喬",
+      "slug": "fp-a9qn",
+      "url": "https://www.foodpanda.com.tw/restaurant/a9qn",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "榮記客家湯圓",
+      "slug": "fp-f0df",
+      "url": "https://www.foodpanda.com.tw/restaurant/f0df",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "十一街麵食館",
+      "slug": "fp-a2tk",
+      "url": "https://www.foodpanda.com.tw/restaurant/a2tk",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "欣豐豆漿店",
+      "slug": "fp-z0fr",
+      "url": "https://www.foodpanda.com.tw/restaurant/z0fr",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "豪爽鴨 (桃園健行店)",
+      "slug": "fp-z2yc",
+      "url": "https://www.foodpanda.com.tw/restaurant/z2yc",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "連莊嘉義火雞肉飯",
+      "slug": "fp-a2vt",
+      "url": "https://www.foodpanda.com.tw/restaurant/a2vt",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "吳土魠魚 (桃園夜市店)",
+      "slug": "fp-y5lk",
+      "url": "https://www.foodpanda.com.tw/restaurant/y5lk",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "方櫃仔魯味",
+      "slug": "fp-z7et",
+      "url": "https://www.foodpanda.com.tw/restaurant/z7et",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "南台灣土魠魚焿",
+      "slug": "fp-y7bd",
+      "url": "https://www.foodpanda.com.tw/restaurant/y7bd",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "嘉義豆奶攤",
+      "slug": "fp-cj7wo",
+      "url": "https://www.foodpanda.com.tw/restaurant/cj7wo",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "超吉大盛鐵板燒丼飯",
+      "slug": "fp-z2iu/chao-ji-da-sheng-tie-ban-shao-jing-fan-tai-nan-kun-shan-dian",
+      "url": "https://www.foodpanda.com.tw/restaurant/z2iu/chao-ji-da-sheng-tie-ban-shao-jing-fan-tai-nan-kun-shan-dian",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "國聲沾醬雞排",
+      "slug": "fp-b0rq/guo-sheng-zhan-jiang-ji-pai",
+      "url": "https://www.foodpanda.com.tw/restaurant/b0rq/guo-sheng-zhan-jiang-ji-pai",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "花蓮香扁食",
+      "slug": "fp-b3px/cheng-xiang-bian-shi-yuan-hua-lian-xiang-zhong-zheng-dian",
+      "url": "https://www.foodpanda.com.tw/restaurant/b3px/cheng-xiang-bian-shi-yuan-hua-lian-xiang-zhong-zheng-dian",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "三兄弟玉里麵",
+      "slug": "fp-e4ow/san-xiong-di-yu-li-mian",
+      "url": "https://www.foodpanda.com.tw/restaurant/e4ow/san-xiong-di-yu-li-mian",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    },
+    {
+      "name": "小不點美而美",
+      "slug": "fp-d5nj/xiao-bu-dian-mei-er-mei",
+      "url": "https://www.foodpanda.com.tw/restaurant/d5nj/xiao-bu-dian-mei-er-mei",
+      "platform": "foodpanda",
+      "area": "信義區",
+      "area_lat": 25.033,
+      "area_lng": 121.565
+    }
+  ]
+}

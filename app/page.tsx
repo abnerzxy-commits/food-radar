@@ -17,6 +17,9 @@ interface Restaurant {
   photo: string | null
   score: number
   categories?: string[]
+  dishes?: string[]
+  highlights?: string[]
+  platforms?: string[]
   ubereatsUrl?: string
   foodpandaUrl?: string
 }

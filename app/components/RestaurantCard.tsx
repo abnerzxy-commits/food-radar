@@ -16,6 +16,7 @@ interface Restaurant {
   dishes?: string[]
   highlights?: string[]
   summary?: string
+  platforms?: string[]
   ubereatsUrl?: string
   foodpandaUrl?: string
 }
@@ -47,10 +48,12 @@ export default function RestaurantCard({
   restaurant: Restaurant
   onClick: () => void
 }) {
-  const { name, rating, reviewCount, distance, isOpen, photo, address, dishes, highlights, ubereatsUrl, foodpandaUrl } = restaurant
+  const { name, rating, reviewCount, distance, isOpen, photo, address, dishes, highlights, platforms, ubereatsUrl, foodpandaUrl } = restaurant
   const encodedName = encodeURIComponent(name)
   const ueUrl = ubereatsUrl || `https://www.ubereats.com/tw/search?q=${encodedName}`
   const fpUrl = foodpandaUrl || `https://www.foodpanda.com.tw/search?q=${encodedName}`
+  const hasUE = platforms?.includes('ubereats')
+  const hasFP = platforms?.includes('foodpanda')
 
   return (
     <div className="bg-white rounded-2xl overflow-hidden shadow-sm border border-stone-100">
@@ -130,18 +133,26 @@ export default function RestaurantCard({
             target="_blank"
             rel="noopener noreferrer"
             onClick={e => e.stopPropagation()}
-            className="flex items-center justify-center gap-1.5 py-2 bg-[#06C167] text-white rounded-xl text-sm font-semibold hover:bg-[#05a557] transition-colors"
+            className={`flex items-center justify-center gap-1.5 py-2 rounded-xl text-sm font-semibold transition-colors ${
+              hasUE
+                ? 'bg-[#06C167] text-white hover:bg-[#05a557]'
+                : 'bg-[#06C167]/20 text-[#06C167] hover:bg-[#06C167]/30'
+            }`}
           >
-            UberEats
+            UberEats{hasUE ? '' : ' 搜尋'}
           </a>
           <a
             href={fpUrl}
             target="_blank"
             rel="noopener noreferrer"
             onClick={e => e.stopPropagation()}
-            className="flex items-center justify-center gap-1.5 py-2 bg-[#d70f64] text-white rounded-xl text-sm font-semibold hover:bg-[#b50d54] transition-colors"
+            className={`flex items-center justify-center gap-1.5 py-2 rounded-xl text-sm font-semibold transition-colors ${
+              hasFP
+                ? 'bg-[#d70f64] text-white hover:bg-[#b50d54]'
+                : 'bg-[#d70f64]/20 text-[#d70f64] hover:bg-[#d70f64]/30'
+            }`}
           >
-            Foodpanda
+            Foodpanda{hasFP ? '' : ' 搜尋'}
           </a>
         </div>
       </div>

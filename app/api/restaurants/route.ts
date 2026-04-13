@@ -60,16 +60,64 @@ function getCategories(name: string): string[] {
   return cats
 }
 
-let ueCache: UberEatsEntry[] | null = null
+interface RestaurantEntry {
+  name: string
+  slug: string
+  url: string
+  platform: string
+  area: string
+  area_lat: number
+  area_lng: number
+}
+
+let allCache: RestaurantEntry[] | null = null
 let enrichedCache: Record<string, EnrichedData> | null = null
 
-async function loadUberEats(): Promise<UberEatsEntry[]> {
-  if (ueCache) return ueCache
+async function loadAllRestaurants(): Promise<RestaurantEntry[]> {
+  if (allCache) return allCache
+
+  const dataDir = path.join(process.cwd(), 'data')
+  const entries: RestaurantEntry[] = []
+
+  // 載入 UberEats
   try {
-    const raw = await fs.readFile(path.join(process.cwd(), 'data', 'ubereats.json'), 'utf-8')
-    ueCache = JSON.parse(raw).restaurants || []
-  } catch { ueCache = [] }
-  return ueCache!
+    const raw = await fs.readFile(path.join(dataDir, 'ubereats.json'), 'utf-8')
+    const data = JSON.parse(raw)
+    for (const r of (data.restaurants || [])) {
+      entries.push({ ...r, platform: 'ubereats' })
+    }
+  } catch {}
+
+  // 載入 Foodpanda
+  try {
+    const raw = await fs.readFile(path.join(dataDir, 'foodpanda.json'), 'utf-8')
+    const data = JSON.parse(raw)
+    for (const r of (data.restaurants || [])) {
+      entries.push({ ...r, platform: 'foodpanda' })
+    }
+  } catch {}
+
+  // 合併同名餐廳，標記在哪些平台上有
+  const merged = new Map<string, RestaurantEntry & { platforms: string[], urls: Record<string, string> }>()
+  for (const r of entries) {
+    const key = r.name.trim()
+    if (merged.has(key)) {
+      const existing = merged.get(key)!
+      if (!existing.platforms.includes(r.platform)) {
+        existing.platforms.push(r.platform)
+        existing.urls[r.platform] = r.url
+      }
+    } else {
+      merged.set(key, {
+        ...r,
+        platforms: [r.platform],
+        urls: { [r.platform]: r.url },
+      })
+    }
+  }
+
+  allCache = Array.from(merged.values())
+  return allCache
 }
 
 async function loadEnriched(): Promise<Record<string, EnrichedData>> {
@@ -94,17 +142,19 @@ export async function GET(request: NextRequest) {
     return NextResponse.json({ error: '需要提供經緯度' }, { status: 400 })
   }
 
-  const [ueData, enriched] = await Promise.all([loadUberEats(), loadEnriched()])
+  const [allData, enriched] = await Promise.all([loadAllRestaurants(), loadEnriched()])
 
   // 合併資料，計算距離
-  let list = ueData.map(r => {
+  let list = allData.map((r: any) => {
     const e = enriched[r.slug] || {}
     const rLat = e.lat || r.area_lat
     const rLng = e.lng || r.area_lng
     const distKm = haversineKm(lat, lng, rLat, rLng)
     const cats = getCategories(r.name)
+    const platforms: string[] = r.platforms || [r.platform]
+    const urls: Record<string, string> = r.urls || { [r.platform]: r.url }
     return {
-      ...r, ...e, distKm, categories: cats,
+      ...r, ...e, distKm, categories: cats, platforms, urls,
       rLat, rLng,
     }
   })
@@ -128,25 +178,32 @@ export async function GET(request: NextRequest) {
   const allCats = new Set<string>()
   list.forEach(r => r.categories.forEach(c => allCats.add(c)))
 
-  const restaurants = paged.map(r => ({
-    id: r.place_id || r.slug,
-    name: r.name,
-    rating: r.rating || 0,
-    reviewCount: r.review_count || 0,
-    distance: Math.round(r.distKm * 1000),
-    distanceKm: Math.round(r.distKm * 10) / 10,
-    isOpen: r.is_open ?? null,
-    priceLevel: r.price_level ?? null,
-    address: r.address || r.area,
-    photo: r.photo || null,
-    score: 0,
-    categories: r.categories,
-    dishes: r.dishes || [],
-    highlights: r.highlights || [],
-    summary: r.summary || '',
-    ubereatsUrl: r.url,
-    foodpandaUrl: `https://www.foodpanda.com.tw/search?q=${encodeURIComponent(r.name)}`,
-  }))
+  const restaurants = paged.map((r: any) => {
+    const encodedName = encodeURIComponent(r.name)
+    const platforms: string[] = r.platforms || []
+    const urls: Record<string, string> = r.urls || {}
+
+    return {
+      id: r.place_id || r.slug,
+      name: r.name,
+      rating: r.rating || 0,
+      reviewCount: r.review_count || 0,
+      distance: Math.round(r.distKm * 1000),
+      distanceKm: Math.round(r.distKm * 10) / 10,
+      isOpen: r.is_open ?? null,
+      priceLevel: r.price_level ?? null,
+      address: r.address || r.area,
+      photo: r.photo || null,
+      score: 0,
+      categories: r.categories,
+      dishes: r.dishes || [],
+      highlights: r.highlights || [],
+      summary: r.summary || '',
+      platforms,
+      ubereatsUrl: urls.ubereats || `https://www.ubereats.com/tw/search?q=${encodedName}`,
+      foodpandaUrl: urls.foodpanda || `https://www.foodpanda.com.tw/search?q=${encodedName}`,
+    }
+  })
 
   return NextResponse.json({
     restaurants,
