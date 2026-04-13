@@ -253,7 +253,7 @@ export async function GET(request: NextRequest) {
       summary: r.summary || '',
       platforms,
       ubereatsUrl: urls.ubereats || `https://www.ubereats.com/tw/search?q=${encodedName}`,
-      foodpandaUrl: urls.foodpanda || `https://www.foodpanda.com.tw/restaurants/new?q=${encodedName}`,
+      foodpandaUrl: urls.foodpanda || `https://www.google.com/search?q=foodpanda+${encodedName}`,
       warning: warning ? { tag: warning.tag, reason: warning.reason } : null,
     }
   })

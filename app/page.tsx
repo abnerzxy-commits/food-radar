@@ -42,8 +42,12 @@ export default function Home() {
   const [total, setTotal] = useState(0)
   const [selectedId, setSelectedId] = useState<string | null>(null)
   const [selectedName, setSelectedName] = useState('')
+  const [suggestions, setSuggestions] = useState<{ name: string; area: string }[]>([])
+  const [showSuggestions, setShowSuggestions] = useState(false)
   const offsetRef = useRef(0)
   const observerRef = useRef<HTMLDivElement>(null)
+  const suggestTimer = useRef<ReturnType<typeof setTimeout> | null>(null)
+  const searchBoxRef = useRef<HTMLDivElement>(null)
 
   const getLocation = useCallback(() => {
     if (!navigator.geolocation) {
@@ -109,6 +113,31 @@ export default function Home() {
 
   useEffect(() => { if (coords) searchRestaurants(true) }, [coords, keyword, includeCats, excludeCats, searchRestaurants])
 
+  // Autocomplete
+  const fetchSuggestions = useCallback((q: string) => {
+    if (suggestTimer.current) clearTimeout(suggestTimer.current)
+    if (!q.trim()) { setSuggestions([]); setShowSuggestions(false); return }
+    suggestTimer.current = setTimeout(async () => {
+      try {
+        const res = await fetch(`/api/suggest?q=${encodeURIComponent(q.trim())}`)
+        const data = await res.json()
+        setSuggestions(data.suggestions || [])
+        setShowSuggestions((data.suggestions || []).length > 0)
+      } catch { setSuggestions([]) }
+    }, 150)
+  }, [])
+
+  // Click outside to close suggestions
+  useEffect(() => {
+    const handler = (e: MouseEvent) => {
+      if (searchBoxRef.current && !searchBoxRef.current.contains(e.target as Node)) {
+        setShowSuggestions(false)
+      }
+    }
+    document.addEventListener('mousedown', handler)
+    return () => document.removeEventListener('mousedown', handler)
+  }, [])
+
   useEffect(() => {
     if (!observerRef.current) return
     const observer = new IntersectionObserver(
@@ -119,7 +148,22 @@ export default function Home() {
     return () => observer.disconnect()
   }, [hasMore, loadingMore, loading, searchRestaurants])
 
-  const handleSearch = (e: React.FormEvent) => { e.preventDefault(); setKeyword(searchInput) }
+  const handleSearch = (e: React.FormEvent) => {
+    e.preventDefault()
+    setKeyword(searchInput)
+    setShowSuggestions(false)
+  }
+
+  const handleInputChange = (val: string) => {
+    setSearchInput(val)
+    fetchSuggestions(val)
+  }
+
+  const handleSelectSuggestion = (name: string) => {
+    setSearchInput(name)
+    setKeyword(name)
+    setShowSuggestions(false)
+  }
 
   // ===== Landing =====
   if (!located && !loading) {
@@ -200,30 +244,47 @@ export default function Home() {
           </div>
 
           {/* Search */}
-          <form onSubmit={handleSearch} className="flex gap-2 mb-3">
-            <div className="relative flex-1">
-              <svg className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-[#b0a494]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
-              </svg>
-              <input
-                type="text"
-                value={searchInput}
-                onChange={e => setSearchInput(e.target.value)}
-                placeholder="搜尋餐廳名稱..."
-                className="w-full pl-9 pr-4 py-2.5 rounded-xl text-sm outline-none transition-all placeholder:text-[#b8ad9e]"
-                style={{ background: '#ede7df', border: '1px solid #ddd5ca', color: '#3d3529' }}
-                onFocus={e => { e.target.style.background = '#f6f3ef'; e.target.style.borderColor = '#c9956e' }}
-                onBlur={e => { e.target.style.background = '#ede7df'; e.target.style.borderColor = '#ddd5ca' }}
-              />
-            </div>
-            <button
-              type="submit"
-              className="px-5 py-2.5 rounded-xl text-sm font-semibold text-white transition-all active:scale-95 shadow-sm"
-              style={{ background: 'linear-gradient(135deg, #b8734a, #c9956e)', boxShadow: '0 2px 8px rgba(184, 115, 74, 0.2)' }}
-            >
-              搜尋
-            </button>
-          </form>
+          <div ref={searchBoxRef} className="relative mb-3">
+            <form onSubmit={handleSearch} className="flex gap-2">
+              <div className="relative flex-1">
+                <svg className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-[#b0a494]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                </svg>
+                <input
+                  type="text"
+                  value={searchInput}
+                  onChange={e => handleInputChange(e.target.value)}
+                  onFocus={() => { if (suggestions.length > 0) setShowSuggestions(true) }}
+                  placeholder="搜尋餐廳名稱..."
+                  className="w-full pl-9 pr-4 py-2.5 rounded-xl text-sm outline-none transition-all placeholder:text-[#b8ad9e]"
+                  style={{ background: '#ede7df', border: '1px solid #ddd5ca', color: '#3d3529' }}
+                />
+              </div>
+              <button
+                type="submit"
+                className="px-5 py-2.5 rounded-xl text-sm font-semibold text-white transition-all active:scale-95 shadow-sm"
+                style={{ background: 'linear-gradient(135deg, #b8734a, #c9956e)', boxShadow: '0 2px 8px rgba(184, 115, 74, 0.2)' }}
+              >
+                搜尋
+              </button>
+            </form>
+
+            {/* Autocomplete dropdown */}
+            {showSuggestions && suggestions.length > 0 && (
+              <div className="absolute left-0 right-0 top-full mt-1 rounded-xl overflow-hidden shadow-lg z-50 border" style={{ background: '#f6f3ef', borderColor: '#ddd5ca' }}>
+                {suggestions.map((s, i) => (
+                  <button
+                    key={i}
+                    className="w-full px-4 py-2.5 flex items-center justify-between text-left transition-colors hover:bg-[#ede7df]"
+                    onMouseDown={(e) => { e.preventDefault(); handleSelectSuggestion(s.name) }}
+                  >
+                    <span className="text-sm font-medium truncate" style={{ color: '#3d3529' }}>{s.name}</span>
+                    {s.area && <span className="text-[10px] ml-2 shrink-0 px-2 py-0.5 rounded-md" style={{ background: '#e8e2d9', color: '#8a7e6e' }}>{s.area}</span>}
+                  </button>
+                ))}
+              </div>
+            )}
+          </div>
 
           {/* Filters */}
           {categories.length > 0 && (
