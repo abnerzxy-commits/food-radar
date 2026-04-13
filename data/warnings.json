@@ -1,12 +1,148 @@
 {
-  "_description": "負面新聞 / 食安疑慮標記。key 可以是 slug 或餐廳名的部分匹配",
+  "_description": "負面新聞 / 食安疑慮標記。match_type: name_contains 為部分匹配",
   "entries": [
     {
       "match": "志明牛肉麵",
       "match_type": "name_contains",
       "tag": "食安疑慮",
-      "reason": "2023 石牌分店員工被拍到擰抹布水入煮麵鍋，北投總店亦遭衛生局裁罰",
+      "reason": "2023 石牌分店員工擰抹布水入煮麵鍋，北投總店遭衛生局裁罰共6萬",
       "source": "https://www.foodnext.net/news/newsnow/paper/5593831376",
+      "added_at": "2026-04-13"
+    },
+    {
+      "match": "寶林茶室",
+      "match_type": "name_contains",
+      "tag": "重大食安",
+      "reason": "2024/3 邦克列酸食物中毒，6人死亡33人受害，負責人遭起訴",
+      "source": "https://news.pts.org.tw/article/734680",
+      "added_at": "2026-04-13"
+    },
+    {
+      "match": "初瓦",
+      "match_type": "name_contains",
+      "tag": "食安疑慮",
+      "reason": "2024/4 西門店諾羅病毒群聚感染，逾100人就醫，遭勒令停業",
+      "source": "https://news.ltn.com.tw/news/life/breakingnews/4634257",
+      "added_at": "2026-04-13"
+    },
+    {
+      "match": "嚮辣",
+      "match_type": "name_contains",
+      "tag": "食安疑慮",
+      "reason": "2024/4 西門店諾羅病毒群聚感染，逾100人就醫，遭勒令停業",
+      "source": "https://news.ltn.com.tw/news/life/breakingnews/4634257",
+      "added_at": "2026-04-13"
+    },
+    {
+      "match": "藏壽司",
+      "match_type": "name_contains",
+      "tag": "食安疑慮",
+      "reason": "2024/4 多店食物中毒通報，全台55店稽查：21家限期改正、2家停業",
+      "source": "https://news.pts.org.tw/article/690005",
+      "added_at": "2026-04-13"
+    },
+    {
+      "match": "八方雲集",
+      "match_type": "name_contains",
+      "tag": "食安疑慮",
+      "reason": "2024 多起事件：食物中毒、員工徒手捏小菜、泡抹布鋼盆裝蝦，曾進貨蘇丹紅辣椒粉",
+      "source": "https://www.nownews.com/news/6401607",
+      "added_at": "2026-04-13"
+    },
+    {
+      "match": "饗饗",
+      "match_type": "name_contains",
+      "tag": "食安疑慮",
+      "reason": "2025/1 微風信義店77人不適，檢出諾羅+仙人掌桿菌，停業後違規營業被罰300萬",
+      "source": "https://www.cna.com.tw/news/ahel/202501080121.aspx",
+      "added_at": "2026-04-13"
+    },
+    {
+      "match": "饗食天堂",
+      "match_type": "name_contains",
+      "tag": "食安疑慮",
+      "reason": "2024/2 高雄夢時代店諾羅群聚，廚師帶病上崗；歷年多次食物中毒紀錄",
+      "source": "https://www.businesstoday.com.tw/article/category/183029/post/202402070015/",
+      "added_at": "2026-04-13"
+    },
+    {
+      "match": "鼎泰豐",
+      "match_type": "name_contains",
+      "tag": "食安疑慮",
+      "reason": "2025/1 新光A4店顧客確診諾羅病毒，稽查發現食材未妥善覆蓋等缺失",
+      "source": "https://udn.com/news/story/7266/8477045",
+      "added_at": "2026-04-13"
+    },
+    {
+      "match": "摩斯漢堡",
+      "match_type": "name_contains",
+      "tag": "食安疑慮",
+      "reason": "2026/2 高雄店雞塊發現異物；歷史綠薯條事件配醣生物鹼超標10倍",
+      "source": "https://www.foodnext.net/life/lifesafe/paper/4975383935",
+      "added_at": "2026-04-13"
+    },
+    {
+      "match": "Mos Burger",
+      "match_type": "name_contains",
+      "tag": "食安疑慮",
+      "reason": "2026/2 高雄店雞塊發現異物；歷史綠薯條事件配醣生物鹼超標10倍",
+      "source": "https://www.foodnext.net/life/lifesafe/paper/4975383935",
+      "added_at": "2026-04-13"
+    },
+    {
+      "match": "築間",
+      "match_type": "name_contains",
+      "tag": "食安疑慮",
+      "reason": "2025 食藥署檢出油菜農藥超標；消費者湯鍋發現蚜蟲異物後腹瀉",
+      "source": "https://news.ltn.com.tw/news/life/breakingnews/5295048",
+      "added_at": "2026-04-13"
+    },
+    {
+      "match": "1010湘",
+      "match_type": "name_contains",
+      "tag": "食安疑慮",
+      "reason": "稽查發現過期雞塊等過期食材，被裁罰12萬元",
+      "source": "https://www.businesstoday.com.tw/article/category/183027/post/202009300019/",
+      "added_at": "2026-04-13"
+    },
+    {
+      "match": "壽司郎",
+      "match_type": "name_contains",
+      "tag": "食安疑慮",
+      "reason": "松葉蟹鮮蝦沙拉菌數超標，被裁罰3萬元",
+      "source": "https://www.businesstoday.com.tw/article/category/183027/post/202009300019/",
+      "added_at": "2026-04-13"
+    },
+    {
+      "match": "千葉火鍋",
+      "match_type": "name_contains",
+      "tag": "食安疑慮",
+      "reason": "2024 嘉義尊爵館飲料/冰品腸桿菌超標，依食安法開罰",
+      "source": "https://news.pts.org.tw/article/724803",
+      "added_at": "2026-04-13"
+    },
+    {
+      "match": "爭鮮",
+      "match_type": "name_contains",
+      "tag": "食安疑慮",
+      "reason": "外帶壽司發現蛆蟲鑽入扇貝肉中；高雄店消費者多次用手觸碰迴轉台食物",
+      "source": "https://www.nownews.com/news/6700430",
+      "added_at": "2026-04-13"
+    },
+    {
+      "match": "鬍鬚張",
+      "match_type": "name_contains",
+      "tag": "食安疑慮",
+      "reason": "2025/7 被爆將退單便當重新加熱販售；取得台灣豬標章後紅麴豬肉實為西班牙進口",
+      "source": "https://news.cts.com.tw/cts/life/202507/202507292496915.html",
+      "added_at": "2026-04-13"
+    },
+    {
+      "match": "漢來海港",
+      "match_type": "name_contains",
+      "tag": "食安疑慮",
+      "reason": "2024/4 高雄巨蛋店52人食物中毒；2021台中店49人中毒，疑生熟食混用",
+      "source": "https://news.ltn.com.tw/news/life/breakingnews/4656196",
       "added_at": "2026-04-13"
     }
   ]
