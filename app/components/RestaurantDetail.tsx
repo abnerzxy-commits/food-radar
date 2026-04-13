@@ -68,7 +68,7 @@ export default function RestaurantDetail({
   // UberEats / Foodpanda 搜尋連結
   const encodedName = encodeURIComponent(restaurantName)
   const uberEatsUrl = `https://www.ubereats.com/tw/search?q=${encodedName}`
-  const foodpandaUrl = `https://www.google.com/search?q=foodpanda+${encodedName}`
+  const foodpandaUrl = `https://www.foodpanda.com.tw/restaurants/new?q=${encodedName}`
 
   return (
     <div className="modal-overlay fixed inset-0 z-50 bg-black/50 flex items-end sm:items-center justify-center p-0 sm:p-4" onClick={onClose}>

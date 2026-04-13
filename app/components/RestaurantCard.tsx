@@ -50,7 +50,7 @@ export default function RestaurantCard({ restaurant, onClick }: { restaurant: Re
   const { name, rating, reviewCount, distance, isOpen, photo, address, dishes, highlights, summary, platforms, ubereatsUrl, foodpandaUrl, warning } = restaurant
   const encodedName = encodeURIComponent(name)
   const ueUrl = ubereatsUrl || `https://www.ubereats.com/tw/search?q=${encodedName}`
-  const fpUrl = foodpandaUrl || `https://www.google.com/search?q=foodpanda+${encodedName}`
+  const fpUrl = foodpandaUrl || `https://www.foodpanda.com.tw/restaurants/new?q=${encodedName}`
   const hasUE = platforms?.includes('ubereats')
   const hasFP = platforms?.includes('foodpanda')
 
