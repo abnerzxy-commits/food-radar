@@ -176,7 +176,7 @@ export async function GET(request: NextRequest) {
   const paged = list.slice(offset, offset + limit)
 
   const allCats = new Set<string>()
-  list.forEach(r => r.categories.forEach(c => allCats.add(c)))
+  list.forEach((r: any) => r.categories.forEach((c: string) => allCats.add(c)))
 
   const restaurants = paged.map((r: any) => {
     const encodedName = encodeURIComponent(r.name)
