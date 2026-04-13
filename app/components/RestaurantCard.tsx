@@ -60,13 +60,11 @@ export default function RestaurantCard({ restaurant, onClick }: { restaurant: Re
   const handleFpClick = (e: React.MouseEvent) => {
     e.stopPropagation()
     if (!hasFP) {
-      // 沒有直連 → 複製名稱到剪貼簿，再開 App
       navigator.clipboard?.writeText(name).then(() => {
         setToast('已複製餐廳名稱，貼上搜尋即可')
         setTimeout(() => setToast(''), 3000)
       }).catch(() => {})
     }
-    window.open(fpUrl, '_blank', 'noopener,noreferrer')
   }
 
   return (
@@ -202,7 +200,10 @@ export default function RestaurantCard({ restaurant, onClick }: { restaurant: Re
           >
             UberEats{hasUE ? '' : ' 搜尋'}
           </a>
-          <button
+          <a
+            href={fpUrl}
+            target="_blank"
+            rel="noopener noreferrer"
             onClick={handleFpClick}
             className="flex items-center justify-center py-2.5 rounded-xl text-[13px] font-semibold transition-all active:scale-95"
             style={hasFP
@@ -211,7 +212,7 @@ export default function RestaurantCard({ restaurant, onClick }: { restaurant: Re
             }
           >
             Foodpanda{hasFP ? '' : ' 搜尋'}
-          </button>
+          </a>
         </div>
 
         {/* Toast */}

@@ -212,19 +212,21 @@ export default function RestaurantDetail({
                     <span className="text-lg">🟢</span>
                     UberEats
                   </a>
-                  <button
+                  <a
+                    href={foodpandaUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     onClick={() => {
                       navigator.clipboard?.writeText(restaurantName).then(() => {
                         setFpToast('已複製餐廳名稱，開啟 App 後貼上搜尋')
                         setTimeout(() => setFpToast(''), 3000)
                       }).catch(() => {})
-                      window.open(foodpandaUrl, '_blank', 'noopener,noreferrer')
                     }}
                     className="flex items-center justify-center gap-2 py-3 px-4 bg-[#d70f64] text-white rounded-xl font-semibold text-sm hover:bg-[#b50d54] transition-colors"
                   >
                     <span className="text-lg">🐼</span>
                     Foodpanda
-                  </button>
+                  </a>
                 </div>
                 {fpToast ? (
                   <p className="text-xs text-emerald-600 mt-2 text-center font-medium">{fpToast}</p>
