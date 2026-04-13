@@ -206,7 +206,7 @@ export default function RestaurantCard({ restaurant, onClick }: { restaurant: Re
             Foodpanda
           </a>
         </div>
-        <p className="text-[9px] text-right mt-1" style={{ color: '#b0a494' }}>長按複製店名（Foodpanda 不支援直接開啟）</p>
+        <p className="text-[9px] text-right mt-1" style={{ color: '#b0a494' }}>點選即複製店名，請自行貼上（Foodpanda 不支援直接開啟）</p>
 
         {/* Toast */}
         {toast && (

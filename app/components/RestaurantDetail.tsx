@@ -232,7 +232,7 @@ export default function RestaurantDetail({
                   <p className="text-xs text-emerald-600 mt-2 text-center font-medium">{fpToast}</p>
                 ) : (
                   <p className="text-xs text-stone-400 mt-2 text-center">
-                    長按複製店名（Foodpanda 不支援直接開啟）
+                    點選即複製店名，請自行貼上（Foodpanda 不支援直接開啟）
                   </p>
                 )}
               </div>
