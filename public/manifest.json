@@ -1,0 +1,26 @@
+{
+  "name": "外送雷達 - UberEats / Foodpanda 比較",
+  "short_name": "外送雷達",
+  "description": "用 Google 真實評價找附近可外送的餐廳，一鍵跳轉點餐",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#efe9e1",
+  "theme_color": "#b8734a",
+  "icons": [
+    {
+      "src": "/favicon-32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}

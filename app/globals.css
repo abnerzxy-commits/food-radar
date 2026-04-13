@@ -142,6 +142,15 @@ input[type="range"]::-webkit-slider-thumb {
   box-shadow: 0 2px 8px rgba(0,0,0,0.15);
 }
 
+/* Install prompt slide up */
+.animate-slide-up {
+  animation: installSlideUp 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+@keyframes installSlideUp {
+  from { opacity: 0; transform: translateY(40px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
 /* Badge shine */
 @keyframes badge-shine {
   to { background-position: 200% center; }

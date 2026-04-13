@@ -3,6 +3,7 @@
 import { useState, useEffect, useCallback, useRef } from 'react'
 import RestaurantCard from './components/RestaurantCard'
 import RestaurantDetail from './components/RestaurantDetail'
+import InstallPrompt from './components/InstallPrompt'
 
 interface Restaurant {
   id: string
@@ -295,6 +296,7 @@ export default function Home() {
             ))}
           </div>
         </div>
+        <InstallPrompt />
       </div>
     )
   }
@@ -519,6 +521,7 @@ export default function Home() {
       {selectedId && (
         <RestaurantDetail placeId={selectedId} restaurantName={selectedName} onClose={() => setSelectedId(null)} />
       )}
+      <InstallPrompt />
     </div>
   )
 }
