@@ -15,18 +15,39 @@ DATA_DIR = Path(__file__).parent.parent / 'data'
 DATA_DIR.mkdir(exist_ok=True)
 
 DEFAULT_LOCATIONS = [
+    # 台北市
     {'address': '台北市信義區信義路五段7號',   'area': '信義區',   'lat': 25.033, 'lng': 121.565},
     {'address': '台北市中山區南京東路二段1號', 'area': '中山區',   'lat': 25.052, 'lng': 121.533},
     {'address': '台北市大安區忠孝東路四段1號', 'area': '大安區',   'lat': 25.042, 'lng': 121.544},
     {'address': '台北市松山區南京東路四段1號', 'area': '松山區',   'lat': 25.051, 'lng': 121.554},
     {'address': '台北市中正區忠孝西路一段1號', 'area': '中正區',   'lat': 25.046, 'lng': 121.517},
+    {'address': '台北市北投區光明路1號',       'area': '北投區',   'lat': 25.132, 'lng': 121.501},
+    {'address': '台北市士林區中正路1號',       'area': '士林區',   'lat': 25.093, 'lng': 121.524},
+    {'address': '台北市內湖區成功路四段1號',   'area': '內湖區',   'lat': 25.078, 'lng': 121.590},
+    {'address': '台北市南港區南港路一段1號',   'area': '南港區',   'lat': 25.055, 'lng': 121.607},
+    {'address': '台北市萬華區萬大路1號',       'area': '萬華區',   'lat': 25.035, 'lng': 121.499},
+    {'address': '台北市文山區木柵路三段1號',   'area': '文山區',   'lat': 24.989, 'lng': 121.573},
+    # 新北市
     {'address': '新北市板橋區中山路一段1號',   'area': '板橋區',   'lat': 25.014, 'lng': 121.459},
     {'address': '新北市中和區中和路1號',       'area': '中和區',   'lat': 24.999, 'lng': 121.499},
+    {'address': '新北市永和區永和路一段1號',   'area': '永和區',   'lat': 25.008, 'lng': 121.514},
+    {'address': '新北市三重區重新路三段1號',   'area': '三重區',   'lat': 25.063, 'lng': 121.488},
+    {'address': '新北市蘆洲區中正路1號',       'area': '蘆洲區',   'lat': 25.085, 'lng': 121.473},
+    {'address': '新北市新莊區中正路1號',       'area': '新莊區',   'lat': 25.036, 'lng': 121.450},
+    {'address': '新北市新店區北新路三段1號',   'area': '新店區',   'lat': 24.968, 'lng': 121.542},
+    {'address': '新北市汐止區大同路一段1號',   'area': '汐止區',   'lat': 25.063, 'lng': 121.641},
+    {'address': '新北市土城區中央路三段1號',   'area': '土城區',   'lat': 24.972, 'lng': 121.444},
+    {'address': '新北市樹林區中正路1號',       'area': '樹林區',   'lat': 24.990, 'lng': 121.420},
+    # 桃園
     {'address': '桃園市中壢區中正路1號',       'area': '中壢區',   'lat': 24.957, 'lng': 121.226},
+    {'address': '桃園市桃園區中正路1號',       'area': '桃園區',   'lat': 24.994, 'lng': 121.301},
+    # 台中
     {'address': '台中市西屯區台灣大道三段1號', 'area': '台中西屯', 'lat': 24.164, 'lng': 120.640},
     {'address': '台中市北區三民路三段1號',     'area': '台中北區', 'lat': 24.152, 'lng': 120.685},
+    # 高雄
     {'address': '高雄市前鎮區中山二路1號',     'area': '高雄前鎮', 'lat': 22.613, 'lng': 120.303},
     {'address': '高雄市左營區博愛二路1號',     'area': '高雄左營', 'lat': 22.669, 'lng': 120.296},
+    # 台南
     {'address': '台南市中西區中正路1號',       'area': '台南中西', 'lat': 22.992, 'lng': 120.204},
 ]
 
@@ -144,10 +165,26 @@ def main():
 
         browser.close()
 
-    # 去重
+    # 載入現有資料並合併（避免覆蓋）
+    out_path = DATA_DIR / 'ubereats.json'
+    existing = []
+    if out_path.exists():
+        try:
+            data = json.loads(out_path.read_text())
+            existing = data.get('restaurants', [])
+            print(f"載入現有 {len(existing)} 家餐廳")
+        except:
+            pass
+
+    # 合併：新資料優先（同 slug 用新的）
     seen = set()
     unique = []
     for r in all_restaurants:
+        key = r['slug']
+        if key not in seen:
+            seen.add(key)
+            unique.append(r)
+    for r in existing:
         key = r['slug']
         if key not in seen:
             seen.add(key)
@@ -159,11 +196,10 @@ def main():
         'restaurants': unique,
     }
 
-    out_path = DATA_DIR / 'ubereats.json'
     with open(out_path, 'w', encoding='utf-8') as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
 
-    print(f"\n完成！共 {len(unique)} 家（去重後），儲存至 {out_path}")
+    print(f"\n完成！新爬 {len(all_restaurants)} 家，合併後共 {len(unique)} 家，儲存至 {out_path}")
 
 
 if __name__ == '__main__':

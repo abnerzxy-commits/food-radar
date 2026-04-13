@@ -33,7 +33,8 @@ export default function Home() {
   const [coords, setCoords] = useState<{ lat: number; lng: number } | null>(null)
   const [keyword, setKeyword] = useState('')
   const [searchInput, setSearchInput] = useState('')
-  const [selectedCategory, setSelectedCategory] = useState('')
+  const [includeCats, setIncludeCats] = useState<string[]>([])
+  const [excludeCats, setExcludeCats] = useState<string[]>([])
   const [categories, setCategories] = useState<string[]>([])
   const [hasMore, setHasMore] = useState(false)
   const [total, setTotal] = useState(0)
@@ -89,7 +90,8 @@ export default function Home() {
         limit: '30',
       })
       if (keyword) params.set('keyword', keyword)
-      if (selectedCategory) params.set('category', selectedCategory)
+      if (includeCats.length > 0) params.set('include', includeCats.join(','))
+      if (excludeCats.length > 0) params.set('exclude', excludeCats.join(','))
 
       const res = await fetch(`/api/restaurants?${params}`)
       const data = await res.json()
@@ -113,14 +115,14 @@ export default function Home() {
       setLoading(false)
       setLoadingMore(false)
     }
-  }, [coords, keyword, selectedCategory])
+  }, [coords, keyword, includeCats, excludeCats])
 
   // 座標 or 篩選變動 → 重新搜尋
   useEffect(() => {
     if (coords) {
       searchRestaurants(true)
     }
-  }, [coords, keyword, selectedCategory, searchRestaurants])
+  }, [coords, keyword, includeCats, excludeCats, searchRestaurants])
 
   // 無限滾動
   useEffect(() => {
@@ -211,32 +213,63 @@ export default function Home() {
             </button>
           </form>
 
-          {/* 分類篩選 */}
+          {/* 分類篩選：要 / 不要 */}
           {categories.length > 0 && (
-            <div className="flex gap-2 overflow-x-auto pb-2 scrollbar-hide">
-              <button
-                onClick={() => setSelectedCategory('')}
-                className={`px-3 py-1.5 rounded-full text-xs font-medium shrink-0 transition-colors ${
-                  !selectedCategory
-                    ? 'bg-orange-500 text-white'
-                    : 'bg-stone-100 text-stone-600 hover:bg-stone-200'
-                }`}
-              >
-                全部
-              </button>
-              {categories.map(cat => (
-                <button
-                  key={cat}
-                  onClick={() => setSelectedCategory(selectedCategory === cat ? '' : cat)}
-                  className={`px-3 py-1.5 rounded-full text-xs font-medium shrink-0 transition-colors ${
-                    selectedCategory === cat
-                      ? 'bg-orange-500 text-white'
-                      : 'bg-stone-100 text-stone-600 hover:bg-stone-200'
-                  }`}
-                >
-                  {cat}
-                </button>
-              ))}
+            <div className="space-y-2 pb-1">
+              {/* 要 */}
+              <div className="flex items-center gap-2 overflow-x-auto scrollbar-hide">
+                <span className="text-xs text-emerald-600 font-bold shrink-0 w-6">要</span>
+                {categories.map(cat => {
+                  const active = includeCats.includes(cat)
+                  return (
+                    <button
+                      key={cat}
+                      onClick={() => {
+                        if (active) {
+                          setIncludeCats(includeCats.filter(c => c !== cat))
+                        } else {
+                          setIncludeCats([...includeCats, cat])
+                          setExcludeCats(excludeCats.filter(c => c !== cat))
+                        }
+                      }}
+                      className={`px-3 py-1.5 rounded-full text-xs font-medium shrink-0 transition-colors ${
+                        active
+                          ? 'bg-emerald-500 text-white'
+                          : 'bg-stone-100 text-stone-500 hover:bg-stone-200'
+                      }`}
+                    >
+                      {active ? '✓ ' : ''}{cat}
+                    </button>
+                  )
+                })}
+              </div>
+              {/* 不要 */}
+              <div className="flex items-center gap-2 overflow-x-auto scrollbar-hide">
+                <span className="text-xs text-red-500 font-bold shrink-0 w-6">不要</span>
+                {categories.map(cat => {
+                  const active = excludeCats.includes(cat)
+                  return (
+                    <button
+                      key={cat}
+                      onClick={() => {
+                        if (active) {
+                          setExcludeCats(excludeCats.filter(c => c !== cat))
+                        } else {
+                          setExcludeCats([...excludeCats, cat])
+                          setIncludeCats(includeCats.filter(c => c !== cat))
+                        }
+                      }}
+                      className={`px-3 py-1.5 rounded-full text-xs font-medium shrink-0 transition-colors ${
+                        active
+                          ? 'bg-red-500 text-white'
+                          : 'bg-stone-100 text-stone-500 hover:bg-stone-200'
+                      }`}
+                    >
+                      {active ? '✕ ' : ''}{cat}
+                    </button>
+                  )
+                })}
+              </div>
             </div>
           )}
         </div>

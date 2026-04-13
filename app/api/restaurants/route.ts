@@ -134,7 +134,10 @@ export async function GET(request: NextRequest) {
   const lat = parseFloat(searchParams.get('lat') || '0')
   const lng = parseFloat(searchParams.get('lng') || '0')
   const keyword = (searchParams.get('keyword') || '').toLowerCase()
-  const category = searchParams.get('category') || ''
+  const includeStr = searchParams.get('include') || ''  // 要的分類，逗號分隔
+  const excludeStr = searchParams.get('exclude') || ''  // 不要的分類，逗號分隔
+  const includeCats = includeStr ? includeStr.split(',') : []
+  const excludeCats = excludeStr ? excludeStr.split(',') : []
   const offset = parseInt(searchParams.get('offset') || '0')
   const limit = parseInt(searchParams.get('limit') || '30')
 
@@ -159,17 +162,29 @@ export async function GET(request: NextRequest) {
     }
   })
 
-  // 距離排序
-  list.sort((a, b) => a.distKm - b.distKm)
+  // 排除 Google Maps 上找不到的店家
+  list = list.filter((r: any) => r.found !== false && r.rating > 0)
+
+  // 排序：先距離、同距離再照星等高到低
+  list.sort((a, b) => {
+    const distDiff = a.distKm - b.distKm
+    if (Math.abs(distDiff) > 0.3) return distDiff // 距離差超過 300m 就依距離
+    return (b.rating || 0) - (a.rating || 0)      // 距離接近就依星等
+  })
 
   // 關鍵字
   if (keyword) {
-    list = list.filter(r => r.name.toLowerCase().includes(keyword))
+    list = list.filter((r: any) => r.name.toLowerCase().includes(keyword))
   }
 
-  // 分類
-  if (category) {
-    list = list.filter(r => r.categories.includes(category))
+  // 要的分類（任一符合就保留）
+  if (includeCats.length > 0) {
+    list = list.filter((r: any) => r.categories.some((c: string) => includeCats.includes(c)))
+  }
+
+  // 不要的分類（任一符合就排除）
+  if (excludeCats.length > 0) {
+    list = list.filter((r: any) => !r.categories.some((c: string) => excludeCats.includes(c)))
   }
 
   const total = list.length
