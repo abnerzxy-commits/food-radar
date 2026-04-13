@@ -71,11 +71,11 @@ def extract_dishes_and_highlights(reviews: list) -> tuple[list, list]:
     highlight_scores = []
     for kw in positive_keywords:
         count = all_text.count(kw)
-        if count >= 2:
+        if count >= 1:
             highlight_scores.append((f"👍 {kw}", count))
     for kw in negative_keywords:
         count = all_text.count(kw)
-        if count >= 2:
+        if count >= 1:
             highlight_scores.append((f"👎 {kw}", count))
 
     highlight_scores.sort(key=lambda x: -x[1])

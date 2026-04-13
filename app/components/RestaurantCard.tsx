@@ -49,7 +49,7 @@ export default function RestaurantCard({
   restaurant: Restaurant
   onClick: () => void
 }) {
-  const { name, rating, reviewCount, distance, isOpen, photo, address, dishes, highlights, platforms, ubereatsUrl, foodpandaUrl, warning } = restaurant
+  const { name, rating, reviewCount, distance, isOpen, photo, address, dishes, highlights, summary, platforms, ubereatsUrl, foodpandaUrl, warning } = restaurant
   const encodedName = encodeURIComponent(name)
   const ueUrl = ubereatsUrl || `https://www.ubereats.com/tw/search?q=${encodedName}`
   const fpUrl = foodpandaUrl || `https://www.foodpanda.com.tw/restaurants/new?q=${encodedName}`
@@ -112,6 +112,11 @@ export default function RestaurantCard({
         )}
 
         <p className="text-xs text-stone-400 mb-2 truncate">{address}</p>
+
+        {/* Google 簡介 */}
+        {summary && (
+          <p className="text-xs text-stone-500 mb-2 line-clamp-2">{summary}</p>
+        )}
 
         {/* 推薦餐點 */}
         {dishes && dishes.length > 0 && (
