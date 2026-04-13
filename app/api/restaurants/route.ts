@@ -216,7 +216,7 @@ export async function GET(request: NextRequest) {
       summary: r.summary || '',
       platforms,
       ubereatsUrl: urls.ubereats || `https://www.ubereats.com/tw/search?q=${encodedName}`,
-      foodpandaUrl: urls.foodpanda || `https://www.foodpanda.com.tw/search?q=${encodedName}`,
+      foodpandaUrl: urls.foodpanda || `https://www.foodpanda.com.tw/restaurants/new?q=${encodedName}`,
     }
   })
 
