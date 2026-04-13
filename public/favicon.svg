@@ -11,21 +11,14 @@
   <path d="M256,256 m-180,0 a180,180 0 1,1 360,0" fill="none" stroke="white" stroke-width="28" stroke-linecap="round" opacity="0.25"/>
   <path d="M256,256 m-120,0 a120,120 0 1,1 240,0" fill="none" stroke="white" stroke-width="28" stroke-linecap="round" opacity="0.4"/>
   <path d="M256,256 m-60,0 a60,60 0 1,1 120,0" fill="none" stroke="white" stroke-width="28" stroke-linecap="round" opacity="0.55"/>
-  <!-- Center: bold fork icon -->
-  <g transform="translate(256, 280)">
-    <!-- Plate circle -->
-    <circle cx="0" cy="-20" r="70" fill="white" opacity="0.95"/>
-    <!-- Fork -->
-    <g transform="translate(-22, -48)" fill="#b8734a" stroke="#b8734a" stroke-width="5" stroke-linecap="round">
-      <line x1="0" y1="0" x2="0" y2="22"/>
-      <line x1="10" y1="0" x2="10" y2="22"/>
-      <line x1="20" y1="0" x2="20" y2="22"/>
-      <path d="M0,22 Q0,32 10,32 L10,56" fill="none" stroke-width="6"/>
-      <path d="M20,22 Q20,32 10,32" fill="none" stroke-width="5"/>
-    </g>
-    <!-- Knife -->
-    <g transform="translate(16, -48)" fill="none" stroke="#b8734a" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M0,0 C12,-2 18,10 18,22 C18,28 10,30 0,30 L0,56"/>
-    </g>
+  <!-- Center: white plate with big fork -->
+  <circle cx="256" cy="280" r="75" fill="white" opacity="0.95"/>
+  <g transform="translate(256, 280)" fill="none" stroke="#b8734a" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Fork: 3 prongs + handle, centered and large -->
+    <line x1="-16" y1="-38" x2="-16" y2="-10"/>
+    <line x1="0" y1="-38" x2="0" y2="-10"/>
+    <line x1="16" y1="-38" x2="16" y2="-10"/>
+    <path d="M-16,-10 Q-16,6 0,6 Q16,6 16,-10"/>
+    <line x1="0" y1="6" x2="0" y2="40"/>
   </g>
 </svg>
