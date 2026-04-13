@@ -59,12 +59,10 @@ export default function RestaurantCard({ restaurant, onClick }: { restaurant: Re
 
   const handleFpClick = (e: React.MouseEvent) => {
     e.stopPropagation()
-    if (!hasFP) {
-      navigator.clipboard?.writeText(name).then(() => {
-        setToast('已複製餐廳名稱，貼上搜尋即可')
-        setTimeout(() => setToast(''), 3000)
-      }).catch(() => {})
-    }
+    navigator.clipboard?.writeText(name).then(() => {
+      setToast('已複製店名，如 App 顯示無法外送請先更改外送地址')
+      setTimeout(() => setToast(''), 4000)
+    }).catch(() => {})
   }
 
   return (
@@ -118,14 +116,11 @@ export default function RestaurantCard({ restaurant, onClick }: { restaurant: Re
         </div>
 
         {/* Platform dots */}
-        <div className="absolute bottom-3 right-3 flex gap-1.5">
-          {hasUE && (
+        {hasUE && (
+          <div className="absolute bottom-3 right-3">
             <div className="w-6 h-6 rounded-lg flex items-center justify-center text-[9px] font-bold text-white shadow-sm backdrop-blur-md" style={{ background: 'rgba(108,163,120,0.85)' }}>U</div>
-          )}
-          {hasFP && (
-            <div className="w-6 h-6 rounded-lg flex items-center justify-center text-[9px] font-bold text-white shadow-sm backdrop-blur-md" style={{ background: 'rgba(196,146,138,0.85)' }}>F</div>
-          )}
-        </div>
+          </div>
+        )}
       </div>
 
       {/* Content */}
@@ -206,12 +201,9 @@ export default function RestaurantCard({ restaurant, onClick }: { restaurant: Re
             rel="noopener noreferrer"
             onClick={handleFpClick}
             className="flex items-center justify-center py-2.5 rounded-xl text-[13px] font-semibold transition-all active:scale-95"
-            style={hasFP
-              ? { background: '#c4928a', color: 'white', boxShadow: '0 2px 8px rgba(196,146,138,0.2)' }
-              : { background: 'rgba(196,146,138,0.1)', color: '#c4928a', border: '1px solid rgba(196,146,138,0.2)' }
-            }
+            style={{ background: 'rgba(196,146,138,0.1)', color: '#c4928a', border: '1px solid rgba(196,146,138,0.2)' }}
           >
-            Foodpanda{hasFP ? '' : ' 搜尋'}
+            Foodpanda
           </a>
         </div>
 
