@@ -1,7 +1,394 @@
 {
-  "scraped_at": "2026-04-13T14:40:15+08:00",
-  "total": 732,
+  "scraped_at": "2026-04-13T15:55:40+08:00",
+  "total": 775,
   "restaurants": [
+    {
+      "name": "Domino's Pizza 達美樂 基隆義一店",
+      "slug": "hv7R9CySVpKOyLDwE_rCmQ",
+      "url": "https://www.ubereats.com/tw/store/dominos-pizza-達美樂-基隆義一店/hv7R9CySVpKOyLDwE_rCmQ",
+      "platform": "ubereats",
+      "area": "基隆中正",
+      "area_lat": 25.13,
+      "area_lng": 121.737
+    },
+    {
+      "name": "Burger King漢堡王 基隆仁二店",
+      "slug": "d5H_8WJtTK2jLFrQj_H5fg",
+      "url": "https://www.ubereats.com/tw/store/burger-king漢堡王-基隆仁二店/d5H_8WJtTK2jLFrQj_H5fg",
+      "platform": "ubereats",
+      "area": "基隆中正",
+      "area_lat": 25.13,
+      "area_lng": 121.737
+    },
+    {
+      "name": "麥當勞 基隆義六 McDonald's S566",
+      "slug": "h4FHm8-JUnqDJrHztxIZQw",
+      "url": "https://www.ubereats.com/tw/store/麥當勞-基隆義六-mcdonalds-s566/h4FHm8-JUnqDJrHztxIZQw",
+      "platform": "ubereats",
+      "area": "基隆中正",
+      "area_lat": 25.13,
+      "area_lng": 121.737
+    },
+    {
+      "name": "Pizza Hut必勝客",
+      "slug": "RqueUFEzTs2sI1X7kEeU_Q",
+      "url": "https://www.ubereats.com/tw/store/pizza-hut必勝客-基隆仁一店/RqueUFEzTs2sI1X7kEeU_Q",
+      "platform": "ubereats",
+      "area": "基隆中正",
+      "area_lat": 25.13,
+      "area_lng": 121.737
+    },
+    {
+      "name": "肯德基KFC炸雞漢堡店 基隆忠二店",
+      "slug": "Fb8k323MS4SiYndfgCuxZA",
+      "url": "https://www.ubereats.com/tw/store/肯德基kfc炸雞漢堡店-基隆忠二店/Fb8k323MS4SiYndfgCuxZA",
+      "platform": "ubereats",
+      "area": "基隆中正",
+      "area_lat": 25.13,
+      "area_lng": 121.737
+    },
+    {
+      "name": "起家雞 基隆仁一店",
+      "slug": "rhdBrDKGX6iTnkmq2u8NFQ",
+      "url": "https://www.ubereats.com/tw/store/起家雞-基隆仁一店/rhdBrDKGX6iTnkmq2u8NFQ",
+      "platform": "ubereats",
+      "area": "基隆中正",
+      "area_lat": 25.13,
+      "area_lng": 121.737
+    },
+    {
+      "name": "人从众厚切牛排 基隆愛三店",
+      "slug": "G_R5j3CmRd6c6dvqX4a_Sw",
+      "url": "https://www.ubereats.com/tw/store/人从众厚切牛排-基隆愛三店/G_R5j3CmRd6c6dvqX4a_Sw",
+      "platform": "ubereats",
+      "area": "基隆中正",
+      "area_lat": 25.13,
+      "area_lng": 121.737
+    },
+    {
+      "name": "爭鮮迴轉 基隆店",
+      "slug": "wK7ALLF0T56sLjJzqOqdjA",
+      "url": "https://www.ubereats.com/tw/store/爭鮮迴轉-基隆店/wK7ALLF0T56sLjJzqOqdjA",
+      "platform": "ubereats",
+      "area": "基隆中正",
+      "area_lat": 25.13,
+      "area_lng": 121.737
+    },
+    {
+      "name": "百勝達披薩專賣店PIZZA",
+      "slug": "C8rKX9D0XuKby1HLYR3aZA",
+      "url": "https://www.ubereats.com/tw/store/百勝達披薩專賣店pizza/C8rKX9D0XuKby1HLYR3aZA",
+      "platform": "ubereats",
+      "area": "基隆中正",
+      "area_lat": 25.13,
+      "area_lng": 121.737
+    },
+    {
+      "name": "豬剛鬣脆皮豬｜炒飯｜輕食沙拉｜潛艇堡 基隆站前店",
+      "slug": "6TQQKlwcXlOBBdjuOOT4mQ",
+      "url": "https://www.ubereats.com/tw/store/豬剛鬣脆皮豬|炒飯|輕食沙拉|潛艇堡-基隆站前店/6TQQKlwcXlOBBdjuOOT4mQ",
+      "platform": "ubereats",
+      "area": "基隆中正",
+      "area_lat": 25.13,
+      "area_lng": 121.737
+    },
+    {
+      "name": "迷你雞湯鍋",
+      "slug": "Wbn4fLtgULugPb66R1JRfg",
+      "url": "https://www.ubereats.com/tw/store/迷你雞湯鍋/Wbn4fLtgULugPb66R1JRfg",
+      "platform": "ubereats",
+      "area": "基隆中正",
+      "area_lat": 25.13,
+      "area_lng": 121.737
+    },
+    {
+      "name": "架大碗 海鮮麵｜飯｜粥專賣",
+      "slug": "BfIweyEyWROfeEDlza-zkw",
+      "url": "https://www.ubereats.com/tw/store/架大碗-海鮮麵|飯|粥專賣/BfIweyEyWROfeEDlza-zkw",
+      "platform": "ubereats",
+      "area": "基隆中正",
+      "area_lat": 25.13,
+      "area_lng": 121.737
+    },
+    {
+      "name": "越南河粉 滷味小舖",
+      "slug": "qSv8qHB4QzGz8i9oM3_4QQ",
+      "url": "https://www.ubereats.com/tw/store/越南河粉-滷味小舖/qSv8qHB4QzGz8i9oM3_4QQ",
+      "platform": "ubereats",
+      "area": "基隆中正",
+      "area_lat": 25.13,
+      "area_lng": 121.737
+    },
+    {
+      "name": "Dreamers Coffee Roasters 基隆店",
+      "slug": "96jxwHNPVPC0SqQd8WBoKQ",
+      "url": "https://www.ubereats.com/tw/store/dreamers-coffee-roasters-基隆店/96jxwHNPVPC0SqQd8WBoKQ",
+      "platform": "ubereats",
+      "area": "基隆中正",
+      "area_lat": 25.13,
+      "area_lng": 121.737
+    },
+    {
+      "name": "香港金利燒臘便當",
+      "slug": "ba1-zEBzVN-Gbn2JRqkJjQ",
+      "url": "https://www.ubereats.com/tw/store/香港金利燒臘便當/ba1-zEBzVN-Gbn2JRqkJjQ",
+      "platform": "ubereats",
+      "area": "基隆中正",
+      "area_lat": 25.13,
+      "area_lng": 121.737
+    },
+    {
+      "name": "福勝亭 基隆店 4615",
+      "slug": "Yz0EB3_gQP6FEDOSQsDpsg",
+      "url": "https://www.ubereats.com/tw/store/福勝亭-基隆店-4615/Yz0EB3_gQP6FEDOSQsDpsg",
+      "platform": "ubereats",
+      "area": "基隆中正",
+      "area_lat": 25.13,
+      "area_lng": 121.737
+    },
+    {
+      "name": "暖暖大俠牛肉麵 信義店",
+      "slug": "l8aHnev9Vd6TUDhdQuBJqg",
+      "url": "https://www.ubereats.com/tw/store/暖暖大俠牛肉麵-信義店/l8aHnev9Vd6TUDhdQuBJqg",
+      "platform": "ubereats",
+      "area": "基隆中正",
+      "area_lat": 25.13,
+      "area_lng": 121.737
+    },
+    {
+      "name": "佛緣居私房料理",
+      "slug": "5E2SwpcxXyKSI0XVzunlOQ",
+      "url": "https://www.ubereats.com/tw/store/佛緣居私房料理/5E2SwpcxXyKSI0XVzunlOQ",
+      "platform": "ubereats",
+      "area": "基隆中正",
+      "area_lat": 25.13,
+      "area_lng": 121.737
+    },
+    {
+      "name": "梁社漢排骨 基隆義二店",
+      "slug": "Kz2iBD6EU4C_UzgkzQflBA",
+      "url": "https://www.ubereats.com/tw/store/梁社漢排骨-基隆義二店/Kz2iBD6EU4C_UzgkzQflBA",
+      "platform": "ubereats",
+      "area": "基隆中正",
+      "area_lat": 25.13,
+      "area_lng": 121.737
+    },
+    {
+      "name": "永傳燒臘",
+      "slug": "H3q85GGUTZuA32OZQhmaEw",
+      "url": "https://www.ubereats.com/tw/store/永傳燒臘/H3q85GGUTZuA32OZQhmaEw",
+      "platform": "ubereats",
+      "area": "基隆中正",
+      "area_lat": 25.13,
+      "area_lng": 121.737
+    },
+    {
+      "name": "快樂廚房",
+      "slug": "wEgUJuc7Vd2_v9fJW0cG7A",
+      "url": "https://www.ubereats.com/tw/store/快樂廚房/wEgUJuc7Vd2_v9fJW0cG7A",
+      "platform": "ubereats",
+      "area": "基隆中正",
+      "area_lat": 25.13,
+      "area_lng": 121.737
+    },
+    {
+      "name": "ANEKA INDO RESTO 印尼料理",
+      "slug": "YnCNTUvjU5GxugGQQgWqCw",
+      "url": "https://www.ubereats.com/tw/store/aneka-indo-resto-印尼料理/YnCNTUvjU5GxugGQQgWqCw",
+      "platform": "ubereats",
+      "area": "基隆中正",
+      "area_lat": 25.13,
+      "area_lng": 121.737
+    },
+    {
+      "name": "宅食飯盒 x Lunch box",
+      "slug": "JaUxbn4qVj-QgFerXhMbZQ",
+      "url": "https://www.ubereats.com/tw/store/宅食飯盒-x-lunch-box-基隆總店/JaUxbn4qVj-QgFerXhMbZQ",
+      "platform": "ubereats",
+      "area": "基隆中正",
+      "area_lat": 25.13,
+      "area_lng": 121.737
+    },
+    {
+      "name": "特力屋 基隆義一店",
+      "slug": "HSFmlcvBVZSWq-hn2zJfSQ?diningMode=DELIVERY",
+      "url": "https://www.ubereats.com/tw/store/特力屋-基隆義一店/HSFmlcvBVZSWq-hn2zJfSQ?diningMode=DELIVERY",
+      "platform": "ubereats",
+      "area": "基隆中正",
+      "area_lat": 25.13,
+      "area_lng": 121.737
+    },
+    {
+      "name": "牛丁次郎坊X基隆廟口支店 燒肉丼專科",
+      "slug": "1RePz50lR5Wx_ZnbXYrFqw",
+      "url": "https://www.ubereats.com/tw/store/牛丁次郎坊x基隆廟口支店-燒肉丼專科/1RePz50lR5Wx_ZnbXYrFqw",
+      "platform": "ubereats",
+      "area": "基隆仁愛",
+      "area_lat": 25.128,
+      "area_lng": 121.741
+    },
+    {
+      "name": "稻森洋食屋",
+      "slug": "BWheknP5UPen2mxNnNy4gQ",
+      "url": "https://www.ubereats.com/tw/store/稻森洋食屋/BWheknP5UPen2mxNnNy4gQ",
+      "platform": "ubereats",
+      "area": "基隆仁愛",
+      "area_lat": 25.128,
+      "area_lng": 121.741
+    },
+    {
+      "name": "小涼院 涼麵丨丼飯丨湯物",
+      "slug": "1xWjFJKnWci-gxBY4XmQzw",
+      "url": "https://www.ubereats.com/tw/store/小涼院-涼麵丨丼飯丨湯物/1xWjFJKnWci-gxBY4XmQzw",
+      "platform": "ubereats",
+      "area": "基隆仁愛",
+      "area_lat": 25.128,
+      "area_lng": 121.741
+    },
+    {
+      "name": "啊母啊姆鍋燒麵 浮誇肉燥飯",
+      "slug": "b2hRvqyNXYKtbDUbg-Sz9Q",
+      "url": "https://www.ubereats.com/tw/store/啊母啊姆鍋燒麵-浮誇肉燥飯/b2hRvqyNXYKtbDUbg-Sz9Q",
+      "platform": "ubereats",
+      "area": "基隆仁愛",
+      "area_lat": 25.128,
+      "area_lng": 121.741
+    },
+    {
+      "name": "鮮牧火鍋 基隆店",
+      "slug": "-xVHKBwwUxOb4aGpWk5Wvg",
+      "url": "https://www.ubereats.com/tw/store/鮮牧火鍋-基隆店/-xVHKBwwUxOb4aGpWk5Wvg",
+      "platform": "ubereats",
+      "area": "基隆仁愛",
+      "area_lat": 25.128,
+      "area_lng": 121.741
+    },
+    {
+      "name": "1219烤鴨",
+      "slug": "xJt-GK2vUeGmo8eLwQmR3Q",
+      "url": "https://www.ubereats.com/tw/store/1219烤鴨/xJt-GK2vUeGmo8eLwQmR3Q",
+      "platform": "ubereats",
+      "area": "基隆仁愛",
+      "area_lat": 25.128,
+      "area_lng": 121.741
+    },
+    {
+      "name": "成功鵝肉麵食館",
+      "slug": "isL7KQseSAKApqufcgDzUA",
+      "url": "https://www.ubereats.com/tw/store/成功鵝肉麵食館/isL7KQseSAKApqufcgDzUA",
+      "platform": "ubereats",
+      "area": "基隆仁愛",
+      "area_lat": 25.128,
+      "area_lng": 121.741
+    },
+    {
+      "name": "摩斯漢堡Mos Burger 基隆長庚店",
+      "slug": "0k1SfXrNUES8kQvm-ummkQ",
+      "url": "https://www.ubereats.com/tw/store/摩斯漢堡mos-burger-基隆長庚店/0k1SfXrNUES8kQvm-ummkQ",
+      "platform": "ubereats",
+      "area": "基隆仁愛",
+      "area_lat": 25.128,
+      "area_lng": 121.741
+    },
+    {
+      "name": "牛牛鍋燒麵",
+      "slug": "IffsVER8W-Cw-1u-AMTnkQ",
+      "url": "https://www.ubereats.com/tw/store/牛牛鍋燒麵-孝三店/IffsVER8W-Cw-1u-AMTnkQ",
+      "platform": "ubereats",
+      "area": "基隆仁愛",
+      "area_lat": 25.128,
+      "area_lng": 121.741
+    },
+    {
+      "name": "古早味米粉湯大腸圈 基隆安一店",
+      "slug": "HaGNWKjfT2enrQ7hNAtaOw",
+      "url": "https://www.ubereats.com/tw/store/古早味米粉湯大腸圈-基隆安一店/HaGNWKjfT2enrQ7hNAtaOw",
+      "platform": "ubereats",
+      "area": "基隆仁愛",
+      "area_lat": 25.128,
+      "area_lng": 121.741
+    },
+    {
+      "name": "頂呱呱 基隆愛二店",
+      "slug": "RT-VQA9dQ4WzR2X1osicyw",
+      "url": "https://www.ubereats.com/tw/store/頂呱呱-基隆愛二店/RT-VQA9dQ4WzR2X1osicyw",
+      "platform": "ubereats",
+      "area": "基隆仁愛",
+      "area_lat": 25.128,
+      "area_lng": 121.741
+    },
+    {
+      "name": "TRUEWIN初韻 水果/茶專賣 基隆廟口店",
+      "slug": "NYY6Ht0uS1q8iI_xUfWcrQ",
+      "url": "https://www.ubereats.com/tw/store/truewin初韻-水果-茶專賣-基隆廟口店/NYY6Ht0uS1q8iI_xUfWcrQ",
+      "platform": "ubereats",
+      "area": "基隆仁愛",
+      "area_lat": 25.128,
+      "area_lng": 121.741
+    },
+    {
+      "name": "費心腸中式小吃",
+      "slug": "bSZVF2sATECkmhIIXYIw7g",
+      "url": "https://www.ubereats.com/tw/store/費心腸中式小吃/bSZVF2sATECkmhIIXYIw7g",
+      "platform": "ubereats",
+      "area": "基隆仁愛",
+      "area_lat": 25.128,
+      "area_lng": 121.741
+    },
+    {
+      "name": "大苑子 基隆義二店",
+      "slug": "5LTevHrCR9yL0r_lBoPCRQ",
+      "url": "https://www.ubereats.com/tw/store/大苑子-基隆義二店/5LTevHrCR9yL0r_lBoPCRQ",
+      "platform": "ubereats",
+      "area": "基隆仁愛",
+      "area_lat": 25.128,
+      "area_lng": 121.741
+    },
+    {
+      "name": "小慧越式快炒",
+      "slug": "__Z1_zPVXRG4EKmFtipBDA",
+      "url": "https://www.ubereats.com/tw/store/小慧越式快炒/__Z1_zPVXRG4EKmFtipBDA",
+      "platform": "ubereats",
+      "area": "基隆仁愛",
+      "area_lat": 25.128,
+      "area_lng": 121.741
+    },
+    {
+      "name": "抿茶 min cha 基隆廟口店",
+      "slug": "w1JAiHYCX2OkRUcY20TNmw",
+      "url": "https://www.ubereats.com/tw/store/抿茶-min-cha-基隆廟口店/w1JAiHYCX2OkRUcY20TNmw",
+      "platform": "ubereats",
+      "area": "基隆仁愛",
+      "area_lat": 25.128,
+      "area_lng": 121.741
+    },
+    {
+      "name": "一燔炸雞 咖哩 基隆總店",
+      "slug": "Ne3w8JDaTsmItvCaZdG1Sw",
+      "url": "https://www.ubereats.com/tw/store/一燔炸雞-咖哩-基隆總店/Ne3w8JDaTsmItvCaZdG1Sw",
+      "platform": "ubereats",
+      "area": "基隆仁愛",
+      "area_lat": 25.128,
+      "area_lng": 121.741
+    },
+    {
+      "name": "元爵味 黃燜雞米飯 廟口仁愛店",
+      "slug": "45uTJrjVWCCMOGCunC7Sgw",
+      "url": "https://www.ubereats.com/tw/store/元爵味-黃燜雞米飯-廟口仁愛店/45uTJrjVWCCMOGCunC7Sgw",
+      "platform": "ubereats",
+      "area": "基隆仁愛",
+      "area_lat": 25.128,
+      "area_lng": 121.741
+    },
+    {
+      "name": "定食8 基隆店",
+      "slug": "16sRVD_NQfmNMT7X7ImEfA",
+      "url": "https://www.ubereats.com/tw/store/定食8-基隆店/16sRVD_NQfmNMT7X7ImEfA",
+      "platform": "ubereats",
+      "area": "基隆仁愛",
+      "area_lat": 25.128,
+      "area_lng": 121.741
+    },
     {
       "name": "Domino's Pizza 達美樂 桃鶯店",
       "slug": "OlYqcerpW8y27qdsl_BSBQ",
