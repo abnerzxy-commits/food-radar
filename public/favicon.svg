@@ -4,31 +4,28 @@
       <stop offset="0%" style="stop-color:#b8734a"/>
       <stop offset="100%" style="stop-color:#c9956e"/>
     </linearGradient>
-    <linearGradient id="radar" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.9"/>
-      <stop offset="100%" style="stop-color:#f3ebe3;stop-opacity:0.8"/>
-    </linearGradient>
   </defs>
   <!-- Rounded square background -->
   <rect width="512" height="512" rx="112" fill="url(#bg)"/>
-  <!-- Radar rings -->
-  <circle cx="256" cy="240" r="160" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="2"/>
-  <circle cx="256" cy="240" r="110" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="2"/>
-  <circle cx="256" cy="240" r="60" fill="none" stroke="rgba(255,255,255,0.25)" stroke-width="2.5"/>
-  <!-- Radar sweep (pie slice) -->
-  <path d="M256,240 L256,80 A160,160 0 0,1 394,160 Z" fill="rgba(255,255,255,0.12)"/>
-  <!-- Center dot -->
-  <circle cx="256" cy="240" r="12" fill="white"/>
-  <!-- Location pin -->
-  <g transform="translate(310, 150)">
-    <path d="M0,-28 C15.5,-28 28,-15.5 28,0 C28,20 0,44 0,44 C0,44 -28,20 -28,0 C-28,-15.5 -15.5,-28 0,-28Z" fill="white" opacity="0.95"/>
-    <circle cx="0" cy="0" r="11" fill="#b8734a"/>
-  </g>
-  <!-- Fork and knife icon at bottom -->
-  <g transform="translate(256, 390)" fill="white" opacity="0.95">
+  <!-- Bold radar waves -->
+  <path d="M256,256 m-180,0 a180,180 0 1,1 360,0" fill="none" stroke="white" stroke-width="28" stroke-linecap="round" opacity="0.25"/>
+  <path d="M256,256 m-120,0 a120,120 0 1,1 240,0" fill="none" stroke="white" stroke-width="28" stroke-linecap="round" opacity="0.4"/>
+  <path d="M256,256 m-60,0 a60,60 0 1,1 120,0" fill="none" stroke="white" stroke-width="28" stroke-linecap="round" opacity="0.55"/>
+  <!-- Center: bold fork icon -->
+  <g transform="translate(256, 280)">
+    <!-- Plate circle -->
+    <circle cx="0" cy="-20" r="70" fill="white" opacity="0.95"/>
     <!-- Fork -->
-    <path d="M-28,-30 L-28,-10 C-28,-2 -24,4 -18,4 L-18,30 L-12,30 L-12,4 C-6,4 -2,-2 -2,-10 L-2,-30 M-15,-30 L-15,-8" stroke="white" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+    <g transform="translate(-22, -48)" fill="#b8734a" stroke="#b8734a" stroke-width="5" stroke-linecap="round">
+      <line x1="0" y1="0" x2="0" y2="22"/>
+      <line x1="10" y1="0" x2="10" y2="22"/>
+      <line x1="20" y1="0" x2="20" y2="22"/>
+      <path d="M0,22 Q0,32 10,32 L10,56" fill="none" stroke-width="6"/>
+      <path d="M20,22 Q20,32 10,32" fill="none" stroke-width="5"/>
+    </g>
     <!-- Knife -->
-    <path d="M12,-30 L12,30 M18,-30 C18,-30 28,-18 28,-6 C28,2 22,4 18,4" stroke="white" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <g transform="translate(16, -48)" fill="none" stroke="#b8734a" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M0,0 C12,-2 18,10 18,22 C18,28 10,30 0,30 L0,56"/>
+    </g>
   </g>
 </svg>
