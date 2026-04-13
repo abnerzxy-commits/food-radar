@@ -8,17 +8,22 @@
   <!-- Rounded square background -->
   <rect width="512" height="512" rx="112" fill="url(#bg)"/>
   <!-- Bold radar waves -->
-  <path d="M256,256 m-180,0 a180,180 0 1,1 360,0" fill="none" stroke="white" stroke-width="28" stroke-linecap="round" opacity="0.25"/>
-  <path d="M256,256 m-120,0 a120,120 0 1,1 240,0" fill="none" stroke="white" stroke-width="28" stroke-linecap="round" opacity="0.4"/>
-  <path d="M256,256 m-60,0 a60,60 0 1,1 120,0" fill="none" stroke="white" stroke-width="28" stroke-linecap="round" opacity="0.55"/>
-  <!-- Center: white plate with big fork -->
-  <circle cx="256" cy="280" r="75" fill="white" opacity="0.95"/>
-  <g transform="translate(256, 280)" fill="none" stroke="#b8734a" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
-    <!-- Fork: 3 prongs + handle, centered and large -->
-    <line x1="-16" y1="-38" x2="-16" y2="-10"/>
-    <line x1="0" y1="-38" x2="0" y2="-10"/>
-    <line x1="16" y1="-38" x2="16" y2="-10"/>
-    <path d="M-16,-10 Q-16,6 0,6 Q16,6 16,-10"/>
-    <line x1="0" y1="6" x2="0" y2="40"/>
+  <path d="M256,250 m-185,0 a185,185 0 1,1 370,0" fill="none" stroke="white" stroke-width="30" stroke-linecap="round" opacity="0.25"/>
+  <path d="M256,250 m-125,0 a125,125 0 1,1 250,0" fill="none" stroke="white" stroke-width="30" stroke-linecap="round" opacity="0.4"/>
+  <path d="M256,250 m-65,0 a65,65 0 1,1 130,0" fill="none" stroke="white" stroke-width="30" stroke-linecap="round" opacity="0.55"/>
+  <!-- Center: white plate -->
+  <circle cx="256" cy="285" r="90" fill="white" opacity="0.95"/>
+  <!-- Big cute fork -->
+  <g transform="translate(256, 285)" fill="none" stroke="#b8734a" stroke-linecap="round" stroke-linejoin="round">
+    <!-- 3 rounded prongs -->
+    <line x1="-22" y1="-48" x2="-22" y2="-12" stroke-width="11"/>
+    <line x1="0" y1="-52" x2="0" y2="-12" stroke-width="11"/>
+    <line x1="22" y1="-48" x2="22" y2="-12" stroke-width="11"/>
+    <!-- Curved bridge connecting prongs -->
+    <path d="M-22,-12 Q-22,10 0,10 Q22,10 22,-12" stroke-width="10" fill="none"/>
+    <!-- Handle -->
+    <line x1="0" y1="10" x2="0" y2="52" stroke-width="12"/>
+    <!-- Cute round end -->
+    <circle cx="0" cy="55" r="7" fill="#b8734a" stroke="none"/>
   </g>
 </svg>
