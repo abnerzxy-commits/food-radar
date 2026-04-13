@@ -50,6 +50,15 @@ export default function Home() {
   const [excludeCats, setExcludeCats] = useState<string[]>([])
   const [categories, setCategories] = useState<string[]>([])
   const [hasMore, setHasMore] = useState(false)
+  const [showAddrInput, setShowAddrInput] = useState(false)
+  const [addrInput, setAddrInput] = useState('')
+  const [addrLoading, setAddrLoading] = useState(false)
+  const [addrLabel, setAddrLabel] = useState(() => {
+    if (typeof window !== 'undefined') {
+      return sessionStorage.getItem('food-radar-addr') || ''
+    }
+    return ''
+  })
   const [total, setTotal] = useState(0)
   const [selectedId, setSelectedId] = useState<string | null>(null)
   const [selectedName, setSelectedName] = useState('')
@@ -167,6 +176,32 @@ export default function Home() {
     setShowSuggestions(false)
   }
 
+  const handleAddrSearch = async (e: React.FormEvent) => {
+    e.preventDefault()
+    if (!addrInput.trim()) return
+    setAddrLoading(true)
+    try {
+      const res = await fetch(`/api/geocode?address=${encodeURIComponent(addrInput.trim())}`)
+      const data = await res.json()
+      if (data.lat && data.lng) {
+        const c = { lat: data.lat, lng: data.lng }
+        sessionStorage.setItem('food-radar-coords', JSON.stringify(c))
+        sessionStorage.setItem('food-radar-addr', data.formatted || addrInput.trim())
+        setCoords(c)
+        setLocated(true)
+        setAddrLabel(data.formatted || addrInput.trim())
+        setShowAddrInput(false)
+        setAddrInput('')
+      } else {
+        setLocationError(data.error || '找不到該地址')
+      }
+    } catch {
+      setLocationError('地址查詢失敗')
+    } finally {
+      setAddrLoading(false)
+    }
+  }
+
   const handleInputChange = (val: string) => {
     setSearchInput(val)
     fetchSuggestions(val)
@@ -208,6 +243,36 @@ export default function Home() {
             開啟定位，探索附近美食
           </button>
 
+          <button
+            onClick={() => setShowAddrInput(!showAddrInput)}
+            className="w-full mt-3 py-3 rounded-2xl font-semibold text-sm transition-all active:scale-[0.97]"
+            style={{ background: 'rgba(184,115,74,0.08)', color: '#b8734a', border: '1px solid rgba(184,115,74,0.2)' }}
+          >
+            或輸入地址查詢
+          </button>
+
+          {showAddrInput && (
+            <form onSubmit={handleAddrSearch} className="mt-4 flex gap-2">
+              <input
+                type="text"
+                value={addrInput}
+                onChange={e => setAddrInput(e.target.value)}
+                placeholder="輸入地址..."
+                className="flex-1 px-4 py-3 rounded-xl text-sm outline-none"
+                style={{ background: '#f6f3ef', border: '1px solid #ddd5ca', color: '#3d3529' }}
+                autoFocus
+              />
+              <button
+                type="submit"
+                disabled={addrLoading}
+                className="px-5 py-3 rounded-xl text-sm font-semibold text-white disabled:opacity-60"
+                style={{ background: 'linear-gradient(135deg, #b8734a, #c9956e)' }}
+              >
+                {addrLoading ? '...' : '查詢'}
+              </button>
+            </form>
+          )}
+
           {locationError && (
             <div className="mt-5 px-4 py-3 bg-[#c4928a]/10 border border-[#c4928a]/20 rounded-xl text-[#a06b63] text-sm">
               {locationError}
@@ -240,21 +305,70 @@ export default function Home() {
       <header className="sticky top-0 z-40 border-b" style={{ background: 'rgba(246, 243, 239, 0.85)', backdropFilter: 'blur(20px)', WebkitBackdropFilter: 'blur(20px)', borderColor: '#ddd5ca' }}>
         <div className="max-w-2xl mx-auto px-4 py-3">
           {/* Title */}
-          <div className="flex items-center gap-2.5 mb-3">
+          <div className="flex items-center gap-2.5 mb-2">
             <div className="w-8 h-8 rounded-xl bg-white/70 flex items-center justify-center text-base border border-white/80 shadow-sm">🛵</div>
             <h1 className="text-sm font-bold gradient-text-warm flex-1 tracking-wide">外送雷達</h1>
             <button
-              onClick={getLocation}
-              className="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-[11px] font-semibold transition-all active:scale-95"
+              onClick={() => { setShowAddrInput(!showAddrInput); setAddrLabel(''); sessionStorage.removeItem('food-radar-addr') }}
+              className="flex items-center gap-1 px-2.5 py-1.5 rounded-full text-[11px] font-semibold transition-all active:scale-95"
+              style={{ background: showAddrInput ? '#b8734a' : '#f3ebe3', color: showAddrInput ? 'white' : '#b8734a', border: '1px solid #e8ddd0' }}
+            >
+              <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M9 6.75V15m6-6v8.25m.503 3.498l4.875-2.437c.381-.19.622-.58.622-1.006V4.82c0-.836-.88-1.38-1.628-1.006l-3.869 1.934c-.317.159-.69.159-1.006 0L9.503 3.252a1.125 1.125 0 00-1.006 0L3.622 5.689C3.24 5.88 3 6.27 3 6.695V19.18c0 .836.88 1.38 1.628 1.006l3.869-1.934c.317-.159.69-.159 1.006 0l4.994 2.497c.317.158.69.158 1.006 0z" />
+              </svg>
+              查地址
+            </button>
+            <button
+              onClick={() => { getLocation(); setAddrLabel(''); sessionStorage.removeItem('food-radar-addr') }}
+              className="flex items-center gap-1 px-2.5 py-1.5 rounded-full text-[11px] font-semibold transition-all active:scale-95"
               style={{ background: '#f3ebe3', color: '#b8734a', border: '1px solid #e8ddd0' }}
             >
               <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
                 <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
               </svg>
-              重新定位
+              GPS
             </button>
           </div>
+
+          {/* Address label */}
+          {addrLabel && (
+            <div className="mb-2 px-3 py-1.5 rounded-lg text-[11px] flex items-center gap-1.5" style={{ background: '#f3ebe3', color: '#8a7e6e' }}>
+              <svg className="w-3 h-3 shrink-0 text-[#b8734a]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+              </svg>
+              <span className="truncate">{addrLabel}</span>
+            </div>
+          )}
+
+          {/* Address search */}
+          {showAddrInput && (
+            <form onSubmit={handleAddrSearch} className="flex gap-2 mb-2">
+              <div className="relative flex-1">
+                <svg className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-[#b0a494]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 6.75V15m6-6v8.25m.503 3.498l4.875-2.437c.381-.19.622-.58.622-1.006V4.82c0-.836-.88-1.38-1.628-1.006l-3.869 1.934c-.317.159-.69.159-1.006 0L9.503 3.252a1.125 1.125 0 00-1.006 0L3.622 5.689C3.24 5.88 3 6.27 3 6.695V19.18c0 .836.88 1.38 1.628 1.006l3.869-1.934c.317-.159.69-.159 1.006 0l4.994 2.497c.317.158.69.158 1.006 0z" />
+                </svg>
+                <input
+                  type="text"
+                  value={addrInput}
+                  onChange={e => setAddrInput(e.target.value)}
+                  placeholder="輸入地址，例如：台北市信義區信義路五段7號"
+                  className="w-full pl-9 pr-4 py-2.5 rounded-xl text-sm outline-none transition-all placeholder:text-[#b8ad9e]"
+                  style={{ background: '#ede7df', border: '1px solid #c9956e', color: '#3d3529' }}
+                  autoFocus
+                />
+              </div>
+              <button
+                type="submit"
+                disabled={addrLoading}
+                className="px-4 py-2.5 rounded-xl text-sm font-semibold text-white transition-all active:scale-95 shadow-sm disabled:opacity-60"
+                style={{ background: 'linear-gradient(135deg, #b8734a, #c9956e)' }}
+              >
+                {addrLoading ? '...' : '查詢'}
+              </button>
+            </form>
+          )}
 
           {/* Search */}
           <div ref={searchBoxRef} className="relative mb-3">
