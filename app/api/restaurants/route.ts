@@ -174,6 +174,7 @@ export async function GET(request: NextRequest) {
   const excludeStr = searchParams.get('exclude') || ''  // 不要的分類，逗號分隔
   const includeCats = includeStr ? includeStr.split(',') : []
   const excludeCats = excludeStr ? excludeStr.split(',') : []
+  const openOnly = searchParams.get('openOnly') === '1'
   const offset = parseInt(searchParams.get('offset') || '0')
   const limit = parseInt(searchParams.get('limit') || '30')
 
@@ -221,6 +222,11 @@ export async function GET(request: NextRequest) {
   // 不要的分類（任一符合就排除）
   if (excludeCats.length > 0) {
     list = list.filter((r: any) => !r.categories.some((c: string) => excludeCats.includes(c)))
+  }
+
+  // 僅顯示營業中
+  if (openOnly) {
+    list = list.filter((r: any) => r.is_open === true)
   }
 
   const total = list.length

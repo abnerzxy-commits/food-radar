@@ -51,6 +51,7 @@ export default function Home() {
   const [excludeCats, setExcludeCats] = useState<string[]>([])
   const [categories, setCategories] = useState<string[]>([])
   const [hasMore, setHasMore] = useState(false)
+  const [openOnly, setOpenOnly] = useState(false)
   const [showAddrInput, setShowAddrInput] = useState(false)
   const [addrInput, setAddrInput] = useState('')
   const [addrLoading, setAddrLoading] = useState(false)
@@ -119,6 +120,7 @@ export default function Home() {
       if (keyword) params.set('keyword', keyword)
       if (includeCats.length > 0) params.set('include', includeCats.join(','))
       if (excludeCats.length > 0) params.set('exclude', excludeCats.join(','))
+      if (openOnly) params.set('openOnly', '1')
 
       const res = await fetch(`/api/restaurants?${params}`)
       const data = await res.json()
@@ -132,9 +134,9 @@ export default function Home() {
       }
     } catch { console.error('搜尋失敗') }
     finally { setLoading(false); setLoadingMore(false) }
-  }, [coords, keyword, includeCats, excludeCats])
+  }, [coords, keyword, includeCats, excludeCats, openOnly])
 
-  useEffect(() => { if (coords) searchRestaurants(true) }, [coords, keyword, includeCats, excludeCats, searchRestaurants])
+  useEffect(() => { if (coords) searchRestaurants(true) }, [coords, keyword, includeCats, excludeCats, openOnly, searchRestaurants])
 
   // Autocomplete
   const fetchSuggestions = useCallback((q: string) => {
@@ -415,6 +417,23 @@ export default function Home() {
             )}
           </div>
 
+          {/* Open-only toggle + Filters */}
+          <div className="flex items-center gap-2 mb-2">
+            <button
+              onClick={() => setOpenOnly(!openOnly)}
+              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full text-[11px] font-semibold transition-all active:scale-95 shrink-0 ${
+                openOnly ? 'text-white' : ''
+              }`}
+              style={openOnly
+                ? { background: '#8fa885', boxShadow: '0 2px 8px rgba(143,168,133,0.3)' }
+                : { background: '#e8e2d9', color: '#8a7e6e' }
+              }
+            >
+              <span className={`w-1.5 h-1.5 rounded-full ${openOnly ? 'bg-white' : 'bg-[#8fa885]'}`} style={!openOnly ? { boxShadow: '0 0 4px rgba(143,168,133,0.5)' } : {}} />
+              營業中
+            </button>
+          </div>
+
           {/* Filters */}
           {categories.length > 0 && (
             <div className="space-y-2 pb-1">
@@ -469,13 +488,35 @@ export default function Home() {
 
       <main className="max-w-2xl mx-auto px-4 pt-5">
         {loading ? (
-          <div className="py-28 flex flex-col items-center gap-5">
-            <div className="flex gap-3">
-              <div className="loading-dot w-3 h-3 rounded-full" style={{ background: '#c9956e' }} />
-              <div className="loading-dot w-3 h-3 rounded-full" style={{ background: '#c4928a' }} />
-              <div className="loading-dot w-3 h-3 rounded-full" style={{ background: '#8fa885' }} />
+          <div>
+            <div className="flex items-center justify-between mb-4">
+              <div className="skeleton h-4 w-32" />
+              <div className="skeleton h-6 w-20 rounded-full" />
             </div>
-            <p className="text-sm text-[#a89e90]">搜尋附近外送餐廳中...</p>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
+              {[0, 1, 2, 3, 4, 5].map(i => (
+                <div key={i} className="skeleton-card rounded-[20px] overflow-hidden" style={{ background: '#f6f3ef', border: '1px solid #e8e2d9', animationDelay: `${i * 0.08}s` }}>
+                  <div className="skeleton h-44 rounded-none" />
+                  <div className="p-4 space-y-3">
+                    <div className="skeleton h-5 w-3/4" />
+                    <div className="flex items-center gap-2">
+                      <div className="skeleton h-4 w-20" />
+                      <div className="skeleton h-4 w-16" />
+                    </div>
+                    <div className="skeleton h-3 w-full" />
+                    <div className="skeleton h-3 w-2/3" />
+                    <div className="flex gap-2">
+                      <div className="skeleton h-5 w-14 rounded-md" />
+                      <div className="skeleton h-5 w-14 rounded-md" />
+                    </div>
+                    <div className="grid grid-cols-2 gap-2.5 pt-1">
+                      <div className="skeleton h-10 rounded-xl" />
+                      <div className="skeleton h-10 rounded-xl" />
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
         ) : restaurants.length === 0 ? (
           <div className="py-28 text-center">
