@@ -30,9 +30,20 @@ export default function Home() {
   const [restaurants, setRestaurants] = useState<Restaurant[]>([])
   const [loading, setLoading] = useState(false)
   const [loadingMore, setLoadingMore] = useState(false)
-  const [located, setLocated] = useState(false)
+  const [located, setLocated] = useState(() => {
+    if (typeof window !== 'undefined') {
+      return !!sessionStorage.getItem('food-radar-coords')
+    }
+    return false
+  })
   const [locationError, setLocationError] = useState('')
-  const [coords, setCoords] = useState<{ lat: number; lng: number } | null>(null)
+  const [coords, setCoords] = useState<{ lat: number; lng: number } | null>(() => {
+    if (typeof window !== 'undefined') {
+      const saved = sessionStorage.getItem('food-radar-coords')
+      if (saved) return JSON.parse(saved)
+    }
+    return null
+  })
   const [keyword, setKeyword] = useState('')
   const [searchInput, setSearchInput] = useState('')
   const [includeCats, setIncludeCats] = useState<string[]>([])
@@ -58,7 +69,9 @@ export default function Home() {
     setLocationError('')
     navigator.geolocation.getCurrentPosition(
       (pos) => {
-        setCoords({ lat: pos.coords.latitude, lng: pos.coords.longitude })
+        const c = { lat: pos.coords.latitude, lng: pos.coords.longitude }
+        sessionStorage.setItem('food-radar-coords', JSON.stringify(c))
+        setCoords(c)
         setLocated(true)
       },
       (err) => {
