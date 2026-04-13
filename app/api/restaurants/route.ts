@@ -54,9 +54,11 @@ const CATEGORY_RULES: [string, RegExp][] = [
 
 // 非餐廳排除名單（超市、超商、賣場、藥妝等）
 const NON_RESTAURANT_RE = /全聯|家樂福|美廉社|棉花田|全家便利|全家Fami|全家fami|FamiSuper|famisuper|統一超商|7-ELEVEN|7-eleven|聖德科斯|心樸市集|優市|Costco|costco|好市多|屈臣氏|康是美|寵物公園|大全聯/i
+// 垃圾名字（促銷 badge 被爬成店名）
+const JUNK_NAME_RE = /^(\d+%\s*優惠|買\s*\d+\s*送\s*\d+|免運|優惠|促銷|\d+\s*折)/
 
 function isRestaurant(name: string): boolean {
-  return !NON_RESTAURANT_RE.test(name)
+  return !NON_RESTAURANT_RE.test(name) && !JUNK_NAME_RE.test(name)
 }
 
 function getCategories(name: string): string[] {

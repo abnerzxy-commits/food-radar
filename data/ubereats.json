@@ -1,6 +1,6 @@
 {
   "scraped_at": "2026-04-13T14:40:15+08:00",
-  "total": 768,
+  "total": 732,
   "restaurants": [
     {
       "name": "Domino's Pizza 達美樂 桃鶯店",
@@ -57,7 +57,7 @@
       "area_lng": 121.301
     },
     {
-      "name": "拿坡里 桃園店n8201",
+      "name": "拿坡里 桃園店",
       "slug": "u24OpSw4Qh6EYRaQSqGodw",
       "url": "https://www.ubereats.com/tw/store/拿坡里-桃園店n8201/u24OpSw4Qh6EYRaQSqGodw",
       "platform": "ubereats",
@@ -460,186 +460,6 @@
       "area": "土城區",
       "area_lat": 24.972,
       "area_lng": 121.444
-    },
-    {
-      "name": "32% 優惠",
-      "slug": "f929b6f1-0ed3-4425-b643-bbadd274b788",
-      "url": "https://www.ubereats.com/tw/store/uber-eats-優市-內湖店/tcqA849hTV-8TZvnIaiXzg/a8ea666a-8f73-5ea3-9051-b5af25e7efbd/a8ea666a-8f73-5ea3-9051-b5af25e7efbd/f929b6f1-0ed3-4425-b643-bbadd274b788",
-      "platform": "ubereats",
-      "area": "汐止區",
-      "area_lat": 25.063,
-      "area_lng": 121.641
-    },
-    {
-      "name": "15% 優惠",
-      "slug": "90166a7a-d103-465b-916b-670eeacc7029",
-      "url": "https://www.ubereats.com/tw/store/uber-eats-優市-內湖店/tcqA849hTV-8TZvnIaiXzg/1cd82dac-4550-536c-8ad4-43b1cc319203/1cd82dac-4550-536c-8ad4-43b1cc319203/90166a7a-d103-465b-916b-670eeacc7029",
-      "platform": "ubereats",
-      "area": "汐止區",
-      "area_lat": 25.063,
-      "area_lng": 121.641
-    },
-    {
-      "name": "17% 優惠",
-      "slug": "fd925a5d-9702-42c1-b1f4-930b2db1f158",
-      "url": "https://www.ubereats.com/tw/store/uber-eats-優市-內湖店/tcqA849hTV-8TZvnIaiXzg/a8ea666a-8f73-5ea3-9051-b5af25e7efbd/a8ea666a-8f73-5ea3-9051-b5af25e7efbd/fd925a5d-9702-42c1-b1f4-930b2db1f158",
-      "platform": "ubereats",
-      "area": "汐止區",
-      "area_lat": 25.063,
-      "area_lng": 121.641
-    },
-    {
-      "name": "15% 優惠",
-      "slug": "3dd0431e-ccb4-488e-86f2-8c6988b226ed",
-      "url": "https://www.ubereats.com/tw/store/uber-eats-優市-內湖店/tcqA849hTV-8TZvnIaiXzg/1cd82dac-4550-536c-8ad4-43b1cc319203/1cd82dac-4550-536c-8ad4-43b1cc319203/3dd0431e-ccb4-488e-86f2-8c6988b226ed",
-      "platform": "ubereats",
-      "area": "汐止區",
-      "area_lat": 25.063,
-      "area_lng": 121.641
-    },
-    {
-      "name": "12% 優惠",
-      "slug": "c7e36664-a482-4d0c-b28f-60b89f95c25a",
-      "url": "https://www.ubereats.com/tw/store/uber-eats-優市-內湖店/tcqA849hTV-8TZvnIaiXzg/a8ea666a-8f73-5ea3-9051-b5af25e7efbd/a8ea666a-8f73-5ea3-9051-b5af25e7efbd/c7e36664-a482-4d0c-b28f-60b89f95c25a",
-      "platform": "ubereats",
-      "area": "汐止區",
-      "area_lat": 25.063,
-      "area_lng": 121.641
-    },
-    {
-      "name": "28% 優惠",
-      "slug": "8eae7ee7-366b-40a5-9675-bc35bf3c343c",
-      "url": "https://www.ubereats.com/tw/store/uber-eats-優市-內湖店/tcqA849hTV-8TZvnIaiXzg/1cd82dac-4550-536c-8ad4-43b1cc319203/1cd82dac-4550-536c-8ad4-43b1cc319203/8eae7ee7-366b-40a5-9675-bc35bf3c343c",
-      "platform": "ubereats",
-      "area": "汐止區",
-      "area_lat": 25.063,
-      "area_lng": 121.641
-    },
-    {
-      "name": "10% 優惠",
-      "slug": "fd20bb48-fc0c-4a20-ace6-1c5941705235",
-      "url": "https://www.ubereats.com/tw/store/uber-eats-優市-內湖店/tcqA849hTV-8TZvnIaiXzg/a8ea666a-8f73-5ea3-9051-b5af25e7efbd/a8ea666a-8f73-5ea3-9051-b5af25e7efbd/fd20bb48-fc0c-4a20-ace6-1c5941705235",
-      "platform": "ubereats",
-      "area": "汐止區",
-      "area_lat": 25.063,
-      "area_lng": 121.641
-    },
-    {
-      "name": "6% 優惠",
-      "slug": "9c2a7d09-90a0-41ca-9333-e829b24bd30b",
-      "url": "https://www.ubereats.com/tw/store/uber-eats-優市-內湖店/tcqA849hTV-8TZvnIaiXzg/1cd82dac-4550-536c-8ad4-43b1cc319203/1cd82dac-4550-536c-8ad4-43b1cc319203/9c2a7d09-90a0-41ca-9333-e829b24bd30b",
-      "platform": "ubereats",
-      "area": "汐止區",
-      "area_lat": 25.063,
-      "area_lng": 121.641
-    },
-    {
-      "name": "12% 優惠",
-      "slug": "12457796-75cb-4b7e-8956-5c86918b83d8",
-      "url": "https://www.ubereats.com/tw/store/uber-eats-優市-內湖店/tcqA849hTV-8TZvnIaiXzg/a8ea666a-8f73-5ea3-9051-b5af25e7efbd/a8ea666a-8f73-5ea3-9051-b5af25e7efbd/12457796-75cb-4b7e-8956-5c86918b83d8",
-      "platform": "ubereats",
-      "area": "汐止區",
-      "area_lat": 25.063,
-      "area_lng": 121.641
-    },
-    {
-      "name": "6% 優惠",
-      "slug": "06b212a5-d7ea-4336-82cf-c3d688379182",
-      "url": "https://www.ubereats.com/tw/store/uber-eats-優市-內湖店/tcqA849hTV-8TZvnIaiXzg/1cd82dac-4550-536c-8ad4-43b1cc319203/1cd82dac-4550-536c-8ad4-43b1cc319203/06b212a5-d7ea-4336-82cf-c3d688379182",
-      "platform": "ubereats",
-      "area": "汐止區",
-      "area_lat": 25.063,
-      "area_lng": 121.641
-    },
-    {
-      "name": "18% 優惠",
-      "slug": "c316e834-4a9f-5cb8-bed4-66ef613eb75c",
-      "url": "https://www.ubereats.com/tw/store/uber-eats-優市-內湖店/tcqA849hTV-8TZvnIaiXzg/a8ea666a-8f73-5ea3-9051-b5af25e7efbd/a8ea666a-8f73-5ea3-9051-b5af25e7efbd/c316e834-4a9f-5cb8-bed4-66ef613eb75c",
-      "platform": "ubereats",
-      "area": "汐止區",
-      "area_lat": 25.063,
-      "area_lng": 121.641
-    },
-    {
-      "name": "7% 優惠",
-      "slug": "2c88a6d6-0426-4e2e-9e69-749fd25de3fd",
-      "url": "https://www.ubereats.com/tw/store/uber-eats-優市-內湖店/tcqA849hTV-8TZvnIaiXzg/1cd82dac-4550-536c-8ad4-43b1cc319203/1cd82dac-4550-536c-8ad4-43b1cc319203/2c88a6d6-0426-4e2e-9e69-749fd25de3fd",
-      "platform": "ubereats",
-      "area": "汐止區",
-      "area_lat": 25.063,
-      "area_lng": 121.641
-    },
-    {
-      "name": "52% 優惠",
-      "slug": "ee0daf1e-2b64-591f-bef2-2514c8348b8d",
-      "url": "https://www.ubereats.com/tw/store/uber-eats-優市-內湖店/tcqA849hTV-8TZvnIaiXzg/a8ea666a-8f73-5ea3-9051-b5af25e7efbd/a8ea666a-8f73-5ea3-9051-b5af25e7efbd/ee0daf1e-2b64-591f-bef2-2514c8348b8d",
-      "platform": "ubereats",
-      "area": "汐止區",
-      "area_lat": 25.063,
-      "area_lng": 121.641
-    },
-    {
-      "name": "5% 優惠",
-      "slug": "bb330e4a-b169-4d2c-989c-dd3684d6fcd8",
-      "url": "https://www.ubereats.com/tw/store/uber-eats-優市-內湖店/tcqA849hTV-8TZvnIaiXzg/1cd82dac-4550-536c-8ad4-43b1cc319203/1cd82dac-4550-536c-8ad4-43b1cc319203/bb330e4a-b169-4d2c-989c-dd3684d6fcd8",
-      "platform": "ubereats",
-      "area": "汐止區",
-      "area_lat": 25.063,
-      "area_lng": 121.641
-    },
-    {
-      "name": "11% 優惠",
-      "slug": "d7f95106-eed6-4f36-af3f-959e8e059831",
-      "url": "https://www.ubereats.com/tw/store/uber-eats-優市-內湖店/tcqA849hTV-8TZvnIaiXzg/a8ea666a-8f73-5ea3-9051-b5af25e7efbd/a8ea666a-8f73-5ea3-9051-b5af25e7efbd/d7f95106-eed6-4f36-af3f-959e8e059831",
-      "platform": "ubereats",
-      "area": "汐止區",
-      "area_lat": 25.063,
-      "area_lng": 121.641
-    },
-    {
-      "name": "6% 優惠",
-      "slug": "ae64c5ec-2f50-5a36-ba14-08fe3fc7fe13",
-      "url": "https://www.ubereats.com/tw/store/uber-eats-優市-內湖店/tcqA849hTV-8TZvnIaiXzg/1cd82dac-4550-536c-8ad4-43b1cc319203/1cd82dac-4550-536c-8ad4-43b1cc319203/ae64c5ec-2f50-5a36-ba14-08fe3fc7fe13",
-      "platform": "ubereats",
-      "area": "汐止區",
-      "area_lat": 25.063,
-      "area_lng": 121.641
-    },
-    {
-      "name": "8% 優惠",
-      "slug": "d684b718-ad1a-4cff-a733-5e8fc4a43a24",
-      "url": "https://www.ubereats.com/tw/store/uber-eats-優市-內湖店/tcqA849hTV-8TZvnIaiXzg/a8ea666a-8f73-5ea3-9051-b5af25e7efbd/a8ea666a-8f73-5ea3-9051-b5af25e7efbd/d684b718-ad1a-4cff-a733-5e8fc4a43a24",
-      "platform": "ubereats",
-      "area": "汐止區",
-      "area_lat": 25.063,
-      "area_lng": 121.641
-    },
-    {
-      "name": "15% 優惠",
-      "slug": "5a3322b2-b148-4698-b766-4e6445ce5594",
-      "url": "https://www.ubereats.com/tw/store/uber-eats-優市-內湖店/tcqA849hTV-8TZvnIaiXzg/1cd82dac-4550-536c-8ad4-43b1cc319203/1cd82dac-4550-536c-8ad4-43b1cc319203/5a3322b2-b148-4698-b766-4e6445ce5594",
-      "platform": "ubereats",
-      "area": "汐止區",
-      "area_lat": 25.063,
-      "area_lng": 121.641
-    },
-    {
-      "name": "8% 優惠",
-      "slug": "518058a1-8237-4753-92b2-cce41fc867c6",
-      "url": "https://www.ubereats.com/tw/store/uber-eats-優市-內湖店/tcqA849hTV-8TZvnIaiXzg/a8ea666a-8f73-5ea3-9051-b5af25e7efbd/a8ea666a-8f73-5ea3-9051-b5af25e7efbd/518058a1-8237-4753-92b2-cce41fc867c6",
-      "platform": "ubereats",
-      "area": "汐止區",
-      "area_lat": 25.063,
-      "area_lng": 121.641
-    },
-    {
-      "name": "5% 優惠",
-      "slug": "de4c3555-bf40-447b-9ed4-b55baaca77cf",
-      "url": "https://www.ubereats.com/tw/store/uber-eats-優市-內湖店/tcqA849hTV-8TZvnIaiXzg/1cd82dac-4550-536c-8ad4-43b1cc319203/1cd82dac-4550-536c-8ad4-43b1cc319203/de4c3555-bf40-447b-9ed4-b55baaca77cf",
-      "platform": "ubereats",
-      "area": "汐止區",
-      "area_lat": 25.063,
-      "area_lng": 121.641
     },
     {
       "name": "低調十三香專業牛肉麵",
@@ -2703,7 +2523,7 @@
       "area_lng": 121.499
     },
     {
-      "name": "拿坡里 西園店n8134",
+      "name": "拿坡里 西園店",
       "slug": "0UPH9dbwUp6Ofb2KVpUhDg",
       "url": "https://www.ubereats.com/tw/store/拿坡里-西園店n8134/0UPH9dbwUp6Ofb2KVpUhDg",
       "platform": "ubereats",
@@ -3153,51 +2973,6 @@
       "area_lng": 121.59
     },
     {
-      "name": "買 1 送 1",
-      "slug": "582a7c03-ab43-494d-8a44-fc39bdf696e1",
-      "url": "https://www.ubereats.com/tw/store/uber-eats-優市-北投店/0uUO4WnaXv-V8OsNuuueQg/cd0db482-8ef9-40e7-bb5b-e72f1ea6e547/cd0db482-8ef9-40e7-bb5b-e72f1ea6e547/582a7c03-ab43-494d-8a44-fc39bdf696e1",
-      "platform": "ubereats",
-      "area": "士林區",
-      "area_lat": 25.093,
-      "area_lng": 121.524
-    },
-    {
-      "name": "買 1 送 1",
-      "slug": "ada3e741-fdf0-439f-b55c-081ad4c37a55",
-      "url": "https://www.ubereats.com/tw/store/uber-eats-優市-北投店/0uUO4WnaXv-V8OsNuuueQg/cd0db482-8ef9-40e7-bb5b-e72f1ea6e547/cd0db482-8ef9-40e7-bb5b-e72f1ea6e547/ada3e741-fdf0-439f-b55c-081ad4c37a55",
-      "platform": "ubereats",
-      "area": "士林區",
-      "area_lat": 25.093,
-      "area_lng": 121.524
-    },
-    {
-      "name": "13% 優惠",
-      "slug": "2543fb51-b6c5-4369-9ef3-47a0157a7663",
-      "url": "https://www.ubereats.com/tw/store/uber-eats-優市-北投店/0uUO4WnaXv-V8OsNuuueQg/5d177356-2f32-5248-8a75-71d230fb29d5/5d177356-2f32-5248-8a75-71d230fb29d5/2543fb51-b6c5-4369-9ef3-47a0157a7663",
-      "platform": "ubereats",
-      "area": "士林區",
-      "area_lat": 25.093,
-      "area_lng": 121.524
-    },
-    {
-      "name": "24% 優惠",
-      "slug": "df707873-25eb-4d63-b75d-9c5ec5476aa9",
-      "url": "https://www.ubereats.com/tw/store/uber-eats-優市-北投店/0uUO4WnaXv-V8OsNuuueQg/a316c5fc-bf51-4e7a-a349-d59587ab1627/a316c5fc-bf51-4e7a-a349-d59587ab1627/df707873-25eb-4d63-b75d-9c5ec5476aa9",
-      "platform": "ubereats",
-      "area": "士林區",
-      "area_lat": 25.093,
-      "area_lng": 121.524
-    },
-    {
-      "name": "買 1 送 1",
-      "slug": "f5a93e50-9be2-51da-8467-13bf91891f5c",
-      "url": "https://www.ubereats.com/tw/store/uber-eats-優市-北投店/0uUO4WnaXv-V8OsNuuueQg/cd0db482-8ef9-40e7-bb5b-e72f1ea6e547/cd0db482-8ef9-40e7-bb5b-e72f1ea6e547/f5a93e50-9be2-51da-8467-13bf91891f5c",
-      "platform": "ubereats",
-      "area": "士林區",
-      "area_lat": 25.093,
-      "area_lng": 121.524
-    },
-    {
       "name": "$228.00",
       "slug": "bd42c39f-6a72-48a5-9520-da157ff67bef",
       "url": "https://www.ubereats.com/tw/store/uber-eats-優市-北投店/0uUO4WnaXv-V8OsNuuueQg/e36805fd-a5d3-4bcd-8e11-e5b3acdc80c9/e36805fd-a5d3-4bcd-8e11-e5b3acdc80c9/bd42c39f-6a72-48a5-9520-da157ff67bef",
@@ -3216,108 +2991,9 @@
       "area_lng": 121.524
     },
     {
-      "name": "16% 優惠",
-      "slug": "b99082a3-6063-4ebd-a23b-20514e44fda8",
-      "url": "https://www.ubereats.com/tw/store/uber-eats-優市-北投店/0uUO4WnaXv-V8OsNuuueQg/5d177356-2f32-5248-8a75-71d230fb29d5/5d177356-2f32-5248-8a75-71d230fb29d5/b99082a3-6063-4ebd-a23b-20514e44fda8",
-      "platform": "ubereats",
-      "area": "士林區",
-      "area_lat": 25.093,
-      "area_lng": 121.524
-    },
-    {
-      "name": "17% 優惠",
-      "slug": "56899552-c67a-4a0e-8bdd-935f3a4e0e85",
-      "url": "https://www.ubereats.com/tw/store/uber-eats-優市-北投店/0uUO4WnaXv-V8OsNuuueQg/be947ed0-a04c-59c1-8d46-74eb698b0098/be947ed0-a04c-59c1-8d46-74eb698b0098/56899552-c67a-4a0e-8bdd-935f3a4e0e85",
-      "platform": "ubereats",
-      "area": "士林區",
-      "area_lat": 25.093,
-      "area_lng": 121.524
-    },
-    {
-      "name": "買 1 送 1",
-      "slug": "fd895e99-eb71-4ab1-913e-fa35d52dd1f6",
-      "url": "https://www.ubereats.com/tw/store/uber-eats-優市-北投店/0uUO4WnaXv-V8OsNuuueQg/cd0db482-8ef9-40e7-bb5b-e72f1ea6e547/cd0db482-8ef9-40e7-bb5b-e72f1ea6e547/fd895e99-eb71-4ab1-913e-fa35d52dd1f6",
-      "platform": "ubereats",
-      "area": "士林區",
-      "area_lat": 25.093,
-      "area_lng": 121.524
-    },
-    {
-      "name": "11% 優惠",
-      "slug": "cb209ef2-9773-567f-849d-950f28899db1",
-      "url": "https://www.ubereats.com/tw/store/uber-eats-優市-北投店/0uUO4WnaXv-V8OsNuuueQg/3dda3929-cc61-5e16-9398-98d991431014/3dda3929-cc61-5e16-9398-98d991431014/cb209ef2-9773-567f-849d-950f28899db1",
-      "platform": "ubereats",
-      "area": "士林區",
-      "area_lat": 25.093,
-      "area_lng": 121.524
-    },
-    {
-      "name": "13% 優惠",
-      "slug": "478f8873-bf6c-52d1-b6a9-6cf4331a04d6",
-      "url": "https://www.ubereats.com/tw/store/uber-eats-優市-北投店/0uUO4WnaXv-V8OsNuuueQg/a8a0f289-77dc-4921-9e2b-6f3d69945ae4/a8a0f289-77dc-4921-9e2b-6f3d69945ae4/478f8873-bf6c-52d1-b6a9-6cf4331a04d6",
-      "platform": "ubereats",
-      "area": "士林區",
-      "area_lat": 25.093,
-      "area_lng": 121.524
-    },
-    {
-      "name": "9% 優惠",
-      "slug": "6e67e011-a109-400f-9aaf-7b0290241ef1",
-      "url": "https://www.ubereats.com/tw/store/uber-eats-優市-北投店/0uUO4WnaXv-V8OsNuuueQg/8568c059-a86f-4c6e-b1bc-ee7168b1cef8/8568c059-a86f-4c6e-b1bc-ee7168b1cef8/6e67e011-a109-400f-9aaf-7b0290241ef1",
-      "platform": "ubereats",
-      "area": "士林區",
-      "area_lat": 25.093,
-      "area_lng": 121.524
-    },
-    {
-      "name": "32% 優惠",
-      "slug": "3917da30-c064-550b-81ae-2dfed7d18d9b",
-      "url": "https://www.ubereats.com/tw/store/uber-eats-優市-北投店/0uUO4WnaXv-V8OsNuuueQg/5d177356-2f32-5248-8a75-71d230fb29d5/5d177356-2f32-5248-8a75-71d230fb29d5/3917da30-c064-550b-81ae-2dfed7d18d9b",
-      "platform": "ubereats",
-      "area": "士林區",
-      "area_lat": 25.093,
-      "area_lng": 121.524
-    },
-    {
-      "name": "12% 優惠",
-      "slug": "e82fc033-629f-4257-8b08-3bee3f55d5e8",
-      "url": "https://www.ubereats.com/tw/store/uber-eats-優市-北投店/0uUO4WnaXv-V8OsNuuueQg/6cedd959-56c2-5a34-8233-4211bfb1bbb8/6cedd959-56c2-5a34-8233-4211bfb1bbb8/e82fc033-629f-4257-8b08-3bee3f55d5e8",
-      "platform": "ubereats",
-      "area": "士林區",
-      "area_lat": 25.093,
-      "area_lng": 121.524
-    },
-    {
       "name": "$289.00 $299.00",
       "slug": "4788b0db-cd95-5f22-a495-be04a5f315e9",
       "url": "https://www.ubereats.com/tw/store/uber-eats-優市-北投店/0uUO4WnaXv-V8OsNuuueQg/5d177356-2f32-5248-8a75-71d230fb29d5/5d177356-2f32-5248-8a75-71d230fb29d5/4788b0db-cd95-5f22-a495-be04a5f315e9",
-      "platform": "ubereats",
-      "area": "士林區",
-      "area_lat": 25.093,
-      "area_lng": 121.524
-    },
-    {
-      "name": "買 1 送 1",
-      "slug": "5f57515d-542d-456a-af0d-97bcb315ada6",
-      "url": "https://www.ubereats.com/tw/store/uber-eats-優市-北投店/0uUO4WnaXv-V8OsNuuueQg/e36805fd-a5d3-4bcd-8e11-e5b3acdc80c9/e36805fd-a5d3-4bcd-8e11-e5b3acdc80c9/5f57515d-542d-456a-af0d-97bcb315ada6",
-      "platform": "ubereats",
-      "area": "士林區",
-      "area_lat": 25.093,
-      "area_lng": 121.524
-    },
-    {
-      "name": "16% 優惠",
-      "slug": "305756e1-263b-4a4d-862e-218ebd728503",
-      "url": "https://www.ubereats.com/tw/store/uber-eats-優市-北投店/0uUO4WnaXv-V8OsNuuueQg/133f1487-30c9-4acc-8a53-58df562b8248/133f1487-30c9-4acc-8a53-58df562b8248/305756e1-263b-4a4d-862e-218ebd728503",
-      "platform": "ubereats",
-      "area": "士林區",
-      "area_lat": 25.093,
-      "area_lng": 121.524
-    },
-    {
-      "name": "37% 優惠",
-      "slug": "00abfb78-10d1-5737-bc4d-89608d762c80",
-      "url": "https://www.ubereats.com/tw/store/uber-eats-優市-北投店/0uUO4WnaXv-V8OsNuuueQg/5d177356-2f32-5248-8a75-71d230fb29d5/5d177356-2f32-5248-8a75-71d230fb29d5/00abfb78-10d1-5737-bc4d-89608d762c80",
       "platform": "ubereats",
       "area": "士林區",
       "area_lat": 25.093,
@@ -3477,7 +3153,7 @@
       "area_lng": 121.524
     },
     {
-      "name": "拿坡里新士林店n8178",
+      "name": "拿坡里新士林店",
       "slug": "ElN4IxYaW_-uEm3KVnbiUw",
       "url": "https://www.ubereats.com/tw/store/拿坡里新士林店n8178/ElN4IxYaW_-uEm3KVnbiUw",
       "platform": "ubereats",
@@ -5772,7 +5448,7 @@
       "area_lng": 120.685
     },
     {
-      "name": "拿坡里 學士店n8301",
+      "name": "拿坡里 學士店",
       "slug": "0C1DwXg6SBG_z3euDOp_0A",
       "url": "https://www.ubereats.com/tw/store/拿坡里-學士店n8301/0C1DwXg6SBG_z3euDOp_0A",
       "platform": "ubereats",
