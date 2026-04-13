@@ -52,6 +52,13 @@ const CATEGORY_RULES: [string, RegExp][] = [
   ['素食', /素食|蔬食|素|Vegan|Vegetarian/i],
 ]
 
+// 非餐廳排除名單（超市、超商、賣場、藥妝等）
+const NON_RESTAURANT_RE = /全聯|家樂福|美廉社|棉花田|全家便利|全家Fami|全家fami|FamiSuper|famisuper|統一超商|7-ELEVEN|7-eleven|聖德科斯|心樸市集|優市|Costco|costco|好市多|屈臣氏|康是美|寵物公園|大全聯/i
+
+function isRestaurant(name: string): boolean {
+  return !NON_RESTAURANT_RE.test(name)
+}
+
 function getCategories(name: string): string[] {
   const cats: string[] = []
   for (const [cat, regex] of CATEGORY_RULES) {
@@ -162,8 +169,8 @@ export async function GET(request: NextRequest) {
     }
   })
 
-  // 排除 Google Maps 上找不到的店家
-  list = list.filter((r: any) => r.found !== false && r.rating > 0)
+  // 排除非餐廳（超市、超商、賣場等）和 Google Maps 上找不到的店家
+  list = list.filter((r: any) => isRestaurant(r.name) && r.found !== false && r.rating > 0)
 
   // 排序：先距離、同距離再照星等高到低
   list.sort((a, b) => {

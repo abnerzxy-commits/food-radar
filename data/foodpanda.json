@@ -1,6 +1,6 @@
 {
   "scraped_at": "2026-04-13T14:04:25+08:00",
-  "total": 112,
+  "total": 104,
   "restaurants": [
     {
       "name": "贊助",
@@ -435,45 +435,9 @@
       "area_lng": 121.565
     },
     {
-      "name": "PX Mart 全聯",
-      "slug": "fp-doeb/quan-lian-fu-li-zhong-xin-tai-zhong-ming-xin-dian-doeb",
-      "url": "https://www.foodpanda.com.tw/restaurant/doeb/quan-lian-fu-li-zhong-xin-tai-zhong-ming-xin-dian-doeb",
-      "platform": "foodpanda",
-      "area": "信義區",
-      "area_lat": 25.033,
-      "area_lng": 121.565
-    },
-    {
-      "name": "7-Eleven 統一超商(Group1)",
-      "slug": "fp-uh80/tong-chao-shang-tai-zhong-chao-xue-dian",
-      "url": "https://www.foodpanda.com.tw/restaurant/uh80/tong-chao-shang-tai-zhong-chao-xue-dian",
-      "platform": "foodpanda",
-      "area": "信義區",
-      "area_lat": 25.033,
-      "area_lng": 121.565
-    },
-    {
-      "name": "COSMED 康是美(Group2)",
-      "slug": "fp-rr21/kang-shi-mei-jin-hua-dian",
-      "url": "https://www.foodpanda.com.tw/restaurant/rr21/kang-shi-mei-jin-hua-dian",
-      "platform": "foodpanda",
-      "area": "信義區",
-      "area_lat": 25.033,
-      "area_lng": 121.565
-    },
-    {
       "name": "yourchance 佑全藥局-健康人生(Group1)",
       "slug": "fp-iw7t/you-quan-yao-ju-jian-kang-ren-sheng-tai-zhong-han-kou-er-dian",
       "url": "https://www.foodpanda.com.tw/restaurant/iw7t/you-quan-yao-ju-jian-kang-ren-sheng-tai-zhong-han-kou-er-dian",
-      "platform": "foodpanda",
-      "area": "信義區",
-      "area_lat": 25.033,
-      "area_lng": 121.565
-    },
-    {
-      "name": "FamilyMart 全家便利商店(Group1)",
-      "slug": "fp-l6qc/quan-jia-bian-li-shang-dian-tai-zhong-han-kou-dian",
-      "url": "https://www.foodpanda.com.tw/restaurant/l6qc/quan-jia-bian-li-shang-dian-tai-zhong-han-kou-dian",
       "platform": "foodpanda",
       "area": "信義區",
       "area_lat": 25.033,
@@ -498,36 +462,9 @@
       "area_lng": 121.565
     },
     {
-      "name": "SANTACRUZ 聖德科斯",
-      "slug": "fp-e2u3/sheng-de-ke-si-tai-zhong-chong-de-dian",
-      "url": "https://www.foodpanda.com.tw/restaurant/e2u3/sheng-de-ke-si-tai-zhong-chong-de-dian",
-      "platform": "foodpanda",
-      "area": "信義區",
-      "area_lat": 25.033,
-      "area_lng": 121.565
-    },
-    {
       "name": "TK3C 燦坤3C",
       "slug": "fp-imot/can-kun-3c-xin-wen-xin-dian",
       "url": "https://www.foodpanda.com.tw/restaurant/imot/can-kun-3c-xin-wen-xin-dian",
-      "platform": "foodpanda",
-      "area": "信義區",
-      "area_lat": 25.033,
-      "area_lng": 121.565
-    },
-    {
-      "name": "Simple Mart 美廉社(Group1)",
-      "slug": "fp-q363/mei-lian-she-tai-zhong-shan-xi-dian",
-      "url": "https://www.foodpanda.com.tw/restaurant/q363/mei-lian-she-tai-zhong-shan-xi-dian",
-      "platform": "foodpanda",
-      "area": "信義區",
-      "area_lat": 25.033,
-      "area_lng": 121.565
-    },
-    {
-      "name": "Watsons TW 屈臣氏(Group1)",
-      "slug": "fp-i8n6/watsonsqu-chen-shi-xi-tun-dian-s0269",
-      "url": "https://www.foodpanda.com.tw/restaurant/i8n6/watsonsqu-chen-shi-xi-tun-dian-s0269",
       "platform": "foodpanda",
       "area": "信義區",
       "area_lat": 25.033,
@@ -717,15 +654,6 @@
       "name": "牧夏 (北區漢口店)",
       "slug": "fp-orl8/mu-xia-bei-qu-han-kou-dian",
       "url": "https://www.foodpanda.com.tw/restaurant/orl8/mu-xia-bei-qu-han-kou-dian",
-      "platform": "foodpanda",
-      "area": "信義區",
-      "area_lat": 25.033,
-      "area_lng": 121.565
-    },
-    {
-      "name": "石二鍋 (忠明大全聯店)*",
-      "slug": "fp-qn16/shi-er-guo-zhong-ming-da-quan-lian-dian",
-      "url": "https://www.foodpanda.com.tw/restaurant/qn16/shi-er-guo-zhong-ming-da-quan-lian-dian",
       "platform": "foodpanda",
       "area": "信義區",
       "area_lat": 25.033,

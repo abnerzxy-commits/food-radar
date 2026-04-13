@@ -1,7 +1,1465 @@
 {
-  "scraped_at": "2026-04-13T14:36:07+08:00",
-  "total": 820,
+  "scraped_at": "2026-04-13T14:40:15+08:00",
+  "total": 768,
   "restaurants": [
+    {
+      "name": "Domino's Pizza 達美樂 桃鶯店",
+      "slug": "OlYqcerpW8y27qdsl_BSBQ",
+      "url": "https://www.ubereats.com/tw/store/dominos-pizza-達美樂-桃鶯店/OlYqcerpW8y27qdsl_BSBQ",
+      "platform": "ubereats",
+      "area": "桃園區",
+      "area_lat": 24.994,
+      "area_lng": 121.301
+    },
+    {
+      "name": "麥當勞 桃園中正 McDonald's S13",
+      "slug": "MeRZ-fGRSBu4Cv0X0E4KrA",
+      "url": "https://www.ubereats.com/tw/store/麥當勞-桃園中正-mcdonalds-s13/MeRZ-fGRSBu4Cv0X0E4KrA",
+      "platform": "ubereats",
+      "area": "桃園區",
+      "area_lat": 24.994,
+      "area_lng": 121.301
+    },
+    {
+      "name": "Pizza Hut必勝客",
+      "slug": "K--zHtMpRNCKpa4I1u0Tfw",
+      "url": "https://www.ubereats.com/tw/store/pizza-hut必勝客-桃園桃鶯店/K--zHtMpRNCKpa4I1u0Tfw",
+      "platform": "ubereats",
+      "area": "桃園區",
+      "area_lat": 24.994,
+      "area_lng": 121.301
+    },
+    {
+      "name": "Burger King漢堡王 桃園中華店",
+      "slug": "l6vWTZnpU4qszJTdw2A4qw",
+      "url": "https://www.ubereats.com/tw/store/burger-king漢堡王-桃園中華店/l6vWTZnpU4qszJTdw2A4qw",
+      "platform": "ubereats",
+      "area": "桃園區",
+      "area_lat": 24.994,
+      "area_lng": 121.301
+    },
+    {
+      "name": "肯德基KFC炸雞漢堡店 桃園桃鶯店",
+      "slug": "WcFSkvGwQ3mvK7eILEKSoQ",
+      "url": "https://www.ubereats.com/tw/store/肯德基kfc炸雞漢堡店-桃園桃鶯店/WcFSkvGwQ3mvK7eILEKSoQ",
+      "platform": "ubereats",
+      "area": "桃園區",
+      "area_lat": 24.994,
+      "area_lng": 121.301
+    },
+    {
+      "name": "珍煮丹 桃園桃鶯店",
+      "slug": "0Ugg8MgBTpW9cjKUDXLBfw",
+      "url": "https://www.ubereats.com/tw/store/珍煮丹-桃園桃鶯店/0Ugg8MgBTpW9cjKUDXLBfw",
+      "platform": "ubereats",
+      "area": "桃園區",
+      "area_lat": 24.994,
+      "area_lng": 121.301
+    },
+    {
+      "name": "拿坡里 桃園店n8201",
+      "slug": "u24OpSw4Qh6EYRaQSqGodw",
+      "url": "https://www.ubereats.com/tw/store/拿坡里-桃園店n8201/u24OpSw4Qh6EYRaQSqGodw",
+      "platform": "ubereats",
+      "area": "桃園區",
+      "area_lat": 24.994,
+      "area_lng": 121.301
+    },
+    {
+      "name": "胖老爹 桃園站前店",
+      "slug": "yp1mY2vrWfevb66Ni60_Rg",
+      "url": "https://www.ubereats.com/tw/store/胖老爹-桃園站前店/yp1mY2vrWfevb66Ni60_Rg",
+      "platform": "ubereats",
+      "area": "桃園區",
+      "area_lat": 24.994,
+      "area_lng": 121.301
+    },
+    {
+      "name": "Subway 桃園市府店",
+      "slug": "9oOJfsJdRaeXTxUOGj7T3A",
+      "url": "https://www.ubereats.com/tw/store/subway-桃園市府店/9oOJfsJdRaeXTxUOGj7T3A",
+      "platform": "ubereats",
+      "area": "桃園區",
+      "area_lat": 24.994,
+      "area_lng": 121.301
+    },
+    {
+      "name": "麥味登 桃市中平店",
+      "slug": "u-Oxrt-UQGeIgFcOBR4t9g",
+      "url": "https://www.ubereats.com/tw/store/麥味登-桃市中平店/u-Oxrt-UQGeIgFcOBR4t9g",
+      "platform": "ubereats",
+      "area": "桃園區",
+      "area_lat": 24.994,
+      "area_lng": 121.301
+    },
+    {
+      "name": "一沐日 桃園中正店",
+      "slug": "1Q3XLgW5XwCS3TKrvmBHSQ",
+      "url": "https://www.ubereats.com/tw/store/一沐日-桃園中正店/1Q3XLgW5XwCS3TKrvmBHSQ",
+      "platform": "ubereats",
+      "area": "桃園區",
+      "area_lat": 24.994,
+      "area_lng": 121.301
+    },
+    {
+      "name": "可不可熟成紅茶龜山中興店",
+      "slug": "YVu42VJBQnSio4el60ppgQ",
+      "url": "https://www.ubereats.com/tw/store/可不可熟成紅茶龜山中興店/YVu42VJBQnSio4el60ppgQ",
+      "platform": "ubereats",
+      "area": "桃園區",
+      "area_lat": 24.994,
+      "area_lng": 121.301
+    },
+    {
+      "name": "得正 OOLONG TEA PROJECT 桃園中正計劃",
+      "slug": "CS8UaHIuUdKFzzoFVkXi7g",
+      "url": "https://www.ubereats.com/tw/store/得正-oolong-tea-project-桃園中正計劃/CS8UaHIuUdKFzzoFVkXi7g",
+      "platform": "ubereats",
+      "area": "桃園區",
+      "area_lat": 24.994,
+      "area_lng": 121.301
+    },
+    {
+      "name": "迷客夏 桃園民生店",
+      "slug": "DzRqQWWtWSmXtFCB7tj8kg",
+      "url": "https://www.ubereats.com/tw/store/迷客夏-桃園民生店/DzRqQWWtWSmXtFCB7tj8kg",
+      "platform": "ubereats",
+      "area": "桃園區",
+      "area_lat": 24.994,
+      "area_lng": 121.301
+    },
+    {
+      "name": "特力屋 桃園大業店",
+      "slug": "7RXsAV5DVQuChBp0nK6ZDg?diningMode=DELIVERY",
+      "url": "https://www.ubereats.com/tw/store/特力屋-桃園大業店/7RXsAV5DVQuChBp0nK6ZDg?diningMode=DELIVERY",
+      "platform": "ubereats",
+      "area": "桃園區",
+      "area_lat": 24.994,
+      "area_lng": 121.301
+    },
+    {
+      "name": "Domino's Pizza 達美樂 樹林長壽店",
+      "slug": "dV6JHp42U9e1yTV1h6o_kg",
+      "url": "https://www.ubereats.com/tw/store/dominos-pizza-達美樂-樹林長壽店/dV6JHp42U9e1yTV1h6o_kg",
+      "platform": "ubereats",
+      "area": "樹林區",
+      "area_lat": 24.99,
+      "area_lng": 121.42
+    },
+    {
+      "name": "Burger King漢堡王 土城店",
+      "slug": "GfC4GVi7Sk-4Lrp70hQ5Tw",
+      "url": "https://www.ubereats.com/tw/store/burger-king漢堡王-土城店/GfC4GVi7Sk-4Lrp70hQ5Tw",
+      "platform": "ubereats",
+      "area": "樹林區",
+      "area_lat": 24.99,
+      "area_lng": 121.42
+    },
+    {
+      "name": "珍煮丹 土城海山店",
+      "slug": "3gvUsLUlQvSMcM9pzMFqRg",
+      "url": "https://www.ubereats.com/tw/store/珍煮丹-土城海山店/3gvUsLUlQvSMcM9pzMFqRg",
+      "platform": "ubereats",
+      "area": "樹林區",
+      "area_lat": 24.99,
+      "area_lng": 121.42
+    },
+    {
+      "name": "茗香園板橋店",
+      "slug": "IjWXA_ZeSiywNYUur36QZg",
+      "url": "https://www.ubereats.com/tw/store/茗香園板橋店/IjWXA_ZeSiywNYUur36QZg",
+      "platform": "ubereats",
+      "area": "樹林區",
+      "area_lat": 24.99,
+      "area_lng": 121.42
+    },
+    {
+      "name": "台南鱔魚麵",
+      "slug": "x7aV4hQVTOOoSFqYIYNaZQ",
+      "url": "https://www.ubereats.com/tw/store/台南鱔魚麵/x7aV4hQVTOOoSFqYIYNaZQ",
+      "platform": "ubereats",
+      "area": "樹林區",
+      "area_lat": 24.99,
+      "area_lng": 121.42
+    },
+    {
+      "name": "民西脆皮烤鴨飯專門店",
+      "slug": "7wgrqMl8Xyir8zzVjwdreQ",
+      "url": "https://www.ubereats.com/tw/store/民西脆皮烤鴨飯專門店/7wgrqMl8Xyir8zzVjwdreQ",
+      "platform": "ubereats",
+      "area": "樹林區",
+      "area_lat": 24.99,
+      "area_lng": 121.42
+    },
+    {
+      "name": "江原道韓式飯卷豆腐鍋",
+      "slug": "kEk4dN7oXmuPjVH0KYmQ2Q",
+      "url": "https://www.ubereats.com/tw/store/江原道韓式飯卷豆腐鍋/kEk4dN7oXmuPjVH0KYmQ2Q",
+      "platform": "ubereats",
+      "area": "樹林區",
+      "area_lat": 24.99,
+      "area_lng": 121.42
+    },
+    {
+      "name": "自然捲飯卷專賣店",
+      "slug": "k87EcBefW-iyZ1GqG9v4WQ",
+      "url": "https://www.ubereats.com/tw/store/自然捲飯卷專賣店/k87EcBefW-iyZ1GqG9v4WQ",
+      "platform": "ubereats",
+      "area": "樹林區",
+      "area_lat": 24.99,
+      "area_lng": 121.42
+    },
+    {
+      "name": "點點心 土城日月光店",
+      "slug": "fHWOglyiV-qQdvlca8Pezg",
+      "url": "https://www.ubereats.com/tw/store/點點心-土城日月光店/fHWOglyiV-qQdvlca8Pezg",
+      "platform": "ubereats",
+      "area": "樹林區",
+      "area_lat": 24.99,
+      "area_lng": 121.42
+    },
+    {
+      "name": "刁民酸菜魚 板橋府中店",
+      "slug": "y4_aWTYDVyS_PPETroWSMQ",
+      "url": "https://www.ubereats.com/tw/store/刁民酸菜魚-板橋府中店/y4_aWTYDVyS_PPETroWSMQ",
+      "platform": "ubereats",
+      "area": "樹林區",
+      "area_lat": 24.99,
+      "area_lng": 121.42
+    },
+    {
+      "name": "壹口壹口手作甜點/生日蛋糕",
+      "slug": "F6w0hs8nXqSW01dJH9WZ_g",
+      "url": "https://www.ubereats.com/tw/store/壹口壹口手作甜點-生日蛋糕/F6w0hs8nXqSW01dJH9WZ_g",
+      "platform": "ubereats",
+      "area": "樹林區",
+      "area_lat": 24.99,
+      "area_lng": 121.42
+    },
+    {
+      "name": "特力屋 板橋北門店",
+      "slug": "lMjsrb0iVfGiCs7QkVmJIw?diningMode=DELIVERY",
+      "url": "https://www.ubereats.com/tw/store/特力屋-板橋北門店/lMjsrb0iVfGiCs7QkVmJIw?diningMode=DELIVERY",
+      "platform": "ubereats",
+      "area": "樹林區",
+      "area_lat": 24.99,
+      "area_lng": 121.42
+    },
+    {
+      "name": "麥當勞 土城中央 McDonald's S143",
+      "slug": "gTQl9-xyRAa8U-BszozryA",
+      "url": "https://www.ubereats.com/tw/store/麥當勞-土城中央-mcdonalds-s143/gTQl9-xyRAa8U-BszozryA",
+      "platform": "ubereats",
+      "area": "土城區",
+      "area_lat": 24.972,
+      "area_lng": 121.444
+    },
+    {
+      "name": "肯德基KFC炸雞漢堡店 土城中央店",
+      "slug": "QjzdITfSR9KD53xcbJM80A",
+      "url": "https://www.ubereats.com/tw/store/肯德基kfc炸雞漢堡店-土城中央店/QjzdITfSR9KD53xcbJM80A",
+      "platform": "ubereats",
+      "area": "土城區",
+      "area_lat": 24.972,
+      "area_lng": 121.444
+    },
+    {
+      "name": "Pizza Hut必勝客",
+      "slug": "FuI2Dzg0RNOEXgVGZ1sw8A",
+      "url": "https://www.ubereats.com/tw/store/pizza-hut必勝客-土城中央店/FuI2Dzg0RNOEXgVGZ1sw8A",
+      "platform": "ubereats",
+      "area": "土城區",
+      "area_lat": 24.972,
+      "area_lng": 121.444
+    },
+    {
+      "name": "Domino's Pizza 達美樂 土城學成店",
+      "slug": "B_8dLpNxWf69Couw8OqwMw",
+      "url": "https://www.ubereats.com/tw/store/dominos-pizza-達美樂-土城學成店/B_8dLpNxWf69Couw8OqwMw",
+      "platform": "ubereats",
+      "area": "土城區",
+      "area_lat": 24.972,
+      "area_lng": 121.444
+    },
+    {
+      "name": "一沐日 土城中央店",
+      "slug": "wFx0VxqJW0e5rQJGC_MQbQ",
+      "url": "https://www.ubereats.com/tw/store/一沐日-土城中央店/wFx0VxqJW0e5rQJGC_MQbQ",
+      "platform": "ubereats",
+      "area": "土城區",
+      "area_lat": 24.972,
+      "area_lng": 121.444
+    },
+    {
+      "name": "兩個胃早午餐",
+      "slug": "oQyLKrKXT22R8ApPRRRkZA",
+      "url": "https://www.ubereats.com/tw/store/兩個胃早午餐/oQyLKrKXT22R8ApPRRRkZA",
+      "platform": "ubereats",
+      "area": "土城區",
+      "area_lat": 24.972,
+      "area_lng": 121.444
+    },
+    {
+      "name": "早U哉",
+      "slug": "3fCmOIaLVdC-1H5QTv34LA",
+      "url": "https://www.ubereats.com/tw/store/早u哉/3fCmOIaLVdC-1H5QTv34LA",
+      "platform": "ubereats",
+      "area": "土城區",
+      "area_lat": 24.972,
+      "area_lng": 121.444
+    },
+    {
+      "name": "南園里螺螄粉 新北土城店",
+      "slug": "5Xx9VEHQVfustZeMqNkWMA",
+      "url": "https://www.ubereats.com/tw/store/南園里螺螄粉-新北土城店/5Xx9VEHQVfustZeMqNkWMA",
+      "platform": "ubereats",
+      "area": "土城區",
+      "area_lat": 24.972,
+      "area_lng": 121.444
+    },
+    {
+      "name": "Wulala 餐酒館",
+      "slug": "W-o6J4rGViOmrAPqpyNn-Q",
+      "url": "https://www.ubereats.com/tw/store/wulala-餐酒館-異國美食特供/W-o6J4rGViOmrAPqpyNn-Q",
+      "platform": "ubereats",
+      "area": "土城區",
+      "area_lat": 24.972,
+      "area_lng": 121.444
+    },
+    {
+      "name": "有夠讚早午餐 土城中央店",
+      "slug": "c7RNYOToW4-_YsIIVHXxMA",
+      "url": "https://www.ubereats.com/tw/store/有夠讚早午餐-土城中央店/c7RNYOToW4-_YsIIVHXxMA",
+      "platform": "ubereats",
+      "area": "土城區",
+      "area_lat": 24.972,
+      "area_lng": 121.444
+    },
+    {
+      "name": "土城雞肉飯",
+      "slug": "b8E5jDKfVE6HJuFsHwObjg",
+      "url": "https://www.ubereats.com/tw/store/土城雞肉飯/b8E5jDKfVE6HJuFsHwObjg",
+      "platform": "ubereats",
+      "area": "土城區",
+      "area_lat": 24.972,
+      "area_lng": 121.444
+    },
+    {
+      "name": "台灣G湯 新北土城店",
+      "slug": "Kl_4XMHXVnSw4iRJw7bLVQ",
+      "url": "https://www.ubereats.com/tw/store/台灣g湯-新北土城店/Kl_4XMHXVnSw4iRJw7bLVQ",
+      "platform": "ubereats",
+      "area": "土城區",
+      "area_lat": 24.972,
+      "area_lng": 121.444
+    },
+    {
+      "name": "陽光廚房早午餐",
+      "slug": "qqSCL-HgRmuZrPKgRPquGg",
+      "url": "https://www.ubereats.com/tw/store/陽光廚房早午餐/qqSCL-HgRmuZrPKgRPquGg",
+      "platform": "ubereats",
+      "area": "土城區",
+      "area_lat": 24.972,
+      "area_lng": 121.444
+    },
+    {
+      "name": "蒸一籠 小籠湯包",
+      "slug": "1FQ3VytmXJOEqp2-vobiWA",
+      "url": "https://www.ubereats.com/tw/store/蒸一籠-小籠湯包/1FQ3VytmXJOEqp2-vobiWA",
+      "platform": "ubereats",
+      "area": "土城區",
+      "area_lat": 24.972,
+      "area_lng": 121.444
+    },
+    {
+      "name": "早點喵喵屋",
+      "slug": "GhX_F_50XZOqO_ORYEOVuQ",
+      "url": "https://www.ubereats.com/tw/store/早點喵喵屋/GhX_F_50XZOqO_ORYEOVuQ",
+      "platform": "ubereats",
+      "area": "土城區",
+      "area_lat": 24.972,
+      "area_lng": 121.444
+    },
+    {
+      "name": "柒奉堂",
+      "slug": "huAgEmLnQ8eIwIo1wooq7Q",
+      "url": "https://www.ubereats.com/tw/store/柒奉堂/huAgEmLnQ8eIwIo1wooq7Q",
+      "platform": "ubereats",
+      "area": "土城區",
+      "area_lat": 24.972,
+      "area_lng": 121.444
+    },
+    {
+      "name": "8鍋 土城裕民店",
+      "slug": "Kv5KEEBYS-SN8frFkopPsg",
+      "url": "https://www.ubereats.com/tw/store/8鍋-土城裕民店/Kv5KEEBYS-SN8frFkopPsg",
+      "platform": "ubereats",
+      "area": "土城區",
+      "area_lat": 24.972,
+      "area_lng": 121.444
+    },
+    {
+      "name": "魚佳堡海鮮虱目魚",
+      "slug": "V3IdP5PAU8yiSmWNHvmbtQ",
+      "url": "https://www.ubereats.com/tw/store/魚佳堡海鮮虱目魚/V3IdP5PAU8yiSmWNHvmbtQ",
+      "platform": "ubereats",
+      "area": "土城區",
+      "area_lat": 24.972,
+      "area_lng": 121.444
+    },
+    {
+      "name": "二春外鍋燒專賣店 樹林店",
+      "slug": "BQda15-zWFO5e0XAi4D_3g",
+      "url": "https://www.ubereats.com/tw/store/二春外鍋燒專賣店-樹林店/BQda15-zWFO5e0XAi4D_3g",
+      "platform": "ubereats",
+      "area": "土城區",
+      "area_lat": 24.972,
+      "area_lng": 121.444
+    },
+    {
+      "name": "阮家越式傳統美味",
+      "slug": "kZd7-xRnWkK8WS3XbmdluA",
+      "url": "https://www.ubereats.com/tw/store/阮家越式傳統美味/kZd7-xRnWkK8WS3XbmdluA",
+      "platform": "ubereats",
+      "area": "土城區",
+      "area_lat": 24.972,
+      "area_lng": 121.444
+    },
+    {
+      "name": "帕薩義式坊（原帕比思）",
+      "slug": "yYcJzNs6WTmCUZ0OJ69Olg",
+      "url": "https://www.ubereats.com/tw/store/帕薩義式坊原帕比思/yYcJzNs6WTmCUZ0OJ69Olg",
+      "platform": "ubereats",
+      "area": "土城區",
+      "area_lat": 24.972,
+      "area_lng": 121.444
+    },
+    {
+      "name": "胖仔平價牛排館",
+      "slug": "xkror-oISWC6IcWWEsvI7A",
+      "url": "https://www.ubereats.com/tw/store/胖仔平價牛排館/xkror-oISWC6IcWWEsvI7A",
+      "platform": "ubereats",
+      "area": "土城區",
+      "area_lat": 24.972,
+      "area_lng": 121.444
+    },
+    {
+      "name": "炸雞莊園丨板橋吮指炸雞推薦",
+      "slug": "BucXJyNDUhGpj9GVD2NFSw",
+      "url": "https://www.ubereats.com/tw/store/炸雞莊園丨板橋吮指炸雞推薦/BucXJyNDUhGpj9GVD2NFSw",
+      "platform": "ubereats",
+      "area": "土城區",
+      "area_lat": 24.972,
+      "area_lng": 121.444
+    },
+    {
+      "name": "特力屋 土城店",
+      "slug": "KJHEZuU0UKqZ5QmeOcf73Q?diningMode=DELIVERY",
+      "url": "https://www.ubereats.com/tw/store/特力屋-土城店/KJHEZuU0UKqZ5QmeOcf73Q?diningMode=DELIVERY",
+      "platform": "ubereats",
+      "area": "土城區",
+      "area_lat": 24.972,
+      "area_lng": 121.444
+    },
+    {
+      "name": "32% 優惠",
+      "slug": "f929b6f1-0ed3-4425-b643-bbadd274b788",
+      "url": "https://www.ubereats.com/tw/store/uber-eats-優市-內湖店/tcqA849hTV-8TZvnIaiXzg/a8ea666a-8f73-5ea3-9051-b5af25e7efbd/a8ea666a-8f73-5ea3-9051-b5af25e7efbd/f929b6f1-0ed3-4425-b643-bbadd274b788",
+      "platform": "ubereats",
+      "area": "汐止區",
+      "area_lat": 25.063,
+      "area_lng": 121.641
+    },
+    {
+      "name": "15% 優惠",
+      "slug": "90166a7a-d103-465b-916b-670eeacc7029",
+      "url": "https://www.ubereats.com/tw/store/uber-eats-優市-內湖店/tcqA849hTV-8TZvnIaiXzg/1cd82dac-4550-536c-8ad4-43b1cc319203/1cd82dac-4550-536c-8ad4-43b1cc319203/90166a7a-d103-465b-916b-670eeacc7029",
+      "platform": "ubereats",
+      "area": "汐止區",
+      "area_lat": 25.063,
+      "area_lng": 121.641
+    },
+    {
+      "name": "17% 優惠",
+      "slug": "fd925a5d-9702-42c1-b1f4-930b2db1f158",
+      "url": "https://www.ubereats.com/tw/store/uber-eats-優市-內湖店/tcqA849hTV-8TZvnIaiXzg/a8ea666a-8f73-5ea3-9051-b5af25e7efbd/a8ea666a-8f73-5ea3-9051-b5af25e7efbd/fd925a5d-9702-42c1-b1f4-930b2db1f158",
+      "platform": "ubereats",
+      "area": "汐止區",
+      "area_lat": 25.063,
+      "area_lng": 121.641
+    },
+    {
+      "name": "15% 優惠",
+      "slug": "3dd0431e-ccb4-488e-86f2-8c6988b226ed",
+      "url": "https://www.ubereats.com/tw/store/uber-eats-優市-內湖店/tcqA849hTV-8TZvnIaiXzg/1cd82dac-4550-536c-8ad4-43b1cc319203/1cd82dac-4550-536c-8ad4-43b1cc319203/3dd0431e-ccb4-488e-86f2-8c6988b226ed",
+      "platform": "ubereats",
+      "area": "汐止區",
+      "area_lat": 25.063,
+      "area_lng": 121.641
+    },
+    {
+      "name": "12% 優惠",
+      "slug": "c7e36664-a482-4d0c-b28f-60b89f95c25a",
+      "url": "https://www.ubereats.com/tw/store/uber-eats-優市-內湖店/tcqA849hTV-8TZvnIaiXzg/a8ea666a-8f73-5ea3-9051-b5af25e7efbd/a8ea666a-8f73-5ea3-9051-b5af25e7efbd/c7e36664-a482-4d0c-b28f-60b89f95c25a",
+      "platform": "ubereats",
+      "area": "汐止區",
+      "area_lat": 25.063,
+      "area_lng": 121.641
+    },
+    {
+      "name": "28% 優惠",
+      "slug": "8eae7ee7-366b-40a5-9675-bc35bf3c343c",
+      "url": "https://www.ubereats.com/tw/store/uber-eats-優市-內湖店/tcqA849hTV-8TZvnIaiXzg/1cd82dac-4550-536c-8ad4-43b1cc319203/1cd82dac-4550-536c-8ad4-43b1cc319203/8eae7ee7-366b-40a5-9675-bc35bf3c343c",
+      "platform": "ubereats",
+      "area": "汐止區",
+      "area_lat": 25.063,
+      "area_lng": 121.641
+    },
+    {
+      "name": "10% 優惠",
+      "slug": "fd20bb48-fc0c-4a20-ace6-1c5941705235",
+      "url": "https://www.ubereats.com/tw/store/uber-eats-優市-內湖店/tcqA849hTV-8TZvnIaiXzg/a8ea666a-8f73-5ea3-9051-b5af25e7efbd/a8ea666a-8f73-5ea3-9051-b5af25e7efbd/fd20bb48-fc0c-4a20-ace6-1c5941705235",
+      "platform": "ubereats",
+      "area": "汐止區",
+      "area_lat": 25.063,
+      "area_lng": 121.641
+    },
+    {
+      "name": "6% 優惠",
+      "slug": "9c2a7d09-90a0-41ca-9333-e829b24bd30b",
+      "url": "https://www.ubereats.com/tw/store/uber-eats-優市-內湖店/tcqA849hTV-8TZvnIaiXzg/1cd82dac-4550-536c-8ad4-43b1cc319203/1cd82dac-4550-536c-8ad4-43b1cc319203/9c2a7d09-90a0-41ca-9333-e829b24bd30b",
+      "platform": "ubereats",
+      "area": "汐止區",
+      "area_lat": 25.063,
+      "area_lng": 121.641
+    },
+    {
+      "name": "12% 優惠",
+      "slug": "12457796-75cb-4b7e-8956-5c86918b83d8",
+      "url": "https://www.ubereats.com/tw/store/uber-eats-優市-內湖店/tcqA849hTV-8TZvnIaiXzg/a8ea666a-8f73-5ea3-9051-b5af25e7efbd/a8ea666a-8f73-5ea3-9051-b5af25e7efbd/12457796-75cb-4b7e-8956-5c86918b83d8",
+      "platform": "ubereats",
+      "area": "汐止區",
+      "area_lat": 25.063,
+      "area_lng": 121.641
+    },
+    {
+      "name": "6% 優惠",
+      "slug": "06b212a5-d7ea-4336-82cf-c3d688379182",
+      "url": "https://www.ubereats.com/tw/store/uber-eats-優市-內湖店/tcqA849hTV-8TZvnIaiXzg/1cd82dac-4550-536c-8ad4-43b1cc319203/1cd82dac-4550-536c-8ad4-43b1cc319203/06b212a5-d7ea-4336-82cf-c3d688379182",
+      "platform": "ubereats",
+      "area": "汐止區",
+      "area_lat": 25.063,
+      "area_lng": 121.641
+    },
+    {
+      "name": "18% 優惠",
+      "slug": "c316e834-4a9f-5cb8-bed4-66ef613eb75c",
+      "url": "https://www.ubereats.com/tw/store/uber-eats-優市-內湖店/tcqA849hTV-8TZvnIaiXzg/a8ea666a-8f73-5ea3-9051-b5af25e7efbd/a8ea666a-8f73-5ea3-9051-b5af25e7efbd/c316e834-4a9f-5cb8-bed4-66ef613eb75c",
+      "platform": "ubereats",
+      "area": "汐止區",
+      "area_lat": 25.063,
+      "area_lng": 121.641
+    },
+    {
+      "name": "7% 優惠",
+      "slug": "2c88a6d6-0426-4e2e-9e69-749fd25de3fd",
+      "url": "https://www.ubereats.com/tw/store/uber-eats-優市-內湖店/tcqA849hTV-8TZvnIaiXzg/1cd82dac-4550-536c-8ad4-43b1cc319203/1cd82dac-4550-536c-8ad4-43b1cc319203/2c88a6d6-0426-4e2e-9e69-749fd25de3fd",
+      "platform": "ubereats",
+      "area": "汐止區",
+      "area_lat": 25.063,
+      "area_lng": 121.641
+    },
+    {
+      "name": "52% 優惠",
+      "slug": "ee0daf1e-2b64-591f-bef2-2514c8348b8d",
+      "url": "https://www.ubereats.com/tw/store/uber-eats-優市-內湖店/tcqA849hTV-8TZvnIaiXzg/a8ea666a-8f73-5ea3-9051-b5af25e7efbd/a8ea666a-8f73-5ea3-9051-b5af25e7efbd/ee0daf1e-2b64-591f-bef2-2514c8348b8d",
+      "platform": "ubereats",
+      "area": "汐止區",
+      "area_lat": 25.063,
+      "area_lng": 121.641
+    },
+    {
+      "name": "5% 優惠",
+      "slug": "bb330e4a-b169-4d2c-989c-dd3684d6fcd8",
+      "url": "https://www.ubereats.com/tw/store/uber-eats-優市-內湖店/tcqA849hTV-8TZvnIaiXzg/1cd82dac-4550-536c-8ad4-43b1cc319203/1cd82dac-4550-536c-8ad4-43b1cc319203/bb330e4a-b169-4d2c-989c-dd3684d6fcd8",
+      "platform": "ubereats",
+      "area": "汐止區",
+      "area_lat": 25.063,
+      "area_lng": 121.641
+    },
+    {
+      "name": "11% 優惠",
+      "slug": "d7f95106-eed6-4f36-af3f-959e8e059831",
+      "url": "https://www.ubereats.com/tw/store/uber-eats-優市-內湖店/tcqA849hTV-8TZvnIaiXzg/a8ea666a-8f73-5ea3-9051-b5af25e7efbd/a8ea666a-8f73-5ea3-9051-b5af25e7efbd/d7f95106-eed6-4f36-af3f-959e8e059831",
+      "platform": "ubereats",
+      "area": "汐止區",
+      "area_lat": 25.063,
+      "area_lng": 121.641
+    },
+    {
+      "name": "6% 優惠",
+      "slug": "ae64c5ec-2f50-5a36-ba14-08fe3fc7fe13",
+      "url": "https://www.ubereats.com/tw/store/uber-eats-優市-內湖店/tcqA849hTV-8TZvnIaiXzg/1cd82dac-4550-536c-8ad4-43b1cc319203/1cd82dac-4550-536c-8ad4-43b1cc319203/ae64c5ec-2f50-5a36-ba14-08fe3fc7fe13",
+      "platform": "ubereats",
+      "area": "汐止區",
+      "area_lat": 25.063,
+      "area_lng": 121.641
+    },
+    {
+      "name": "8% 優惠",
+      "slug": "d684b718-ad1a-4cff-a733-5e8fc4a43a24",
+      "url": "https://www.ubereats.com/tw/store/uber-eats-優市-內湖店/tcqA849hTV-8TZvnIaiXzg/a8ea666a-8f73-5ea3-9051-b5af25e7efbd/a8ea666a-8f73-5ea3-9051-b5af25e7efbd/d684b718-ad1a-4cff-a733-5e8fc4a43a24",
+      "platform": "ubereats",
+      "area": "汐止區",
+      "area_lat": 25.063,
+      "area_lng": 121.641
+    },
+    {
+      "name": "15% 優惠",
+      "slug": "5a3322b2-b148-4698-b766-4e6445ce5594",
+      "url": "https://www.ubereats.com/tw/store/uber-eats-優市-內湖店/tcqA849hTV-8TZvnIaiXzg/1cd82dac-4550-536c-8ad4-43b1cc319203/1cd82dac-4550-536c-8ad4-43b1cc319203/5a3322b2-b148-4698-b766-4e6445ce5594",
+      "platform": "ubereats",
+      "area": "汐止區",
+      "area_lat": 25.063,
+      "area_lng": 121.641
+    },
+    {
+      "name": "8% 優惠",
+      "slug": "518058a1-8237-4753-92b2-cce41fc867c6",
+      "url": "https://www.ubereats.com/tw/store/uber-eats-優市-內湖店/tcqA849hTV-8TZvnIaiXzg/a8ea666a-8f73-5ea3-9051-b5af25e7efbd/a8ea666a-8f73-5ea3-9051-b5af25e7efbd/518058a1-8237-4753-92b2-cce41fc867c6",
+      "platform": "ubereats",
+      "area": "汐止區",
+      "area_lat": 25.063,
+      "area_lng": 121.641
+    },
+    {
+      "name": "5% 優惠",
+      "slug": "de4c3555-bf40-447b-9ed4-b55baaca77cf",
+      "url": "https://www.ubereats.com/tw/store/uber-eats-優市-內湖店/tcqA849hTV-8TZvnIaiXzg/1cd82dac-4550-536c-8ad4-43b1cc319203/1cd82dac-4550-536c-8ad4-43b1cc319203/de4c3555-bf40-447b-9ed4-b55baaca77cf",
+      "platform": "ubereats",
+      "area": "汐止區",
+      "area_lat": 25.063,
+      "area_lng": 121.641
+    },
+    {
+      "name": "低調十三香專業牛肉麵",
+      "slug": "fwNAnGfUVTG170lcyRiZYw",
+      "url": "https://www.ubereats.com/tw/store/低調十三香專業牛肉麵/fwNAnGfUVTG170lcyRiZYw",
+      "platform": "ubereats",
+      "area": "汐止區",
+      "area_lat": 25.063,
+      "area_lng": 121.641
+    },
+    {
+      "name": "覺旅咖啡 Journey Kaffe 陽光店",
+      "slug": "2th2aO4TT-Grm_oFO7P4dg",
+      "url": "https://www.ubereats.com/tw/store/覺旅咖啡-journey-kaffe-陽光店/2th2aO4TT-Grm_oFO7P4dg",
+      "platform": "ubereats",
+      "area": "汐止區",
+      "area_lat": 25.063,
+      "area_lng": 121.641
+    },
+    {
+      "name": "金仙魯肉飯 松山總店",
+      "slug": "PHWshFAjRQyyGUQWyEBhXw",
+      "url": "https://www.ubereats.com/tw/store/金仙魯肉飯-松山總店/PHWshFAjRQyyGUQWyEBhXw",
+      "platform": "ubereats",
+      "area": "汐止區",
+      "area_lat": 25.063,
+      "area_lng": 121.641
+    },
+    {
+      "name": "吳寶春 台北信義旗艦店",
+      "slug": "WyPKRgbyTySnagR0KWEe3A",
+      "url": "https://www.ubereats.com/tw/store/吳寶春-台北信義旗艦店/WyPKRgbyTySnagR0KWEe3A",
+      "platform": "ubereats",
+      "area": "汐止區",
+      "area_lat": 25.063,
+      "area_lng": 121.641
+    },
+    {
+      "name": "夯麵坊 成功店",
+      "slug": "wFwGIGK4RB6hT8LVvgeO8g",
+      "url": "https://www.ubereats.com/tw/store/夯麵坊-成功店/wFwGIGK4RB6hT8LVvgeO8g",
+      "platform": "ubereats",
+      "area": "汐止區",
+      "area_lat": 25.063,
+      "area_lng": 121.641
+    },
+    {
+      "name": "依鼎越式美食",
+      "slug": "CMIDlnisStS8ALjhm2N_bg",
+      "url": "https://www.ubereats.com/tw/store/依鼎越式美食/CMIDlnisStS8ALjhm2N_bg",
+      "platform": "ubereats",
+      "area": "汐止區",
+      "area_lat": 25.063,
+      "area_lng": 121.641
+    },
+    {
+      "name": "CaLACaLA 義大利餐廳",
+      "slug": "StMyYv_8SNiLHaIw8zmRCQ",
+      "url": "https://www.ubereats.com/tw/store/calacala-義大利餐廳/StMyYv_8SNiLHaIw8zmRCQ",
+      "platform": "ubereats",
+      "area": "汐止區",
+      "area_lat": 25.063,
+      "area_lng": 121.641
+    },
+    {
+      "name": "福嗑古巴三明治",
+      "slug": "KjepvLb3Qh2HZU0_UsC2Ug",
+      "url": "https://www.ubereats.com/tw/store/福嗑古巴三明治/KjepvLb3Qh2HZU0_UsC2Ug",
+      "platform": "ubereats",
+      "area": "汐止區",
+      "area_lat": 25.063,
+      "area_lng": 121.641
+    },
+    {
+      "name": "居和熹 737小籠包",
+      "slug": "io-i3ZYQV4uLOGdwft6cnQ",
+      "url": "https://www.ubereats.com/tw/store/居和熹-737小籠包/io-i3ZYQV4uLOGdwft6cnQ",
+      "platform": "ubereats",
+      "area": "汐止區",
+      "area_lat": 25.063,
+      "area_lng": 121.641
+    },
+    {
+      "name": "瑞典餐廳 台北內湖",
+      "slug": "6_rQOF_FQ-mm9zaZ-9XpLA",
+      "url": "https://www.ubereats.com/tw/store/瑞典餐廳-台北內湖/6_rQOF_FQ-mm9zaZ-9XpLA",
+      "platform": "ubereats",
+      "area": "汐止區",
+      "area_lat": 25.063,
+      "area_lng": 121.641
+    },
+    {
+      "name": "螺螄福Rose food正宗柳州螺螄粉 台北信義店",
+      "slug": "VnlYE06LVMq9XmXSRf0fMA",
+      "url": "https://www.ubereats.com/tw/store/螺螄福rose-food正宗柳州螺螄粉-台北信義店/VnlYE06LVMq9XmXSRf0fMA",
+      "platform": "ubereats",
+      "area": "汐止區",
+      "area_lat": 25.063,
+      "area_lng": 121.641
+    },
+    {
+      "name": "古拉爵 南港中信店",
+      "slug": "ai1U3Ja1S0uZEI0Pcsk7oA",
+      "url": "https://www.ubereats.com/tw/store/古拉爵-南港中信店/ai1U3Ja1S0uZEI0Pcsk7oA",
+      "platform": "ubereats",
+      "area": "汐止區",
+      "area_lat": 25.063,
+      "area_lng": 121.641
+    },
+    {
+      "name": "江家牛肉麵永和豆漿 光復店",
+      "slug": "30Qoj9UrTwKrLKytDU9S_A",
+      "url": "https://www.ubereats.com/tw/store/江家牛肉麵永和豆漿-光復店/30Qoj9UrTwKrLKytDU9S_A",
+      "platform": "ubereats",
+      "area": "汐止區",
+      "area_lat": 25.063,
+      "area_lng": 121.641
+    },
+    {
+      "name": "YAYOI彌生軒 LaLaport 南港店",
+      "slug": "bxXGkRqJXfeIc9yC2CjVGw",
+      "url": "https://www.ubereats.com/tw/store/yayoi彌生軒-lalaport-南港店/bxXGkRqJXfeIc9yC2CjVGw",
+      "platform": "ubereats",
+      "area": "汐止區",
+      "area_lat": 25.063,
+      "area_lng": 121.641
+    },
+    {
+      "name": "呷呼霸佰元鍋物 汐止店",
+      "slug": "PRivWUuYQJyo1610btM5qQ",
+      "url": "https://www.ubereats.com/tw/store/呷呼霸佰元鍋物-汐止店/PRivWUuYQJyo1610btM5qQ",
+      "platform": "ubereats",
+      "area": "汐止區",
+      "area_lat": 25.063,
+      "area_lng": 121.641
+    },
+    {
+      "name": "芋艿川豆花店 & 雜貨專賣 內湖店",
+      "slug": "tNCUN5jzWbu75d3vpNWf-A",
+      "url": "https://www.ubereats.com/tw/store/芋艿川豆花店-%26-雜貨專賣-內湖店/tNCUN5jzWbu75d3vpNWf-A",
+      "platform": "ubereats",
+      "area": "汐止區",
+      "area_lat": 25.063,
+      "area_lng": 121.641
+    },
+    {
+      "name": "林居 Sushi 日本料理 永吉店",
+      "slug": "-chtCZwKWR2HwbDjuSssrw",
+      "url": "https://www.ubereats.com/tw/store/林居-sushi-日本料理-永吉店/-chtCZwKWR2HwbDjuSssrw",
+      "platform": "ubereats",
+      "area": "汐止區",
+      "area_lat": 25.063,
+      "area_lng": 121.641
+    },
+    {
+      "name": "梨谷韓式鐵炭燒肉",
+      "slug": "3uZ-SRaXXZuLpRP_i8PLYg",
+      "url": "https://www.ubereats.com/tw/store/梨谷韓式鐵炭燒肉/3uZ-SRaXXZuLpRP_i8PLYg",
+      "platform": "ubereats",
+      "area": "汐止區",
+      "area_lat": 25.063,
+      "area_lng": 121.641
+    },
+    {
+      "name": "麻膳堂 麵·餃子·炒飯 南港店",
+      "slug": "jpzDUSPGVkG_M8QaJhIKcQ",
+      "url": "https://www.ubereats.com/tw/store/麻膳堂-麵·餃子·炒飯-南港店/jpzDUSPGVkG_M8QaJhIKcQ",
+      "platform": "ubereats",
+      "area": "汐止區",
+      "area_lat": 25.063,
+      "area_lng": 121.641
+    },
+    {
+      "name": "HSQ COFFEE",
+      "slug": "GiUsYP82UoafamG_6Jbdrg",
+      "url": "https://www.ubereats.com/tw/store/hsq-coffee/GiUsYP82UoafamG_6Jbdrg",
+      "platform": "ubereats",
+      "area": "汐止區",
+      "area_lat": 25.063,
+      "area_lng": 121.641
+    },
+    {
+      "name": "鑫營雞肉本舖",
+      "slug": "ufGuf_y2QB2Raqg_1MSezA",
+      "url": "https://www.ubereats.com/tw/store/鑫營雞肉本舖/ufGuf_y2QB2Raqg_1MSezA",
+      "platform": "ubereats",
+      "area": "汐止區",
+      "area_lat": 25.063,
+      "area_lng": 121.641
+    },
+    {
+      "name": "金小噹韓式烤肉便當專賣店",
+      "slug": "aE1lYs28XpmJ-PlCihsNlw",
+      "url": "https://www.ubereats.com/tw/store/金小噹韓式烤肉便當專賣店/aE1lYs28XpmJ-PlCihsNlw",
+      "platform": "ubereats",
+      "area": "汐止區",
+      "area_lat": 25.063,
+      "area_lng": 121.641
+    },
+    {
+      "name": "功夫肉圓 東湖店",
+      "slug": "xxTYYd4nXD6KFwMzjgT2OA",
+      "url": "https://www.ubereats.com/tw/store/功夫肉圓-東湖店/xxTYYd4nXD6KFwMzjgT2OA",
+      "platform": "ubereats",
+      "area": "汐止區",
+      "area_lat": 25.063,
+      "area_lng": 121.641
+    },
+    {
+      "name": "誠記越南麵食館 THANH-KY Vietnamese Pho 永吉店",
+      "slug": "Ivx9lanhRaKMMIsWSCj97w",
+      "url": "https://www.ubereats.com/tw/store/誠記越南麵食館-thanh-ky-vietnamese-pho/Ivx9lanhRaKMMIsWSCj97w",
+      "platform": "ubereats",
+      "area": "汐止區",
+      "area_lat": 25.063,
+      "area_lng": 121.641
+    },
+    {
+      "name": "廣東粥",
+      "slug": "-6Jn202TSbC-Mr5eDw-UWQ",
+      "url": "https://www.ubereats.com/tw/store/廣東粥/-6Jn202TSbC-Mr5eDw-UWQ",
+      "platform": "ubereats",
+      "area": "汐止區",
+      "area_lat": 25.063,
+      "area_lng": 121.641
+    },
+    {
+      "name": "UG 汐止中興店",
+      "slug": "tAY2wW3IVdq5JqZ7Y9VIZg",
+      "url": "https://www.ubereats.com/tw/store/ug-汐止中興店/tAY2wW3IVdq5JqZ7Y9VIZg",
+      "platform": "ubereats",
+      "area": "汐止區",
+      "area_lat": 25.063,
+      "area_lng": 121.641
+    },
+    {
+      "name": "特力屋 南港興華店",
+      "slug": "F48gLj4oXNqrWdteBE-qxg?diningMode=DELIVERY",
+      "url": "https://www.ubereats.com/tw/store/特力屋-南港興華店/F48gLj4oXNqrWdteBE-qxg?diningMode=DELIVERY",
+      "platform": "ubereats",
+      "area": "汐止區",
+      "area_lat": 25.063,
+      "area_lng": 121.641
+    },
+    {
+      "name": "米樂新米食主義",
+      "slug": "LAtIKhs0SBSn7afV69FXXQ",
+      "url": "https://www.ubereats.com/tw/store/米樂新米食主義/LAtIKhs0SBSn7afV69FXXQ",
+      "platform": "ubereats",
+      "area": "新店區",
+      "area_lat": 24.968,
+      "area_lng": 121.542
+    },
+    {
+      "name": "川辣屋正宗重慶酸辣粉 文山店",
+      "slug": "nzbeM-axUSG23scqe0VToQ",
+      "url": "https://www.ubereats.com/tw/store/川辣屋正宗重慶酸辣粉-文山店/nzbeM-axUSG23scqe0VToQ",
+      "platform": "ubereats",
+      "area": "新店區",
+      "area_lat": 24.968,
+      "area_lng": 121.542
+    },
+    {
+      "name": "景美夜市 如意甜品",
+      "slug": "3GINE8UpVSiQ3aIpIc6-Xg",
+      "url": "https://www.ubereats.com/tw/store/景美夜市-如意甜品/3GINE8UpVSiQ3aIpIc6-Xg",
+      "platform": "ubereats",
+      "area": "新店區",
+      "area_lat": 24.968,
+      "area_lng": 121.542
+    },
+    {
+      "name": "木柵 順園麻油雞涼麵",
+      "slug": "0ZkOdcHLQX-8hlcz2R0_Wg",
+      "url": "https://www.ubereats.com/tw/store/木柵-順園麻油雞涼麵/0ZkOdcHLQX-8hlcz2R0_Wg",
+      "platform": "ubereats",
+      "area": "新店區",
+      "area_lat": 24.968,
+      "area_lng": 121.542
+    },
+    {
+      "name": "台北老圓環 滷肉飯 金朋店",
+      "slug": "mLERNzi1UeSeegbwfvs0KA",
+      "url": "https://www.ubereats.com/tw/store/台北老圓環-滷肉飯-金朋店/mLERNzi1UeSeegbwfvs0KA",
+      "platform": "ubereats",
+      "area": "新店區",
+      "area_lat": 24.968,
+      "area_lng": 121.542
+    },
+    {
+      "name": "富美豚骨麻辣燙",
+      "slug": "tHm5tlzwUvGW3w3tKRoY8w",
+      "url": "https://www.ubereats.com/tw/store/富美豚骨麻辣燙/tHm5tlzwUvGW3w3tKRoY8w",
+      "platform": "ubereats",
+      "area": "新店區",
+      "area_lat": 24.968,
+      "area_lng": 121.542
+    },
+    {
+      "name": "童家越南傳統料理",
+      "slug": "3d0HWHQdW2aD10wmE_9iiQ",
+      "url": "https://www.ubereats.com/tw/store/童家越南傳統料理/3d0HWHQdW2aD10wmE_9iiQ",
+      "platform": "ubereats",
+      "area": "新店區",
+      "area_lat": 24.968,
+      "area_lng": 121.542
+    },
+    {
+      "name": "惠筑番茄麵",
+      "slug": "TPcnwQEtTpqp5UA-dPd4FQ",
+      "url": "https://www.ubereats.com/tw/store/惠筑番茄麵/TPcnwQEtTpqp5UA-dPd4FQ",
+      "platform": "ubereats",
+      "area": "新店區",
+      "area_lat": 24.968,
+      "area_lng": 121.542
+    },
+    {
+      "name": "劉家專業牛肉麵",
+      "slug": "fhPJaiAjSFar7HdCuCWkZA",
+      "url": "https://www.ubereats.com/tw/store/劉家專業牛肉麵/fhPJaiAjSFar7HdCuCWkZA",
+      "platform": "ubereats",
+      "area": "新店區",
+      "area_lat": 24.968,
+      "area_lng": 121.542
+    },
+    {
+      "name": "加減賣 輕食",
+      "slug": "eUR3Hs4XURGBhALrBcKikQ",
+      "url": "https://www.ubereats.com/tw/store/加減賣-輕食/eUR3Hs4XURGBhALrBcKikQ",
+      "platform": "ubereats",
+      "area": "新店區",
+      "area_lat": 24.968,
+      "area_lng": 121.542
+    },
+    {
+      "name": "鐵三中螺螄粉 台北創始店",
+      "slug": "w5S5Mkj9Wu-RMxCgO_fjjQ",
+      "url": "https://www.ubereats.com/tw/store/鐵三中螺螄粉-台北創始店/w5S5Mkj9Wu-RMxCgO_fjjQ",
+      "platform": "ubereats",
+      "area": "新店區",
+      "area_lat": 24.968,
+      "area_lng": 121.542
+    },
+    {
+      "name": "大胖魷魚羹 興隆店",
+      "slug": "JDukUKyOWjaW46XjrbW9Lg",
+      "url": "https://www.ubereats.com/tw/store/大胖魷魚羹-興隆店/JDukUKyOWjaW46XjrbW9Lg",
+      "platform": "ubereats",
+      "area": "新店區",
+      "area_lat": 24.968,
+      "area_lng": 121.542
+    },
+    {
+      "name": "小倆口麵線王 sogo店",
+      "slug": "bNAyoDgGQnWplZH7l3m8Cw",
+      "url": "https://www.ubereats.com/tw/store/小倆口麵線王-sogo店/bNAyoDgGQnWplZH7l3m8Cw",
+      "platform": "ubereats",
+      "area": "新店區",
+      "area_lat": 24.968,
+      "area_lng": 121.542
+    },
+    {
+      "name": "Mentari 萌太利印尼料理",
+      "slug": "FSUd7CcOT8yw9C0mbRTjFw",
+      "url": "https://www.ubereats.com/tw/store/mentari-萌太利印尼料理/FSUd7CcOT8yw9C0mbRTjFw",
+      "platform": "ubereats",
+      "area": "新店區",
+      "area_lat": 24.968,
+      "area_lng": 121.542
+    },
+    {
+      "name": "義麵寶寶 PastaBaby 中和忠孝店",
+      "slug": "H2aVi4c8RSyrblxhrEVLgA",
+      "url": "https://www.ubereats.com/tw/store/義麵寶寶-pastababy-中和忠孝店/H2aVi4c8RSyrblxhrEVLgA",
+      "platform": "ubereats",
+      "area": "新店區",
+      "area_lat": 24.968,
+      "area_lng": 121.542
+    },
+    {
+      "name": "景新416炸雞",
+      "slug": "rCZyRrLDTRa-h4PTZn_bgw",
+      "url": "https://www.ubereats.com/tw/store/景新416炸雞/rCZyRrLDTRa-h4PTZn_bgw",
+      "platform": "ubereats",
+      "area": "新店區",
+      "area_lat": 24.968,
+      "area_lng": 121.542
+    },
+    {
+      "name": "公館商圈 麻辣巴蕾",
+      "slug": "vzrljPHxSbu421Vjyj6rwQ",
+      "url": "https://www.ubereats.com/tw/store/公館商圈-麻辣巴蕾/vzrljPHxSbu421Vjyj6rwQ",
+      "platform": "ubereats",
+      "area": "新店區",
+      "area_lat": 24.968,
+      "area_lng": 121.542
+    },
+    {
+      "name": "禾和食坊 豬腳便當 古早味小吃38469150",
+      "slug": "Ts6uDILLUx6luUMP2KFWzg",
+      "url": "https://www.ubereats.com/tw/store/禾和食坊-豬腳便當-古早味小吃38469150/Ts6uDILLUx6luUMP2KFWzg",
+      "platform": "ubereats",
+      "area": "新店區",
+      "area_lat": 24.968,
+      "area_lng": 121.542
+    },
+    {
+      "name": "好想見面 公館店",
+      "slug": "5C5AY4LrVjWBiJ8_HzBA3g",
+      "url": "https://www.ubereats.com/tw/store/好想見面-公館店/5C5AY4LrVjWBiJ8_HzBA3g",
+      "platform": "ubereats",
+      "area": "新店區",
+      "area_lat": 24.968,
+      "area_lng": 121.542
+    },
+    {
+      "name": "日式燴飯 炸物飲品專賣店 新店中興店",
+      "slug": "HPgqtCHsXyiLUsWIBQ6HUA",
+      "url": "https://www.ubereats.com/tw/store/日式燴飯-炸物飲品專賣店-新店中興店/HPgqtCHsXyiLUsWIBQ6HUA",
+      "platform": "ubereats",
+      "area": "新店區",
+      "area_lat": 24.968,
+      "area_lng": 121.542
+    },
+    {
+      "name": "韓蔬 大發 한채대박",
+      "slug": "fAz855LkUImb4J7e6HFpag",
+      "url": "https://www.ubereats.com/tw/store/韓蔬-大發-한채대박/fAz855LkUImb4J7e6HFpag",
+      "platform": "ubereats",
+      "area": "新店區",
+      "area_lat": 24.968,
+      "area_lng": 121.542
+    },
+    {
+      "name": "韓小金韓式烤肉便當專賣店",
+      "slug": "h_FRCiHpU1qk8JyipCYSNA",
+      "url": "https://www.ubereats.com/tw/store/韓小金韓式烤肉便當專賣店/h_FRCiHpU1qk8JyipCYSNA",
+      "platform": "ubereats",
+      "area": "新店區",
+      "area_lat": 24.968,
+      "area_lng": 121.542
+    },
+    {
+      "name": "Boulevard Cafe 新店店",
+      "slug": "kxsfahoASzOogQCfkxSoNQ",
+      "url": "https://www.ubereats.com/tw/store/boulevard-cafe-新店店/kxsfahoASzOogQCfkxSoNQ",
+      "platform": "ubereats",
+      "area": "新店區",
+      "area_lat": 24.968,
+      "area_lng": 121.542
+    },
+    {
+      "name": "Maryjane Pizza 瑪莉珍 台大店",
+      "slug": "-kJoJa5NSt2CQ6clM7DSpw",
+      "url": "https://www.ubereats.com/tw/store/maryjane-pizza-瑪莉珍-台大店/-kJoJa5NSt2CQ6clM7DSpw",
+      "platform": "ubereats",
+      "area": "新店區",
+      "area_lat": 24.968,
+      "area_lng": 121.542
+    },
+    {
+      "name": "瓦chill餐室 l 炒泡麵烏龍麵 l 丼飯 l健康餐 l 火鍋專賣 中和店",
+      "slug": "YBNfsaLFUaGfL9AkWr2WlQ",
+      "url": "https://www.ubereats.com/tw/store/瓦chill餐室-l-炒泡麵烏龍麵-l-丼飯-l健康餐-l-火鍋專賣-中和店/YBNfsaLFUaGfL9AkWr2WlQ",
+      "platform": "ubereats",
+      "area": "新店區",
+      "area_lat": 24.968,
+      "area_lng": 121.542
+    },
+    {
+      "name": "50號咖哩/碳烤雞排",
+      "slug": "fz7ypaVIUqm9T-pAJL2aXQ",
+      "url": "https://www.ubereats.com/tw/store/50號咖哩-碳烤雞排/fz7ypaVIUqm9T-pAJL2aXQ",
+      "platform": "ubereats",
+      "area": "新店區",
+      "area_lat": 24.968,
+      "area_lng": 121.542
+    },
+    {
+      "name": "THAI THAI 泰 泰式便當專賣｜新店",
+      "slug": "LbnffB1pXGC1eDmRLgPaWw",
+      "url": "https://www.ubereats.com/tw/store/thai-thai-泰-泰式便當專賣|新店/LbnffB1pXGC1eDmRLgPaWw",
+      "platform": "ubereats",
+      "area": "新店區",
+      "area_lat": 24.968,
+      "area_lng": 121.542
+    },
+    {
+      "name": "劉震川 yenki bistro元氣餐酒館",
+      "slug": "pRqG-8A1VU6vVQopK74Xbg",
+      "url": "https://www.ubereats.com/tw/store/劉震川-yenki-bistro元氣餐酒館/pRqG-8A1VU6vVQopK74Xbg",
+      "platform": "ubereats",
+      "area": "新店區",
+      "area_lat": 24.968,
+      "area_lng": 121.542
+    },
+    {
+      "name": "等一個人咖啡 景美本店",
+      "slug": "FNZKi6X_SMq3SCDXPVOPoA",
+      "url": "https://www.ubereats.com/tw/store/等一個人咖啡-景美本店/FNZKi6X_SMq3SCDXPVOPoA",
+      "platform": "ubereats",
+      "area": "新店區",
+      "area_lat": 24.968,
+      "area_lng": 121.542
+    },
+    {
+      "name": "百吃不厭 新北文山店",
+      "slug": "_LokGM2XV8y7miTqDfuIIA",
+      "url": "https://www.ubereats.com/tw/store/百吃不厭-新北文山店/_LokGM2XV8y7miTqDfuIIA",
+      "platform": "ubereats",
+      "area": "新店區",
+      "area_lat": 24.968,
+      "area_lng": 121.542
+    },
+    {
+      "name": "MootyDiner 莫蒂早午餐",
+      "slug": "w2u39p0gXYCNLk5ShXyCCA",
+      "url": "https://www.ubereats.com/tw/store/mootydiner-莫蒂早午餐/w2u39p0gXYCNLk5ShXyCCA",
+      "platform": "ubereats",
+      "area": "新店區",
+      "area_lat": 24.968,
+      "area_lng": 121.542
+    },
+    {
+      "name": "燒石鼎石頭小火鍋 新店建國店",
+      "slug": "uxkJ7gmPVd6c9gN4Al11Lg",
+      "url": "https://www.ubereats.com/tw/store/燒石鼎石頭小火鍋-新店建國店/uxkJ7gmPVd6c9gN4Al11Lg",
+      "platform": "ubereats",
+      "area": "新店區",
+      "area_lat": 24.968,
+      "area_lng": 121.542
+    },
+    {
+      "name": "炸G行家 永和保平店",
+      "slug": "3BnA8oWDSEucmRXNC3sVFQ",
+      "url": "https://www.ubereats.com/tw/store/炸g行家-永和保平店/3BnA8oWDSEucmRXNC3sVFQ",
+      "platform": "ubereats",
+      "area": "新店區",
+      "area_lat": 24.968,
+      "area_lng": 121.542
+    },
+    {
+      "name": "人从众厚切牛排 新店民權店",
+      "slug": "cEmhGTGLVMGXOyBkIWQFMA",
+      "url": "https://www.ubereats.com/tw/store/人从众厚切牛排-新店民權店/cEmhGTGLVMGXOyBkIWQFMA",
+      "platform": "ubereats",
+      "area": "新店區",
+      "area_lat": 24.968,
+      "area_lng": 121.542
+    },
+    {
+      "name": "真的好吃越南料理 中和信義店",
+      "slug": "2zzJ-qbxV3epH4VlmobbEg",
+      "url": "https://www.ubereats.com/tw/store/真的好吃越南料理-中和信義店/2zzJ-qbxV3epH4VlmobbEg",
+      "platform": "ubereats",
+      "area": "新店區",
+      "area_lat": 24.968,
+      "area_lng": 121.542
+    },
+    {
+      "name": "LE CAFÉ S. 甜盒子 馬卡龍 可麗露 精緻法式甜品禮盒",
+      "slug": "-CeBPu_JUg6X3Yzce94HNA",
+      "url": "https://www.ubereats.com/tw/store/le-cafe-s-甜盒子-馬卡龍-可麗露-精緻法式甜品禮盒/-CeBPu_JUg6X3Yzce94HNA",
+      "platform": "ubereats",
+      "area": "新店區",
+      "area_lat": 24.968,
+      "area_lng": 121.542
+    },
+    {
+      "name": "築本屋公館店 定食｜丼飯",
+      "slug": "uB_PWZOeUpOpzqK0MMUfkA",
+      "url": "https://www.ubereats.com/tw/store/築本屋公館店-定食|丼飯/uB_PWZOeUpOpzqK0MMUfkA",
+      "platform": "ubereats",
+      "area": "新店區",
+      "area_lat": 24.968,
+      "area_lng": 121.542
+    },
+    {
+      "name": "港味無雙 中和南山店",
+      "slug": "RIoexiv5UWCma99G9HKltA",
+      "url": "https://www.ubereats.com/tw/store/港味無雙-中和南山店/RIoexiv5UWCma99G9HKltA",
+      "platform": "ubereats",
+      "area": "新店區",
+      "area_lat": 24.968,
+      "area_lng": 121.542
+    },
+    {
+      "name": "秧米 Hotmeat 永和店",
+      "slug": "LCGMF5alVa2HRIHNdSTUmQ",
+      "url": "https://www.ubereats.com/tw/store/秧米-hotmeat-永和店/LCGMF5alVa2HRIHNdSTUmQ",
+      "platform": "ubereats",
+      "area": "新店區",
+      "area_lat": 24.968,
+      "area_lng": 121.542
+    },
+    {
+      "name": "呈信傳統鵝肉店 文化店",
+      "slug": "afP0JK51TlSJPNkB-EhJEA",
+      "url": "https://www.ubereats.com/tw/store/呈信傳統鵝肉店-文化店/afP0JK51TlSJPNkB-EhJEA",
+      "platform": "ubereats",
+      "area": "新店區",
+      "area_lat": 24.968,
+      "area_lng": 121.542
+    },
+    {
+      "name": "特力屋 新店店",
+      "slug": "The8tQ6EVQaY3i2s3A1_6A?diningMode=DELIVERY",
+      "url": "https://www.ubereats.com/tw/store/特力屋-新店店/The8tQ6EVQaY3i2s3A1_6A?diningMode=DELIVERY",
+      "platform": "ubereats",
+      "area": "新店區",
+      "area_lat": 24.968,
+      "area_lng": 121.542
+    },
+    {
+      "name": "官小二酸菜魚 板橋店",
+      "slug": "_NlMdhyiUw6W9AgL8u4WZw",
+      "url": "https://www.ubereats.com/tw/store/官小二酸菜魚-板橋店/_NlMdhyiUw6W9AgL8u4WZw",
+      "platform": "ubereats",
+      "area": "新莊區",
+      "area_lat": 25.036,
+      "area_lng": 121.45
+    },
+    {
+      "name": "小時厚牛排 新莊中正店",
+      "slug": "gDSxcWkGV8eKlbC2bKOJJg",
+      "url": "https://www.ubereats.com/tw/store/小時厚牛排-新莊中正店/gDSxcWkGV8eKlbC2bKOJJg",
+      "platform": "ubereats",
+      "area": "新莊區",
+      "area_lat": 25.036,
+      "area_lng": 121.45
+    },
+    {
+      "name": "Bonchon 本村韓式炸雞 重慶南店",
+      "slug": "qN5_gPsnWRqLwGdx7OkWyQ",
+      "url": "https://www.ubereats.com/tw/store/bonchon-本村韓式炸雞-重慶南店/qN5_gPsnWRqLwGdx7OkWyQ",
+      "platform": "ubereats",
+      "area": "新莊區",
+      "area_lat": 25.036,
+      "area_lng": 121.45
+    },
+    {
+      "name": "雙月食品社 板橋店",
+      "slug": "brY8_Uz8USOFJxyyBnYd1Q",
+      "url": "https://www.ubereats.com/tw/store/雙月食品社-板橋店/brY8_Uz8USOFJxyyBnYd1Q",
+      "platform": "ubereats",
+      "area": "新莊區",
+      "area_lat": 25.036,
+      "area_lng": 121.45
+    },
+    {
+      "name": "星馬快餐 Sin Ma Express 新北新莊店",
+      "slug": "SpYwr4f7SkiAwbY623NEpA",
+      "url": "https://www.ubereats.com/tw/store/星馬快餐-sin-ma-express-新北新莊店/SpYwr4f7SkiAwbY623NEpA",
+      "platform": "ubereats",
+      "area": "新莊區",
+      "area_lat": 25.036,
+      "area_lng": 121.45
+    },
+    {
+      "name": "又見麵鍋燒麵專賣店",
+      "slug": "sQO2DsmCTxi0fmfR7ambWA",
+      "url": "https://www.ubereats.com/tw/store/又見麵鍋燒麵專賣店/sQO2DsmCTxi0fmfR7ambWA",
+      "platform": "ubereats",
+      "area": "新莊區",
+      "area_lat": 25.036,
+      "area_lng": 121.45
+    },
+    {
+      "name": "好初早餐 江翠本店",
+      "slug": "JQ0RD0X7QpmnBbkp0nXYYw",
+      "url": "https://www.ubereats.com/tw/store/好初早餐-江翠本店/JQ0RD0X7QpmnBbkp0nXYYw",
+      "platform": "ubereats",
+      "area": "新莊區",
+      "area_lat": 25.036,
+      "area_lng": 121.45
+    },
+    {
+      "name": "吳二麻辣鴨血 板橋致理店",
+      "slug": "X4U5tRsOWnSm3otHxHEBgg",
+      "url": "https://www.ubereats.com/tw/store/吳二麻辣鴨血-板橋致理店/X4U5tRsOWnSm3otHxHEBgg",
+      "platform": "ubereats",
+      "area": "新莊區",
+      "area_lat": 25.036,
+      "area_lng": 121.45
+    },
+    {
+      "name": "Coffee HABU co.咖啡哈巭",
+      "slug": "WsD5Z4cHSlaV6G3IprwlCg",
+      "url": "https://www.ubereats.com/tw/store/coffee-habu-co咖啡哈巭/WsD5Z4cHSlaV6G3IprwlCg",
+      "platform": "ubereats",
+      "area": "新莊區",
+      "area_lat": 25.036,
+      "area_lng": 121.45
+    },
+    {
+      "name": "相傳魯肉飯",
+      "slug": "2xMPyIAhSy-CogMDLoiexg",
+      "url": "https://www.ubereats.com/tw/store/相傳魯肉飯/2xMPyIAhSy-CogMDLoiexg",
+      "platform": "ubereats",
+      "area": "新莊區",
+      "area_lat": 25.036,
+      "area_lng": 121.45
+    },
+    {
+      "name": "三寶飯惦",
+      "slug": "oeQLGzJ0TAWtIYVwzZvWfA",
+      "url": "https://www.ubereats.com/tw/store/三寶飯惦/oeQLGzJ0TAWtIYVwzZvWfA",
+      "platform": "ubereats",
+      "area": "新莊區",
+      "area_lat": 25.036,
+      "area_lng": 121.45
+    },
+    {
+      "name": "Hala Chicken 板橋府中店",
+      "slug": "7Bt9GtpeXgWxuugblGwX1w",
+      "url": "https://www.ubereats.com/tw/store/hala-chicken-板橋府中店/7Bt9GtpeXgWxuugblGwX1w",
+      "platform": "ubereats",
+      "area": "新莊區",
+      "area_lat": 25.036,
+      "area_lng": 121.45
+    },
+    {
+      "name": "小韓室 韓食 飯捲專賣 新北板橋店",
+      "slug": "lRPcJpNwXc2cqp_QY_-OSw",
+      "url": "https://www.ubereats.com/tw/store/小韓室-韓食-飯捲專賣-新北板橋店/lRPcJpNwXc2cqp_QY_-OSw",
+      "platform": "ubereats",
+      "area": "新莊區",
+      "area_lat": 25.036,
+      "area_lng": 121.45
+    },
+    {
+      "name": "貳拾號小廚",
+      "slug": "nSF5sGeaUUGXJr_sNYq9Jg",
+      "url": "https://www.ubereats.com/tw/store/貳拾號小廚/nSF5sGeaUUGXJr_sNYq9Jg",
+      "platform": "ubereats",
+      "area": "新莊區",
+      "area_lat": 25.036,
+      "area_lng": 121.45
+    },
+    {
+      "name": "隱作 新莊店",
+      "slug": "53s0ekLeQzCWpUgvTmCpqA",
+      "url": "https://www.ubereats.com/tw/store/隱作-新莊店/53s0ekLeQzCWpUgvTmCpqA",
+      "platform": "ubereats",
+      "area": "新莊區",
+      "area_lat": 25.036,
+      "area_lng": 121.45
+    },
+    {
+      "name": "Q Burger 早午餐 板橋介壽店",
+      "slug": "e8gAkRnxVzGRG9mJ5ZrqXA",
+      "url": "https://www.ubereats.com/tw/store/q-burger-早午餐-板橋介壽店/e8gAkRnxVzGRG9mJ5ZrqXA",
+      "platform": "ubereats",
+      "area": "新莊區",
+      "area_lat": 25.036,
+      "area_lng": 121.45
+    },
+    {
+      "name": "媽媽味傳統小吃",
+      "slug": "fqPjkyYTTUSfrXdW8y8Pfw",
+      "url": "https://www.ubereats.com/tw/store/媽媽味傳統小吃/fqPjkyYTTUSfrXdW8y8Pfw",
+      "platform": "ubereats",
+      "area": "新莊區",
+      "area_lat": 25.036,
+      "area_lng": 121.45
+    },
+    {
+      "name": "懶的享早午餐 lazy enjoy",
+      "slug": "Th2shdS9XjmqfQtXrrOQpQ",
+      "url": "https://www.ubereats.com/tw/store/懶的享早午餐-lazy-enjoy/Th2shdS9XjmqfQtXrrOQpQ",
+      "platform": "ubereats",
+      "area": "新莊區",
+      "area_lat": 25.036,
+      "area_lng": 121.45
+    },
+    {
+      "name": "Knocknoc Cafe 敲敲門甜點・咖啡",
+      "slug": "3LMJ0jLRXROrEk9t_l1Avg",
+      "url": "https://www.ubereats.com/tw/store/knocknoc-cafe-敲敲門甜點・咖啡/3LMJ0jLRXROrEk9t_l1Avg",
+      "platform": "ubereats",
+      "area": "新莊區",
+      "area_lat": 25.036,
+      "area_lng": 121.45
+    },
+    {
+      "name": "佳佳香鍋貼 新莊店",
+      "slug": "567701hlXfWVxUbCaQWPSg",
+      "url": "https://www.ubereats.com/tw/store/佳佳香鍋貼-新莊店/567701hlXfWVxUbCaQWPSg",
+      "platform": "ubereats",
+      "area": "新莊區",
+      "area_lat": 25.036,
+      "area_lng": 121.45
+    },
+    {
+      "name": "饌玉豐麵食館",
+      "slug": "r1mzao2CSKyqXUu3dTY47Q",
+      "url": "https://www.ubereats.com/tw/store/饌玉豐麵食館/r1mzao2CSKyqXUu3dTY47Q",
+      "platform": "ubereats",
+      "area": "新莊區",
+      "area_lat": 25.036,
+      "area_lng": 121.45
+    },
+    {
+      "name": "蔬品小館",
+      "slug": "boA9CnTVUOG3nOOf1nGn3Q",
+      "url": "https://www.ubereats.com/tw/store/蔬品小館/boA9CnTVUOG3nOOf1nGn3Q",
+      "platform": "ubereats",
+      "area": "新莊區",
+      "area_lat": 25.036,
+      "area_lng": 121.45
+    },
+    {
+      "name": "塔吉特千層蛋糕 板橋新埔店",
+      "slug": "7a9irGa6XRC_plOcZFT8cg",
+      "url": "https://www.ubereats.com/tw/store/塔吉特千層蛋糕-板橋新埔店/7a9irGa6XRC_plOcZFT8cg",
+      "platform": "ubereats",
+      "area": "新莊區",
+      "area_lat": 25.036,
+      "area_lng": 121.45
+    },
     {
       "name": "萬磨腸粉 蘆洲信義店",
       "slug": "rHfEjq4-WEa5SH6ph713eg",
@@ -354,87 +1812,6 @@
       "area_lng": 121.473
     },
     {
-      "name": "Uber Eats 優市",
-      "slug": "vbTd2WzlTxil1s1FRtlHQg?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/uber-eats-優市-三重店/vbTd2WzlTxil1s1FRtlHQg?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "蘆洲區",
-      "area_lat": 25.085,
-      "area_lng": 121.473
-    },
-    {
-      "name": "Costco",
-      "slug": "dyxK0vFHUVWXZrIh97I91w?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/costco-好市多-新莊店/dyxK0vFHUVWXZrIh97I91w?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "蘆洲區",
-      "area_lat": 25.085,
-      "area_lng": 121.473
-    },
-    {
-      "name": "全聯",
-      "slug": "GebU9k4gVJitfLsI73Jc3A?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/全聯福利中心-蘆洲中山/GebU9k4gVJitfLsI73Jc3A?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "蘆洲區",
-      "area_lat": 25.085,
-      "area_lng": 121.473
-    },
-    {
-      "name": "家樂福 蘆洲店",
-      "slug": "Vi5NaOsQTL6snxtBOCunmg?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/家樂福-蘆洲店/Vi5NaOsQTL6snxtBOCunmg?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "蘆洲區",
-      "area_lat": 25.085,
-      "area_lng": 121.473
-    },
-    {
-      "name": "家樂福",
-      "slug": "RB4ccVn5TkGfZAQ3T6ULaw?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/家樂福-重新店/RB4ccVn5TkGfZAQ3T6ULaw?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "蘆洲區",
-      "area_lat": 25.085,
-      "area_lng": 121.473
-    },
-    {
-      "name": "家樂福超市24hrs",
-      "slug": "wByz7mXXULqttAZR4G0ZFw?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/家樂福超市-蘆洲三民店/wByz7mXXULqttAZR4G0ZFw?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "蘆洲區",
-      "area_lat": 25.085,
-      "area_lng": 121.473
-    },
-    {
-      "name": "屈臣氏",
-      "slug": "cBFIQGqfSZWPQeoXhQvb8g?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/watsons屈臣氏-得勝門市-s0183/cBFIQGqfSZWPQeoXhQvb8g?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "蘆洲區",
-      "area_lat": 25.085,
-      "area_lng": 121.473
-    },
-    {
-      "name": "家樂福超市",
-      "slug": "suJjJ1CgVvOf3QbuvYz3Pg?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/家樂福超市-蘆洲中興店/suJjJ1CgVvOf3QbuvYz3Pg?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "蘆洲區",
-      "area_lat": 25.085,
-      "area_lng": 121.473
-    },
-    {
-      "name": "統一超商",
-      "slug": "e2a6TnT9VUqwWw1n-irHFQ?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/統一超商-蘆讚門市/e2a6TnT9VUqwWw1n-irHFQ?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "蘆洲區",
-      "area_lat": 25.085,
-      "area_lng": 121.473
-    },
-    {
       "name": "特力屋 蘆洲集賢店",
       "slug": "T5rUa0m2UViTLuVj5zX9ow?diningMode=DELIVERY",
       "url": "https://www.ubereats.com/tw/store/特力屋-蘆洲集賢店/T5rUa0m2UViTLuVj5zX9ow?diningMode=DELIVERY",
@@ -714,78 +2091,6 @@
       "area_lng": 121.488
     },
     {
-      "name": "Costco",
-      "slug": "rwDPlI-LVc6AvhkoQLzyMQ?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/costco-好市多-中和店/rwDPlI-LVc6AvhkoQLzyMQ?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "三重區",
-      "area_lat": 25.063,
-      "area_lng": 121.488
-    },
-    {
-      "name": "全聯",
-      "slug": "BtPlkRPBWcil6oreXsd7rQ?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/全聯福利中心-三重天台/BtPlkRPBWcil6oreXsd7rQ?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "三重區",
-      "area_lat": 25.063,
-      "area_lng": 121.488
-    },
-    {
-      "name": "家樂福",
-      "slug": "XxLtjC_lROeQiMNhZa_kuA?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/家樂福-重慶店/XxLtjC_lROeQiMNhZa_kuA?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "三重區",
-      "area_lat": 25.063,
-      "area_lng": 121.488
-    },
-    {
-      "name": "全聯 24小時",
-      "slug": "WXwaS4J0WPKM_xbjgb-FwQ?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/全聯福利中心-中山吉林/WXwaS4J0WPKM_xbjgb-FwQ?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "三重區",
-      "area_lat": 25.063,
-      "area_lng": 121.488
-    },
-    {
-      "name": "屈臣氏",
-      "slug": "OyPWUk30SuOvkY7qhRVbnw?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/watsons屈臣氏-三重門市-s0053/OyPWUk30SuOvkY7qhRVbnw?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "三重區",
-      "area_lat": 25.063,
-      "area_lng": 121.488
-    },
-    {
-      "name": "家樂福超市24hrs",
-      "slug": "W75EcjrYVvyRuzE9lg_Cjw?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/家樂福超市-三重中正北店/W75EcjrYVvyRuzE9lg_Cjw?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "三重區",
-      "area_lat": 25.063,
-      "area_lng": 121.488
-    },
-    {
-      "name": "家樂福超市",
-      "slug": "Ke2fNcX4Ua-r02xrsz3unw?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/家樂福超市-三重永福店/Ke2fNcX4Ua-r02xrsz3unw?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "三重區",
-      "area_lat": 25.063,
-      "area_lng": 121.488
-    },
-    {
-      "name": "家樂福 桂林店",
-      "slug": "95yY1k7pSMKeuDijYA92yg?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/家樂福-桂林店/95yY1k7pSMKeuDijYA92yg?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "三重區",
-      "area_lat": 25.063,
-      "area_lng": 121.488
-    },
-    {
       "name": "特力屋 大同重慶北店",
       "slug": "ff8XcDHmWQejyBCSfJNdjw?diningMode=DELIVERY",
       "url": "https://www.ubereats.com/tw/store/特力屋-大同重慶北店/ff8XcDHmWQejyBCSfJNdjw?diningMode=DELIVERY",
@@ -793,33 +2098,6 @@
       "area": "三重區",
       "area_lat": 25.063,
       "area_lng": 121.488
-    },
-    {
-      "name": "統一超商",
-      "slug": "JSkoTBtpWVKeFLgI8hjcxw?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/統一超商-義北門市/JSkoTBtpWVKeFLgI8hjcxw?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "三重區",
-      "area_lat": 25.063,
-      "area_lng": 121.488
-    },
-    {
-      "name": "大全聯",
-      "slug": "iinqxXrdSaqU-9br8IjfjQ?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/大全聯-中崙店/iinqxXrdSaqU-9br8IjfjQ?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "三重區",
-      "area_lat": 25.063,
-      "area_lng": 121.488
-    },
-    {
-      "name": "Costco 好市多 中和店",
-      "slug": "rwDPlI-LVc6AvhkoQLzyMQ",
-      "url": "https://www.ubereats.com/tw/store/costco-好市多-中和店/rwDPlI-LVc6AvhkoQLzyMQ",
-      "platform": "ubereats",
-      "area": "永和區",
-      "area_lat": 25.008,
-      "area_lng": 121.514
     },
     {
       "name": "Domino's Pizza 達美樂 永和樂華店",
@@ -843,15 +2121,6 @@
       "name": "Olive Table 橄欖餐桌 地中海健康飲食溫沙拉 永安概念店",
       "slug": "jfVBxiTQXwePlR6BDEb_YQ",
       "url": "https://www.ubereats.com/tw/store/olive-table-橄欖餐桌-地中海健康飲食溫沙拉-永安概念店/jfVBxiTQXwePlR6BDEb_YQ",
-      "platform": "ubereats",
-      "area": "永和區",
-      "area_lat": 25.008,
-      "area_lng": 121.514
-    },
-    {
-      "name": "韓小金韓式烤肉便當專賣店",
-      "slug": "h_FRCiHpU1qk8JyipCYSNA",
-      "url": "https://www.ubereats.com/tw/store/韓小金韓式烤肉便當專賣店/h_FRCiHpU1qk8JyipCYSNA",
       "platform": "ubereats",
       "area": "永和區",
       "area_lat": 25.008,
@@ -1047,87 +2316,6 @@
       "area_lng": 121.514
     },
     {
-      "name": "Uber Eats 優市",
-      "slug": "EKFHSZEOQiG5IumD0JTiaw?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/uber-eats-優市-中和店/EKFHSZEOQiG5IumD0JTiaw?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "永和區",
-      "area_lat": 25.008,
-      "area_lng": 121.514
-    },
-    {
-      "name": "全聯",
-      "slug": "9S-q8xUgWMme8V1LkLpCRw?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/全聯福利中心-永和福和/9S-q8xUgWMme8V1LkLpCRw?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "永和區",
-      "area_lat": 25.008,
-      "area_lng": 121.514
-    },
-    {
-      "name": "大全聯",
-      "slug": "XIRpNsbSTzG2Bncp91rVrg?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/大全聯-中和店/XIRpNsbSTzG2Bncp91rVrg?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "永和區",
-      "area_lat": 25.008,
-      "area_lng": 121.514
-    },
-    {
-      "name": "家樂福",
-      "slug": "Nq3UmNFwQWyLyPLYtIujPQ?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/家樂福-中和店/Nq3UmNFwQWyLyPLYtIujPQ?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "永和區",
-      "area_lat": 25.008,
-      "area_lng": 121.514
-    },
-    {
-      "name": "全聯 24小時",
-      "slug": "O4TE8qvJSp-HsbUBEdUMrA?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/全聯福利中心-中和中安/O4TE8qvJSp-HsbUBEdUMrA?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "永和區",
-      "area_lat": 25.008,
-      "area_lng": 121.514
-    },
-    {
-      "name": "家樂福超市24hrs",
-      "slug": "drNRogE7R_WbC9QJlxJJKA?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/家樂福超市-永和永安店/drNRogE7R_WbC9QJlxJJKA?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "永和區",
-      "area_lat": 25.008,
-      "area_lng": 121.514
-    },
-    {
-      "name": "家樂福超市",
-      "slug": "1SOhd716UA2plqKFbkYpNQ?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/家樂福超市-永和竹林店/1SOhd716UA2plqKFbkYpNQ?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "永和區",
-      "area_lat": 25.008,
-      "area_lng": 121.514
-    },
-    {
-      "name": "屈臣氏",
-      "slug": "JcFTcHcZXMSJ-cVfk9cfdA?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/watsons屈臣氏-永貞門市s0770/JcFTcHcZXMSJ-cVfk9cfdA?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "永和區",
-      "area_lat": 25.008,
-      "area_lng": 121.514
-    },
-    {
-      "name": "統一超商",
-      "slug": "XUKEL6fGUgiLLPftBE6p8A?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/統一超商-日福門市/XUKEL6fGUgiLLPftBE6p8A?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "永和區",
-      "area_lat": 25.008,
-      "area_lng": 121.514
-    },
-    {
       "name": "特力屋 永和得和店",
       "slug": "7ssU2jXSVIy38TyONoU0Kg?diningMode=DELIVERY",
       "url": "https://www.ubereats.com/tw/store/特力屋-永和得和店/7ssU2jXSVIy38TyONoU0Kg?diningMode=DELIVERY",
@@ -1245,15 +2433,6 @@
       "area_lng": 121.573
     },
     {
-      "name": "MootyDiner 莫蒂早午餐",
-      "slug": "w2u39p0gXYCNLk5ShXyCCA",
-      "url": "https://www.ubereats.com/tw/store/mootydiner-莫蒂早午餐/w2u39p0gXYCNLk5ShXyCCA",
-      "platform": "ubereats",
-      "area": "文山區",
-      "area_lat": 24.989,
-      "area_lng": 121.573
-    },
-    {
       "name": "Miss Energy 能量小姐 台北萬芳門市",
       "slug": "wif51eULUsq4cWBkE_-bpw",
       "url": "https://www.ubereats.com/tw/store/miss-energy-能量小姐-台北萬芳門市/wif51eULUsq4cWBkE_-bpw",
@@ -1293,15 +2472,6 @@
       "name": "巧主廚 x 隠咖哩",
       "slug": "vYMmnHVBWWORDhoTguBFPQ",
       "url": "https://www.ubereats.com/tw/store/巧主廚-x-隠咖哩/vYMmnHVBWWORDhoTguBFPQ",
-      "platform": "ubereats",
-      "area": "文山區",
-      "area_lat": 24.989,
-      "area_lng": 121.573
-    },
-    {
-      "name": "木柵 順園麻油雞涼麵",
-      "slug": "0ZkOdcHLQX-8hlcz2R0_Wg",
-      "url": "https://www.ubereats.com/tw/store/木柵-順園麻油雞涼麵/0ZkOdcHLQX-8hlcz2R0_Wg",
       "platform": "ubereats",
       "area": "文山區",
       "area_lat": 24.989,
@@ -1371,15 +2541,6 @@
       "area_lng": 121.573
     },
     {
-      "name": "50號咖哩/碳烤雞排",
-      "slug": "fz7ypaVIUqm9T-pAJL2aXQ",
-      "url": "https://www.ubereats.com/tw/store/50號咖哩-碳烤雞排/fz7ypaVIUqm9T-pAJL2aXQ",
-      "platform": "ubereats",
-      "area": "文山區",
-      "area_lat": 24.989,
-      "area_lng": 121.573
-    },
-    {
       "name": "雲鼎阿二麻辣食堂 新店加盟店",
       "slug": "8iNHBNy2UwSgSmDluKZQaw",
       "url": "https://www.ubereats.com/tw/store/雲鼎阿二麻辣食堂-新店加盟店/8iNHBNy2UwSgSmDluKZQaw",
@@ -1392,87 +2553,6 @@
       "name": "一条通 新店門市",
       "slug": "1JZILLZ9XxKpwCyHfLf9XQ",
       "url": "https://www.ubereats.com/tw/store/一条通-新店門市/1JZILLZ9XxKpwCyHfLf9XQ",
-      "platform": "ubereats",
-      "area": "文山區",
-      "area_lat": 24.989,
-      "area_lng": 121.573
-    },
-    {
-      "name": "Uber Eats 優市",
-      "slug": "byR39WWXRDKhi_8iK1r7mw?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/uber-eats-優市-新店店/byR39WWXRDKhi_8iK1r7mw?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "文山區",
-      "area_lat": 24.989,
-      "area_lng": 121.573
-    },
-    {
-      "name": "全聯",
-      "slug": "sR8TaERRVVebVLL2rYscJA?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/全聯福利中心-文山木柵/sR8TaERRVVebVLL2rYscJA?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "文山區",
-      "area_lat": 24.989,
-      "area_lng": 121.573
-    },
-    {
-      "name": "大全聯",
-      "slug": "3G5spy9TS6ijmNakQEQHpg?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/大全聯-碧潭店/3G5spy9TS6ijmNakQEQHpg?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "文山區",
-      "area_lat": 24.989,
-      "area_lng": 121.573
-    },
-    {
-      "name": "家樂福超市24hrs",
-      "slug": "JpMTPnrQV0OIiDpQ7lKKoQ?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/家樂福超市-台北木柵店/JpMTPnrQV0OIiDpQ7lKKoQ?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "文山區",
-      "area_lat": 24.989,
-      "area_lng": 121.573
-    },
-    {
-      "name": "家樂福超市",
-      "slug": "c7uXBw-dUKuBk9ronNAOMw?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/家樂福超市-文山木新店/c7uXBw-dUKuBk9ronNAOMw?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "文山區",
-      "area_lat": 24.989,
-      "area_lng": 121.573
-    },
-    {
-      "name": "屈臣氏",
-      "slug": "UlKt32a6QlegDLqkOwxn2g?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/watsons屈臣氏-木柵三門市-s0288/UlKt32a6QlegDLqkOwxn2g?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "文山區",
-      "area_lat": 24.989,
-      "area_lng": 121.573
-    },
-    {
-      "name": "統一超商",
-      "slug": "00_gAQBaV7KB468K45efZw?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/統一超商-饗喫鍋-指南門市/00_gAQBaV7KB468K45efZw?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "文山區",
-      "area_lat": 24.989,
-      "area_lng": 121.573
-    },
-    {
-      "name": "家樂福 新店店",
-      "slug": "-7cKi0GaTdiEZo-ImQV0Ww?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/家樂福-新店店/-7cKi0GaTdiEZo-ImQV0Ww?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "文山區",
-      "area_lat": 24.989,
-      "area_lng": 121.573
-    },
-    {
-      "name": "特力屋 新店店",
-      "slug": "The8tQ6EVQaY3i2s3A1_6A?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/特力屋-新店店/The8tQ6EVQaY3i2s3A1_6A?diningMode=DELIVERY",
       "platform": "ubereats",
       "area": "文山區",
       "area_lat": 24.989,
@@ -1695,69 +2775,6 @@
       "area_lng": 121.499
     },
     {
-      "name": "全聯",
-      "slug": "uJQg0pmYXu-GvGc_oPDGOw?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/全聯福利中心-萬華雙園/uJQg0pmYXu-GvGc_oPDGOw?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "萬華區",
-      "area_lat": 25.035,
-      "area_lng": 121.499
-    },
-    {
-      "name": "全聯 24小時",
-      "slug": "JdZKVKyMXPOIMpwUgkjSpg?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/全聯福利中心-萬華中華/JdZKVKyMXPOIMpwUgkjSpg?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "萬華區",
-      "area_lat": 25.035,
-      "area_lng": 121.499
-    },
-    {
-      "name": "家樂福",
-      "slug": "tuVZVZChTtm3F1sIJu3f-w?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/家樂福-板橋店/tuVZVZChTtm3F1sIJu3f-w?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "萬華區",
-      "area_lat": 25.035,
-      "area_lng": 121.499
-    },
-    {
-      "name": "屈臣氏",
-      "slug": "TAkrsA0LRrqUU5ltZwkU-g?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/watsons屈臣氏-西園門市-s0184/TAkrsA0LRrqUU5ltZwkU-g?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "萬華區",
-      "area_lat": 25.035,
-      "area_lng": 121.499
-    },
-    {
-      "name": "家樂福超市24hrs",
-      "slug": "TfpTvsopTqC_Fx457VNo8Q?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/家樂福超市-台北大理店/TfpTvsopTqC_Fx457VNo8Q?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "萬華區",
-      "area_lat": 25.035,
-      "area_lng": 121.499
-    },
-    {
-      "name": "家樂福超市",
-      "slug": "DSX4DdkcUVGuHt1xzHiXuQ?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/家樂福超市-萬華中華店/DSX4DdkcUVGuHt1xzHiXuQ?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "萬華區",
-      "area_lat": 25.035,
-      "area_lng": 121.499
-    },
-    {
-      "name": "統一超商",
-      "slug": "5tn4NKN3UTuOUjdc3itb1w?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/統一超商-萬光門市/5tn4NKN3UTuOUjdc3itb1w?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "萬華區",
-      "area_lat": 25.035,
-      "area_lng": 121.499
-    },
-    {
       "name": "辛隱便當 x 滷味 南港店",
       "slug": "BaOBJhTpWJKcECkqzpuJmA",
       "url": "https://www.ubereats.com/tw/store/辛隱便當-x-滷味-南港店/BaOBJhTpWJKcECkqzpuJmA",
@@ -1839,15 +2856,6 @@
       "area_lng": 121.607
     },
     {
-      "name": "金小噹韓式烤肉便當專賣店",
-      "slug": "aE1lYs28XpmJ-PlCihsNlw",
-      "url": "https://www.ubereats.com/tw/store/金小噹韓式烤肉便當專賣店/aE1lYs28XpmJ-PlCihsNlw",
-      "platform": "ubereats",
-      "area": "南港區",
-      "area_lat": 25.055,
-      "area_lng": 121.607
-    },
-    {
       "name": "築本屋南港店 定食｜丼飯",
       "slug": "uPr2FnNrWce-EPZt8l6dzg",
       "url": "https://www.ubereats.com/tw/store/築本屋南港店-定食|丼飯/uPr2FnNrWce-EPZt8l6dzg",
@@ -1866,27 +2874,9 @@
       "area_lng": 121.607
     },
     {
-      "name": "低調十三香專業牛肉麵",
-      "slug": "fwNAnGfUVTG170lcyRiZYw",
-      "url": "https://www.ubereats.com/tw/store/低調十三香專業牛肉麵/fwNAnGfUVTG170lcyRiZYw",
-      "platform": "ubereats",
-      "area": "南港區",
-      "area_lat": 25.055,
-      "area_lng": 121.607
-    },
-    {
       "name": "日頭燒肉飯 南港店",
       "slug": "aXLxGyWqWI-w6PFmHEgRLA",
       "url": "https://www.ubereats.com/tw/store/日頭燒肉飯-南港店/aXLxGyWqWI-w6PFmHEgRLA",
-      "platform": "ubereats",
-      "area": "南港區",
-      "area_lat": 25.055,
-      "area_lng": 121.607
-    },
-    {
-      "name": "梨谷韓式鐵炭燒肉",
-      "slug": "3uZ-SRaXXZuLpRP_i8PLYg",
-      "url": "https://www.ubereats.com/tw/store/梨谷韓式鐵炭燒肉/3uZ-SRaXXZuLpRP_i8PLYg",
       "platform": "ubereats",
       "area": "南港區",
       "area_lat": 25.055,
@@ -1965,15 +2955,6 @@
       "area_lng": 121.607
     },
     {
-      "name": "功夫肉圓 東湖店",
-      "slug": "xxTYYd4nXD6KFwMzjgT2OA",
-      "url": "https://www.ubereats.com/tw/store/功夫肉圓-東湖店/xxTYYd4nXD6KFwMzjgT2OA",
-      "platform": "ubereats",
-      "area": "南港區",
-      "area_lat": 25.055,
-      "area_lng": 121.607
-    },
-    {
       "name": "弘弘朝食2店",
       "slug": "JNNuVDCOU-Gbc-QOmD1fcg",
       "url": "https://www.ubereats.com/tw/store/弘弘朝食2店/JNNuVDCOU-Gbc-QOmD1fcg",
@@ -1986,96 +2967,6 @@
       "name": "唐潮雞排 南港分舵",
       "slug": "GUmat2a5TkizpzqYmc8kew",
       "url": "https://www.ubereats.com/tw/store/唐潮雞排-南港分舵/GUmat2a5TkizpzqYmc8kew",
-      "platform": "ubereats",
-      "area": "南港區",
-      "area_lat": 25.055,
-      "area_lng": 121.607
-    },
-    {
-      "name": "Uber Eats 優市",
-      "slug": "tcqA849hTV-8TZvnIaiXzg?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/uber-eats-優市-內湖店/tcqA849hTV-8TZvnIaiXzg?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "南港區",
-      "area_lat": 25.055,
-      "area_lng": 121.607
-    },
-    {
-      "name": "Costco",
-      "slug": "QMT6OyvAWP6hsn2oLOY-0A?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/costco-好市多-汐止店/QMT6OyvAWP6hsn2oLOY-0A?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "南港區",
-      "area_lat": 25.055,
-      "area_lng": 121.607
-    },
-    {
-      "name": "全聯",
-      "slug": "8Nwba-MJXHuF_4kYTEusDA?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/全聯福利中心-南港中信/8Nwba-MJXHuF_4kYTEusDA?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "南港區",
-      "area_lat": 25.055,
-      "area_lng": 121.607
-    },
-    {
-      "name": "家樂福",
-      "slug": "rcWFlTFYSsSyaJZQo87byQ?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/家樂福-南港二店/rcWFlTFYSsSyaJZQo87byQ?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "南港區",
-      "area_lat": 25.055,
-      "area_lng": 121.607
-    },
-    {
-      "name": "大全聯",
-      "slug": "rJyvKJoATqWTNspdU7aynw?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/大全聯-內湖店/rJyvKJoATqWTNspdU7aynw?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "南港區",
-      "area_lat": 25.055,
-      "area_lng": 121.607
-    },
-    {
-      "name": "家樂福超市24hrs",
-      "slug": "7F3XPatVXIKAs2OXNZqBYA?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/家樂福超市-汐止福德一店/7F3XPatVXIKAs2OXNZqBYA?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "南港區",
-      "area_lat": 25.055,
-      "area_lng": 121.607
-    },
-    {
-      "name": "屈臣氏",
-      "slug": "nJvYpkTkSQe53jsS6Tjcxg?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/watsons屈臣氏-汐止門市-s0225/nJvYpkTkSQe53jsS6Tjcxg?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "南港區",
-      "area_lat": 25.055,
-      "area_lng": 121.607
-    },
-    {
-      "name": "家樂福超市",
-      "slug": "uPb-Nvs5QNeg-9pbHxix5Q?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/家樂福超市-南港東明店/uPb-Nvs5QNeg-9pbHxix5Q?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "南港區",
-      "area_lat": 25.055,
-      "area_lng": 121.607
-    },
-    {
-      "name": "統一超商",
-      "slug": "nX6WHQIqW2qiqEvCZ29JLw?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/統一超商-耀港門市/nX6WHQIqW2qiqEvCZ29JLw?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "南港區",
-      "area_lat": 25.055,
-      "area_lng": 121.607
-    },
-    {
-      "name": "特力屋 南港興華店",
-      "slug": "F48gLj4oXNqrWdteBE-qxg?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/特力屋-南港興華店/F48gLj4oXNqrWdteBE-qxg?diningMode=DELIVERY",
       "platform": "ubereats",
       "area": "南港區",
       "area_lat": 25.055,
@@ -2130,15 +3021,6 @@
       "name": "金噹噹韓式烤肉便當專賣店",
       "slug": "3altqnaGWve4F79mIXofIQ",
       "url": "https://www.ubereats.com/tw/store/金噹噹韓式烤肉便當專賣店/3altqnaGWve4F79mIXofIQ",
-      "platform": "ubereats",
-      "area": "內湖區",
-      "area_lat": 25.078,
-      "area_lng": 121.59
-    },
-    {
-      "name": "Costco 好市多 內湖店",
-      "slug": "rHKi5OrjWY2DLNdY8WriVA",
-      "url": "https://www.ubereats.com/tw/store/costco-好市多-內湖店/rHKi5OrjWY2DLNdY8WriVA",
       "platform": "ubereats",
       "area": "內湖區",
       "area_lat": 25.078,
@@ -2244,126 +3126,9 @@
       "area_lng": 121.59
     },
     {
-      "name": "Costco",
-      "slug": "rHKi5OrjWY2DLNdY8WriVA?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/costco-好市多-內湖店/rHKi5OrjWY2DLNdY8WriVA?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "內湖區",
-      "area_lat": 25.078,
-      "area_lng": 121.59
-    },
-    {
-      "name": "全聯",
-      "slug": "e2qCh5-STmutsYLFE3AGsQ?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/全聯福利中心-內湖德安/e2qCh5-STmutsYLFE3AGsQ?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "內湖區",
-      "area_lat": 25.078,
-      "area_lng": 121.59
-    },
-    {
-      "name": "家樂福",
-      "slug": "s1JXMVZgRn-VBVnfUt_NFQ?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/家樂福-內湖店/s1JXMVZgRn-VBVnfUt_NFQ?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "內湖區",
-      "area_lat": 25.078,
-      "area_lng": 121.59
-    },
-    {
-      "name": "屈臣氏",
-      "slug": "LEm3jdmSSJeI_2CSW44o8w?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/watsons屈臣氏-內湖門市-s0108/LEm3jdmSSJeI_2CSW44o8w?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "內湖區",
-      "area_lat": 25.078,
-      "area_lng": 121.59
-    },
-    {
-      "name": "家樂福超市24hrs",
-      "slug": "uGqRVeOUXf6U4_QWrScYMg?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/家樂福超市-內湖成功店/uGqRVeOUXf6U4_QWrScYMg?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "內湖區",
-      "area_lat": 25.078,
-      "area_lng": 121.59
-    },
-    {
-      "name": "家樂福超市",
-      "slug": "jh7THOZqRbONzzElPXIhmw?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/家樂福超市-內湖民權東店/jh7THOZqRbONzzElPXIhmw?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "內湖區",
-      "area_lat": 25.078,
-      "area_lng": 121.59
-    },
-    {
-      "name": "全聯 24小時",
-      "slug": "TV20y6GEQluK94hynzPMHg?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/全聯福利中心-大安延吉/TV20y6GEQluK94hynzPMHg?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "內湖區",
-      "area_lat": 25.078,
-      "area_lng": 121.59
-    },
-    {
-      "name": "統一超商",
-      "slug": "sFPKOpr9VIanrvyQtq8GDA?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/統一超商-饗喫鍋-德成門市/sFPKOpr9VIanrvyQtq8GDA?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "內湖區",
-      "area_lat": 25.078,
-      "area_lng": 121.59
-    },
-    {
-      "name": "Uber Eats 優市 內湖店",
-      "slug": "tcqA849hTV-8TZvnIaiXzg",
-      "url": "https://www.ubereats.com/tw/store/uber-eats-優市-內湖店/tcqA849hTV-8TZvnIaiXzg",
-      "platform": "ubereats",
-      "area": "內湖區",
-      "area_lat": 25.078,
-      "area_lng": 121.59
-    },
-    {
-      "name": "全聯福利中心 內湖德安",
-      "slug": "e2qCh5-STmutsYLFE3AGsQ",
-      "url": "https://www.ubereats.com/tw/store/全聯福利中心-內湖德安/e2qCh5-STmutsYLFE3AGsQ",
-      "platform": "ubereats",
-      "area": "內湖區",
-      "area_lat": 25.078,
-      "area_lng": 121.59
-    },
-    {
-      "name": "家樂福 內湖店",
-      "slug": "s1JXMVZgRn-VBVnfUt_NFQ",
-      "url": "https://www.ubereats.com/tw/store/家樂福-內湖店/s1JXMVZgRn-VBVnfUt_NFQ",
-      "platform": "ubereats",
-      "area": "內湖區",
-      "area_lat": 25.078,
-      "area_lng": 121.59
-    },
-    {
       "name": "Green&Safe 真食物專賣店 星雲店",
       "slug": "gen6VF8wT3SXv4wk1JZmWA",
       "url": "https://www.ubereats.com/tw/store/green%26safe-真食物專賣店-星雲店/gen6VF8wT3SXv4wk1JZmWA",
-      "platform": "ubereats",
-      "area": "內湖區",
-      "area_lat": 25.078,
-      "area_lng": 121.59
-    },
-    {
-      "name": "大全聯 內湖店",
-      "slug": "rJyvKJoATqWTNspdU7aynw",
-      "url": "https://www.ubereats.com/tw/store/大全聯-內湖店/rJyvKJoATqWTNspdU7aynw",
-      "platform": "ubereats",
-      "area": "內湖區",
-      "area_lat": 25.078,
-      "area_lng": 121.59
-    },
-    {
-      "name": "家樂福超市 內湖成功店",
-      "slug": "uGqRVeOUXf6U4_QWrScYMg",
-      "url": "https://www.ubereats.com/tw/store/家樂福超市-內湖成功店/uGqRVeOUXf6U4_QWrScYMg",
       "platform": "ubereats",
       "area": "內湖區",
       "area_lat": 25.078,
@@ -2379,99 +3144,9 @@
       "area_lng": 121.59
     },
     {
-      "name": "聖德科斯 內湖成功",
-      "slug": "1ZHZlTqrWselkEjhkEjb6g",
-      "url": "https://www.ubereats.com/tw/store/聖德科斯-內湖成功/1ZHZlTqrWselkEjhkEjb6g",
-      "platform": "ubereats",
-      "area": "內湖區",
-      "area_lat": 25.078,
-      "area_lng": 121.59
-    },
-    {
-      "name": "美廉社 內湖康寧二店",
-      "slug": "BY5ABOAeXbKTXUU-3JrenQ",
-      "url": "https://www.ubereats.com/tw/store/美廉社-內湖康寧二店/BY5ABOAeXbKTXUU-3JrenQ",
-      "platform": "ubereats",
-      "area": "內湖區",
-      "area_lat": 25.078,
-      "area_lng": 121.59
-    },
-    {
-      "name": "家樂福超市 內湖民權東店",
-      "slug": "jh7THOZqRbONzzElPXIhmw",
-      "url": "https://www.ubereats.com/tw/store/家樂福超市-內湖民權東店/jh7THOZqRbONzzElPXIhmw",
-      "platform": "ubereats",
-      "area": "內湖區",
-      "area_lat": 25.078,
-      "area_lng": 121.59
-    },
-    {
       "name": "DON DON DONKI 唐吉訶德 南港店",
       "slug": "CSAYiZd4U1OYTUnPl28yoQ",
       "url": "https://www.ubereats.com/tw/store/don-don-donki-唐吉訶德-南港店/CSAYiZd4U1OYTUnPl28yoQ",
-      "platform": "ubereats",
-      "area": "內湖區",
-      "area_lat": 25.078,
-      "area_lng": 121.59
-    },
-    {
-      "name": "全聯福利中心 大安延吉",
-      "slug": "TV20y6GEQluK94hynzPMHg",
-      "url": "https://www.ubereats.com/tw/store/全聯福利中心-大安延吉/TV20y6GEQluK94hynzPMHg",
-      "platform": "ubereats",
-      "area": "內湖區",
-      "area_lat": 25.078,
-      "area_lng": 121.59
-    },
-    {
-      "name": "棉花田生機園地 內湖門市",
-      "slug": "qkKwG81eRfmtauBEhsRbNA",
-      "url": "https://www.ubereats.com/tw/store/棉花田生機園地-內湖門市/qkKwG81eRfmtauBEhsRbNA",
-      "platform": "ubereats",
-      "area": "內湖區",
-      "area_lat": 25.078,
-      "area_lng": 121.59
-    },
-    {
-      "name": "寵物公園 內二店",
-      "slug": "7zTH4Q7US8ea4eIZNnRk2A",
-      "url": "https://www.ubereats.com/tw/store/寵物公園-內二店/7zTH4Q7US8ea4eIZNnRk2A",
-      "platform": "ubereats",
-      "area": "內湖區",
-      "area_lat": 25.078,
-      "area_lng": 121.59
-    },
-    {
-      "name": "全家便利商店 德湖店_017622",
-      "slug": "1zsQUmwQWP68c5SWrhU7Hg",
-      "url": "https://www.ubereats.com/tw/store/全家便利商店-德湖店_017622/1zsQUmwQWP68c5SWrhU7Hg",
-      "platform": "ubereats",
-      "area": "內湖區",
-      "area_lat": 25.078,
-      "area_lng": 121.59
-    },
-    {
-      "name": "統一超商 饗喫鍋 金雲門市",
-      "slug": "HH0SwqytUDyllRP8E7dX8w",
-      "url": "https://www.ubereats.com/tw/store/統一超商-饗喫鍋-金雲門市/HH0SwqytUDyllRP8E7dX8w",
-      "platform": "ubereats",
-      "area": "內湖區",
-      "area_lat": 25.078,
-      "area_lng": 121.59
-    },
-    {
-      "name": "統一超商 饗喫鍋 德成門市",
-      "slug": "sFPKOpr9VIanrvyQtq8GDA",
-      "url": "https://www.ubereats.com/tw/store/統一超商-饗喫鍋-德成門市/sFPKOpr9VIanrvyQtq8GDA",
-      "platform": "ubereats",
-      "area": "內湖區",
-      "area_lat": 25.078,
-      "area_lng": 121.59
-    },
-    {
-      "name": "全家FamiSuper 德陽店_008963",
-      "slug": "udXxwV3dXVSkWZVcI9kK3g",
-      "url": "https://www.ubereats.com/tw/store/全家famisuper-德陽店_008963/udXxwV3dXVSkWZVcI9kK3g",
       "platform": "ubereats",
       "area": "內湖區",
       "area_lat": 25.078,
@@ -2685,33 +3360,6 @@
       "area_lng": 121.524
     },
     {
-      "name": "全聯福利中心 中山吉林",
-      "slug": "WXwaS4J0WPKM_xbjgb-FwQ",
-      "url": "https://www.ubereats.com/tw/store/全聯福利中心-中山吉林/WXwaS4J0WPKM_xbjgb-FwQ",
-      "platform": "ubereats",
-      "area": "士林區",
-      "area_lat": 25.093,
-      "area_lng": 121.524
-    },
-    {
-      "name": "Uber Eats 優市 北投店",
-      "slug": "0uUO4WnaXv-V8OsNuuueQg",
-      "url": "https://www.ubereats.com/tw/store/uber-eats-優市-北投店/0uUO4WnaXv-V8OsNuuueQg",
-      "platform": "ubereats",
-      "area": "士林區",
-      "area_lat": 25.093,
-      "area_lng": 121.524
-    },
-    {
-      "name": "全聯福利中心 士林延平",
-      "slug": "5nAYy_sNV7ixsoMWP6tncg",
-      "url": "https://www.ubereats.com/tw/store/全聯福利中心-士林延平/5nAYy_sNV7ixsoMWP6tncg",
-      "platform": "ubereats",
-      "area": "士林區",
-      "area_lat": 25.093,
-      "area_lng": 121.524
-    },
-    {
       "name": "吉野家 重北店",
       "slug": "YXcbX-WNS82ctEG5ynZeZQ",
       "url": "https://www.ubereats.com/tw/store/吉野家-重北店/YXcbX-WNS82ctEG5ynZeZQ",
@@ -2751,15 +3399,6 @@
       "name": "圓和素鍋-素食小火鍋.蔬食炸烤物.商業便當",
       "slug": "PJKX2KHpQLqdoHitjVhiGw",
       "url": "https://www.ubereats.com/tw/store/圓和素鍋-素食小火鍋蔬食炸烤物商業便當/PJKX2KHpQLqdoHitjVhiGw",
-      "platform": "ubereats",
-      "area": "士林區",
-      "area_lat": 25.093,
-      "area_lng": 121.524
-    },
-    {
-      "name": "Costco 好市多 北投店",
-      "slug": "pOIgHV_HWhCkGt_liXWnpw",
-      "url": "https://www.ubereats.com/tw/store/costco-好市多-北投店/pOIgHV_HWhCkGt_liXWnpw",
       "platform": "ubereats",
       "area": "士林區",
       "area_lat": 25.093,
@@ -2883,78 +3522,6 @@
       "area_lng": 121.524
     },
     {
-      "name": "Uber Eats 優市",
-      "slug": "0uUO4WnaXv-V8OsNuuueQg?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/uber-eats-優市-北投店/0uUO4WnaXv-V8OsNuuueQg?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "士林區",
-      "area_lat": 25.093,
-      "area_lng": 121.524
-    },
-    {
-      "name": "Costco",
-      "slug": "pOIgHV_HWhCkGt_liXWnpw?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/costco-好市多-北投店/pOIgHV_HWhCkGt_liXWnpw?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "士林區",
-      "area_lat": 25.093,
-      "area_lng": 121.524
-    },
-    {
-      "name": "全聯",
-      "slug": "5nAYy_sNV7ixsoMWP6tncg?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/全聯福利中心-士林延平/5nAYy_sNV7ixsoMWP6tncg?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "士林區",
-      "area_lat": 25.093,
-      "area_lng": 121.524
-    },
-    {
-      "name": "家樂福",
-      "slug": "dzzaHEkXQWqFJ5GgeOHG7w?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/家樂福-天母店/dzzaHEkXQWqFJ5GgeOHG7w?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "士林區",
-      "area_lat": 25.093,
-      "area_lng": 121.524
-    },
-    {
-      "name": "家樂福超市24hrs",
-      "slug": "bSCTmPBJT8K0pb_ZtlM67g?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/家樂福超市-士林社中店/bSCTmPBJT8K0pb_ZtlM67g?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "士林區",
-      "area_lat": 25.093,
-      "area_lng": 121.524
-    },
-    {
-      "name": "屈臣氏",
-      "slug": "-QqqS_vYTw67ADYw6-3KSA?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/watsons屈臣氏-延平門市-s0160/-QqqS_vYTw67ADYw6-3KSA?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "士林區",
-      "area_lat": 25.093,
-      "area_lng": 121.524
-    },
-    {
-      "name": "家樂福超市",
-      "slug": "tAVlc6KBWgK1rEQM2AbMIQ?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/家樂福超市-士林華聲店/tAVlc6KBWgK1rEQM2AbMIQ?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "士林區",
-      "area_lat": 25.093,
-      "area_lng": 121.524
-    },
-    {
-      "name": "統一超商",
-      "slug": "REC2Bc9uVZ-3LYbuoujhfA?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/統一超商-社鑽門市/REC2Bc9uVZ-3LYbuoujhfA?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "士林區",
-      "area_lat": 25.093,
-      "area_lng": 121.524
-    },
-    {
       "name": "Burger King 漢堡王 北投光明店",
       "slug": "Y8V9rU_PVdipAVuN0xydRA",
       "url": "https://www.ubereats.com/tw/store/burger-king-漢堡王-北投光明店/Y8V9rU_PVdipAVuN0xydRA",
@@ -3039,159 +3606,6 @@
       "name": "榮記港式燒臘便當",
       "slug": "DAevau1qUM-1aG6Ztf1khw",
       "url": "https://www.ubereats.com/tw/store/榮記港式燒臘便當/DAevau1qUM-1aG6Ztf1khw",
-      "platform": "ubereats",
-      "area": "北投區",
-      "area_lat": 25.132,
-      "area_lng": 121.501
-    },
-    {
-      "name": "全聯",
-      "slug": "3YGZFn0bWeO5_Dq6BmLZEg?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/全聯福利中心-北投捷運/3YGZFn0bWeO5_Dq6BmLZEg?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "北投區",
-      "area_lat": 25.132,
-      "area_lng": 121.501
-    },
-    {
-      "name": "家樂福超市24hrs",
-      "slug": "d6zC-zVpUzikW3dTh2EYSQ?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/家樂福超市-北投光明店/d6zC-zVpUzikW3dTh2EYSQ?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "北投區",
-      "area_lat": 25.132,
-      "area_lng": 121.501
-    },
-    {
-      "name": "家樂福超市",
-      "slug": "rBoqjv8eQ8myNGEijkLJTw?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/家樂福超市-北投公館店/rBoqjv8eQ8myNGEijkLJTw?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "北投區",
-      "area_lat": 25.132,
-      "area_lng": 121.501
-    },
-    {
-      "name": "屈臣氏",
-      "slug": "iDvheAI3Vau3jYmeflyeDg?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/watsons-屈臣氏磺港門市-s0171/iDvheAI3Vau3jYmeflyeDg?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "北投區",
-      "area_lat": 25.132,
-      "area_lng": 121.501
-    },
-    {
-      "name": "統一超商",
-      "slug": "BIOITB0uWTmCl34EpdkXxQ?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/統一超商-饗喫鍋-西安門市/BIOITB0uWTmCl34EpdkXxQ?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "北投區",
-      "area_lat": 25.132,
-      "area_lng": 121.501
-    },
-    {
-      "name": "全聯福利中心 北投捷運",
-      "slug": "3YGZFn0bWeO5_Dq6BmLZEg",
-      "url": "https://www.ubereats.com/tw/store/全聯福利中心-北投捷運/3YGZFn0bWeO5_Dq6BmLZEg",
-      "platform": "ubereats",
-      "area": "北投區",
-      "area_lat": 25.132,
-      "area_lng": 121.501
-    },
-    {
-      "name": "家樂福 天母店",
-      "slug": "dzzaHEkXQWqFJ5GgeOHG7w",
-      "url": "https://www.ubereats.com/tw/store/家樂福-天母店/dzzaHEkXQWqFJ5GgeOHG7w",
-      "platform": "ubereats",
-      "area": "北投區",
-      "area_lat": 25.132,
-      "area_lng": 121.501
-    },
-    {
-      "name": "家樂福超市 北投光明店",
-      "slug": "d6zC-zVpUzikW3dTh2EYSQ",
-      "url": "https://www.ubereats.com/tw/store/家樂福超市-北投光明店/d6zC-zVpUzikW3dTh2EYSQ",
-      "platform": "ubereats",
-      "area": "北投區",
-      "area_lat": 25.132,
-      "area_lng": 121.501
-    },
-    {
-      "name": "家樂福超市 北投公館店",
-      "slug": "rBoqjv8eQ8myNGEijkLJTw",
-      "url": "https://www.ubereats.com/tw/store/家樂福超市-北投公館店/rBoqjv8eQ8myNGEijkLJTw",
-      "platform": "ubereats",
-      "area": "北投區",
-      "area_lat": 25.132,
-      "area_lng": 121.501
-    },
-    {
-      "name": "聖德科斯 天母門市",
-      "slug": "3q3PFX-iVny_lTjWrJiUSQ",
-      "url": "https://www.ubereats.com/tw/store/聖德科斯-天母門市/3q3PFX-iVny_lTjWrJiUSQ",
-      "platform": "ubereats",
-      "area": "北投區",
-      "area_lat": 25.132,
-      "area_lng": 121.501
-    },
-    {
-      "name": "全家便利商店 大業店_001030",
-      "slug": "vzZ5LNpuUji3xxSNJ5FG-Q",
-      "url": "https://www.ubereats.com/tw/store/全家便利商店-大業店_001030/vzZ5LNpuUji3xxSNJ5FG-Q",
-      "platform": "ubereats",
-      "area": "北投區",
-      "area_lat": 25.132,
-      "area_lng": 121.501
-    },
-    {
-      "name": "統一超商 饗喫鍋 西安門市",
-      "slug": "BIOITB0uWTmCl34EpdkXxQ",
-      "url": "https://www.ubereats.com/tw/store/統一超商-饗喫鍋-西安門市/BIOITB0uWTmCl34EpdkXxQ",
-      "platform": "ubereats",
-      "area": "北投區",
-      "area_lat": 25.132,
-      "area_lng": 121.501
-    },
-    {
-      "name": "棉花田生機園地 北投門市",
-      "slug": "CIirGS17QVeKoi54Da88iA",
-      "url": "https://www.ubereats.com/tw/store/棉花田生機園地-北投門市/CIirGS17QVeKoi54Da88iA",
-      "platform": "ubereats",
-      "area": "北投區",
-      "area_lat": 25.132,
-      "area_lng": 121.501
-    },
-    {
-      "name": "統一超商 饗喫鍋 鐏賢門市",
-      "slug": "c-GY6wCoWtuAo7ENjr_oQQ",
-      "url": "https://www.ubereats.com/tw/store/統一超商-饗喫鍋-鐏賢門市/c-GY6wCoWtuAo7ENjr_oQQ",
-      "platform": "ubereats",
-      "area": "北投區",
-      "area_lat": 25.132,
-      "area_lng": 121.501
-    },
-    {
-      "name": "心樸市集 天母店",
-      "slug": "wvzxI_i1VjOJm0vy0cCTJA",
-      "url": "https://www.ubereats.com/tw/store/心樸市集-天母店/wvzxI_i1VjOJm0vy0cCTJA",
-      "platform": "ubereats",
-      "area": "北投區",
-      "area_lat": 25.132,
-      "area_lng": 121.501
-    },
-    {
-      "name": "美廉社 北投中央南店",
-      "slug": "ry-gK-9UVv6Wupkv7IXbpg",
-      "url": "https://www.ubereats.com/tw/store/美廉社-北投中央南店/ry-gK-9UVv6Wupkv7IXbpg",
-      "platform": "ubereats",
-      "area": "北投區",
-      "area_lat": 25.132,
-      "area_lng": 121.501
-    },
-    {
-      "name": "全家famisuper 大心店_024400",
-      "slug": "5WvfSZAaWXG_UO4Db_lFbA",
-      "url": "https://www.ubereats.com/tw/store/全家famisuper-大心店_024400/5WvfSZAaWXG_UO4Db_lFbA",
       "platform": "ubereats",
       "area": "北投區",
       "area_lat": 25.132,
@@ -3414,15 +3828,6 @@
       "area_lng": 121.565
     },
     {
-      "name": "依鼎越式美食",
-      "slug": "CMIDlnisStS8ALjhm2N_bg",
-      "url": "https://www.ubereats.com/tw/store/依鼎越式美食/CMIDlnisStS8ALjhm2N_bg",
-      "platform": "ubereats",
-      "area": "信義區",
-      "area_lat": 25.033,
-      "area_lng": 121.565
-    },
-    {
       "name": "日日升元気ご膳 x 輕食餐盒 信義店",
       "slug": "xweRdn0HXEeveGR8ENKSDA",
       "url": "https://www.ubereats.com/tw/store/日日升元気こ膳-x-輕食餐盒-信義店/xweRdn0HXEeveGR8ENKSDA",
@@ -3540,63 +3945,9 @@
       "area_lng": 121.565
     },
     {
-      "name": "Uber Eats 優市",
-      "slug": "3rslDtodVFiV-RUq5LbvvQ?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/uber-eats-優市-大安店/3rslDtodVFiV-RUq5LbvvQ?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "信義區",
-      "area_lat": 25.033,
-      "area_lng": 121.565
-    },
-    {
-      "name": "全聯",
-      "slug": "DeFb32krRluVJNKM2V79Qw?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/全聯福利中心-信義莊敬/DeFb32krRluVJNKM2V79Qw?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "信義區",
-      "area_lat": 25.033,
-      "area_lng": 121.565
-    },
-    {
-      "name": "屈臣氏",
-      "slug": "WuUNdPd8UJqY3kd_lWQKsQ?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/watsons-屈臣氏-新威秀門市-s0740/WuUNdPd8UJqY3kd_lWQKsQ?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "信義區",
-      "area_lat": 25.033,
-      "area_lng": 121.565
-    },
-    {
       "name": "特力屋 大安安和店",
       "slug": "eySuh8HDWmawdwV9L8ETNQ?diningMode=DELIVERY",
       "url": "https://www.ubereats.com/tw/store/特力屋-大安安和店/eySuh8HDWmawdwV9L8ETNQ?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "信義區",
-      "area_lat": 25.033,
-      "area_lng": 121.565
-    },
-    {
-      "name": "家樂福超市24hrs",
-      "slug": "TsbUBWtQUMWlTyiSx4hVbw?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/家樂福超市-台北信義店/TsbUBWtQUMWlTyiSx4hVbw?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "信義區",
-      "area_lat": 25.033,
-      "area_lng": 121.565
-    },
-    {
-      "name": "統一超商",
-      "slug": "P7ZHeMF7Vi6YqYVJhNNFhA?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/統一超商-莊敬路門市/P7ZHeMF7Vi6YqYVJhNNFhA?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "信義區",
-      "area_lat": 25.033,
-      "area_lng": 121.565
-    },
-    {
-      "name": "家樂福超市",
-      "slug": "EnpGXMimUB-ccBtoeu_rUA?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/家樂福超市-台北延吉店/EnpGXMimUB-ccBtoeu_rUA?diningMode=DELIVERY",
       "platform": "ubereats",
       "area": "信義區",
       "area_lat": 25.033,
@@ -3819,60 +4170,6 @@
       "area_lng": 121.533
     },
     {
-      "name": "Uber Eats 優市",
-      "slug": "D8gZ3fpOQW6HoX5tCxhi1A?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/uber-eats-優市-中山店/D8gZ3fpOQW6HoX5tCxhi1A?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "中山區",
-      "area_lat": 25.052,
-      "area_lng": 121.533
-    },
-    {
-      "name": "全聯",
-      "slug": "z9dX8dxhWBO5gFOIuxtSXA?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/全聯福利中心-中山南京/z9dX8dxhWBO5gFOIuxtSXA?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "中山區",
-      "area_lat": 25.052,
-      "area_lng": 121.533
-    },
-    {
-      "name": "家樂福超市24hrs",
-      "slug": "xPUUv6fOSAWN0j0WU4E3Cw?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/家樂福超市-台北林森北店/xPUUv6fOSAWN0j0WU4E3Cw?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "中山區",
-      "area_lat": 25.052,
-      "area_lng": 121.533
-    },
-    {
-      "name": "統一超商",
-      "slug": "EIMreisoUyWBCXlwwcUTdw?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/統一超商-國旺門市/EIMreisoUyWBCXlwwcUTdw?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "中山區",
-      "area_lat": 25.052,
-      "area_lng": 121.533
-    },
-    {
-      "name": "屈臣氏",
-      "slug": "hZIVpmJ7QgWq0gHRCJjT_A?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/watsons屈臣氏-新南京門市-s0464/hZIVpmJ7QgWq0gHRCJjT_A?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "中山區",
-      "area_lat": 25.052,
-      "area_lng": 121.533
-    },
-    {
-      "name": "家樂福超市",
-      "slug": "fi5S11fQX8aiIl7VvYj22Q?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/家樂福超市-台北長安東店/fi5S11fQX8aiIl7VvYj22Q?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "中山區",
-      "area_lat": 25.052,
-      "area_lng": 121.533
-    },
-    {
       "name": "騷煲 新台潮羊肉湯 ｜泰和樓",
       "slug": "j32VcRJQXaahq-dPDh_hyQ",
       "url": "https://www.ubereats.com/tw/store/騷煲-新台潮羊肉湯-|泰和樓/j32VcRJQXaahq-dPDh_hyQ",
@@ -4089,51 +4386,6 @@
       "area_lng": 121.544
     },
     {
-      "name": "全聯",
-      "slug": "ABYBL_klSmSxx5CEqvPxeg?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/全聯福利中心-大安敦南/ABYBL_klSmSxx5CEqvPxeg?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "大安區",
-      "area_lat": 25.042,
-      "area_lng": 121.544
-    },
-    {
-      "name": "家樂福超市24hrs",
-      "slug": "OgLmtkaPUDS4g4jIuaCAlg?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/家樂福超市-台北忠孝東店/OgLmtkaPUDS4g4jIuaCAlg?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "大安區",
-      "area_lat": 25.042,
-      "area_lng": 121.544
-    },
-    {
-      "name": "屈臣氏",
-      "slug": "9OaYZgSBRD-0pXQqqtFBkg?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/watsons屈臣氏-崇光門市-s0082/9OaYZgSBRD-0pXQqqtFBkg?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "大安區",
-      "area_lat": 25.042,
-      "area_lng": 121.544
-    },
-    {
-      "name": "家樂福超市",
-      "slug": "yh6EDLPvR8Ooa0WBq9vEMg?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/家樂福超市-台北仁愛店/yh6EDLPvR8Ooa0WBq9vEMg?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "大安區",
-      "area_lat": 25.042,
-      "area_lng": 121.544
-    },
-    {
-      "name": "統一超商",
-      "slug": "qP7SeLLCVgCht3C_lVEIfg?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/統一超商-錢忠門市/qP7SeLLCVgCht3C_lVEIfg?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "大安區",
-      "area_lat": 25.042,
-      "area_lng": 121.544
-    },
-    {
       "name": "Pizza Hut必勝客",
       "slug": "8OeXsjztW3-CatFdYCSP_A",
       "url": "https://www.ubereats.com/tw/store/pizza-hut必勝客-八德延吉店/8OeXsjztW3-CatFdYCSP_A",
@@ -4296,15 +4548,6 @@
       "area_lng": 121.554
     },
     {
-      "name": "吳寶春 台北信義旗艦店",
-      "slug": "WyPKRgbyTySnagR0KWEe3A",
-      "url": "https://www.ubereats.com/tw/store/吳寶春-台北信義旗艦店/WyPKRgbyTySnagR0KWEe3A",
-      "platform": "ubereats",
-      "area": "松山區",
-      "area_lat": 25.051,
-      "area_lng": 121.554
-    },
-    {
       "name": "森波 Simple Food 小巨蛋店",
       "slug": "eVUeSIEmUjeHcw3ANZ3eAg",
       "url": "https://www.ubereats.com/tw/store/森波-simple-food-小巨蛋店/eVUeSIEmUjeHcw3ANZ3eAg",
@@ -4344,42 +4587,6 @@
       "name": "秧米 Yumeat",
       "slug": "DGL-dWkJQDaiUbzStKGrCQ",
       "url": "https://www.ubereats.com/tw/store/秧米-yumeat/DGL-dWkJQDaiUbzStKGrCQ",
-      "platform": "ubereats",
-      "area": "松山區",
-      "area_lat": 25.051,
-      "area_lng": 121.554
-    },
-    {
-      "name": "全聯",
-      "slug": "Ihd_DRLTUlCFRLtpp8qTRA?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/全聯福利中心-松山興安/Ihd_DRLTUlCFRLtpp8qTRA?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "松山區",
-      "area_lat": 25.051,
-      "area_lng": 121.554
-    },
-    {
-      "name": "家樂福超市",
-      "slug": "lpzVB_voUpursWsrBR8EHg?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/家樂福超市-台北敦化北店/lpzVB_voUpursWsrBR8EHg?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "松山區",
-      "area_lat": 25.051,
-      "area_lng": 121.554
-    },
-    {
-      "name": "統一超商",
-      "slug": "3nmTn-5zVqywB2QISVpWXQ?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/統一超商-饗喫鍋-敦北門市/3nmTn-5zVqywB2QISVpWXQ?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "松山區",
-      "area_lat": 25.051,
-      "area_lng": 121.554
-    },
-    {
-      "name": "屈臣氏",
-      "slug": "8Re3QRhoQuSjQtbaUmss0w?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/watsons屈臣氏-台安門市-s0470/8Re3QRhoQuSjQtbaUmss0w?diningMode=DELIVERY",
       "platform": "ubereats",
       "area": "松山區",
       "area_lat": 25.051,
@@ -4575,51 +4782,6 @@
       "area_lng": 121.517
     },
     {
-      "name": "全聯",
-      "slug": "e8MiovqtRJutlWq9AKQj7Q?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/全聯福利中心-中正華山/e8MiovqtRJutlWq9AKQj7Q?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "中正區",
-      "area_lat": 25.046,
-      "area_lng": 121.517
-    },
-    {
-      "name": "屈臣氏",
-      "slug": "5xvRrdjQXjiB6hAtDyzJ3g?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/watsons屈臣氏-京站門市s0490/5xvRrdjQXjiB6hAtDyzJ3g?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "中正區",
-      "area_lat": 25.046,
-      "area_lng": 121.517
-    },
-    {
-      "name": "家樂福超市24hrs",
-      "slug": "48jNbc5zUfi_NJQlJ4k1yg?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/家樂福超市-台北濟南店/48jNbc5zUfi_NJQlJ4k1yg?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "中正區",
-      "area_lat": 25.046,
-      "area_lng": 121.517
-    },
-    {
-      "name": "家樂福超市",
-      "slug": "Bz3TLmllW--9uouv3dsghg?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/家樂福超市-台北太原店/Bz3TLmllW--9uouv3dsghg?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "中正區",
-      "area_lat": 25.046,
-      "area_lng": 121.517
-    },
-    {
-      "name": "統一超商",
-      "slug": "fTmZiL1HUUWAbmiMF2ruHA?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/統一超商-鑫台北門市/fTmZiL1HUUWAbmiMF2ruHA?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "中正區",
-      "area_lat": 25.046,
-      "area_lng": 121.517
-    },
-    {
       "name": "六必居沙鍋粥(民權分店)",
       "slug": "hptAw5EORiyJB-RcUeS4sw",
       "url": "https://www.ubereats.com/tw/store/六必居沙鍋粥民權分店/hptAw5EORiyJB-RcUeS4sw",
@@ -4665,27 +4827,9 @@
       "area_lng": 121.459
     },
     {
-      "name": "茗香園板橋店",
-      "slug": "IjWXA_ZeSiywNYUur36QZg",
-      "url": "https://www.ubereats.com/tw/store/茗香園板橋店/IjWXA_ZeSiywNYUur36QZg",
-      "platform": "ubereats",
-      "area": "板橋區",
-      "area_lat": 25.014,
-      "area_lng": 121.459
-    },
-    {
       "name": "勁呷韓定食 精緻韓式嫩豆腐煲專賣店",
       "slug": "uPOXiT-pQnecWwp3ErqEPQ",
       "url": "https://www.ubereats.com/tw/store/勁呷韓定食-精緻韓式嫩豆腐煲專賣店/uPOXiT-pQnecWwp3ErqEPQ",
-      "platform": "ubereats",
-      "area": "板橋區",
-      "area_lat": 25.014,
-      "area_lng": 121.459
-    },
-    {
-      "name": "刁民酸菜魚 板橋府中店",
-      "slug": "y4_aWTYDVyS_PPETroWSMQ",
-      "url": "https://www.ubereats.com/tw/store/刁民酸菜魚-板橋府中店/y4_aWTYDVyS_PPETroWSMQ",
       "platform": "ubereats",
       "area": "板橋區",
       "area_lat": 25.014,
@@ -4764,15 +4908,6 @@
       "area_lng": 121.459
     },
     {
-      "name": "江原道韓式飯卷豆腐鍋",
-      "slug": "kEk4dN7oXmuPjVH0KYmQ2Q",
-      "url": "https://www.ubereats.com/tw/store/江原道韓式飯卷豆腐鍋/kEk4dN7oXmuPjVH0KYmQ2Q",
-      "platform": "ubereats",
-      "area": "板橋區",
-      "area_lat": 25.014,
-      "area_lng": 121.459
-    },
-    {
       "name": "大稻埕烤鴨 新莊店",
       "slug": "TdcKDbiZUT27X1W6obuyfQ",
       "url": "https://www.ubereats.com/tw/store/大稻埕烤鴨-新莊店/TdcKDbiZUT27X1W6obuyfQ",
@@ -4830,15 +4965,6 @@
       "name": "府中雞肉飯專門店",
       "slug": "hWyAfhSfQs6jL4c2o96RCg",
       "url": "https://www.ubereats.com/tw/store/府中雞肉飯專門店/hWyAfhSfQs6jL4c2o96RCg",
-      "platform": "ubereats",
-      "area": "板橋區",
-      "area_lat": 25.014,
-      "area_lng": 121.459
-    },
-    {
-      "name": "三寶飯惦",
-      "slug": "oeQLGzJ0TAWtIYVwzZvWfA",
-      "url": "https://www.ubereats.com/tw/store/三寶飯惦/oeQLGzJ0TAWtIYVwzZvWfA",
       "platform": "ubereats",
       "area": "板橋區",
       "area_lat": 25.014,
@@ -4956,60 +5082,6 @@
       "name": "林立食堂",
       "slug": "u67UqB3oXLyAH9EPk8otYA",
       "url": "https://www.ubereats.com/tw/store/林立食堂/u67UqB3oXLyAH9EPk8otYA",
-      "platform": "ubereats",
-      "area": "板橋區",
-      "area_lat": 25.014,
-      "area_lng": 121.459
-    },
-    {
-      "name": "全聯",
-      "slug": "d7L_AlPrU12sPKpL5N8Kvg?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/全聯福利中心-板橋重慶/d7L_AlPrU12sPKpL5N8Kvg?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "板橋區",
-      "area_lat": 25.014,
-      "area_lng": 121.459
-    },
-    {
-      "name": "屈臣氏",
-      "slug": "vtxouS29TQ-sxIDkkConJg?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/watsons屈臣氏-板中門市-s0277/vtxouS29TQ-sxIDkkConJg?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "板橋區",
-      "area_lat": 25.014,
-      "area_lng": 121.459
-    },
-    {
-      "name": "家樂福超市24hrs",
-      "slug": "gubUvvlMVDGG3h_crH9Y8g?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/家樂福超市-板橋忠孝店/gubUvvlMVDGG3h_crH9Y8g?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "板橋區",
-      "area_lat": 25.014,
-      "area_lng": 121.459
-    },
-    {
-      "name": "統一超商",
-      "slug": "2usaYKOtXsqkAUwnctN_Zw?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/統一超商-府運門市/2usaYKOtXsqkAUwnctN_Zw?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "板橋區",
-      "area_lat": 25.014,
-      "area_lng": 121.459
-    },
-    {
-      "name": "特力屋 板橋北門店",
-      "slug": "lMjsrb0iVfGiCs7QkVmJIw?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/特力屋-板橋北門店/lMjsrb0iVfGiCs7QkVmJIw?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "板橋區",
-      "area_lat": 25.014,
-      "area_lng": 121.459
-    },
-    {
-      "name": "家樂福超市",
-      "slug": "4YVaox_2X4SViNiJ-r13Sg?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/家樂福超市-中和壽德店/4YVaox_2X4SViNiJ-r13Sg?diningMode=DELIVERY",
       "platform": "ubereats",
       "area": "板橋區",
       "area_lat": 25.014,
@@ -5199,42 +5271,6 @@
       "name": "洪瑞珍新概念店 永和門市",
       "slug": "PLLxiTTlUaWOrB7beZ0Jvw",
       "url": "https://www.ubereats.com/tw/store/洪瑞珍新概念店-永和門市/PLLxiTTlUaWOrB7beZ0Jvw",
-      "platform": "ubereats",
-      "area": "中和區",
-      "area_lat": 24.999,
-      "area_lng": 121.499
-    },
-    {
-      "name": "全聯",
-      "slug": "qz9bxirvUwmNjrDkWzxtDg?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/全聯福利中心-中和捷運/qz9bxirvUwmNjrDkWzxtDg?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "中和區",
-      "area_lat": 24.999,
-      "area_lng": 121.499
-    },
-    {
-      "name": "屈臣氏",
-      "slug": "oCIOLzfHS7OCMVd84IL_ag?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/watsons屈臣氏-中連門市-s0178/oCIOLzfHS7OCMVd84IL_ag?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "中和區",
-      "area_lat": 24.999,
-      "area_lng": 121.499
-    },
-    {
-      "name": "統一超商",
-      "slug": "DLxD7NP2U_yVuIkHa6lBeA?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/統一超商-廣美門市/DLxD7NP2U_yVuIkHa6lBeA?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "中和區",
-      "area_lat": 24.999,
-      "area_lng": 121.499
-    },
-    {
-      "name": "家樂福超市",
-      "slug": "sSFqQzP7Q8aLbTtdWfLklQ?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/家樂福超市-中和圓通店/sSFqQzP7Q8aLbTtdWfLklQ?diningMode=DELIVERY",
       "platform": "ubereats",
       "area": "中和區",
       "area_lat": 24.999,
@@ -5457,90 +5493,9 @@
       "area_lng": 121.226
     },
     {
-      "name": "Costco",
-      "slug": "_w6lKST7Wo-gQX_xv1m57A?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/costco-好市多-中壢店/_w6lKST7Wo-gQX_xv1m57A?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "中壢區",
-      "area_lat": 24.957,
-      "area_lng": 121.226
-    },
-    {
-      "name": "全聯",
-      "slug": "WJjDN8a-SX6Ono43PBOLvw?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/全聯福利中心-中壢中北/WJjDN8a-SX6Ono43PBOLvw?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "中壢區",
-      "area_lat": 24.957,
-      "area_lng": 121.226
-    },
-    {
-      "name": "家樂福",
-      "slug": "ASIUe5lNQs-FehYeumejiQ?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/家樂福-中壢店/ASIUe5lNQs-FehYeumejiQ?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "中壢區",
-      "area_lat": 24.957,
-      "area_lng": 121.226
-    },
-    {
-      "name": "大全聯",
-      "slug": "lasw7hiLTs6gYuIp1TfOtg?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/大全聯-中壢店/lasw7hiLTs6gYuIp1TfOtg?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "中壢區",
-      "area_lat": 24.957,
-      "area_lng": 121.226
-    },
-    {
-      "name": "家樂福超市24hrs",
-      "slug": "nif_Arj-X-y7BypLiYfuvA?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/家樂福超市-中壢中北店/nif_Arj-X-y7BypLiYfuvA?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "中壢區",
-      "area_lat": 24.957,
-      "area_lng": 121.226
-    },
-    {
-      "name": "屈臣氏",
-      "slug": "BxJU7QvrVkqyZp_dYDf8kw?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/watsons-屈臣氏-來來門市-s0221/BxJU7QvrVkqyZp_dYDf8kw?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "中壢區",
-      "area_lat": 24.957,
-      "area_lng": 121.226
-    },
-    {
-      "name": "家樂福 中原店",
-      "slug": "mZPdlOgjSmSIWnQjJi4vrg?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/家樂福-中原店/mZPdlOgjSmSIWnQjJi4vrg?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "中壢區",
-      "area_lat": 24.957,
-      "area_lng": 121.226
-    },
-    {
-      "name": "統一超商",
-      "slug": "lg4VxAfUVH-evSnP1-cppA?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/統一超商-壢和門市/lg4VxAfUVH-evSnP1-cppA?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "中壢區",
-      "area_lat": 24.957,
-      "area_lng": 121.226
-    },
-    {
       "name": "特力屋 平鎮店",
       "slug": "8Dt0l0vQVASHpp8l6xjm7g?diningMode=DELIVERY",
       "url": "https://www.ubereats.com/tw/store/特力屋-平鎮店/8Dt0l0vQVASHpp8l6xjm7g?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "中壢區",
-      "area_lat": 24.957,
-      "area_lng": 121.226
-    },
-    {
-      "name": "家樂福超市",
-      "slug": "kfHk_baKUouRXCjDJ-VCIg?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/家樂福超市-平鎮廣明店/kfHk_baKUouRXCjDJ-VCIg?diningMode=DELIVERY",
       "platform": "ubereats",
       "area": "中壢區",
       "area_lat": 24.957,
@@ -5718,15 +5673,6 @@
       "area_lng": 120.64
     },
     {
-      "name": "Costco 好市多 台中店",
-      "slug": "KhVkYyNwXpuiFLtkhP4rGg",
-      "url": "https://www.ubereats.com/tw/store/costco-好市多-台中店/KhVkYyNwXpuiFLtkhP4rGg",
-      "platform": "ubereats",
-      "area": "台中西屯",
-      "area_lat": 24.164,
-      "area_lng": 120.64
-    },
-    {
       "name": "小鴨片 新台式烤鴨專賣",
       "slug": "cwBJ3LcvTISMEcviQgWKiw",
       "url": "https://www.ubereats.com/tw/store/小鴨片-新台式烤鴨專賣/cwBJ3LcvTISMEcviQgWKiw",
@@ -5799,108 +5745,9 @@
       "area_lng": 120.64
     },
     {
-      "name": "Uber Eats 優市",
-      "slug": "9Lnfotl4WW2hSJvrjUBE1Q?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/uber-eats-優市-南屯店/9Lnfotl4WW2hSJvrjUBE1Q?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "台中西屯",
-      "area_lat": 24.164,
-      "area_lng": 120.64
-    },
-    {
-      "name": "Costco",
-      "slug": "KhVkYyNwXpuiFLtkhP4rGg?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/costco-好市多-台中店/KhVkYyNwXpuiFLtkhP4rGg?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "台中西屯",
-      "area_lat": 24.164,
-      "area_lng": 120.64
-    },
-    {
-      "name": "全聯",
-      "slug": "J69MK-trXCy5EUz03jns7Q?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/全聯福利中心-台中安和/J69MK-trXCy5EUz03jns7Q?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "台中西屯",
-      "area_lat": 24.164,
-      "area_lng": 120.64
-    },
-    {
-      "name": "家樂福",
-      "slug": "lI_UdVGeTnGvH7nLTwU_MA?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/家樂福-文心店/lI_UdVGeTnGvH7nLTwU_MA?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "台中西屯",
-      "area_lat": 24.164,
-      "area_lng": 120.64
-    },
-    {
-      "name": "大全聯",
-      "slug": "NYr4u2TNQ0q1ygrdAmxv_w?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/大全聯-忠明店/NYr4u2TNQ0q1ygrdAmxv_w?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "台中西屯",
-      "area_lat": 24.164,
-      "area_lng": 120.64
-    },
-    {
-      "name": "全聯 24小時",
-      "slug": "14XVJdyRVrqdQV4oo-6bWg?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/全聯福利中心-台中市政/14XVJdyRVrqdQV4oo-6bWg?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "台中西屯",
-      "area_lat": 24.164,
-      "area_lng": 120.64
-    },
-    {
-      "name": "家樂福超市24hrs",
-      "slug": "LZfTrppBUvi49KY2RFhLcg?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/家樂福超市-西屯青海店/LZfTrppBUvi49KY2RFhLcg?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "台中西屯",
-      "area_lat": 24.164,
-      "area_lng": 120.64
-    },
-    {
-      "name": "屈臣氏",
-      "slug": "g2tiSTd7QW2k_NAseUOrgg?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/watsons屈臣氏-青海門市-s0403/g2tiSTd7QW2k_NAseUOrgg?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "台中西屯",
-      "area_lat": 24.164,
-      "area_lng": 120.64
-    },
-    {
-      "name": "家樂福超市",
-      "slug": "X7PRDP02VcOMUWM0eS8FZw?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/家樂福超市-南屯黎明店/X7PRDP02VcOMUWM0eS8FZw?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "台中西屯",
-      "area_lat": 24.164,
-      "area_lng": 120.64
-    },
-    {
-      "name": "統一超商",
-      "slug": "g2UWJQSBWoKvhkaOTFwkug?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/統一超商-饗喫鍋-文心門市/g2UWJQSBWoKvhkaOTFwkug?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "台中西屯",
-      "area_lat": 24.164,
-      "area_lng": 120.64
-    },
-    {
       "name": "特力屋 台中大墩店",
       "slug": "_wLpB1VrXPCPHh0Dr_z4Lw?diningMode=DELIVERY",
       "url": "https://www.ubereats.com/tw/store/特力屋-台中大墩店/_wLpB1VrXPCPHh0Dr_z4Lw?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "台中西屯",
-      "area_lat": 24.164,
-      "area_lng": 120.64
-    },
-    {
-      "name": "家樂福生鮮量販 青海店",
-      "slug": "RNKOm3uVTCagE_tTbG_cXw?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/家樂福生鮮量販-青海店/RNKOm3uVTCagE_tTbG_cXw?diningMode=DELIVERY",
       "platform": "ubereats",
       "area": "台中西屯",
       "area_lat": 24.164,
@@ -6189,78 +6036,6 @@
       "name": "老客馥粥品 台中自由店",
       "slug": "O2RL_0feXUWvYke02dBzMg",
       "url": "https://www.ubereats.com/tw/store/老客馥粥品-台中自由店/O2RL_0feXUWvYke02dBzMg",
-      "platform": "ubereats",
-      "area": "台中北區",
-      "area_lat": 24.152,
-      "area_lng": 120.685
-    },
-    {
-      "name": "Uber Eats 優市",
-      "slug": "Wrmg_JNiXOCbvDY1TVBqyQ?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/uber-eats-優市-精武店/Wrmg_JNiXOCbvDY1TVBqyQ?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "台中北區",
-      "area_lat": 24.152,
-      "area_lng": 120.685
-    },
-    {
-      "name": "Costco",
-      "slug": "VEKSjzfQWoWN5hv5-q4NYQ?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/costco-好市多-北台中店/VEKSjzfQWoWN5hv5-q4NYQ?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "台中北區",
-      "area_lat": 24.152,
-      "area_lng": 120.685
-    },
-    {
-      "name": "全聯",
-      "slug": "CSuieCDsWv-RfpU6bPiHwA?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/全聯福利中心-台中新民/CSuieCDsWv-RfpU6bPiHwA?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "台中北區",
-      "area_lat": 24.152,
-      "area_lng": 120.685
-    },
-    {
-      "name": "屈臣氏",
-      "slug": "t8w6nEO9Tb6F1vAY4Rll-w?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/watsons屈臣氏-三民門市-s0040/t8w6nEO9Tb6F1vAY4Rll-w?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "台中北區",
-      "area_lat": 24.152,
-      "area_lng": 120.685
-    },
-    {
-      "name": "家樂福超市24hrs",
-      "slug": "YuXGDbRBSFqqElfftItDJw?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/家樂福超市-台中進化店/YuXGDbRBSFqqElfftItDJw?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "台中北區",
-      "area_lat": 24.152,
-      "area_lng": 120.685
-    },
-    {
-      "name": "家樂福 德安店",
-      "slug": "PzCneDvdRzmP5jh5TIsacg?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/家樂福-德安店/PzCneDvdRzmP5jh5TIsacg?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "台中北區",
-      "area_lat": 24.152,
-      "area_lng": 120.685
-    },
-    {
-      "name": "統一超商",
-      "slug": "voxwzitqWZyTGKHfvk9GUA?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/統一超商-錦新門市/voxwzitqWZyTGKHfvk9GUA?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "台中北區",
-      "area_lat": 24.152,
-      "area_lng": 120.685
-    },
-    {
-      "name": "家樂福超市",
-      "slug": "VHkQ8pSHSa2lSvSZZbQatA?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/家樂福超市-台中水湳店/VHkQ8pSHSa2lSvSZZbQatA?diningMode=DELIVERY",
       "platform": "ubereats",
       "area": "台中北區",
       "area_lat": 24.152,
@@ -6618,78 +6393,6 @@
       "area_lng": 120.303
     },
     {
-      "name": "Costco",
-      "slug": "HGnhEDVgWLKAhRaKPhOrpw?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/costco-好市多-高雄店/HGnhEDVgWLKAhRaKPhOrpw?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "高雄前鎮",
-      "area_lat": 22.613,
-      "area_lng": 120.303
-    },
-    {
-      "name": "全聯",
-      "slug": "MabzuZedXbeUmNj1f8UrHg?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/全聯福利中心-前鎮忠勤/MabzuZedXbeUmNj1f8UrHg?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "高雄前鎮",
-      "area_lat": 22.613,
-      "area_lng": 120.303
-    },
-    {
-      "name": "家樂福",
-      "slug": "fydhniK5SJ-7fTCBRzEP6g?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/家樂福-成功店/fydhniK5SJ-7fTCBRzEP6g?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "高雄前鎮",
-      "area_lat": 22.613,
-      "area_lng": 120.303
-    },
-    {
-      "name": "屈臣氏",
-      "slug": "HU1LPXr9Sxm-wji5KUBtzw?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/watsons屈臣氏-一心門市-s0163/HU1LPXr9Sxm-wji5KUBtzw?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "高雄前鎮",
-      "area_lat": 22.613,
-      "area_lng": 120.303
-    },
-    {
-      "name": "全聯 24小時",
-      "slug": "jopM6JfrV3yXZSKe4CjJhQ?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/全聯福利中心-苓雅中正一/jopM6JfrV3yXZSKe4CjJhQ?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "高雄前鎮",
-      "area_lat": 22.613,
-      "area_lng": 120.303
-    },
-    {
-      "name": "統一超商",
-      "slug": "YJYhq5MNVAysGncE5bQlOQ?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/統一超商-忠純門市/YJYhq5MNVAysGncE5bQlOQ?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "高雄前鎮",
-      "area_lat": 22.613,
-      "area_lng": 120.303
-    },
-    {
-      "name": "家樂福超市24hrs",
-      "slug": "mFtBwISfSXiRjBXF-orhrw?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/家樂福超市-高雄九如一店/mFtBwISfSXiRjBXF-orhrw?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "高雄前鎮",
-      "area_lat": 22.613,
-      "area_lng": 120.303
-    },
-    {
-      "name": "家樂福 鼎山店",
-      "slug": "x_hXh1ihSFO1kjqjpordtQ?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/家樂福-鼎山店/x_hXh1ihSFO1kjqjpordtQ?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "高雄前鎮",
-      "area_lat": 22.613,
-      "area_lng": 120.303
-    },
-    {
       "name": "特力屋 苓雅三多店",
       "slug": "XNtRWa4jW-GscTk1i1RSbg?diningMode=DELIVERY",
       "url": "https://www.ubereats.com/tw/store/特力屋-苓雅三多店/XNtRWa4jW-GscTk1i1RSbg?diningMode=DELIVERY",
@@ -6942,69 +6645,6 @@
       "area_lng": 120.296
     },
     {
-      "name": "Costco",
-      "slug": "cZVNl2VdVj-G9OccaFLtVg?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/costco-好市多-大順店/cZVNl2VdVj-G9OccaFLtVg?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "高雄左營",
-      "area_lat": 22.669,
-      "area_lng": 120.296
-    },
-    {
-      "name": "全聯",
-      "slug": "iVCEbOxUXWqwNsEZ5ZTIHg?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/全聯福利中心-左營文康/iVCEbOxUXWqwNsEZ5ZTIHg?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "高雄左營",
-      "area_lat": 22.669,
-      "area_lng": 120.296
-    },
-    {
-      "name": "屈臣氏",
-      "slug": "cHSbaJmqR-WorKYOb_98Yg?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/watsons屈臣氏-裕誠門市-s0345/cHSbaJmqR-WorKYOb_98Yg?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "高雄左營",
-      "area_lat": 22.669,
-      "area_lng": 120.296
-    },
-    {
-      "name": "家樂福",
-      "slug": "gMbOZq_oQKOX6soJV7CDZg?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/家樂福-鳳山店/gMbOZq_oQKOX6soJV7CDZg?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "高雄左營",
-      "area_lat": 22.669,
-      "area_lng": 120.296
-    },
-    {
-      "name": "家樂福超市24hrs",
-      "slug": "8U0z1ZqFTGak56AfJlj1zA?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/家樂福超市-左營南屏店/8U0z1ZqFTGak56AfJlj1zA?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "高雄左營",
-      "area_lat": 22.669,
-      "area_lng": 120.296
-    },
-    {
-      "name": "家樂福超市",
-      "slug": "TdLPEZo8Uv-1STAs6L10SQ?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/家樂福超市-左營文上店/TdLPEZo8Uv-1STAs6L10SQ?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "高雄左營",
-      "area_lat": 22.669,
-      "area_lng": 120.296
-    },
-    {
-      "name": "統一超商",
-      "slug": "CnRIFtz7WgutN-WEv8jeNA?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/統一超商-巨漢門市/CnRIFtz7WgutN-WEv8jeNA?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "高雄左營",
-      "area_lat": 22.669,
-      "area_lng": 120.296
-    },
-    {
       "name": "特力屋 左營店",
       "slug": "TO95DHTFUtW2IfkSlcfChQ?diningMode=DELIVERY",
       "url": "https://www.ubereats.com/tw/store/特力屋-左營店/TO95DHTFUtW2IfkSlcfChQ?diningMode=DELIVERY",
@@ -7017,15 +6657,6 @@
       "name": "宝鰻丨鰻魚飯專賣丨日式定食丨民權店",
       "slug": "Jb5PST6tXW-h0WrQ4LRTpA",
       "url": "https://www.ubereats.com/tw/store/宝鰻丨鰻魚飯專賣丨日式定食丨民權店/Jb5PST6tXW-h0WrQ4LRTpA",
-      "platform": "ubereats",
-      "area": "台南中西",
-      "area_lat": 22.992,
-      "area_lng": 120.204
-    },
-    {
-      "name": "Costco 好市多 台南店",
-      "slug": "z0szKPeQVOChvLdn0RBXGA",
-      "url": "https://www.ubereats.com/tw/store/costco-好市多-台南店/z0szKPeQVOChvLdn0RBXGA",
       "platform": "ubereats",
       "area": "台南中西",
       "area_lat": 22.992,
@@ -7062,15 +6693,6 @@
       "name": "薄多義Bite 2 Eat 崇學店",
       "slug": "OeUlFGPdTryQFwHcjRuM2w",
       "url": "https://www.ubereats.com/tw/store/薄多義bite-2-eat-崇學店/OeUlFGPdTryQFwHcjRuM2w",
-      "platform": "ubereats",
-      "area": "台南中西",
-      "area_lat": 22.992,
-      "area_lng": 120.204
-    },
-    {
-      "name": "全聯福利中心 台南忠義",
-      "slug": "ZX98nWOcV5OSvkrC7GetoA",
-      "url": "https://www.ubereats.com/tw/store/全聯福利中心-台南忠義/ZX98nWOcV5OSvkrC7GetoA",
       "platform": "ubereats",
       "area": "台南中西",
       "area_lat": 22.992,
@@ -7278,96 +6900,6 @@
       "name": "釜山崔炸雞 台南和意店",
       "slug": "CDEbsc1UVqinaLhXMUBA4w",
       "url": "https://www.ubereats.com/tw/store/釜山崔炸雞-台南和意店/CDEbsc1UVqinaLhXMUBA4w",
-      "platform": "ubereats",
-      "area": "台南中西",
-      "area_lat": 22.992,
-      "area_lng": 120.204
-    },
-    {
-      "name": "Costco",
-      "slug": "z0szKPeQVOChvLdn0RBXGA?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/costco-好市多-台南店/z0szKPeQVOChvLdn0RBXGA?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "台南中西",
-      "area_lat": 22.992,
-      "area_lng": 120.204
-    },
-    {
-      "name": "全聯",
-      "slug": "ZX98nWOcV5OSvkrC7GetoA?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/全聯福利中心-台南忠義/ZX98nWOcV5OSvkrC7GetoA?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "台南中西",
-      "area_lat": 22.992,
-      "area_lng": 120.204
-    },
-    {
-      "name": "家樂福",
-      "slug": "LL-imo9pTcaHr-GENrrqZg?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/家樂福-仁德店/LL-imo9pTcaHr-GENrrqZg?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "台南中西",
-      "area_lat": 22.992,
-      "area_lng": 120.204
-    },
-    {
-      "name": "大全聯",
-      "slug": "eov0IwkaQUWVd7I6chB5Gw?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/大全聯-台南店/eov0IwkaQUWVd7I6chB5Gw?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "台南中西",
-      "area_lat": 22.992,
-      "area_lng": 120.204
-    },
-    {
-      "name": "全聯 24小時",
-      "slug": "7QKSttyRXE-qZ9_X82E2yQ?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/全聯福利中心-台南林森/7QKSttyRXE-qZ9_X82E2yQ?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "台南中西",
-      "area_lat": 22.992,
-      "area_lng": 120.204
-    },
-    {
-      "name": "家樂福 安平店",
-      "slug": "6xkEEfN4SDiWfYl-Z7bwrQ?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/家樂福-安平店/6xkEEfN4SDiWfYl-Z7bwrQ?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "台南中西",
-      "area_lat": 22.992,
-      "area_lng": 120.204
-    },
-    {
-      "name": "統一超商",
-      "slug": "LiY6iEseU72_SNYkQjr0cA?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/統一超商-饗喫鍋-武德門市/LiY6iEseU72_SNYkQjr0cA?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "台南中西",
-      "area_lat": 22.992,
-      "area_lng": 120.204
-    },
-    {
-      "name": "屈臣氏",
-      "slug": "bwluFRUTXiiEGkiKERandA?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/watsons-屈臣氏-公園門市-s0077/bwluFRUTXiiEGkiKERandA?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "台南中西",
-      "area_lat": 22.992,
-      "area_lng": 120.204
-    },
-    {
-      "name": "家樂福超市24hrs",
-      "slug": "gZJ5giCYR6St9qVBa3VHwQ?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/家樂福超市-台南開元店/gZJ5giCYR6St9qVBa3VHwQ?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "台南中西",
-      "area_lat": 22.992,
-      "area_lng": 120.204
-    },
-    {
-      "name": "家樂福超市",
-      "slug": "lugsJ3HBW_GzpzngkRpkZg?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/家樂福超市-台南北安店/lugsJ3HBW_GzpzngkRpkZg?diningMode=DELIVERY",
       "platform": "ubereats",
       "area": "台南中西",
       "area_lat": 22.992,
