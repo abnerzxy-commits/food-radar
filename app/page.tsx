@@ -194,7 +194,13 @@ export default function Home() {
         <div className="max-w-2xl mx-auto px-4 py-3">
           <div className="flex items-center gap-2 mb-3">
             <span className="text-2xl">🛵</span>
-            <h1 className="text-lg font-bold text-stone-900">外送雷達</h1>
+            <h1 className="text-lg font-bold text-stone-900 flex-1">外送雷達</h1>
+            <button
+              onClick={getLocation}
+              className="flex items-center gap-1 px-3 py-1.5 bg-stone-100 hover:bg-stone-200 rounded-full text-xs text-stone-600 font-medium transition-colors"
+            >
+              📍 重新定位
+            </button>
           </div>
 
           {/* 搜尋框 */}
