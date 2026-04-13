@@ -22,6 +22,7 @@ interface Restaurant {
   platforms?: string[]
   ubereatsUrl?: string
   foodpandaUrl?: string
+  warning?: { tag: string; reason: string } | null
 }
 
 export default function Home() {

@@ -19,6 +19,7 @@ interface Restaurant {
   platforms?: string[]
   ubereatsUrl?: string
   foodpandaUrl?: string
+  warning?: { tag: string; reason: string } | null
 }
 
 function StarRating({ rating }: { rating: number }) {
@@ -48,7 +49,7 @@ export default function RestaurantCard({
   restaurant: Restaurant
   onClick: () => void
 }) {
-  const { name, rating, reviewCount, distance, isOpen, photo, address, dishes, highlights, platforms, ubereatsUrl, foodpandaUrl } = restaurant
+  const { name, rating, reviewCount, distance, isOpen, photo, address, dishes, highlights, platforms, ubereatsUrl, foodpandaUrl, warning } = restaurant
   const encodedName = encodeURIComponent(name)
   const ueUrl = ubereatsUrl || `https://www.ubereats.com/tw/search?q=${encodedName}`
   const fpUrl = foodpandaUrl || `https://www.foodpanda.com.tw/restaurants/new?q=${encodedName}`
@@ -81,9 +82,21 @@ export default function RestaurantCard({
         <div className="absolute bottom-3 left-3 px-2.5 py-1 rounded-full bg-black/60 text-white text-xs font-medium backdrop-blur-sm">
           📍 {distance < 1000 ? `${distance}m` : `${(distance / 1000).toFixed(1)}km`}
         </div>
+        {warning && (
+          <div className="absolute top-3 left-3 px-2.5 py-1 rounded-full bg-red-600 text-white text-xs font-semibold backdrop-blur-sm">
+            ⚠️ {warning.tag}
+          </div>
+        )}
       </div>
 
       <div className="p-4">
+        {/* 負面新聞警告 */}
+        {warning && (
+          <div className="mb-2 px-3 py-2 bg-red-50 border border-red-200 rounded-lg text-xs text-red-700">
+            ⚠️ {warning.reason}
+          </div>
+        )}
+
         {/* 店名 */}
         <h3 className="font-bold text-lg text-stone-900 mb-1 truncate cursor-pointer hover:text-orange-600 transition-colors" onClick={onClick}>
           {name}

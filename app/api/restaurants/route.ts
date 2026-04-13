@@ -79,8 +79,17 @@ interface RestaurantEntry {
   area_lng: number
 }
 
+interface WarningEntry {
+  match: string
+  match_type: string
+  tag: string
+  reason: string
+  source: string
+}
+
 let allCache: RestaurantEntry[] | null = null
 let enrichedCache: Record<string, EnrichedData> | null = null
+let warningsCache: WarningEntry[] | null = null
 
 async function loadAllRestaurants(): Promise<RestaurantEntry[]> {
   if (allCache) return allCache
@@ -138,6 +147,24 @@ async function loadEnriched(): Promise<Record<string, EnrichedData>> {
   return enrichedCache!
 }
 
+async function loadWarnings(): Promise<WarningEntry[]> {
+  if (warningsCache) return warningsCache
+  try {
+    const raw = await fs.readFile(path.join(process.cwd(), 'data', 'warnings.json'), 'utf-8')
+    warningsCache = JSON.parse(raw).entries || []
+  } catch { warningsCache = [] }
+  return warningsCache!
+}
+
+function getWarning(name: string, warnings: WarningEntry[]): { tag: string; reason: string } | null {
+  for (const w of warnings) {
+    if (w.match_type === 'name_contains' && name.includes(w.match)) {
+      return { tag: w.tag, reason: w.reason }
+    }
+  }
+  return null
+}
+
 export async function GET(request: NextRequest) {
   const { searchParams } = new URL(request.url)
   const lat = parseFloat(searchParams.get('lat') || '0')
@@ -154,7 +181,7 @@ export async function GET(request: NextRequest) {
     return NextResponse.json({ error: '需要提供經緯度' }, { status: 400 })
   }
 
-  const [allData, enriched] = await Promise.all([loadAllRestaurants(), loadEnriched()])
+  const [allData, enriched, warnings] = await Promise.all([loadAllRestaurants(), loadEnriched(), loadWarnings()])
 
   // 合併資料，計算距離
   let list = allData.map((r: any) => {
@@ -206,6 +233,7 @@ export async function GET(request: NextRequest) {
     const encodedName = encodeURIComponent(r.name)
     const platforms: string[] = r.platforms || []
     const urls: Record<string, string> = r.urls || {}
+    const warning = getWarning(r.name, warnings)
 
     return {
       id: r.place_id || r.slug,
@@ -226,6 +254,7 @@ export async function GET(request: NextRequest) {
       platforms,
       ubereatsUrl: urls.ubereats || `https://www.ubereats.com/tw/search?q=${encodedName}`,
       foodpandaUrl: urls.foodpanda || `https://www.foodpanda.com.tw/restaurants/new?q=${encodedName}`,
+      warning: warning ? { tag: warning.tag, reason: warning.reason } : null,
     }
   })
 

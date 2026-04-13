@@ -1,0 +1,13 @@
+{
+  "_description": "負面新聞 / 食安疑慮標記。key 可以是 slug 或餐廳名的部分匹配",
+  "entries": [
+    {
+      "match": "志明牛肉麵",
+      "match_type": "name_contains",
+      "tag": "食安疑慮",
+      "reason": "2023 石牌分店員工被拍到擰抹布水入煮麵鍋，北投總店亦遭衛生局裁罰",
+      "source": "https://www.foodnext.net/news/newsnow/paper/5593831376",
+      "added_at": "2026-04-13"
+    }
+  ]
+}
