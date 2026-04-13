@@ -13,9 +13,10 @@ export const metadata: Metadata = {
   keywords: ['外送', '外送比較', 'UberEats', 'Foodpanda', '外送餐廳', 'Google評價', '附近外送'],
   icons: {
     icon: [
+      { url: '/favicon-32.png', sizes: '32x32', type: 'image/png' },
       { url: '/favicon.svg', type: 'image/svg+xml' },
     ],
-    apple: '/favicon.svg',
+    apple: '/apple-touch-icon.png',
   },
 }
 
