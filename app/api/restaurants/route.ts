@@ -130,6 +130,37 @@ async function fetchFoodpandaNearby(lat: number, lng: number): Promise<Foodpanda
   return allVendors
 }
 
+// Google Places 查詢快取（FP 獨有餐廳用）
+const GAPI_KEY = process.env.GOOGLE_PLACES_API_KEY || ''
+const fpGoogleCache = new Map<string, { rating: number; review_count: number; place_id: string; address: string; photo: string | null; lat: number; lng: number } | null>()
+
+async function lookupGooglePlace(name: string, lat: number, lng: number): Promise<typeof fpGoogleCache extends Map<string, infer V> ? V : never> {
+  const key = name.trim()
+  if (fpGoogleCache.has(key)) return fpGoogleCache.get(key)!
+
+  try {
+    const url = `https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=${encodeURIComponent(key)}&inputtype=textquery&locationbias=circle:3000@${lat},${lng}&fields=place_id,name,rating,user_ratings_total,formatted_address,geometry,photos&language=zh-TW&key=${GAPI_KEY}`
+    const res = await fetch(url, { signal: AbortSignal.timeout(5000) })
+    const data = await res.json()
+    if (data.status === 'OK' && data.candidates?.[0]) {
+      const p = data.candidates[0]
+      const result = {
+        rating: p.rating || 0,
+        review_count: p.user_ratings_total || 0,
+        place_id: p.place_id || '',
+        address: p.formatted_address || '',
+        photo: p.photos?.[0]?.photo_reference || null,
+        lat: p.geometry?.location?.lat || lat,
+        lng: p.geometry?.location?.lng || lng,
+      }
+      fpGoogleCache.set(key, result)
+      return result
+    }
+  } catch { /* timeout */ }
+  fpGoogleCache.set(key, null)
+  return null
+}
+
 let allCache: RestaurantEntry[] | null = null
 let enrichedCache: Record<string, EnrichedData> | null = null
 let warningsCache: WarningEntry[] | null = null
@@ -248,16 +279,57 @@ export async function GET(request: NextRequest) {
   // 排除非餐廳（超市、超商、賣場等）和 Google Maps 上找不到的店家
   list = list.filter((r: any) => isRestaurant(r.name) && r.found !== false && r.rating > 0)
 
-  // 用 Foodpanda 即時 API 幫現有餐廳補上 Foodpanda 直連 URL
+  // 用 Foodpanda 即時 API 幫現有餐廳補上 Foodpanda 直連 URL，並收集 FP 獨有餐廳
+  const existingNames = new Set(list.map((r: any) => r.name.trim()))
+  const fpOnlyVendors: FoodpandaVendor[] = []
   for (const v of fpVendors) {
     const name = v.name?.trim()
-    if (!name) continue
+    if (!name || !isRestaurant(name)) continue
+    if (v.metadata?.is_temporary_closed) continue
     const existing = list.find((r: any) => r.name.trim() === name)
-    if (existing && !existing.platforms.includes('foodpanda')) {
-      existing.platforms.push('foodpanda')
-      const fpUrl = v.redirection_url || `https://www.foodpanda.com.tw/restaurant/${v.code}/`
-      existing.urls.foodpanda = fpUrl
+    if (existing) {
+      if (!existing.platforms.includes('foodpanda')) {
+        existing.platforms.push('foodpanda')
+        const fpUrl = v.redirection_url || `https://www.foodpanda.com.tw/restaurant/${v.code}/`
+        existing.urls.foodpanda = fpUrl
+      }
+    } else {
+      const distKm = haversineKm(lat, lng, v.latitude, v.longitude)
+      if (distKm <= 8) fpOnlyVendors.push(v)
     }
+  }
+
+  // FP 獨有餐廳：查 Google Maps 取得評分（每次最多查 15 家，避免 API 過量）
+  const toLookup = fpOnlyVendors.filter(v => !fpGoogleCache.has(v.name?.trim() || '')).slice(0, 15)
+  const cached = fpOnlyVendors.filter(v => fpGoogleCache.has(v.name?.trim() || ''))
+  await Promise.all(toLookup.map(v => lookupGooglePlace(v.name!.trim(), v.latitude, v.longitude)))
+
+  for (const v of fpOnlyVendors) {
+    const name = v.name!.trim()
+    const gData = fpGoogleCache.get(name)
+    if (!gData || gData.rating <= 0) continue
+    const distKm = haversineKm(lat, lng, gData.lat, gData.lng)
+    const fpUrl = v.redirection_url || `https://www.foodpanda.com.tw/restaurant/${v.code}/`
+    list.push({
+      name,
+      slug: `fp-${v.code}`,
+      platform: 'foodpanda',
+      platforms: ['foodpanda'],
+      urls: { foodpanda: fpUrl },
+      place_id: gData.place_id,
+      rating: gData.rating,
+      review_count: gData.review_count,
+      address: gData.address,
+      photo: gData.photo,
+      is_open: v.metadata?.is_delivery_available ?? null,
+      lat: gData.lat,
+      lng: gData.lng,
+      rLat: gData.lat,
+      rLng: gData.lng,
+      distKm,
+      categories: getCategories(name),
+      found: true,
+    })
   }
 
   // 排序：先距離、同距離再照星等高到低
