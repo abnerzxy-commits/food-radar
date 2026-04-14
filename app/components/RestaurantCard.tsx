@@ -189,32 +189,35 @@ export default function RestaurantCard({ restaurant, onClick }: { restaurant: Re
         )}
 
         {/* Order buttons */}
-        <div className="grid grid-cols-2 gap-2.5">
-          <a
-            href={ueUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            onClick={e => e.stopPropagation()}
-            className="flex items-center justify-center py-2.5 rounded-xl text-[13px] font-semibold transition-all active:scale-95"
-            style={hasUE
-              ? { background: '#6ca378', color: 'white', boxShadow: '0 2px 8px rgba(108,163,120,0.2)' }
-              : { background: 'rgba(108,163,120,0.1)', color: '#6ca378', border: '1px solid rgba(108,163,120,0.2)' }
-            }
-          >
-            UberEats{hasUE ? '' : ' 搜尋'}
-          </a>
-          <a
-            href={fpUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            onClick={handleFpClick}
-            className="flex items-center justify-center py-2.5 rounded-xl text-[13px] font-semibold transition-all active:scale-95"
-            style={{ background: 'rgba(196,146,138,0.1)', color: '#c4928a', border: '1px solid rgba(196,146,138,0.2)' }}
-          >
-            Foodpanda
-          </a>
+        <div className={`grid gap-2.5 ${hasUE && hasFP ? 'grid-cols-2' : 'grid-cols-1'}`}>
+          {hasUE && (
+            <a
+              href={ueUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={e => e.stopPropagation()}
+              className="flex items-center justify-center py-2.5 rounded-xl text-[13px] font-semibold transition-all active:scale-95"
+              style={{ background: '#6ca378', color: 'white', boxShadow: '0 2px 8px rgba(108,163,120,0.2)' }}
+            >
+              UberEats
+            </a>
+          )}
+          {hasFP && (
+            <a
+              href={fpUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={handleFpClick}
+              className="flex items-center justify-center py-2.5 rounded-xl text-[13px] font-semibold transition-all active:scale-95"
+              style={{ background: 'rgba(196,146,138,0.1)', color: '#c4928a', border: '1px solid rgba(196,146,138,0.2)' }}
+            >
+              Foodpanda
+            </a>
+          )}
         </div>
-        <p className="text-[9px] text-right mt-1" style={{ color: '#b0a494' }}>點選即複製店名，請自行貼上（Foodpanda 不支援直接開啟）</p>
+        {hasFP && (
+          <p className="text-[9px] text-right mt-1" style={{ color: '#b0a494' }}>點選即複製店名，請自行貼上（Foodpanda 不支援直接開啟）</p>
+        )}
 
         {/* Toast */}
         {toast && (
