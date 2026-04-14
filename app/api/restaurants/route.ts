@@ -248,50 +248,16 @@ export async function GET(request: NextRequest) {
   // 排除非餐廳（超市、超商、賣場等）和 Google Maps 上找不到的店家
   list = list.filter((r: any) => isRestaurant(r.name) && r.found !== false && r.rating > 0)
 
-  // 合併 Foodpanda 即時附近餐廳（補充 Foodpanda 獨有的）
-  const existingNames = new Set(list.map((r: any) => r.name.trim()))
+  // 用 Foodpanda 即時 API 幫現有餐廳補上 Foodpanda 直連 URL
   for (const v of fpVendors) {
     const name = v.name?.trim()
-    if (!name || !isRestaurant(name)) continue
-    if (v.metadata?.is_temporary_closed) continue
-
-    // 已存在的餐廳：補上 foodpanda 平台標記
+    if (!name) continue
     const existing = list.find((r: any) => r.name.trim() === name)
-    if (existing) {
-      if (!existing.platforms.includes('foodpanda')) {
-        existing.platforms.push('foodpanda')
-        const fpUrl = v.redirection_url || `https://www.foodpanda.com.tw/restaurant/${v.code}/`
-        existing.urls.foodpanda = fpUrl
-      }
-      continue
+    if (existing && !existing.platforms.includes('foodpanda')) {
+      existing.platforms.push('foodpanda')
+      const fpUrl = v.redirection_url || `https://www.foodpanda.com.tw/restaurant/${v.code}/`
+      existing.urls.foodpanda = fpUrl
     }
-
-    // Foodpanda 獨有的餐廳，加入列表
-    const distKm = haversineKm(lat, lng, v.latitude, v.longitude)
-    if (distKm > 8) continue // 超過 8km 不顯示
-    const fpUrl = v.redirection_url || `https://www.foodpanda.com.tw/restaurant/${v.code}/`
-    const cats = getCategories(name)
-    list.push({
-      name,
-      slug: `fp-${v.code}`,
-      platform: 'foodpanda',
-      platforms: ['foodpanda'],
-      urls: { foodpanda: fpUrl },
-      place_id: `fp-${v.code}`,
-      rating: v.rating || 0,
-      review_count: 0,
-      address: v.address || '',
-      photo: null,
-      fpHeroImage: v.hero_image || null,
-      is_open: v.metadata?.is_delivery_available ?? null,
-      lat: v.latitude,
-      lng: v.longitude,
-      rLat: v.latitude,
-      rLng: v.longitude,
-      distKm,
-      categories: cats,
-      found: true,
-    })
   }
 
   // 排序：先距離、同距離再照星等高到低
