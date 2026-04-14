@@ -436,20 +436,28 @@ export default function Home() {
               營業中
             </button>
             <div className="flex items-center gap-1 px-1 py-0.5 rounded-full shrink-0" style={{ background: '#e8e2d9' }}>
-              {(sortBy === 'rating' ? ['rating', 'distance'] as const : ['distance', 'rating'] as const).map((s, i) => (
-                <button
-                  key={s}
-                  onClick={() => setSortBy(s)}
-                  className="flex items-center gap-1 px-2.5 py-1 rounded-full text-[10px] font-semibold transition-all active:scale-95"
-                  style={i === 0
-                    ? { background: '#c9956e', color: 'white', boxShadow: '0 1px 4px rgba(201,149,110,0.3)' }
-                    : { background: 'transparent', color: '#8a7e6e' }
-                  }
-                >
-                  <span className="text-[9px] opacity-70">{i === 0 ? '①' : '②'}</span>
-                  {s === 'rating' ? '評價' : '距離'}
-                </button>
-              ))}
+              <button
+                onClick={() => setSortBy('rating')}
+                className="flex items-center gap-1 px-2.5 py-1 rounded-full text-[10px] font-semibold transition-all active:scale-95"
+                style={sortBy === 'rating'
+                  ? { background: '#c9956e', color: 'white', boxShadow: '0 1px 4px rgba(201,149,110,0.3)' }
+                  : { background: 'transparent', color: '#8a7e6e' }
+                }
+              >
+                <span className="text-[9px] opacity-70">{sortBy === 'rating' ? '①' : '②'}</span>
+                評價
+              </button>
+              <button
+                onClick={() => setSortBy('distance')}
+                className="flex items-center gap-1 px-2.5 py-1 rounded-full text-[10px] font-semibold transition-all active:scale-95"
+                style={sortBy === 'distance'
+                  ? { background: '#c9956e', color: 'white', boxShadow: '0 1px 4px rgba(201,149,110,0.3)' }
+                  : { background: 'transparent', color: '#8a7e6e' }
+                }
+              >
+                <span className="text-[9px] opacity-70">{sortBy === 'distance' ? '①' : '②'}</span>
+                距離
+              </button>
             </div>
           </div>
 
