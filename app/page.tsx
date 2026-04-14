@@ -53,6 +53,7 @@ export default function Home() {
   const [categories, setCategories] = useState<string[]>([])
   const [hasMore, setHasMore] = useState(false)
   const [openOnly, setOpenOnly] = useState(false)
+  const [sortBy, setSortBy] = useState<'distance' | 'rating'>('distance')
   const [showAddrInput, setShowAddrInput] = useState(false)
   const [addrInput, setAddrInput] = useState('')
   const [addrLoading, setAddrLoading] = useState(false)
@@ -122,6 +123,7 @@ export default function Home() {
       if (includeCats.length > 0) params.set('include', includeCats.join(','))
       if (excludeCats.length > 0) params.set('exclude', excludeCats.join(','))
       if (openOnly) params.set('openOnly', '1')
+      if (sortBy !== 'distance') params.set('sort', sortBy)
 
       const res = await fetch(`/api/restaurants?${params}`)
       const data = await res.json()
@@ -135,9 +137,9 @@ export default function Home() {
       }
     } catch { console.error('搜尋失敗') }
     finally { setLoading(false); setLoadingMore(false) }
-  }, [coords, keyword, includeCats, excludeCats, openOnly])
+  }, [coords, keyword, includeCats, excludeCats, openOnly, sortBy])
 
-  useEffect(() => { if (coords) searchRestaurants(true) }, [coords, keyword, includeCats, excludeCats, openOnly, searchRestaurants])
+  useEffect(() => { if (coords) searchRestaurants(true) }, [coords, keyword, includeCats, excludeCats, openOnly, sortBy, searchRestaurants])
 
   // Autocomplete
   const fetchSuggestions = useCallback((q: string) => {
@@ -433,6 +435,21 @@ export default function Home() {
               <span className={`w-1.5 h-1.5 rounded-full ${openOnly ? 'bg-white' : 'bg-[#8fa885]'}`} style={!openOnly ? { boxShadow: '0 0 4px rgba(143,168,133,0.5)' } : {}} />
               營業中
             </button>
+            <button
+              onClick={() => setSortBy(sortBy === 'distance' ? 'rating' : 'distance')}
+              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full text-[11px] font-semibold transition-all active:scale-95 shrink-0 ${
+                sortBy === 'rating' ? 'text-white' : ''
+              }`}
+              style={sortBy === 'rating'
+                ? { background: '#c9956e', boxShadow: '0 2px 8px rgba(201,149,110,0.3)' }
+                : { background: '#e8e2d9', color: '#8a7e6e' }
+              }
+            >
+              <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+              </svg>
+              評價排序
+            </button>
           </div>
 
           {/* Filters */}
@@ -531,7 +548,7 @@ export default function Home() {
               <p className="text-sm text-[#8a7e6e]">
                 找到 <span className="font-bold text-[#6b5f50]">{total}</span> 家外送餐廳
               </p>
-              <span className="text-[11px] text-[#b0a494] px-2.5 py-1 rounded-full" style={{ background: '#e8e2d9' }}>依距離排序</span>
+              <span className="text-[11px] text-[#b0a494] px-2.5 py-1 rounded-full" style={{ background: '#e8e2d9' }}>{sortBy === 'rating' ? '依評價排序' : '依距離排序'}</span>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               {restaurants.map((r, i) => (

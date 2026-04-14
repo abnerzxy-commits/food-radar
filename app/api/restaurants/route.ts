@@ -310,6 +310,7 @@ export async function GET(request: NextRequest) {
   const includeCats = includeStr ? includeStr.split(',') : []
   const excludeCats = excludeStr ? excludeStr.split(',') : []
   const openOnly = searchParams.get('openOnly') === '1'
+  const sortBy = searchParams.get('sort') || 'distance' // 'distance' | 'rating'
   const offset = parseInt(searchParams.get('offset') || '0')
   const limit = parseInt(searchParams.get('limit') || '30')
 
@@ -429,11 +430,17 @@ export async function GET(request: NextRequest) {
     })
   }
 
-  // 排序：先距離、同距離再照星等高到低
+  // 排序
   list.sort((a, b) => {
+    if (sortBy === 'rating') {
+      const rDiff = (b.rating || 0) - (a.rating || 0)
+      if (Math.abs(rDiff) > 0.1) return rDiff     // 評分優先
+      return a.distKm - b.distKm                   // 同評分依距離
+    }
+    // 預設：距離排序
     const distDiff = a.distKm - b.distKm
-    if (Math.abs(distDiff) > 0.3) return distDiff // 距離差超過 300m 就依距離
-    return (b.rating || 0) - (a.rating || 0)      // 距離接近就依星等
+    if (Math.abs(distDiff) > 0.3) return distDiff
+    return (b.rating || 0) - (a.rating || 0)
   })
 
   // 關鍵字
