@@ -279,18 +279,42 @@ export async function GET(request: NextRequest) {
   // 排除非餐廳（超市、超商、賣場等）和 Google Maps 上找不到的店家
   list = list.filter((r: any) => isRestaurant(r.name) && r.found !== false && r.rating > 0)
 
+  // 正規化名稱：去掉括號分店名、多餘空格，用於模糊比對
+  function normName(n: string): string {
+    return n.replace(/\s*[\(（].*?[\)）]\s*/g, '').replace(/\s+/g, ' ').trim()
+  }
+
+  // 建立已有餐廳的正規化名稱索引
+  const existingNormMap = new Map<string, any>()
+  for (const r of list) {
+    existingNormMap.set(normName(r.name), r)
+  }
+
   // 用 Foodpanda 即時 API 幫現有餐廳補上 Foodpanda 直連 URL，並收集 FP 獨有餐廳
-  const existingNames = new Set(list.map((r: any) => r.name.trim()))
   const fpOnlyVendors: FoodpandaVendor[] = []
   for (const v of fpVendors) {
     const name = v.name?.trim()
     if (!name || !isRestaurant(name)) continue
     if (v.metadata?.is_temporary_closed) continue
-    const existing = list.find((r: any) => r.name.trim() === name)
+    const fpUrl = v.redirection_url || `https://www.foodpanda.com.tw/restaurant/${v.code}/`
+
+    // 模糊比對：正規化名稱 or 包含關係
+    const vNorm = normName(name)
+    let existing = existingNormMap.get(vNorm) || null
+    if (!existing) {
+      // 嘗試包含比對（FP 名稱包含 UberEats 名稱，或反過來）
+      for (const r of list) {
+        const rNorm = normName(r.name)
+        if (rNorm.length >= 3 && vNorm.length >= 3 && (vNorm.includes(rNorm) || rNorm.includes(vNorm))) {
+          existing = r
+          break
+        }
+      }
+    }
+
     if (existing) {
       if (!existing.platforms.includes('foodpanda')) {
         existing.platforms.push('foodpanda')
-        const fpUrl = v.redirection_url || `https://www.foodpanda.com.tw/restaurant/${v.code}/`
         existing.urls.foodpanda = fpUrl
       }
     } else {
@@ -299,9 +323,8 @@ export async function GET(request: NextRequest) {
     }
   }
 
-  // FP 獨有餐廳：查 Google Maps 取得評分（每次最多查 15 家，避免 API 過量）
-  const toLookup = fpOnlyVendors.filter(v => !fpGoogleCache.has(v.name?.trim() || '')).slice(0, 15)
-  const cached = fpOnlyVendors.filter(v => fpGoogleCache.has(v.name?.trim() || ''))
+  // FP 獨有餐廳：查 Google Maps 取得評分（每次最多查 30 家，結果永久快取）
+  const toLookup = fpOnlyVendors.filter(v => !fpGoogleCache.has(v.name?.trim() || '')).slice(0, 30)
   await Promise.all(toLookup.map(v => lookupGooglePlace(v.name!.trim(), v.latitude, v.longitude)))
 
   for (const v of fpOnlyVendors) {
