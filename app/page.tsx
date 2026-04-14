@@ -324,7 +324,7 @@ export default function Home() {
               查地址
             </button>
             <button
-              onClick={() => { getLocation(); setAddrLabel(''); sessionStorage.removeItem('food-radar-addr') }}
+              onClick={() => { getLocation(); setAddrLabel(''); sessionStorage.removeItem('food-radar-addr'); setKeyword(''); setSearchInput('') }}
               className="flex items-center gap-1 px-2.5 py-1.5 rounded-full text-[11px] font-semibold transition-all active:scale-95"
               style={{ background: '#f3ebe3', color: '#b8734a', border: '1px solid #e8ddd0' }}
             >
