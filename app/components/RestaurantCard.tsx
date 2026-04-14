@@ -1,6 +1,5 @@
 'use client'
 
-import { useState } from 'react'
 
 interface Restaurant {
   id: string
@@ -56,15 +55,6 @@ export default function RestaurantCard({ restaurant, onClick }: { restaurant: Re
   const fpUrl = foodpandaUrl || `https://www.foodpanda.com.tw/restaurants/new?q=${encodedName}`
   const hasUE = platforms?.includes('ubereats')
   const hasFP = platforms?.includes('foodpanda')
-  const [toast, setToast] = useState('')
-
-  const handleFpClick = (e: React.MouseEvent) => {
-    e.stopPropagation()
-    navigator.clipboard?.writeText(name).then(() => {
-      setToast('已複製店名，如 App 顯示無法外送請先更改外送地址')
-      setTimeout(() => setToast(''), 4000)
-    }).catch(() => {})
-  }
 
   return (
     <div className="restaurant-card rounded-[20px] overflow-hidden" style={{ background: '#f6f3ef', border: '1px solid #e8e2d9' }}>
@@ -207,25 +197,14 @@ export default function RestaurantCard({ restaurant, onClick }: { restaurant: Re
               href={fpUrl}
               target="_blank"
               rel="noopener noreferrer"
-              onClick={handleFpClick}
+              onClick={e => e.stopPropagation()}
               className="flex items-center justify-center py-2.5 rounded-xl text-[13px] font-semibold transition-all active:scale-95"
-              style={{ background: 'rgba(196,146,138,0.1)', color: '#c4928a', border: '1px solid rgba(196,146,138,0.2)' }}
+              style={{ background: '#c4928a', color: 'white', boxShadow: '0 2px 8px rgba(196,146,138,0.2)' }}
             >
               Foodpanda
             </a>
           )}
         </div>
-        {hasFP && (
-          <p className="text-[9px] text-right mt-1" style={{ color: '#b0a494' }}>點選即複製店名，請自行貼上（Foodpanda 不支援直接開啟）</p>
-        )}
-
-        {/* Toast */}
-        {toast && (
-          <div className="mt-2 px-3 py-1.5 rounded-lg text-[10px] font-medium text-center animate-fade-in"
-            style={{ background: '#e8e2d9', color: '#6b5f50' }}>
-            {toast}
-          </div>
-        )}
       </div>
     </div>
   )

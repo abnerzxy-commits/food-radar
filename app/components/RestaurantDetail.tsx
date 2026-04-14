@@ -54,7 +54,6 @@ export default function RestaurantDetail({
   const [loading, setLoading] = useState(true)
   const [activePhoto, setActivePhoto] = useState(0)
   const [showHours, setShowHours] = useState(false)
-  const [fpToast, setFpToast] = useState('')
 
   useEffect(() => {
     fetch(`/api/restaurant?id=${placeId}`)
@@ -216,25 +215,15 @@ export default function RestaurantDetail({
                     href={foodpandaUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    onClick={() => {
-                      navigator.clipboard?.writeText(restaurantName).then(() => {
-                        setFpToast('已複製餐廳名稱，開啟 App 後貼上搜尋')
-                        setTimeout(() => setFpToast(''), 3000)
-                      }).catch(() => {})
-                    }}
                     className="flex items-center justify-center gap-2 py-3 px-4 bg-[#d70f64] text-white rounded-xl font-semibold text-sm hover:bg-[#b50d54] transition-colors"
                   >
                     <span className="text-lg">🐼</span>
                     Foodpanda
                   </a>
                 </div>
-                {fpToast ? (
-                  <p className="text-xs text-emerald-600 mt-2 text-center font-medium">{fpToast}</p>
-                ) : (
-                  <p className="text-xs text-stone-400 mt-2 text-center">
-                    點選即複製店名，請自行貼上（Foodpanda 不支援直接開啟）
-                  </p>
-                )}
+                <p className="text-xs text-stone-400 mt-2 text-center">
+                  點擊按鈕直接跳轉平台點餐
+                </p>
               </div>
 
               {/* Google 評論 */}
