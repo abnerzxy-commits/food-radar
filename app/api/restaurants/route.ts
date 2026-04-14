@@ -45,7 +45,7 @@ const CATEGORY_RULES: [string, RegExp][] = [
   ['中式', /中式|中華|滷肉|雞肉飯|便當|牛肉麵|小籠包|水餃|炒飯|熱炒|台菜|客家|燒臘|港式|粵菜|川菜|包子|排骨|雞腿|燒鵝|鴨莊|龍記/i],
   ['西式', /義大利|義式|西餐|排餐|牛排|Steak|Pasta|燉飯|法式|Bistro/i],
   ['Pizza', /比薩|披薩|Pizza|Domino|達美樂|必勝客/i],
-  ['咖啡茶飲', /茶|飲|咖啡|Coffee|Cafe|奶茶|珍珠|手搖|果汁|OOLONG|得正|可不可|五十嵐|清心|迷客夏|CoCo|都可|大苑子|鮮茶道|茶湯會|春水堂|日出茶太|鶴茶樓|一沐日|萬波|再睡5分鐘|丸作|老虎堂|伯爵茶|烏弄|COMEBUY|龜記|一芳|黑沃|路易莎|Louisa|星巴克|Starbucks|85度C|cama|伯朗|丹堤|怡客/i],
+  ['咖啡茶飲', /茶|飲|咖啡|Coffee|Cafe|奶茶|珍珠|手搖|果汁|OOLONG|得正|可不可|五十嵐|清心|迷客夏|CoCo|都可|大苑子|鮮茶道|茶湯會|春水堂|日出茶太|鶴茶樓|一沐日|萬波|再睡5分鐘|丸作|老虎堂|伯爵茶|烏弄|COMEBUY|COME BUY|TEA'S|TEA\u2019S|原味茶|龜記|一芳|黑沃|路易莎|Louisa|星巴克|Starbucks|85度C|cama|伯朗|丹堤|怡客/i],
   ['甜點', /蛋糕|甜點|冰|烘焙|麵包|Bakery|鬆餅|巧克力|Dessert/i],
   ['東南亞', /泰式|泰國|越南|河粉|Pho|咖哩|印度|馬來|新加坡|南洋/i],
   ['海鮮', /海鮮|魚|蝦|蟹|鮪魚|生魚片|海產/i],
@@ -67,6 +67,40 @@ function getCategories(name: string): string[] {
   const cats: string[] = []
   for (const [cat, regex] of CATEGORY_RULES) {
     if (regex.test(name) && !cats.includes(cat)) cats.push(cat)
+  }
+  return cats
+}
+
+// FP cuisine 名稱 → 系統分類對應
+const FP_CUISINE_MAP: Record<string, string> = {
+  '飲料': '咖啡茶飲', '咖啡': '咖啡茶飲', '茶': '咖啡茶飲',
+  '甜點': '甜點', '蛋糕': '甜點', '烘焙': '甜點', '麵包': '甜點',
+  '日本': '日式', '壽司': '日式', '拉麵': '日式',
+  '韓式': '韓式', '韓國': '韓式',
+  '泰式': '東南亞', '越南': '東南亞', '印度': '東南亞', '南洋': '東南亞',
+  '火鍋': '鍋物',
+  '素食': '素食', '蔬食': '素食',
+  '海鮮': '海鮮',
+  '速食': '速食', '漢堡': '速食',
+  '披薩': 'Pizza', 'Pizza': 'Pizza',
+  '義式': '西式', '歐美': '西式', '法式': '西式',
+  '中式': '中式', '台灣': '中式', '便當': '中式', '小吃': '中式', '熱炒': '中式',
+}
+
+function fpCuisinesToCats(cuisines?: { name: string }[]): string[] {
+  if (!cuisines) return []
+  const cats = new Set<string>()
+  for (const c of cuisines) {
+    const mapped = FP_CUISINE_MAP[c.name]
+    if (mapped) cats.add(mapped)
+  }
+  return Array.from(cats)
+}
+
+function getCategoriesWithFpCuisines(name: string, cuisines?: { name: string }[]): string[] {
+  const cats = getCategories(name)
+  for (const c of fpCuisinesToCats(cuisines)) {
+    if (!cats.includes(c)) cats.push(c)
   }
   return cats
 }
@@ -384,6 +418,11 @@ export async function GET(request: NextRequest) {
         existing.platforms.push('foodpanda')
         existing.urls.foodpanda = fpUrl
       }
+      // 用 FP cuisines 補充分類
+      const fpCats = fpCuisinesToCats(v.cuisines)
+      for (const c of fpCats) {
+        if (!existing.categories.includes(c)) existing.categories.push(c)
+      }
     } else {
       const distKm = haversineKm(lat, lng, v.latitude, v.longitude)
       if (distKm <= 5) fpOnlyVendors.push(v)
@@ -430,7 +469,7 @@ export async function GET(request: NextRequest) {
       rLat: gData.lat,
       rLng: gData.lng,
       distKm,
-      categories: getCategories(name),
+      categories: getCategoriesWithFpCuisines(name, v.cuisines),
       found: true,
     })
   }
