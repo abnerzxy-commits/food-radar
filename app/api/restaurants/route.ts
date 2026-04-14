@@ -338,8 +338,8 @@ export async function GET(request: NextRequest) {
     }
   })
 
-  // 排除非餐廳（超市、超商、賣場等）和 Google Maps 上找不到的店家
-  list = list.filter((r: any) => isRestaurant(r.name) && r.found !== false && r.rating > 0)
+  // 排除非餐廳、Google Maps 找不到的、超出外送範圍的（5km）
+  list = list.filter((r: any) => isRestaurant(r.name) && r.found !== false && r.rating > 0 && r.distKm <= 5)
 
   // 正規化名稱：去掉括號分店名、多餘空格，用於模糊比對
   function normName(n: string): string {
@@ -381,7 +381,7 @@ export async function GET(request: NextRequest) {
       }
     } else {
       const distKm = haversineKm(lat, lng, v.latitude, v.longitude)
-      if (distKm <= 8) fpOnlyVendors.push(v)
+      if (distKm <= 5) fpOnlyVendors.push(v)
     }
   }
 
