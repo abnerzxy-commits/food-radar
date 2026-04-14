@@ -435,30 +435,37 @@ export default function Home() {
               <span className={`w-1.5 h-1.5 rounded-full ${openOnly ? 'bg-white' : 'bg-[#8fa885]'}`} style={!openOnly ? { boxShadow: '0 0 4px rgba(143,168,133,0.5)' } : {}} />
               營業中
             </button>
-            <div className="flex items-center gap-1 px-1 py-0.5 rounded-full shrink-0" style={{ background: '#e8e2d9' }}>
-              <button
-                onClick={() => setSortBy('rating')}
-                className="flex items-center gap-1 px-2.5 py-1 rounded-full text-[10px] font-semibold transition-all active:scale-95"
-                style={sortBy === 'rating'
-                  ? { background: '#c9956e', color: 'white', boxShadow: '0 1px 4px rgba(201,149,110,0.3)' }
-                  : { background: 'transparent', color: '#8a7e6e' }
-                }
-              >
-                <span className="text-[9px] opacity-70">{sortBy === 'rating' ? '①' : '②'}</span>
-                評價
-              </button>
-              <button
-                onClick={() => setSortBy('distance')}
-                className="flex items-center gap-1 px-2.5 py-1 rounded-full text-[10px] font-semibold transition-all active:scale-95"
-                style={sortBy === 'distance'
-                  ? { background: '#c9956e', color: 'white', boxShadow: '0 1px 4px rgba(201,149,110,0.3)' }
-                  : { background: 'transparent', color: '#8a7e6e' }
-                }
-              >
-                <span className="text-[9px] opacity-70">{sortBy === 'distance' ? '①' : '②'}</span>
-                距離
-              </button>
-            </div>
+            <button
+              onClick={() => setSortBy(sortBy === 'rating' ? 'distance' : 'rating')}
+              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full text-[11px] font-semibold transition-all active:scale-95 shrink-0 ${
+                sortBy === 'rating' ? 'text-white' : ''
+              }`}
+              style={sortBy === 'rating'
+                ? { background: '#c9956e', boxShadow: '0 2px 8px rgba(201,149,110,0.3)' }
+                : { background: '#e8e2d9', color: '#8a7e6e' }
+              }
+            >
+              <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+              </svg>
+              評價優先
+            </button>
+            <button
+              onClick={() => setSortBy(sortBy === 'distance' ? 'rating' : 'distance')}
+              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full text-[11px] font-semibold transition-all active:scale-95 shrink-0 ${
+                sortBy === 'distance' ? 'text-white' : ''
+              }`}
+              style={sortBy === 'distance'
+                ? { background: '#c9956e', boxShadow: '0 2px 8px rgba(201,149,110,0.3)' }
+                : { background: '#e8e2d9', color: '#8a7e6e' }
+              }
+            >
+              <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+              </svg>
+              距離優先
+            </button>
           </div>
 
           {/* Filters */}
