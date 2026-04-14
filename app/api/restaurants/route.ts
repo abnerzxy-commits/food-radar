@@ -323,11 +323,21 @@ export async function GET(request: NextRequest) {
     }
   }
 
-  // FP 獨有餐廳：查 Google Maps 取得評分（每次最多查 30 家，結果永久快取）
-  const toLookup = fpOnlyVendors.filter(v => !fpGoogleCache.has(v.name?.trim() || '')).slice(0, 30)
-  await Promise.all(toLookup.map(v => lookupGooglePlace(v.name!.trim(), v.latitude, v.longitude)))
+  // FP 獨有餐廳：距離 5km 內，有 keyword 時只查符合的，無 keyword 時查前 50 家近的
+  const nearbyFpOnly = fpOnlyVendors
+    .map(v => ({ ...v, _dist: haversineKm(lat, lng, v.latitude, v.longitude) }))
+    .filter(v => v._dist <= 5)
+    .sort((a, b) => a._dist - b._dist)
+  const fpToCheck = keyword
+    ? nearbyFpOnly.filter(v => v.name!.trim().toLowerCase().includes(keyword))
+    : nearbyFpOnly.slice(0, 50)
+  const toLookup = fpToCheck.filter(v => !fpGoogleCache.has(v.name?.trim() || ''))
+  // 批次查 Google，每批 10 家並行
+  for (let i = 0; i < toLookup.length; i += 10) {
+    await Promise.all(toLookup.slice(i, i + 10).map(v => lookupGooglePlace(v.name!.trim(), v.latitude, v.longitude)))
+  }
 
-  for (const v of fpOnlyVendors) {
+  for (const v of fpToCheck) {
     const name = v.name!.trim()
     const gData = fpGoogleCache.get(name)
     if (!gData || gData.rating <= 0) continue
