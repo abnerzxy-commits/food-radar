@@ -53,7 +53,7 @@ const CATEGORY_RULES: [string, RegExp][] = [
 ]
 
 // 非餐廳排除名單（超市、超商、賣場、藥妝等）
-const NON_RESTAURANT_RE = /全聯|家樂福|美廉社|棉花田|全家便利|全家Fami|全家fami|FamiSuper|famisuper|統一超商|7-ELEVEN|7-eleven|聖德科斯|心樸市集|優市|Costco|costco|好市多|屈臣氏|康是美|寵物公園|大全聯|特力屋|特力家|HOLA|hola|寶雅|大潤發|愛買|小北百貨|光南|生活工場|無印良品|MUJI|IKEA|ikea|振宇五金|東京著衣|NET |淨水|水電|搬家|洗衣|修車|汽車|機車行|輪胎|油漆|裝潢|房屋|寵物醫院|動物醫院|獸醫|牙醫|診所|醫院|藥局|藥房|眼鏡|髮廊|美髮|美甲|SPA|spa|按摩|健身|瑜珈|通訊行|手機|電信|中華電信|台灣大哥大|遠傳|亞太電信|傑昇|神腦|聯強|3C|電腦|印表機|文具|書局|書店|花店|花坊|花藝|寵物店|寵物用品|五金|水族|園藝|種子|農藥|飼料|嬰兒|母嬰|婦嬰|玩具|桌遊|電玩|遊戲|彩券|運彩|投注站|加油站|停車場|洗車|鍍膜|包膜|貼膜|維修|影印|快遞|貨運|搬運|清潔|除蟲|消毒/i
+const NON_RESTAURANT_RE = /全聯|家樂福|美廉社|棉花田|全家便利|全家Fami|全家fami|FamiSuper|famisuper|統一超商|7-ELEVEN|7-eleven|聖德科斯|心樸市集|優市|Costco|costco|好市多|屈臣氏|康是美|寵物公園|大全聯|特力屋|特力家|HOLA|hola|寶雅|大潤發|愛買|小北百貨|光南|生活工場|無印良品|MUJI|IKEA|ikea|振宇五金|東京著衣|NET |淨水|水電|搬家|洗衣|修車|汽車|機車行|輪胎|油漆|裝潢|房屋|寵物醫院|動物醫院|獸醫|牙醫|診所|醫院|藥局|藥房|眼鏡|髮廊|美髮|美甲|SPA|spa|按摩|健身|瑜珈|通訊行|通訊|手機|電信|中華電信|台灣大哥大|遠傳|亞太電信|傑昇|神腦|聯強|瘋殼子|殼子|保護貼|手機殼|充電|3C|電腦|印表機|文具|書局|書店|花店|花坊|花藝|寵物店|寵物用品|五金|水族|園藝|種子|農藥|飼料|嬰兒|母嬰|婦嬰|玩具|桌遊|電玩|遊戲|彩券|運彩|投注站|加油站|停車場|洗車|鍍膜|包膜|貼膜|維修|影印|快遞|貨運|搬運|清潔|除蟲|消毒|乾洗|送洗|鑰匙|鎖|水塔|冷氣|家電|燈具|窗簾|地毯/i
 // 垃圾名字（促銷 badge 被爬成店名）
 const JUNK_NAME_RE = /^(\d+%\s*優惠|買\s*\d+\s*送\s*\d+|免運|優惠|促銷|\d+\s*折)/
 
@@ -132,30 +132,91 @@ async function fetchFoodpandaNearby(lat: number, lng: number): Promise<Foodpanda
 
 // Google Places 查詢快取（FP 獨有餐廳用）
 const GAPI_KEY = process.env.GOOGLE_PLACES_API_KEY || ''
-const fpGoogleCache = new Map<string, { rating: number; review_count: number; place_id: string; address: string; photo: string | null; lat: number; lng: number } | null>()
 
-async function lookupGooglePlace(name: string, lat: number, lng: number): Promise<typeof fpGoogleCache extends Map<string, infer V> ? V : never> {
+interface FpGoogleData {
+  rating: number
+  review_count: number
+  place_id: string
+  address: string
+  photo: string | null
+  lat: number
+  lng: number
+  summary: string
+  dishes: string[]
+  highlights: string[]
+}
+
+const fpGoogleCache = new Map<string, FpGoogleData | null>()
+
+function extractDishesFromReviews(reviews: { text: string }[]): string[] {
+  const allText = reviews.map(r => r.text).join(' ')
+  const dishSet = new Set<string>()
+  const patterns = [
+    /([\u4e00-\u9fff]{2,6})(很|超|非常|真的)?(好吃|美味|讚|推|必點|必吃)/g,
+    /(推薦|必點|必吃|大推|激推|首推)(的)?([\u4e00-\u9fff]{2,6})/g,
+    /(點了|吃了|試了|嚐了|來份)([\u4e00-\u9fff]{2,6})/g,
+  ]
+  const exclude = new Set(['服務','態度','環境','裝潢','氣氛','價格','份量','品質','老闆','店員','位子','座位','停車','地方','時間','感覺','朋友','家人','口味','味道','東西','餐廳','店家','生意','排隊','等待','外送','包裝'])
+  for (const pat of patterns) {
+    let m
+    while ((m = pat.exec(allText)) !== null) {
+      const d = m[3] || m[2] || m[1]
+      if (d && d.length >= 2 && d.length <= 6 && !exclude.has(d)) dishSet.add(d)
+    }
+  }
+  return Array.from(dishSet).slice(0, 5)
+}
+
+function extractHighlightsFromReviews(reviews: { text: string }[]): string[] {
+  const allText = reviews.map(r => r.text).join(' ')
+  const keywords = ['好吃','美味','新鮮','份量大','CP值高','服務好','乾淨','快速','平價','道地','推薦','必吃']
+  const hl: string[] = []
+  for (const kw of keywords) {
+    if (allText.includes(kw)) hl.push(kw)
+  }
+  return hl.slice(0, 5)
+}
+
+async function lookupGooglePlace(name: string, lat: number, lng: number): Promise<FpGoogleData | null> {
   const key = name.trim()
   if (fpGoogleCache.has(key)) return fpGoogleCache.get(key)!
 
   try {
-    const url = `https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=${encodeURIComponent(key)}&inputtype=textquery&locationbias=circle:3000@${lat},${lng}&fields=place_id,name,rating,user_ratings_total,formatted_address,geometry,photos&language=zh-TW&key=${GAPI_KEY}`
-    const res = await fetch(url, { signal: AbortSignal.timeout(5000) })
-    const data = await res.json()
-    if (data.status === 'OK' && data.candidates?.[0]) {
-      const p = data.candidates[0]
-      const result = {
-        rating: p.rating || 0,
-        review_count: p.user_ratings_total || 0,
-        place_id: p.place_id || '',
-        address: p.formatted_address || '',
-        photo: p.photos?.[0]?.photo_reference || null,
-        lat: p.geometry?.location?.lat || lat,
-        lng: p.geometry?.location?.lng || lng,
-      }
-      fpGoogleCache.set(key, result)
-      return result
+    // Step 1: Find Place to get place_id
+    const findUrl = `https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=${encodeURIComponent(key)}&inputtype=textquery&locationbias=circle:3000@${lat},${lng}&fields=place_id&language=zh-TW&key=${GAPI_KEY}`
+    const findRes = await fetch(findUrl, { signal: AbortSignal.timeout(5000) })
+    const findData = await findRes.json()
+    if (findData.status !== 'OK' || !findData.candidates?.[0]?.place_id) {
+      fpGoogleCache.set(key, null)
+      return null
     }
+    const placeId = findData.candidates[0].place_id
+
+    // Step 2: Place Details for full info
+    const detailUrl = `https://maps.googleapis.com/maps/api/place/details/json?place_id=${placeId}&fields=name,rating,user_ratings_total,formatted_address,geometry,photos,reviews,editorial_summary&language=zh-TW&reviews_sort=newest&key=${GAPI_KEY}`
+    const detailRes = await fetch(detailUrl, { signal: AbortSignal.timeout(5000) })
+    const detailData = await detailRes.json()
+    if (detailData.status !== 'OK' || !detailData.result) {
+      fpGoogleCache.set(key, null)
+      return null
+    }
+
+    const p = detailData.result
+    const reviews = (p.reviews || []).map((r: any) => ({ text: r.text || '' }))
+    const result: FpGoogleData = {
+      rating: p.rating || 0,
+      review_count: p.user_ratings_total || 0,
+      place_id: placeId,
+      address: p.formatted_address || '',
+      photo: p.photos?.[0]?.photo_reference || null,
+      lat: p.geometry?.location?.lat || lat,
+      lng: p.geometry?.location?.lng || lng,
+      summary: p.editorial_summary?.overview || '',
+      dishes: extractDishesFromReviews(reviews),
+      highlights: extractHighlightsFromReviews(reviews),
+    }
+    fpGoogleCache.set(key, result)
+    return result
   } catch { /* timeout */ }
   fpGoogleCache.set(key, null)
   return null
@@ -354,6 +415,9 @@ export async function GET(request: NextRequest) {
       review_count: gData.review_count,
       address: gData.address,
       photo: gData.photo,
+      summary: gData.summary,
+      dishes: gData.dishes,
+      highlights: gData.highlights,
       is_open: v.metadata?.is_delivery_available ?? null,
       lat: gData.lat,
       lng: gData.lng,
