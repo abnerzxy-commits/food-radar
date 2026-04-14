@@ -16,6 +16,7 @@ interface Restaurant {
   priceLevel: number | null
   address: string
   photo: string | null
+  fpHeroImage?: string | null
   score: number
   categories?: string[]
   dishes?: string[]

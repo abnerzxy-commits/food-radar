@@ -13,6 +13,7 @@ interface Restaurant {
   priceLevel: number | null
   address: string
   photo: string | null
+  fpHeroImage?: string | null
   score: number
   categories?: string[]
   dishes?: string[]
@@ -49,7 +50,7 @@ function formatDist(m: number) {
 }
 
 export default function RestaurantCard({ restaurant, onClick }: { restaurant: Restaurant; onClick: () => void }) {
-  const { name, rating, reviewCount, distance, isOpen, photo, address, dishes, highlights, summary, platforms, ubereatsUrl, foodpandaUrl, warning } = restaurant
+  const { name, rating, reviewCount, distance, isOpen, photo, fpHeroImage, address, dishes, highlights, summary, platforms, ubereatsUrl, foodpandaUrl, warning } = restaurant
   const encodedName = encodeURIComponent(name)
   const ueUrl = ubereatsUrl || `https://www.ubereats.com/tw/search?q=${encodedName}`
   const fpUrl = foodpandaUrl || `https://www.foodpanda.com.tw/restaurants/new?q=${encodedName}`
@@ -72,6 +73,13 @@ export default function RestaurantCard({ restaurant, onClick }: { restaurant: Re
         {photo ? (
           <img
             src={`/api/photo?ref=${photo}&maxwidth=600`}
+            alt={name}
+            className="w-full h-full object-cover img-zoom"
+            loading="lazy"
+          />
+        ) : fpHeroImage ? (
+          <img
+            src={fpHeroImage}
             alt={name}
             className="w-full h-full object-cover img-zoom"
             loading="lazy"
