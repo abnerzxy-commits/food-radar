@@ -56,9 +56,11 @@ const CATEGORY_RULES: [string, RegExp][] = [
 const NON_RESTAURANT_RE = /全聯|家樂福|美廉社|棉花田|全家便利|全家Fami|全家fami|FamiSuper|famisuper|統一超商|7-ELEVEN|7-eleven|聖德科斯|心樸市集|優市|Costco|costco|好市多|屈臣氏|康是美|寵物公園|大全聯|特力屋|特力家|HOLA|hola|寶雅|大潤發|愛買|小北百貨|光南|生活工場|無印良品|MUJI|IKEA|ikea|振宇五金|東京著衣|NET |淨水|水電|搬家|洗衣|修車|汽車|機車行|輪胎|油漆|裝潢|房屋|寵物醫院|動物醫院|獸醫|牙醫|診所|醫院|藥局|藥房|眼鏡|髮廊|美髮|美甲|SPA|spa|按摩|健身|瑜珈|通訊行|通訊|手機|電信|中華電信|台灣大哥大|遠傳|亞太電信|傑昇|神腦|聯強|瘋殼子|殼子|保護貼|手機殼|充電|3C|電腦|印表機|文具|書局|書店|花店|花坊|花藝|寵物店|寵物用品|寵物生活|寵物百貨|寵物館|五金|水族|園藝|種子|農藥|飼料|嬰兒|母嬰|婦嬰|玩具|桌遊|電玩|遊戲|彩券|運彩|投注站|加油站|停車場|洗車|鍍膜|包膜|貼膜|維修|影印|快遞|貨運|搬運|清潔|除蟲|消毒|乾洗|送洗|鑰匙|鎖|水塔|冷氣|家電|燈具|窗簾|地毯/i
 // 垃圾名字（促銷 badge 被爬成店名）
 const JUNK_NAME_RE = /^(\d+%\s*優惠|買\s*\d+\s*送\s*\d+|免運|優惠|促銷|\d+\s*折)/
+// 限自取排除
+const PICKUP_ONLY_RE = /限自取|僅自取|自取專用|Pickup Only/i
 
 function isRestaurant(name: string): boolean {
-  return !NON_RESTAURANT_RE.test(name) && !JUNK_NAME_RE.test(name)
+  return !NON_RESTAURANT_RE.test(name) && !JUNK_NAME_RE.test(name) && !PICKUP_ONLY_RE.test(name)
 }
 
 function getCategories(name: string): string[] {
@@ -358,6 +360,7 @@ export async function GET(request: NextRequest) {
     const name = v.name?.trim()
     if (!name || !isRestaurant(name)) continue
     if (v.metadata?.is_temporary_closed) continue
+    if (v.metadata?.is_delivery_available === false) continue // 限自取，跳過
     // 沒有餐飲分類的是非食物商店（寵物店、五金、通訊行等）
     if (!v.cuisines || v.cuisines.length === 0) continue
     const fpUrl = v.redirection_url || `https://www.foodpanda.com.tw/restaurant/${v.code}/`
