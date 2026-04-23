@@ -41,6 +41,16 @@ function StarRow({ rating }: { rating: number }) {
   )
 }
 
+function PriceLevel({ level }: { level: number | null }) {
+  if (!level) return null
+  return (
+    <span className="text-sm font-medium" style={{ color: '#9b8e7e' }}>
+      {'$'.repeat(level)}
+      <span style={{ color: '#ddd5ca' }}>{'$'.repeat(4 - level)}</span>
+    </span>
+  )
+}
+
 export default function RestaurantDetail({
   placeId,
   restaurantName,
@@ -73,25 +83,26 @@ export default function RestaurantDetail({
   return (
     <div className="modal-overlay fixed inset-0 z-50 bg-black/50 flex items-end sm:items-center justify-center p-0 sm:p-4" onClick={onClose}>
       <div
-        className="modal-content bg-white w-full sm:max-w-lg sm:rounded-2xl rounded-t-2xl max-h-[90vh] overflow-y-auto"
+        className="modal-content w-full sm:max-w-lg sm:rounded-2xl rounded-t-2xl max-h-[90vh] overflow-y-auto"
+        style={{ background: '#f6f3ef' }}
         onClick={e => e.stopPropagation()}
       >
         {loading ? (
           <div className="p-12 flex flex-col items-center gap-4">
             <div className="flex gap-2">
-              <div className="loading-dot w-3 h-3 bg-orange-400 rounded-full" />
-              <div className="loading-dot w-3 h-3 bg-orange-400 rounded-full" />
-              <div className="loading-dot w-3 h-3 bg-orange-400 rounded-full" />
+              <div className="loading-dot w-3 h-3 rounded-full" style={{ background: '#b8734a' }} />
+              <div className="loading-dot w-3 h-3 rounded-full" style={{ background: '#b8734a' }} />
+              <div className="loading-dot w-3 h-3 rounded-full" style={{ background: '#b8734a' }} />
             </div>
-            <p className="text-stone-500">載入中...</p>
+            <p style={{ color: '#9b8e7e' }}>載入中...</p>
           </div>
         ) : !info ? (
-          <div className="p-8 text-center text-stone-500">載入失敗</div>
+          <div className="p-8 text-center" style={{ color: '#9b8e7e' }}>載入失敗</div>
         ) : (
           <>
             {/* 圖片輪播 */}
             {info.photos.length > 0 && (
-              <div className="relative h-56 sm:h-64 bg-stone-100">
+              <div className="relative h-56 sm:h-64" style={{ background: '#e8e2d9' }}>
                 <img
                   src={`/api/photo?ref=${info.photos[activePhoto]}&maxwidth=800`}
                   alt={info.name}
@@ -109,7 +120,8 @@ export default function RestaurantDetail({
                   </div>
                 )}
                 <button
-                  className="absolute top-3 right-3 w-8 h-8 rounded-full bg-black/40 text-white flex items-center justify-center backdrop-blur-sm"
+                  className="absolute top-3 right-3 w-8 h-8 rounded-full text-white flex items-center justify-center backdrop-blur-sm"
+                  style={{ background: 'rgba(61,53,41,0.5)' }}
                   onClick={onClose}
                 >
                   ✕
@@ -121,41 +133,42 @@ export default function RestaurantDetail({
               {/* 基本資訊 */}
               <div className="mb-4">
                 <div className="flex items-start justify-between mb-1">
-                  <h2 className="text-xl font-bold text-stone-900">{info.name}</h2>
+                  <h2 className="text-xl font-bold" style={{ color: '#3d3529' }}>{info.name}</h2>
                   {info.openingHours && info.openingHours.isOpen !== null && (
-                    <span className={`shrink-0 ml-2 px-2.5 py-0.5 rounded-full text-xs font-semibold ${
-                      info.openingHours.isOpen ? 'bg-emerald-100 text-emerald-700' : 'bg-red-100 text-red-700'
-                    }`}>
+                    <span className={`shrink-0 ml-2 px-2.5 py-0.5 rounded-full text-xs font-semibold text-white`}
+                      style={{ background: info.openingHours.isOpen ? 'rgba(143,168,133,0.85)' : 'rgba(196,146,138,0.85)' }}>
                       {info.openingHours.isOpen ? '營業中' : '已打烊'}
                     </span>
                   )}
                 </div>
 
                 <div className="flex items-center gap-2 mb-2">
-                  <span className="text-amber-500 font-bold text-lg">{info.rating.toFixed(1)}</span>
+                  <span className="font-bold text-lg" style={{ color: '#c9956e' }}>{info.rating.toFixed(1)}</span>
                   <StarRow rating={Math.round(info.rating)} />
-                  <span className="text-sm text-stone-400">({info.reviewCount}則評價)</span>
+                  <span className="text-sm" style={{ color: '#9b8e7e' }}>({info.reviewCount}則評價)</span>
+                  <PriceLevel level={info.priceLevel} />
                 </div>
 
                 {info.summary && (
-                  <p className="text-sm text-stone-600 mb-2">{info.summary}</p>
+                  <p className="text-sm mb-2" style={{ color: '#6b5f50' }}>{info.summary}</p>
                 )}
 
-                <p className="text-sm text-stone-500">📍 {info.address}</p>
-                {info.phone && <p className="text-sm text-stone-500 mt-1">📞 {info.phone}</p>}
+                <p className="text-sm" style={{ color: '#7a6e5e' }}>📍 {info.address}</p>
+                {info.phone && <p className="text-sm mt-1" style={{ color: '#7a6e5e' }}>📞 {info.phone}</p>}
               </div>
 
               {/* 營業時間 */}
               {info.openingHours?.weekday && info.openingHours.weekday.length > 0 && (
                 <div className="mb-4">
                   <button
-                    className="text-sm text-orange-600 font-medium flex items-center gap-1"
+                    className="text-sm font-medium flex items-center gap-1"
+                    style={{ color: '#b8734a' }}
                     onClick={() => setShowHours(!showHours)}
                   >
                     🕐 營業時間 {showHours ? '▲' : '▼'}
                   </button>
                   {showHours && (
-                    <div className="mt-2 text-sm text-stone-600 space-y-0.5 bg-stone-50 rounded-lg p-3">
+                    <div className="mt-2 text-sm space-y-0.5 rounded-lg p-3" style={{ background: '#ede7df', color: '#6b5f50' }}>
                       {info.openingHours.weekday.map((day, i) => (
                         <p key={i}>{day}</p>
                       ))}
@@ -167,12 +180,13 @@ export default function RestaurantDetail({
               {/* 推薦餐點 */}
               {info.recommendedDishes.length > 0 && (
                 <div className="mb-4">
-                  <h3 className="font-semibold text-stone-800 mb-2">🍳 網友推薦餐點</h3>
+                  <h3 className="font-semibold mb-2" style={{ color: '#3d3529' }}>🍳 網友推薦餐點</h3>
                   <div className="flex flex-wrap gap-2">
                     {info.recommendedDishes.map((dish, i) => (
                       <span
                         key={i}
-                        className="px-3 py-1.5 bg-orange-50 text-orange-700 rounded-full text-sm font-medium border border-orange-100"
+                        className="px-3 py-1.5 rounded-full text-sm font-medium"
+                        style={{ background: '#f3ebe3', color: '#b8734a', border: '1px solid #e8ddd0' }}
                       >
                         {dish}
                       </span>
@@ -184,12 +198,13 @@ export default function RestaurantDetail({
               {/* 評論重點 */}
               {info.reviewHighlights.length > 0 && (
                 <div className="mb-4">
-                  <h3 className="font-semibold text-stone-800 mb-2">📊 最常見的評論</h3>
+                  <h3 className="font-semibold mb-2" style={{ color: '#3d3529' }}>📊 最常見的評論</h3>
                   <div className="flex flex-wrap gap-2">
                     {info.reviewHighlights.map((highlight, i) => (
                       <span
                         key={i}
-                        className="px-3 py-1.5 bg-stone-50 text-stone-700 rounded-lg text-sm border border-stone-100"
+                        className="px-3 py-1.5 rounded-lg text-sm"
+                        style={{ background: '#ede7df', color: '#6b5f50', border: '1px solid #e2dbd1' }}
                       >
                         {highlight}
                       </span>
@@ -200,56 +215,56 @@ export default function RestaurantDetail({
 
               {/* 外送平台按鈕 */}
               <div className="mb-5">
-                <h3 className="font-semibold text-stone-800 mb-2">🛵 外送訂餐</h3>
+                <h3 className="font-semibold mb-2" style={{ color: '#3d3529' }}>🛵 外送訂餐</h3>
                 <div className="grid grid-cols-2 gap-3">
                   <a
                     href={uberEatsUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center justify-center gap-2 py-3 px-4 bg-black text-white rounded-xl font-semibold text-sm hover:bg-stone-800 transition-colors"
+                    className="flex items-center justify-center gap-2 py-3 px-4 rounded-xl font-semibold text-sm text-white transition-all active:scale-95"
+                    style={{ background: '#6ca378', boxShadow: '0 2px 8px rgba(108,163,120,0.25)' }}
                   >
-                    <span className="text-lg">🟢</span>
                     UberEats
                   </a>
                   <a
                     href={foodpandaUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center justify-center gap-2 py-3 px-4 bg-[#d70f64] text-white rounded-xl font-semibold text-sm hover:bg-[#b50d54] transition-colors"
+                    className="flex items-center justify-center gap-2 py-3 px-4 rounded-xl font-semibold text-sm text-white transition-all active:scale-95"
+                    style={{ background: '#c4928a', boxShadow: '0 2px 8px rgba(196,146,138,0.25)' }}
                   >
-                    <span className="text-lg">🐼</span>
                     Foodpanda
                   </a>
                 </div>
-                <p className="text-xs text-stone-400 mt-2 text-center">
+                <p className="text-xs mt-2 text-center" style={{ color: '#9b8e7e' }}>
                   點擊按鈕直接跳轉平台點餐
                 </p>
               </div>
 
               {/* Google 評論 */}
               <div className="mb-4">
-                <h3 className="font-semibold text-stone-800 mb-3">💬 Google 評論</h3>
+                <h3 className="font-semibold mb-3" style={{ color: '#3d3529' }}>💬 Google 評論</h3>
                 <div className="space-y-4">
                   {info.reviews.map((review, i) => (
-                    <div key={i} className="bg-stone-50 rounded-xl p-4">
+                    <div key={i} className="rounded-xl p-4" style={{ background: '#ede7df' }}>
                       <div className="flex items-center gap-2 mb-2">
                         {review.avatar ? (
                           <img src={review.avatar} alt="" className="w-8 h-8 rounded-full" />
                         ) : (
-                          <div className="w-8 h-8 rounded-full bg-orange-100 flex items-center justify-center text-sm">
+                          <div className="w-8 h-8 rounded-full flex items-center justify-center text-sm" style={{ background: '#f3ebe3' }}>
                             👤
                           </div>
                         )}
                         <div className="flex-1 min-w-0">
-                          <p className="text-sm font-medium text-stone-800 truncate">{review.author}</p>
+                          <p className="text-sm font-medium truncate" style={{ color: '#3d3529' }}>{review.author}</p>
                           <div className="flex items-center gap-2">
                             <StarRow rating={review.rating} />
-                            <span className="text-xs text-stone-400">{review.time}</span>
+                            <span className="text-xs" style={{ color: '#9b8e7e' }}>{review.time}</span>
                           </div>
                         </div>
                       </div>
                       {review.text && (
-                        <p className="text-sm text-stone-600 leading-relaxed">{review.text}</p>
+                        <p className="text-sm leading-relaxed" style={{ color: '#6b5f50' }}>{review.text}</p>
                       )}
                     </div>
                   ))}
@@ -257,13 +272,14 @@ export default function RestaurantDetail({
               </div>
 
               {/* 底部連結 */}
-              <div className="flex gap-3 pt-2 border-t border-stone-100">
+              <div className="flex gap-3 pt-2" style={{ borderTop: '1px solid #e8e2d9' }}>
                 {info.googleMapsUrl && (
                   <a
                     href={info.googleMapsUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex-1 text-center py-2.5 text-sm text-stone-600 hover:text-stone-900 bg-stone-50 rounded-lg transition-colors"
+                    className="flex-1 text-center py-2.5 text-sm rounded-lg transition-colors"
+                    style={{ color: '#6b5f50', background: '#ede7df' }}
                   >
                     📍 Google Maps
                   </a>
@@ -273,7 +289,8 @@ export default function RestaurantDetail({
                     href={info.website}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex-1 text-center py-2.5 text-sm text-stone-600 hover:text-stone-900 bg-stone-50 rounded-lg transition-colors"
+                    className="flex-1 text-center py-2.5 text-sm rounded-lg transition-colors"
+                    style={{ color: '#6b5f50', background: '#ede7df' }}
                   >
                     🌐 官方網站
                   </a>
