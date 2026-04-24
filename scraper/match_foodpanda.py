@@ -139,8 +139,11 @@ def main():
         if best_score >= 0.95:
             # 幾乎完美，直接接受
             stats['exact'] += 1
+        elif best_score >= 0.88:
+            # 高相似度，連鎖店也直接接受（分店可能名稱不同但品牌對了）
+            stats['high'] += 1
         elif best_score >= 0.80:
-            # 有分店名的都要驗證分店吻合
+            # 中等相似度，有分店名的要驗證
             branch = extract_branch(name)
             area = ue.get('area', '')
             has_branch = bool(branch) or bool(re.search(r'[\u4e00-\u9fff]{2,}店', name))

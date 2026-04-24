@@ -4,6 +4,7 @@ import { useState, useEffect, useCallback, useRef } from 'react'
 import RestaurantCard from './components/RestaurantCard'
 import RestaurantDetail from './components/RestaurantDetail'
 import InstallPrompt from './components/InstallPrompt'
+import AdBanner from './components/AdBanner'
 
 interface Restaurant {
   id: string
@@ -66,6 +67,7 @@ export default function Home() {
   const [total, setTotal] = useState(0)
   const [selectedId, setSelectedId] = useState<string | null>(null)
   const [selectedName, setSelectedName] = useState('')
+  const [searchError, setSearchError] = useState(false)
   const [suggestions, setSuggestions] = useState<{ name: string; area: string }[]>([])
   const [showSuggestions, setShowSuggestions] = useState(false)
   const offsetRef = useRef(0)
@@ -112,6 +114,7 @@ export default function Home() {
     } else {
       setLoadingMore(true)
     }
+    setSearchError(false)
     try {
       const params = new URLSearchParams({
         lat: coords.lat.toString(),
@@ -126,6 +129,7 @@ export default function Home() {
       if (sortBy !== 'distance') params.set('sort', sortBy)
 
       const res = await fetch(`/api/restaurants?${params}`)
+      if (!res.ok) throw new Error(`HTTP ${res.status}`)
       const data = await res.json()
       if (data.restaurants) {
         if (reset) setRestaurants(data.restaurants)
@@ -135,7 +139,10 @@ export default function Home() {
         if (data.categories) setCategories(data.categories)
         offsetRef.current += data.restaurants.length
       }
-    } catch { console.error('搜尋失敗') }
+    } catch {
+      console.error('搜尋失敗')
+      if (reset) setSearchError(true)
+    }
     finally { setLoading(false); setLoadingMore(false) }
   }, [coords, keyword, includeCats, excludeCats, openOnly, sortBy])
 
@@ -552,6 +559,19 @@ export default function Home() {
               ))}
             </div>
           </div>
+        ) : searchError ? (
+          <div className="py-28 text-center">
+            <div className="w-20 h-20 mx-auto mb-5 rounded-3xl bg-white/50 flex items-center justify-center text-4xl border border-white/60">⚠️</div>
+            <p className="text-[#6b5f50] font-medium mb-2">搜尋失敗，請稍後再試</p>
+            <p className="text-sm text-[#a89e90] mb-6">可能是網路連線問題或伺服器忙碌中</p>
+            <button
+              onClick={() => searchRestaurants(true)}
+              className="px-6 py-3 rounded-2xl text-sm font-bold text-white transition-all active:scale-[0.97]"
+              style={{ background: 'linear-gradient(135deg, #b8734a 0%, #c9956e 100%)', boxShadow: '0 2px 12px rgba(184,115,74,0.25)' }}
+            >
+              重新搜尋
+            </button>
+          </div>
         ) : restaurants.length === 0 ? (
           <div className="py-28 text-center">
             <div className="w-20 h-20 mx-auto mb-5 rounded-3xl bg-white/50 flex items-center justify-center text-4xl border border-white/60">🍜</div>
@@ -564,7 +584,7 @@ export default function Home() {
               <p className="text-sm text-[#8a7e6e]">
                 找到 <span className="font-bold text-[#6b5f50]">{total}</span> 家外送餐廳
               </p>
-              <span className="text-[11px] text-[#b0a494] px-2.5 py-1 rounded-full" style={{ background: '#e8e2d9' }}>{sortBy === 'rating' ? '依評價排序' : '依距離排序'}</span>
+              <span className="text-[11px] text-[#7a6e5e] px-2.5 py-1 rounded-full" style={{ background: '#e8e2d9' }}>{sortBy === 'rating' ? '依評價排序' : '依距離排序'}</span>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               {restaurants.map((r, i) => (
@@ -577,7 +597,11 @@ export default function Home() {
               ))}
             </div>
 
-            <div ref={observerRef} className="py-12 flex justify-center">
+            {restaurants.length >= 6 && (
+              <AdBanner className="my-6" />
+            )}
+
+            <div ref={observerRef} className="py-12 flex flex-col items-center gap-3">
               {loadingMore && (
                 <div className="flex gap-3">
                   <div className="loading-dot w-2.5 h-2.5 rounded-full" style={{ background: '#c9956e' }} />
@@ -585,7 +609,7 @@ export default function Home() {
                   <div className="loading-dot w-2.5 h-2.5 rounded-full" style={{ background: '#8fa885' }} />
                 </div>
               )}
-              {!hasMore && restaurants.length > 0 && (
+              {!hasMore && !loadingMore && restaurants.length > 0 && (
                 <span className="text-[11px] text-[#c4bdb2]">— 已顯示全部餐廳 —</span>
               )}
             </div>

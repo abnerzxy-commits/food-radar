@@ -144,16 +144,16 @@ export default function RestaurantCard({ restaurant, onClick }: { restaurant: Re
           <div className="flex items-center gap-1.5 mb-1.5">
             <StarRating rating={rating} />
             <span className="font-bold text-sm" style={{ color: '#c9956e' }}>{rating.toFixed(1)}</span>
-            <span className="text-[11px]" style={{ color: '#b0a494' }}>({reviewCount.toLocaleString()}則)</span>
+            <span className="text-[11px]" style={{ color: '#8a7e6e' }}>({reviewCount.toLocaleString()}則)</span>
           </div>
         )}
 
         {/* Address */}
-        <p className="text-[11px] mb-2 truncate" style={{ color: '#b0a494' }}>{address}</p>
+        <p className="text-[11px] mb-2 truncate" style={{ color: '#7a6e5e' }}>{address}</p>
 
         {/* Summary */}
         {summary && (
-          <p className="text-[11px] mb-2.5 line-clamp-2 leading-relaxed" style={{ color: '#8a7e6e' }}>{summary}</p>
+          <p className="text-[11px] mb-2.5 line-clamp-2 leading-relaxed" style={{ color: '#6b5f50' }}>{summary}</p>
         )}
 
         {/* Dishes */}
@@ -171,7 +171,7 @@ export default function RestaurantCard({ restaurant, onClick }: { restaurant: Re
         {highlights && highlights.length > 0 && (
           <div className="flex flex-wrap gap-1.5 mb-3">
             {highlights.slice(0, 3).map((h, i) => (
-              <span key={i} className="px-2 py-0.5 rounded-md text-[10px]" style={{ background: '#ede7df', color: '#8a7e6e', border: '1px solid #e2dbd1' }}>
+              <span key={i} className="px-2 py-0.5 rounded-md text-[10px]" style={{ background: '#ede7df', color: '#6b5f50', border: '1px solid #e2dbd1' }}>
                 {h}
               </span>
             ))}

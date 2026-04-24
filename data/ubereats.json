@@ -1,6 +1,6 @@
 {
   "scraped_at": "2026-04-13T16:46:09+08:00",
-  "total": 1705,
+  "total": 1651,
   "restaurants": [
     {
       "name": "Domino's Pizza 達美樂 泰山泰林店",
@@ -402,15 +402,6 @@
       "name": "大樹藥局 淡水新春店",
       "slug": "RbmkhxSiXxKKPVBlpgr66g",
       "url": "https://www.ubereats.com/tw/store/大樹藥局-淡水新春店/RbmkhxSiXxKKPVBlpgr66g",
-      "platform": "ubereats",
-      "area": "淡水區",
-      "area_lat": 25.169,
-      "area_lng": 121.441
-    },
-    {
-      "name": "特力屋 淡水中山北店",
-      "slug": "Rw8rl_FgV6y0OaLnnjNc-Q",
-      "url": "https://www.ubereats.com/tw/store/特力屋-淡水中山北店/Rw8rl_FgV6y0OaLnnjNc-Q",
       "platform": "ubereats",
       "area": "淡水區",
       "area_lat": 25.169,
@@ -1797,15 +1788,6 @@
       "name": "特力屋 花蓮店",
       "slug": "epI9Wqf4X92rm0RgCOyJAA?diningMode=DELIVERY",
       "url": "https://www.ubereats.com/tw/store/特力屋-花蓮店/epI9Wqf4X92rm0RgCOyJAA?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "花蓮市",
-      "area_lat": 23.975,
-      "area_lng": 121.604
-    },
-    {
-      "name": "特力屋 花蓮店",
-      "slug": "epI9Wqf4X92rm0RgCOyJAA",
-      "url": "https://www.ubereats.com/tw/store/特力屋-花蓮店/epI9Wqf4X92rm0RgCOyJAA",
       "platform": "ubereats",
       "area": "花蓮市",
       "area_lat": 23.975,
@@ -3918,15 +3900,6 @@
       "area_lng": 120.286
     },
     {
-      "name": "特力屋 左營店",
-      "slug": "TO95DHTFUtW2IfkSlcfChQ",
-      "url": "https://www.ubereats.com/tw/store/特力屋-左營店/TO95DHTFUtW2IfkSlcfChQ",
-      "platform": "ubereats",
-      "area": "高雄鼓山",
-      "area_lat": 22.653,
-      "area_lng": 120.286
-    },
-    {
       "name": "燦坤3C 楠梓德中店",
       "slug": "aansHV9gWhOqc0fpJcnRXw",
       "url": "https://www.ubereats.com/tw/store/燦坤3c-楠梓德中店/aansHV9gWhOqc0fpJcnRXw",
@@ -4647,36 +4620,9 @@
       "area_lng": 120.286
     },
     {
-      "name": "Din Tai Fung鼎泰豐 高雄店",
-      "slug": "LvyNF9L8Sp-_L4wniojYuA?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/din-tai-fung鼎泰豐-高雄店/LvyNF9L8Sp-_L4wniojYuA?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "高雄鼓山",
-      "area_lat": 22.653,
-      "area_lng": 120.286
-    },
-    {
       "name": "炸雞涼麵泡芙｜現做人氣小吃",
       "slug": "WcuUDpgKVMWBtCNDuHU9Cg?diningMode=DELIVERY",
       "url": "https://www.ubereats.com/tw/store/炸雞涼麵泡芙|現做人氣小吃/WcuUDpgKVMWBtCNDuHU9Cg?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "高雄鼓山",
-      "area_lat": 22.653,
-      "area_lng": 120.286
-    },
-    {
-      "name": "麥當勞 高雄中華二 McDonald's S548",
-      "slug": "uZIg-OD2X0q1MoqXMOmmMQ?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/麥當勞-高雄中華二-mcdonalds-s548/uZIg-OD2X0q1MoqXMOmmMQ?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "高雄鼓山",
-      "area_lat": 22.653,
-      "area_lng": 120.286
-    },
-    {
-      "name": "肯德基KFC漢堡 紙包雞飯專賣 高雄青海店",
-      "slug": "YwlqZ3AAXY-g_NS3pHIvzA?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/肯德基kfc漢堡-紙包雞飯專賣-高雄青海店/YwlqZ3AAXY-g_NS3pHIvzA?diningMode=DELIVERY",
       "platform": "ubereats",
       "area": "高雄鼓山",
       "area_lat": 22.653,
@@ -4710,24 +4656,6 @@
       "area_lng": 120.286
     },
     {
-      "name": "肯德基KFC炸雞漢堡店 高雄青海店",
-      "slug": "4_fkvhJmVLeJ27LdhwI0Uw?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/肯德基kfc炸雞漢堡店-高雄青海店/4_fkvhJmVLeJ27LdhwI0Uw?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "高雄鼓山",
-      "area_lat": 22.653,
-      "area_lng": 120.286
-    },
-    {
-      "name": "21Plus風味館、烤雞炸雞專門店 高雄超美",
-      "slug": "xLsnqpR3UfOPUU4JeiQINw?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/21plus風味館、烤雞炸雞專門店-高雄超美/xLsnqpR3UfOPUU4JeiQINw?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "高雄鼓山",
-      "area_lat": 22.653,
-      "area_lng": 120.286
-    },
-    {
       "name": "春水堂 高雄河堤店",
       "slug": "TqiKepQrTI-66uT6Uqzstg?diningMode=DELIVERY",
       "url": "https://www.ubereats.com/tw/store/春水堂-高雄河堤店/TqiKepQrTI-66uT6Uqzstg?diningMode=DELIVERY",
@@ -4749,60 +4677,6 @@
       "name": "すき家 SUKIYA 高雄站前店",
       "slug": "yivNokm8XNSuimy9BymT3g?diningMode=DELIVERY",
       "url": "https://www.ubereats.com/tw/store/すき家-sukiya-高雄站前店/yivNokm8XNSuimy9BymT3g?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "高雄鼓山",
-      "area_lat": 22.653,
-      "area_lng": 120.286
-    },
-    {
-      "name": "新壹排骨炒飯X叄心水餃",
-      "slug": "D1vJHCeRTEuY4TUgpmn2nA?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/新壹排骨炒飯x叄心水餃/D1vJHCeRTEuY4TUgpmn2nA?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "高雄鼓山",
-      "area_lat": 22.653,
-      "area_lng": 120.286
-    },
-    {
-      "name": "Burger King漢堡王 高雄店",
-      "slug": "LqiIwAMARsiBjyfD-UC25w?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/burger-king漢堡王-高雄店/LqiIwAMARsiBjyfD-UC25w?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "高雄鼓山",
-      "area_lat": 22.653,
-      "area_lng": 120.286
-    },
-    {
-      "name": "籠神炊粿 素食燒烤",
-      "slug": "F034qePeQLW1FYR2044kpA?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/籠神炊粿-素食燒烤/F034qePeQLW1FYR2044kpA?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "高雄鼓山",
-      "area_lat": 22.653,
-      "area_lng": 120.286
-    },
-    {
-      "name": "弘記肉燥飯舖 2022 必比登推薦",
-      "slug": "4001EpmjTCGTpds5WYwK5w?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/弘記肉燥飯舖-2022-必比登推薦/4001EpmjTCGTpds5WYwK5w?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "高雄鼓山",
-      "area_lat": 22.653,
-      "area_lng": 120.286
-    },
-    {
-      "name": "君腿庫飯",
-      "slug": "lKT3VgfCVaevkv01sJGjUQ?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/君腿庫飯/lKT3VgfCVaevkv01sJGjUQ?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "高雄鼓山",
-      "area_lat": 22.653,
-      "area_lng": 120.286
-    },
-    {
-      "name": "摩斯漢堡Mos Burger 高雄美術東店",
-      "slug": "b3vzsIjuUOu9v_lbsC6KnQ?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/摩斯漢堡mos-burger-高雄美術東店/b3vzsIjuUOu9v_lbsC6KnQ?diningMode=DELIVERY",
       "platform": "ubereats",
       "area": "高雄鼓山",
       "area_lat": 22.653,
@@ -4845,15 +4719,6 @@
       "area_lng": 120.286
     },
     {
-      "name": "巧味北平烤鴨專賣店",
-      "slug": "5uCg72DiR4u5JDp-04nnjA?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/巧味北平烤鴨專賣店/5uCg72DiR4u5JDp-04nnjA?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "高雄鼓山",
-      "area_lat": 22.653,
-      "area_lng": 120.286
-    },
-    {
       "name": "日初小火鍋 七賢店",
       "slug": "U8WHWl38Wjq16sb5Y9_6sw?diningMode=DELIVERY",
       "url": "https://www.ubereats.com/tw/store/日初小火鍋-七賢店/U8WHWl38Wjq16sb5Y9_6sw?diningMode=DELIVERY",
@@ -4866,15 +4731,6 @@
       "name": "50嵐 美術東八店",
       "slug": "CquhquikWuCgP_QCacFP1A?diningMode=DELIVERY",
       "url": "https://www.ubereats.com/tw/store/50嵐-美術東八店/CquhquikWuCgP_QCacFP1A?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "高雄鼓山",
-      "area_lat": 22.653,
-      "area_lng": 120.286
-    },
-    {
-      "name": "鬆餅先生蔬食主義 瑞豐店",
-      "slug": "C1krm9-iRhiuh7GpJzTB6A?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/鬆餅先生蔬食主義-瑞豐店/C1krm9-iRhiuh7GpJzTB6A?diningMode=DELIVERY",
       "platform": "ubereats",
       "area": "高雄鼓山",
       "area_lat": 22.653,
@@ -4908,33 +4764,6 @@
       "area_lng": 120.286
     },
     {
-      "name": "瑪嘻so韓式豆腐鍋",
-      "slug": "E2ozHiuTWTyJKkHwmFaOSA?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/瑪嘻so韓式豆腐鍋/E2ozHiuTWTyJKkHwmFaOSA?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "高雄鼓山",
-      "area_lat": 22.653,
-      "area_lng": 120.286
-    },
-    {
-      "name": "梅家村排骨飯 九如店",
-      "slug": "F6rLcf-6VviEOjJplK0FjA?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/梅家村排骨飯-九如店/F6rLcf-6VviEOjJplK0FjA?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "高雄鼓山",
-      "area_lat": 22.653,
-      "area_lng": 120.286
-    },
-    {
-      "name": "在地人鹽水雞 吉林店",
-      "slug": "ZARRY9H_Q6KifmNgGxc9cw?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/在地人鹽水雞-吉林店/ZARRY9H_Q6KifmNgGxc9cw?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "高雄鼓山",
-      "area_lat": 22.653,
-      "area_lng": 120.286
-    },
-    {
       "name": "梁社漢排骨 鼓山青海店",
       "slug": "p15T7Z0NQ26k4nG0EC_uLg?diningMode=DELIVERY",
       "url": "https://www.ubereats.com/tw/store/梁社漢排骨-鼓山青海店/p15T7Z0NQ26k4nG0EC_uLg?diningMode=DELIVERY",
@@ -4962,63 +4791,9 @@
       "area_lng": 120.286
     },
     {
-      "name": "澎湃行海鮮粥 高雄熱河店",
-      "slug": "hZ1o3mzkWeqXDPqKqV51sw?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/澎湃行海鮮粥-高雄熱河店/hZ1o3mzkWeqXDPqKqV51sw?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "高雄鼓山",
-      "area_lat": 22.653,
-      "area_lng": 120.286
-    },
-    {
-      "name": "胖老爹美式炸雞 高雄站前店",
-      "slug": "vJvup542TyCifjfHYjkCEg?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/胖老爹美式炸雞-高雄站前店/vJvup542TyCifjfHYjkCEg?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "高雄鼓山",
-      "area_lat": 22.653,
-      "area_lng": 120.286
-    },
-    {
-      "name": "一沐日 鼓山華榮店",
-      "slug": "wVenZ3GbUpibdITSdTlLmg?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/一沐日-鼓山華榮店/wVenZ3GbUpibdITSdTlLmg?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "高雄鼓山",
-      "area_lat": 22.653,
-      "area_lng": 120.286
-    },
-    {
       "name": "新百齡排骨大王 瑞豐店",
       "slug": "n0NAkPv-SRGcSnJhYC-t6A?diningMode=DELIVERY",
       "url": "https://www.ubereats.com/tw/store/新百齡排骨大王-瑞豐店/n0NAkPv-SRGcSnJhYC-t6A?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "高雄鼓山",
-      "area_lat": 22.653,
-      "area_lng": 120.286
-    },
-    {
-      "name": "虎爺雞飯 鼓山美術店",
-      "slug": "j3uP-xQZXSSXzrK5AdBt6g?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/虎爺雞飯-鼓山美術店/j3uP-xQZXSSXzrK5AdBt6g?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "高雄鼓山",
-      "area_lat": 22.653,
-      "area_lng": 120.286
-    },
-    {
-      "name": "To Be Smoothie 綠果昔 高雄美術館店",
-      "slug": "-rtPJg-XQrWl_wVAF0KMmw?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/to-be-smoothie-綠果昔-高雄美術館店/-rtPJg-XQrWl_wVAF0KMmw?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "高雄鼓山",
-      "area_lat": 22.653,
-      "area_lng": 120.286
-    },
-    {
-      "name": "癮燒精食 精緻健康餐盒",
-      "slug": "A1-NFjdgUKqr5eVXv7HroA?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/癮燒精食-精緻健康餐盒/A1-NFjdgUKqr5eVXv7HroA?diningMode=DELIVERY",
       "platform": "ubereats",
       "area": "高雄鼓山",
       "area_lat": 22.653,
@@ -5052,69 +4827,6 @@
       "area_lng": 120.286
     },
     {
-      "name": "山城飯桌",
-      "slug": "8PDftJQvU1Wj7Ub7c_OiLQ?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/山城飯桌/8PDftJQvU1Wj7Ub7c_OiLQ?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "高雄鼓山",
-      "area_lat": 22.653,
-      "area_lng": 120.286
-    },
-    {
-      "name": "就愛餡麵食館",
-      "slug": "fURoRE3oRnSB2xlwtXN9vw?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/就愛餡麵食館/fURoRE3oRnSB2xlwtXN9vw?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "高雄鼓山",
-      "area_lat": 22.653,
-      "area_lng": 120.286
-    },
-    {
-      "name": "銀座杏子日式豬排 高雄義享店",
-      "slug": "HQXaU8qYQDGiTIeOaSgo-w?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/銀座杏子日式豬排-高雄義享店/HQXaU8qYQDGiTIeOaSgo-w?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "高雄鼓山",
-      "area_lat": 22.653,
-      "area_lng": 120.286
-    },
-    {
-      "name": "樺達奶茶 美術館店",
-      "slug": "W32Pg4kbQPaMShm7qL1zWg?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/樺達奶茶-美術館店/W32Pg4kbQPaMShm7qL1zWg?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "高雄鼓山",
-      "area_lat": 22.653,
-      "area_lng": 120.286
-    },
-    {
-      "name": "八葉 燒烤雞腿飯 明誠店",
-      "slug": "bW9jN2oCTI-adoM71KOTSQ?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/八葉-燒烤雞腿飯-明誠店/bW9jN2oCTI-adoM71KOTSQ?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "高雄鼓山",
-      "area_lat": 22.653,
-      "area_lng": 120.286
-    },
-    {
-      "name": "溜溜酸菜魚專賣店 高雄富民店",
-      "slug": "5F5HKauUXSOvwfsrL7FWoQ?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/溜溜酸菜魚專賣店-高雄富民店/5F5HKauUXSOvwfsrL7FWoQ?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "高雄鼓山",
-      "area_lat": 22.653,
-      "area_lng": 120.286
-    },
-    {
-      "name": "清一色牛肉麵 瑞豐昌盛店",
-      "slug": "32N2BxJnQ2GaDCoPzWe5DQ?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/清一色牛肉麵-瑞豐昌盛店/32N2BxJnQ2GaDCoPzWe5DQ?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "高雄鼓山",
-      "area_lat": 22.653,
-      "area_lng": 120.286
-    },
-    {
       "name": "鴨肉珍",
       "slug": "3GygMZXmUPqwAee_1OLvUw?diningMode=DELIVERY",
       "url": "https://www.ubereats.com/tw/store/鴨肉珍/3GygMZXmUPqwAee_1OLvUw?diningMode=DELIVERY",
@@ -5124,36 +4836,9 @@
       "area_lng": 120.286
     },
     {
-      "name": "吉野家 高雄建國店",
-      "slug": "JwzE76rmSxqFoiyYkxXEvQ?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/吉野家-高雄建國店/JwzE76rmSxqFoiyYkxXEvQ?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "高雄鼓山",
-      "area_lat": 22.653,
-      "area_lng": 120.286
-    },
-    {
       "name": "冒煙的喬特色便當 高雄河堤店",
       "slug": "jIiWmhMJSiG4CNV_pk-agA?diningMode=DELIVERY",
       "url": "https://www.ubereats.com/tw/store/冒煙的喬特色便當-高雄河堤店/jIiWmhMJSiG4CNV_pk-agA?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "高雄鼓山",
-      "area_lat": 22.653,
-      "area_lng": 120.286
-    },
-    {
-      "name": "囍 肉燥飯",
-      "slug": "peQ_DWVeQQOZ0UgE1IYLOg?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/囍-肉燥飯/peQ_DWVeQQOZ0UgE1IYLOg?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "高雄鼓山",
-      "area_lat": 22.653,
-      "area_lng": 120.286
-    },
-    {
-      "name": "牛丁次郎坊X高雄明仁支店 燒肉丼專科",
-      "slug": "vUV0oHzKX0SIKuIfzaFmpw?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/牛丁次郎坊x高雄明仁支店-燒肉丼專科/vUV0oHzKX0SIKuIfzaFmpw?diningMode=DELIVERY",
       "platform": "ubereats",
       "area": "高雄鼓山",
       "area_lat": 22.653,
@@ -5178,60 +4863,6 @@
       "area_lng": 120.286
     },
     {
-      "name": "蜀福麵小館",
-      "slug": "1Gnxnq5lWkmpCmaPzAoAEQ?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/蜀福麵小館/1Gnxnq5lWkmpCmaPzAoAEQ?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "高雄鼓山",
-      "area_lat": 22.653,
-      "area_lng": 120.286
-    },
-    {
-      "name": "這一小鍋 高雄義享店",
-      "slug": "wKQAEILNUqWjP8lUDU1OTg?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/這一小鍋-高雄義享店/wKQAEILNUqWjP8lUDU1OTg?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "高雄鼓山",
-      "area_lat": 22.653,
-      "area_lng": 120.286
-    },
-    {
-      "name": "螺痴粉 高雄螺螄粉專賣",
-      "slug": "pP2NjjLWXOWPN6TJlI668A?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/螺痴粉-高雄螺螄粉專賣/pP2NjjLWXOWPN6TJlI668A?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "高雄鼓山",
-      "area_lat": 22.653,
-      "area_lng": 120.286
-    },
-    {
-      "name": "刁民酸菜魚 高雄富裕店",
-      "slug": "XGjMCWaOWby3qQnWn9GSBQ?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/刁民酸菜魚-高雄富裕店/XGjMCWaOWby3qQnWn9GSBQ?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "高雄鼓山",
-      "area_lat": 22.653,
-      "area_lng": 120.286
-    },
-    {
-      "name": "久微食作 Joy Way Homemade 巨蛋店",
-      "slug": "t6pKlxpQVbuFBTtD6VChzQ?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/久微食作-joy-way-homemade-巨蛋店/t6pKlxpQVbuFBTtD6VChzQ?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "高雄鼓山",
-      "area_lat": 22.653,
-      "area_lng": 120.286
-    },
-    {
-      "name": "清田家手作咖喱 丼飯",
-      "slug": "qLzo1iAUUzCQyM_xjpdKPQ?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/清田家手作咖喱-丼飯/qLzo1iAUUzCQyM_xjpdKPQ?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "高雄鼓山",
-      "area_lat": 22.653,
-      "area_lng": 120.286
-    },
-    {
       "name": "邵師傅上海湯包 創意包子館",
       "slug": "SD55B9cmQZCMsiElTBLStw?diningMode=DELIVERY",
       "url": "https://www.ubereats.com/tw/store/邵師傅上海湯包-創意包子館/SD55B9cmQZCMsiElTBLStw?diningMode=DELIVERY",
@@ -5241,27 +4872,9 @@
       "area_lng": 120.286
     },
     {
-      "name": "天使雞排 瑞豐店",
-      "slug": "fli3jwGRRZi1pOZ9CZuAzw?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/天使雞排-瑞豐店/fli3jwGRRZi1pOZ9CZuAzw?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "高雄鼓山",
-      "area_lat": 22.653,
-      "area_lng": 120.286
-    },
-    {
       "name": "jinlianfa 金聯發",
       "slug": "PBP0WbGZV4-Bnx3L6eSvUg?diningMode=DELIVERY",
       "url": "https://www.ubereats.com/tw/store/jinlianfa-金聯發/PBP0WbGZV4-Bnx3L6eSvUg?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "高雄鼓山",
-      "area_lat": 22.653,
-      "area_lng": 120.286
-    },
-    {
-      "name": "拿坡里 美術館",
-      "slug": "sr3VVpzNS8mzW7PMgkPMVQ?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/拿坡里-美術館n8434/sr3VVpzNS8mzW7PMgkPMVQ?diningMode=DELIVERY",
       "platform": "ubereats",
       "area": "高雄鼓山",
       "area_lat": 22.653,
@@ -5289,15 +4902,6 @@
       "name": "大心泰式麵食 漢神巨蛋店",
       "slug": "plyz-YBcQZOfhzz1pceZTw?diningMode=DELIVERY",
       "url": "https://www.ubereats.com/tw/store/大心泰式麵食-漢神巨蛋店/plyz-YBcQZOfhzz1pceZTw?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "高雄鼓山",
-      "area_lat": 22.653,
-      "area_lng": 120.286
-    },
-    {
-      "name": "Muchness酪上號",
-      "slug": "WM_X4acVTFGWiBj-ZPhb-w?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/muchness酪上號/WM_X4acVTFGWiBj-ZPhb-w?diningMode=DELIVERY",
       "platform": "ubereats",
       "area": "高雄鼓山",
       "area_lat": 22.653,
@@ -5340,15 +4944,6 @@
       "area_lng": 120.286
     },
     {
-      "name": "馥涎贊鹹酥雞 嫩江總店",
-      "slug": "AOHIRrc6R8akHEosB4CElQ?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/馥涎贊鹹酥雞-嫩江總店/AOHIRrc6R8akHEosB4CElQ?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "高雄鼓山",
-      "area_lat": 22.653,
-      "area_lng": 120.286
-    },
-    {
       "name": "77炸雞",
       "slug": "lkMQgIuXW9m_k5OLrAQPAA?diningMode=DELIVERY",
       "url": "https://www.ubereats.com/tw/store/77炸雞/lkMQgIuXW9m_k5OLrAQPAA?diningMode=DELIVERY",
@@ -5370,15 +4965,6 @@
       "name": "小雅 芋頭西米露專賣店",
       "slug": "GYZr5CyWSz2fUL7tN4Tn8w?diningMode=DELIVERY",
       "url": "https://www.ubereats.com/tw/store/小雅-芋頭西米露專賣店/GYZr5CyWSz2fUL7tN4Tn8w?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "高雄鼓山",
-      "area_lat": 22.653,
-      "area_lng": 120.286
-    },
-    {
-      "name": "PokéPoké 波奇波奇 美術館店",
-      "slug": "EA5tyw82RIi5dxfchfA6PA?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/pokepoke-波奇波奇-美術館店/EA5tyw82RIi5dxfchfA6PA?diningMode=DELIVERY",
       "platform": "ubereats",
       "area": "高雄鼓山",
       "area_lat": 22.653,
@@ -5469,24 +5055,6 @@
       "name": "自然捲韓式飯捲專賣店",
       "slug": "X1AfeC4PXW26thgDRw9vSQ?diningMode=DELIVERY",
       "url": "https://www.ubereats.com/tw/store/自然捲韓式飯捲專賣店/X1AfeC4PXW26thgDRw9vSQ?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "高雄鼓山",
-      "area_lat": 22.653,
-      "area_lng": 120.286
-    },
-    {
-      "name": "香港發財燒臘店",
-      "slug": "iqEBLpAIRfSdWo82eLZxIw?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/香港發財燒臘店/iqEBLpAIRfSdWo82eLZxIw?diningMode=DELIVERY",
-      "platform": "ubereats",
-      "area": "高雄鼓山",
-      "area_lat": 22.653,
-      "area_lng": 120.286
-    },
-    {
-      "name": "Pizza Hut必勝客",
-      "slug": "wozo0Te9VSiPAn9x0UG02w?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/pizza-hut必勝客-高雄九如店/wozo0Te9VSiPAn9x0UG02w?diningMode=DELIVERY",
       "platform": "ubereats",
       "area": "高雄鼓山",
       "area_lat": 22.653,
@@ -5934,24 +5502,6 @@
       "area_lng": 120.323
     },
     {
-      "name": "起家雞 三民建工店",
-      "slug": "GCwxq7_XQC65h0cBOakPVA",
-      "url": "https://www.ubereats.com/tw/store/起家雞-三民建工店/GCwxq7_XQC65h0cBOakPVA",
-      "platform": "ubereats",
-      "area": "高雄三民",
-      "area_lat": 22.643,
-      "area_lng": 120.323
-    },
-    {
-      "name": "香港東興燒臘便當",
-      "slug": "ngbZU6MUV3aG8y0jDAEA7A",
-      "url": "https://www.ubereats.com/tw/store/香港東興燒臘便當/ngbZU6MUV3aG8y0jDAEA7A",
-      "platform": "ubereats",
-      "area": "高雄三民",
-      "area_lat": 22.643,
-      "area_lng": 120.323
-    },
-    {
       "name": "亞尼克 高雄澄清店",
       "slug": "ZgBemX8vTrKUfvUvEww9vw",
       "url": "https://www.ubereats.com/tw/store/亞尼克-高雄澄清店/ZgBemX8vTrKUfvUvEww9vw",
@@ -6108,15 +5658,6 @@
       "name": "麥當勞 高雄五福一 McDonald's S25",
       "slug": "yiVJRHfHT1WOrUUGVw5wGA",
       "url": "https://www.ubereats.com/tw/store/麥當勞-高雄五福一-mcdonalds-s25/yiVJRHfHT1WOrUUGVw5wGA",
-      "platform": "ubereats",
-      "area": "高雄苓雅",
-      "area_lat": 22.621,
-      "area_lng": 120.311
-    },
-    {
-      "name": "木子李韓式豆腐煲",
-      "slug": "YRiJjAEWSlmf036l6JdQSQ",
-      "url": "https://www.ubereats.com/tw/store/木子李韓式豆腐煲/YRiJjAEWSlmf036l6JdQSQ",
       "platform": "ubereats",
       "area": "高雄苓雅",
       "area_lat": 22.621,
@@ -6846,15 +6387,6 @@
       "name": "大樹藥局 台南西門店",
       "slug": "2kL5_PXFWg-rE35Xw3LYWQ",
       "url": "https://www.ubereats.com/tw/store/大樹藥局-台南西門店/2kL5_PXFWg-rE35Xw3LYWQ",
-      "platform": "ubereats",
-      "area": "台南北區",
-      "area_lat": 23.004,
-      "area_lng": 120.207
-    },
-    {
-      "name": "特力屋 永康復國店",
-      "slug": "9jC74OSzVNSbv226N67x2Q",
-      "url": "https://www.ubereats.com/tw/store/特力屋-永康復國店/9jC74OSzVNSbv226N67x2Q",
       "platform": "ubereats",
       "area": "台南北區",
       "area_lat": 23.004,
@@ -9411,15 +8943,6 @@
       "name": "壹口壹口手作甜點/生日蛋糕",
       "slug": "F6w0hs8nXqSW01dJH9WZ_g",
       "url": "https://www.ubereats.com/tw/store/壹口壹口手作甜點-生日蛋糕/F6w0hs8nXqSW01dJH9WZ_g",
-      "platform": "ubereats",
-      "area": "樹林區",
-      "area_lat": 24.99,
-      "area_lng": 121.42
-    },
-    {
-      "name": "特力屋 板橋北門店",
-      "slug": "lMjsrb0iVfGiCs7QkVmJIw?diningMode=DELIVERY",
-      "url": "https://www.ubereats.com/tw/store/特力屋-板橋北門店/lMjsrb0iVfGiCs7QkVmJIw?diningMode=DELIVERY",
       "platform": "ubereats",
       "area": "樹林區",
       "area_lat": 24.99,
@@ -14937,15 +14460,6 @@
       "name": "早安有喜 林森店",
       "slug": "VBkRjnS7UR2RVTTcUDJgjw",
       "url": "https://www.ubereats.com/tw/store/早安有喜-林森店/VBkRjnS7UR2RVTTcUDJgjw",
-      "platform": "ubereats",
-      "area": "高雄前鎮",
-      "area_lat": 22.613,
-      "area_lng": 120.303
-    },
-    {
-      "name": "丸亀製麵 新光三越高雄三多店",
-      "slug": "q2hm8s_iS1aUxVbg6ECuIA",
-      "url": "https://www.ubereats.com/tw/store/丸亀製麵-新光三越高雄三多店/q2hm8s_iS1aUxVbg6ECuIA",
       "platform": "ubereats",
       "area": "高雄前鎮",
       "area_lat": 22.613,

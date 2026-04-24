@@ -111,6 +111,15 @@
       "area_lng": 121.438
     },
     {
+      "name": "Burger King漢堡王 蘆洲店",
+      "slug": "fp-y3ih/burger-king-han-bao-wang-zhu-ke-dian",
+      "url": "https://www.foodpanda.com.tw/restaurant/y3ih/burger-king-han-bao-wang-zhu-ke-dian",
+      "platform": "foodpanda",
+      "area": "五股區",
+      "area_lat": 25.082,
+      "area_lng": 121.438
+    },
+    {
       "name": "拿坡里 淡水店",
       "slug": "fp-r20u/na-po-li-dan-shui-dian-8127",
       "url": "https://www.foodpanda.com.tw/restaurant/r20u/na-po-li-dan-shui-dian-8127",
@@ -249,6 +258,15 @@
       "name": "麥味登 中壢建國店",
       "slug": "fp-u6m7/mai-wei-deng-zhong-li-jian-guo-dian",
       "url": "https://www.foodpanda.com.tw/restaurant/u6m7/mai-wei-deng-zhong-li-jian-guo-dian",
+      "platform": "foodpanda",
+      "area": "平鎮區",
+      "area_lat": 24.921,
+      "area_lng": 121.218
+    },
+    {
+      "name": "Burger King漢堡王 中壢店",
+      "slug": "fp-qvfh/burger-king-han-bao-wang-zhang-hua-dian",
+      "url": "https://www.foodpanda.com.tw/restaurant/qvfh/burger-king-han-bao-wang-zhang-hua-dian",
       "platform": "foodpanda",
       "area": "平鎮區",
       "area_lat": 24.921,
@@ -762,6 +780,15 @@
       "name": "拿坡里 宜蘭店",
       "slug": "fp-woo2/na-po-li-yi-lan-dian-8154",
       "url": "https://www.foodpanda.com.tw/restaurant/woo2/na-po-li-yi-lan-dian-8154",
+      "platform": "foodpanda",
+      "area": "宜蘭市",
+      "area_lat": 24.757,
+      "area_lng": 121.753
+    },
+    {
+      "name": "Burger King漢堡王 宜蘭店",
+      "slug": "fp-o1em/burger-king-han-bao-wang-jia-yi-dian",
+      "url": "https://www.foodpanda.com.tw/restaurant/o1em/burger-king-han-bao-wang-jia-yi-dian",
       "platform": "foodpanda",
       "area": "宜蘭市",
       "area_lat": 24.757,
@@ -1452,6 +1479,15 @@
       "area_lng": 120.286
     },
     {
+      "name": "Burger King漢堡王 高雄店",
+      "slug": "fp-ayj4/burger-king-han-bao-wang-gao-xiong-nan-zi-dian",
+      "url": "https://www.foodpanda.com.tw/restaurant/ayj4/burger-king-han-bao-wang-gao-xiong-nan-zi-dian",
+      "platform": "foodpanda",
+      "area": "高雄鼓山",
+      "area_lat": 22.653,
+      "area_lng": 120.286
+    },
+    {
       "name": "麥味登 新興復橫店",
       "slug": "fp-rlo4/mai-wei-deng-xin-xing-fu-heng-dian",
       "url": "https://www.foodpanda.com.tw/restaurant/rlo4/mai-wei-deng-xin-xing-fu-heng-dian",
@@ -1855,15 +1891,6 @@
       "area": "高雄鼓山",
       "area_lat": 22.653,
       "area_lng": 120.286
-    },
-    {
-      "name": "Burger King漢堡王 高雄楠梓店",
-      "slug": "fp-ayj4/burger-king-han-bao-wang-gao-xiong-nan-zi-dian",
-      "url": "https://www.foodpanda.com.tw/restaurant/ayj4/burger-king-han-bao-wang-gao-xiong-nan-zi-dian",
-      "platform": "foodpanda",
-      "area": "高雄楠梓",
-      "area_lat": 22.726,
-      "area_lng": 120.326
     },
     {
       "name": "虎爺雞飯 楠梓德民店",
@@ -2370,15 +2397,6 @@
       "area_lng": 120.219
     },
     {
-      "name": "Burger King漢堡王 嘉義店",
-      "slug": "fp-o1em/burger-king-han-bao-wang-jia-yi-dian",
-      "url": "https://www.foodpanda.com.tw/restaurant/o1em/burger-king-han-bao-wang-jia-yi-dian",
-      "platform": "foodpanda",
-      "area": "嘉義市",
-      "area_lat": 23.479,
-      "area_lng": 120.44
-    },
-    {
       "name": "胖老爹美式炸雞 嘉義文化公園店",
       "slug": "fp-b9xu/pang-lao-die-mei-shi-zha-ji-jia-yi-wen-hua-gong-yuan-dian",
       "url": "https://www.foodpanda.com.tw/restaurant/b9xu/pang-lao-die-mei-shi-zha-ji-jia-yi-wen-hua-gong-yuan-dian",
@@ -2730,15 +2748,6 @@
       "area_lng": 120.574
     },
     {
-      "name": "Burger King漢堡王 彰化店",
-      "slug": "fp-qvfh/burger-king-han-bao-wang-zhang-hua-dian",
-      "url": "https://www.foodpanda.com.tw/restaurant/qvfh/burger-king-han-bao-wang-zhang-hua-dian",
-      "platform": "foodpanda",
-      "area": "彰化市",
-      "area_lat": 24.081,
-      "area_lng": 120.539
-    },
-    {
       "name": "築間幸福鍋物 彰化自強店",
       "slug": "fp-q2wt/zhu-jian-xing-fu-guo-wu-zhang-hua-zi-qiang-dian",
       "url": "https://www.foodpanda.com.tw/restaurant/q2wt/zhu-jian-xing-fu-guo-wu-zhang-hua-zi-qiang-dian",
@@ -3030,15 +3039,6 @@
       "name": "肯德基KFC炸雞漢堡店 新竹光復店",
       "slug": "fp-ryp8/ken-de-ji-kfczha-ji-han-bao-dian-xin-zhu-guang-fu-dian",
       "url": "https://www.foodpanda.com.tw/restaurant/ryp8/ken-de-ji-kfczha-ji-han-bao-dian-xin-zhu-guang-fu-dian",
-      "platform": "foodpanda",
-      "area": "新竹東區",
-      "area_lat": 24.802,
-      "area_lng": 120.972
-    },
-    {
-      "name": "Burger King漢堡王 竹科店",
-      "slug": "fp-y3ih/burger-king-han-bao-wang-zhu-ke-dian",
-      "url": "https://www.foodpanda.com.tw/restaurant/y3ih/burger-king-han-bao-wang-zhu-ke-dian",
       "platform": "foodpanda",
       "area": "新竹東區",
       "area_lat": 24.802,

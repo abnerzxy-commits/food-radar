@@ -137,18 +137,18 @@ interface FoodpandaVendor {
   minimum_delivery_time?: number
 }
 
-// Foodpanda 即時附近餐廳快取（每座標 5 分鐘）
+// Foodpanda 即時附近餐廳快取（每座標 10 分鐘）
 const fpNearbyCache = new Map<string, { ts: number; vendors: FoodpandaVendor[] }>()
 
 async function fetchFoodpandaNearby(lat: number, lng: number): Promise<FoodpandaVendor[]> {
   const cacheKey = `${lat.toFixed(3)},${lng.toFixed(3)}`
   const cached = fpNearbyCache.get(cacheKey)
-  if (cached && Date.now() - cached.ts < 5 * 60 * 1000) return cached.vendors
+  if (cached && Date.now() - cached.ts < 10 * 60 * 1000) return cached.vendors
 
   const allVendors: FoodpandaVendor[] = []
   try {
-    // Fetch up to 200 nearby vendors
-    for (let offset = 0; offset < 200; offset += 50) {
+    // Fetch up to 100 nearby vendors (2 batches, saves latency)
+    for (let offset = 0; offset < 100; offset += 50) {
       const url = `https://disco.deliveryhero.io/listing/api/v1/pandora/vendors?latitude=${lat}&longitude=${lng}&language_id=6&include=characteristics&dynamic_pricing=0&configuration=Variant1&country=tw&customer_type=regular&limit=50&offset=${offset}&sort=distance_asc`
       const res = await fetch(url, {
         headers: { 'User-Agent': 'Mozilla/5.0', 'Accept': 'application/json', 'x-disco-client-id': 'web' },
@@ -382,10 +382,31 @@ export async function GET(request: NextRequest) {
     return n.replace(/\s*[\(（].*?[\)）]\s*/g, '').replace(/\s+/g, ' ').trim()
   }
 
+  // 深度正規化：移除所有符號、空格、分店後綴，用於跨平台模糊比對
+  function deepNorm(n: string): string {
+    return n
+      .replace(/\s*[\(（].*?[\)）]\s*/g, '')       // 移除括號內容
+      .replace(/[•‧·.\-—\s　]/g, '')               // 移除各種分隔符和空格
+      .replace(/店$/, '')                           // 移除結尾的「店」
+      .trim()
+  }
+
+  // 計算兩個字串的中文字元相似度（共同中文字數 / 較短字串長度）
+  function chineseSimilarity(a: string, b: string): number {
+    const aCjk = a.match(/[\u4e00-\u9fff]/g) || []
+    const bCjk = b.match(/[\u4e00-\u9fff]/g) || []
+    if (aCjk.length < 3 || bCjk.length < 3) return 0
+    const bSet = new Set(bCjk)
+    const common = aCjk.filter(c => bSet.has(c)).length
+    return common / Math.min(aCjk.length, bCjk.length)
+  }
+
   // 建立已有餐廳的正規化名稱索引
   const existingNormMap = new Map<string, any>()
+  const existingDeepMap = new Map<string, any>()
   for (const r of list) {
     existingNormMap.set(normName(r.name), r)
+    existingDeepMap.set(deepNorm(r.name), r)
   }
 
   // 用 Foodpanda 即時 API 幫現有餐廳補上 Foodpanda 直連 URL，並收集 FP 獨有餐廳
@@ -399,16 +420,34 @@ export async function GET(request: NextRequest) {
     if (!v.cuisines || v.cuisines.length === 0) continue
     const fpUrl = v.redirection_url || `https://www.foodpanda.com.tw/restaurant/${v.code}/`
 
-    // 模糊比對：正規化名稱 or 包含關係
+    // 模糊比對：正規化名稱 or 深度正規化 or 包含關係
     const vNorm = normName(name)
-    let existing = existingNormMap.get(vNorm) || null
+    const vDeep = deepNorm(name)
+    let existing = existingNormMap.get(vNorm) || existingDeepMap.get(vDeep) || null
     if (!existing) {
       // 嘗試包含比對（FP 名稱包含 UberEats 名稱，或反過來）
       for (const r of list) {
         const rNorm = normName(r.name)
+        const rDeep = deepNorm(r.name)
         if (rNorm.length >= 3 && vNorm.length >= 3 && (vNorm.includes(rNorm) || rNorm.includes(vNorm))) {
           existing = r
           break
+        }
+        // 深度正規化包含比對
+        if (rDeep.length >= 4 && vDeep.length >= 4 && (vDeep.includes(rDeep) || rDeep.includes(vDeep))) {
+          existing = r
+          break
+        }
+        // 中文字元相似度比對（處理不同平台名稱格式差異大的情況）
+        if (chineseSimilarity(vDeep, rDeep) >= 0.75) {
+          // 額外確認：距離在 500m 內才算同一家
+          const rLat = r.rLat || r.lat || r.area_lat
+          const rLng = r.rLng || r.lng || r.area_lng
+          if (v.latitude && v.longitude && rLat && rLng &&
+              haversineKm(v.latitude, v.longitude, rLat, rLng) < 0.5) {
+            existing = r
+            break
+          }
         }
       }
     }
@@ -429,18 +468,19 @@ export async function GET(request: NextRequest) {
     }
   }
 
-  // FP 獨有餐廳：距離 5km 內，有 keyword 時只查符合的，無 keyword 時查前 50 家近的
+  // FP 獨有餐廳：距離 5km 內，有 keyword 時只查符合的，無 keyword 時查前 30 家近的
   const nearbyFpOnly = fpOnlyVendors
     .map(v => ({ ...v, _dist: haversineKm(lat, lng, v.latitude, v.longitude) }))
     .filter(v => v._dist <= 5)
     .sort((a, b) => a._dist - b._dist)
   const fpToCheck = keyword
-    ? nearbyFpOnly.filter(v => v.name!.trim().toLowerCase().includes(keyword))
-    : nearbyFpOnly.slice(0, 50)
-  const toLookup = fpToCheck.filter(v => !fpGoogleCache.has(v.name?.trim() || ''))
-  // 批次查 Google，每批 10 家並行
-  for (let i = 0; i < toLookup.length; i += 10) {
-    await Promise.all(toLookup.slice(i, i + 10).map(v => lookupGooglePlace(v.name!.trim(), v.latitude, v.longitude)))
+    ? nearbyFpOnly.filter(v => v.name!.trim().toLowerCase().includes(keyword)).slice(0, 20)
+    : nearbyFpOnly.slice(0, 30)
+  // 每次請求最多新查 8 家，避免 Google API 費用爆掉（快取會逐漸累積）
+  const toLookup = fpToCheck.filter(v => !fpGoogleCache.has(v.name?.trim() || '')).slice(0, 8)
+  // 批次查 Google，每批 8 家並行
+  if (toLookup.length > 0) {
+    await Promise.all(toLookup.map(v => lookupGooglePlace(v.name!.trim(), v.latitude, v.longitude)))
   }
 
   for (const v of fpToCheck) {
